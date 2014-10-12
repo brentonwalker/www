@@ -1,0 +1,42 @@
+00:04:04: Backup started on Thursday August 22, 2013.
+00:04:04: Your time limit is 30 seconds and your memory limit is 128M
+00:12:07: Creating SQL backup of your WordPress core.
+00:12:07: Creating SQL backup of your WordPress plugins.
+00:12:13: Approximately 1% complete.
+00:12:19: Approximately 1% complete.
+00:12:25: Approximately 2% complete.
+00:12:32: Approximately 4% complete.
+00:12:40: Approximately 7% complete.
+00:12:47: Approximately 8% complete.
+00:12:53: Approximately 10% complete.
+00:12:59: Approximately 10% complete.
+00:13:05: Approximately 12% complete.
+00:13:12: Approximately 15% complete.
+00:13:18: Approximately 16% complete.
+00:13:24: Approximately 18% complete.
+00:13:30: Approximately 20% complete.
+00:13:36: Approximately 21% complete.
+00:13:44: Approximately 25% complete.
+00:13:50: Approximately 26% complete.
+00:13:58: Approximately 27% complete.
+Uploaded Files:[{"file":"wordpress-backup-core.sql","mtime":1377151927}]
+00:14:04: Approximately 28% complete.
+Uploaded Files:[{"file":"wordpress-backup-plugins.sql","mtime":1377151927}]
+00:14:11: Approximately 30% complete.
+00:14:17: Approximately 30% complete.
+00:14:23: Approximately 32% complete.
+00:14:30: Approximately 35% complete.
+00:14:37: Approximately 38% complete.
+00:14:44: Approximately 40% complete.
+00:14:51: Approximately 42% complete.
+Uploaded Files:[{"file":"index.html.gz","mtime":1377147429}]
+00:14:58: Approximately 43% complete.
+Uploaded Files:[{"file":"index.html","mtime":1377147429},{"file":"index.html.gz","mtime":1377148429},{"file":"index.html","mtime":1377148429},{"file":"wp-cache-86f7de59012076b1d0537486ee836267.meta","mtime":1377149047},{"file":"wp-cache-86f7de59012076b1d0537486ee836267.html","mtime":1377149047}]
+00:15:07: Approximately 49% complete.
+Uploaded Files:[{"file":"sitemap.xml.gz","mtime":1376844472}]
+00:15:14: Approximately 52% complete.
+00:15:21: Approximately 54% complete.
+00:15:27: Approximately 55% complete.
+00:15:31: Backup complete.
+00:15:31: A total of 7286 files were processed.
+00:15:31: A total of 21MB of memory was used to complete this backup.

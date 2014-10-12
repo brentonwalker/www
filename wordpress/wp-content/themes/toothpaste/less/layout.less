@@ -1,0 +1,88 @@
+/* =General Layout
+----------------------------------------------- */
+
+#primary {
+	float: left;
+	width: 75%;
+	
+	padding-right: 35px;
+	
+	.box-sizing(border-box);
+}
+
+body.page-template-premiumpage-full-php #primary,
+body.page-template-premiumpage-panels-php #primary,
+body.siteorigin-panels-home #primary{
+	width: 100%;
+	padding-right: 0;
+}
+
+#secondary{
+	float: right;
+	width: 25%;
+	font-size: 0.9em;
+}
+
+#colophon {
+	/* The footer area */
+	
+	background: #107FC9;
+	padding: 35px 0;
+
+	margin-top: 35px;
+
+	font-size: 0.9em;
+
+	#footer-widgets-wrapper{
+		
+	}
+
+	color: #f5ffff;
+
+	a{
+		color: inherit;
+		text-decoration:none;
+	}
+
+	a:hover{
+		color: white;
+	}
+	
+	.site-info {
+		text-align: center;
+		margin-top: 35px;
+		font-size: 0.925em;
+	}
+	
+	#footer-widgets {
+		.clearfix();
+
+		margin: 0 -15px;
+
+		aside.widget {
+			.box-sizing(border-box);
+			
+			float: left;
+			padding: 0 15px;
+			margin-bottom:0;
+
+			.widget-title{
+				color: white;
+				font-size: 1.25em;
+				margin-bottom: 1em;
+				font-weight: 500;
+			}
+			
+			ul, ol{
+				list-style:none;
+				margin:0;
+				
+				li {
+					padding: 0;
+					margin:0;
+					line-height: 1.5em;
+				}
+			}
+		}
+	}
+}

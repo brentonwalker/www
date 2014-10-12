@@ -1,0 +1,45 @@
+.jcarousel-skin-tango{
+	margin-bottom:25px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #636363;
+    border-radius: 5px 5px 5px 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5px;
+    width: 852px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    height: 53px;
+	margin: 0 14px;
+	width:185px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal img{
+	width:185px;
+	height:53px;
+}
+
+
+/**
+ * Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-horizontal{
+    position: absolute;
+    top: 22px;
+    right: 4px;
+    width: 19px;
+    height: 16px;
+    cursor: pointer;
+    background: transparent url(../images/jcarousel/next-horizontal.jpg) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+   	background: url("../images/jcarousel/prev-horizontal.jpg") no-repeat scroll 0 0 transparent;
+	left:0;
+}@media only screen and (min-width: 768px) and (max-width: 960px) {.jcarousel-skin-tango .jcarousel-clip {    margin: 0 auto;    overflow: hidden;    width: 645px;}.jcarousel-skin-tango .jcarousel-prev-horizontal{ left: 10px;}.jcarousel-skin-tango .jcarousel-next-horizontal{  right: 10px;}}/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */@media only screen and (min-width: 480px) and (max-width: 767px) {.jcarousel-skin-tango .jcarousel-clip {    margin: 0 auto;    overflow: hidden;    width: 420px;}.jcarousel-skin-tango .jcarousel-next-horizontal{  right: 0px;}}/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */@media only screen and (max-width: 480px) {/*****.jcarousel**********/.jcarousel-skin-tango .jcarousel-clip {    margin: 0 auto;    overflow: hidden;    width: 79%;}
+}

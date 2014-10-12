@@ -1,0 +1,1503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bizstudio Lite v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-08-28 14:58:17+0000\n"
+"Last-Translator: admin <gunjan@techinfini.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:7
+#@ bizstudio
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: 404.php:12
+#@ bizstudio
+msgid "We bet this is not what you expected to see here!"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:20
+#@ bizstudio
+msgid "DISPLAY SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:27
+#@ bizstudio
+msgid "Where to show default Sketch BG-Gallery:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:28
+#@ bizstudio
+msgid "All Page:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Front page."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Blog Page:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Blog page."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Categories:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Category Pages."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Custom Taxonomies:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Custom Taxonomy Pages."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#: archive.php:47
+#: author.php:37
+#: category.php:41
+#: home.php:41
+#: index.php:36
+#: search.php:41
+#: single.php:31
+#: tag.php:41
+#@ bizstudio
+msgid "Tags:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Tag Pages."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Date Archive:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Archive Pages."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Author Page:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:29
+#@ bizstudio
+msgid "Enable/Disable Sketch Gallery for the Author Pages."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:38
+#@ bizstudio
+msgid "APPEARANCE SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:45
+#@ bizstudio
+msgid "Slide Duration:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:45
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:47
+#@ bizstudio
+msgid "in Seconds"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:46
+#@ bizstudio
+msgid "How many seconds an image must stay."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:47
+#@ bizstudio
+msgid "Transition Speed:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:48
+#@ bizstudio
+msgid "How many seconds for the transition from one image to another."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:49
+#@ bizstudio
+msgid "Show Navigation:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:50
+#@ bizstudio
+msgid "Enable/Disable Navigation for the slideshow."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:51
+#@ bizstudio
+msgid "Show Play/Pause Key:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:52
+#@ bizstudio
+msgid "Enable/Disable Play/Pause button."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:53
+#@ bizstudio
+msgid "Show Thumbnails:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:54
+#@ bizstudio
+msgid "Enable/Disable Thumbnails."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:55
+#@ bizstudio
+msgid "Thumbnails Display:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:62
+#@ bizstudio
+msgid "Random Images:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:63
+#@ bizstudio
+msgid "Set to 'ON' if you want to show the images in a Random Order."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:73
+#@ bizstudio
+msgid "OVERLAY SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:80
+#@ bizstudio
+msgid "Display Overlay:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:80
+#@ bizstudio
+msgid "Check it, if you want \"<i>Overlay Effect</i>\"."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:81
+#@ bizstudio
+msgid "Check if you want to use the overlay effect and select one of the following overlay effects."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:82
+#@ bizstudio
+msgid "Set Overlay Effect:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:88
+#@ bizstudio
+msgid "More Overlay Effect In Pro Version."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:96
+#@ bizstudio
+msgid "BACKGROUND COLOR SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:103
+#@ bizstudio
+msgid "Enable BG-Color:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:103
+#@ bizstudio
+msgid "Check it, if you want to use <i>\"Background Color instead of gallery images\"</i>."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:104
+#@ bizstudio
+msgid "Background Color:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:105
+#@ bizstudio
+msgid "Check if you want to use background color instead of images and select what color you want to use."
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:115
+#@ bizstudio
+msgid "BACKGROUNDS SETTINGS"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:122
+#@ bizstudio
+msgid "BG-Image 1 URL/Path:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-background-gallery/inc/admin/skebg_main.php:123
+#@ bizstudio
+msgid "BG-Image 2 URL/Path:"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:19
+#@ bizstudio
+msgid "Home"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:92
+#@ bizstudio
+msgid "Author"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:96
+#@ bizstudio
+msgid "Tag"
+msgstr ""
+
+#: SketchBoard/functions/sketch-breadcrumb.php:100
+#@ bizstudio
+msgid "Search"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:51
+#@ bizstudio
+msgid "Search Results: "
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:69
+#@ bizstudio
+msgid "Author: "
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:105
+#@ bizstudio
+msgid " | Category Archive | "
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:153
+#@ bizstudio
+msgid "Tag Archive: "
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:228
+#@ bizstudio
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:229
+#@ bizstudio
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:367
+#@ bizstudio
+msgid "Your contact Form has been submitted. Thank you."
+msgstr ""
+
+#: SketchBoard/functions/sketch-functions.php:371
+#@ bizstudio
+msgid "Please check if you've filled all the fields with valid information. Thank you."
+msgstr ""
+
+#: SketchBoard/functions/sketch-theme-support.php:13
+#@ bizstudio
+msgid "Untitled"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:11
+#@ bizstudio
+msgid "Sketch Themes widget for Follow Us and Contact Info - bizstudio footer"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:12
+#@ bizstudio
+msgid "Follow Us and Contact Info -"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:20
+#@ bizstudio
+msgid "Get in Touch"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:104
+#@ bizstudio
+msgid "Title:"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:107
+#: options.php:290
+#@ bizstudio
+msgid "Contact Number"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:110
+#@ bizstudio
+msgid "Contact Email"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:113
+#@ bizstudio
+msgid "Contact Address"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:116
+#@ bizstudio
+msgid "Contact Extra Info"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:119
+#@ bizstudio
+msgid "Link for Linkedin"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:122
+#@ bizstudio
+msgid "Link for Facebook"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:125
+#@ bizstudio
+msgid "Link for Twitter"
+msgstr ""
+
+#: SketchBoard/functions/widgets/follow-us-and-contact.php:128
+#@ bizstudio
+msgid "Link for Flickr"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:175
+#@ bizstudio
+msgid " Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:230
+#@ bizstudio
+msgid "To Activate All Features,Please Upgrade Theme.Click Here To Upgrade."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:233
+#@ bizstudio
+msgid "Click Here To Read Theme Setup Instructions"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:239
+#: SketchBoard/includes/options-framework.php:389
+#@ bizstudio
+msgid "Theme Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:253
+#@ bizstudio
+msgid "SketchThemes Admin Panel"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:261
+#@ optionsframework
+msgid "Save Options"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:262
+#@ optionsframework
+msgid "Restore Defaults"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:262
+#@ bizstudio
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:295
+#@ bizstudio
+msgid "Default options restored."
+msgstr ""
+
+#: SketchBoard/includes/options-framework.php:338
+#@ bizstudio
+msgid "Options saved."
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:26
+#@ bizstudio
+msgid "Theme Options Media"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:129
+#@ bizstudio
+msgid "Upload"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:152
+#@ optionsframework
+msgid "View File"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:289
+#@ optionsframework
+msgid "Gallery"
+msgstr ""
+
+#: SketchBoard/includes/options-medialibrary-uploader.php:289
+#@ optionsframework
+msgid "Previously Uploaded"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:232
+#@ bizstudio
+msgid "No Repeat"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:233
+#@ bizstudio
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:234
+#@ bizstudio
+msgid "Repeat Vertically"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:235
+#@ bizstudio
+msgid "Repeat All"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:248
+#@ bizstudio
+msgid "Top Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:249
+#@ bizstudio
+msgid "Top Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:250
+#@ bizstudio
+msgid "Top Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:251
+#@ bizstudio
+msgid "Middle Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:252
+#@ bizstudio
+msgid "Middle Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:253
+#@ bizstudio
+msgid "Middle Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:254
+#@ bizstudio
+msgid "Bottom Left"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:255
+#@ bizstudio
+msgid "Bottom Center"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:256
+#@ bizstudio
+msgid "Bottom Right"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:269
+#@ bizstudio
+msgid "Scroll Normally"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:270
+#@ bizstudio
+msgid "Fixed in Place"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:344
+#@ bizstudio
+msgid "Normal"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:345
+#@ bizstudio
+msgid "Italic"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:346
+#@ bizstudio
+msgid "Bold"
+msgstr ""
+
+#: SketchBoard/includes/options-sanitize.php:347
+#@ bizstudio
+msgid "Bold Italic"
+msgstr ""
+
+#: archive.php:8
+#, php-format
+#@ bizstudio
+msgid "Daily Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:10
+#, php-format
+#@ bizstudio
+msgid "Monthly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+#@ bizstudio
+msgid "Yearly Archives: <span>%s</span>"
+msgstr ""
+
+#: archive.php:14
+#@ bizstudio
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:41
+#: author.php:31
+#: category.php:35
+#: index.php:30
+#: search.php:35
+#: tag.php:35
+#@ bizstudio
+msgid "No Comments "
+msgstr ""
+
+#: archive.php:41
+#: author.php:31
+#: category.php:35
+#: index.php:30
+#: search.php:35
+#: tag.php:35
+#@ bizstudio
+msgid "1 Comment "
+msgstr ""
+
+#: archive.php:41
+#: author.php:31
+#: category.php:35
+#: index.php:30
+#: search.php:35
+#: tag.php:35
+#@ bizstudio
+msgid "% Comments "
+msgstr ""
+
+#: archive.php:61
+#: author.php:50
+#: home.php:56
+#: index.php:50
+#: search.php:54
+#: tag.php:54
+#@ bizstudio
+msgid "&larr;Previous"
+msgstr ""
+
+#: archive.php:64
+#: author.php:53
+#: home.php:59
+#: index.php:53
+#: search.php:57
+#: tag.php:57
+#@ bizstudio
+msgid "Next&rarr;"
+msgstr ""
+
+#: archive.php:71
+#: author.php:60
+#: category.php:64
+#: home.php:66
+#: index.php:60
+#: page.php:29
+#: single.php:52
+#: tag.php:64
+#: template-contact-us.php:90
+#: template-full-width.php:26
+#: template-left-sidebar.php:27
+#@ bizstudio
+msgid "Not Found"
+msgstr ""
+
+#: attachment.php:8
+#, php-format
+#@ bizstudio
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s - title of parent post
+#: attachment.php:11
+#, php-format
+#@ bizstudio
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:22
+#: attachment.php:33
+#, php-format
+#@ bizstudio
+msgid "<span class=\"%1$s\"></span> %2$s"
+msgstr ""
+
+#: attachment.php:26
+#, php-format
+#@ bizstudio
+msgid "View all posts by %s"
+msgstr ""
+
+#: attachment.php:43
+#, php-format
+#@ bizstudio
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:46
+#@ bizstudio
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:53
+#: attachment.php:102
+#@ bizstudio
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:97
+#@ bizstudio
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: author.php:6
+#, php-format
+#@ bizstudio
+msgid "Author Archives: %s"
+msgstr ""
+
+#: category.php:8
+#, php-format
+#@ bizstudio
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:4
+#@ bizstudio
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:9
+#@ bizstudio
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:20
+#@ bizstudio
+msgid "Comments"
+msgstr ""
+
+#: comments.php:27
+#@ bizstudio
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30
+#@ bizstudio
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:42
+#@ bizstudio
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:53
+#@ bizstudio
+msgid "You must be"
+msgstr ""
+
+#: comments.php:55
+#@ bizstudio
+msgid "logged in"
+msgstr ""
+
+#: comments.php:57
+#@ bizstudio
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:63
+#: template-contact-us.php:47
+#@ bizstudio
+msgid "Message"
+msgstr ""
+
+#: comments.php:68
+#@ bizstudio
+msgid "Name"
+msgstr ""
+
+#: comments.php:73
+#@ bizstudio
+msgid "Email"
+msgstr ""
+
+#: comments.php:78
+#: template-contact-us.php:44
+#@ bizstudio
+msgid "Website"
+msgstr ""
+
+#: footer.php:35
+#@ bizstudio
+msgid "Wordpress Theme by"
+msgstr ""
+
+#: footer.php:37
+#@ bizstudio
+msgid "Sketch Themes"
+msgstr ""
+
+#: front-page.php:23
+#@ bizstudio
+msgid "Creative"
+msgstr ""
+
+#: front-page.php:27
+#: front-page.php:38
+#: front-page.php:49
+#@ bizstudio
+msgid "We have the most talented people in house that are excited to start with your new project. It&#39;s the drive that makes them creative."
+msgstr ""
+
+#: front-page.php:34
+#@ bizstudio
+msgid "Multipurpose"
+msgstr ""
+
+#: front-page.php:45
+#@ bizstudio
+msgid "Responsive"
+msgstr ""
+
+#: front-page.php:57
+#@ bizstudio
+msgid "Welcome To Our Website!"
+msgstr ""
+
+#: front-page.php:60
+#@ bizstudio
+msgid " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim erat, fringilla et dignissim et, sollicitudin ut sem. Fusce sit amet massa mi, id hendrerit quam. Donec vulputate tincidunt turpis eget varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim erat, fringilla et dignissim et, sollicitudin ut sem. Fusce sit amet massa mi, id hendrerit quam. Donec vulputate tincidunt turpis eget varius."
+msgstr ""
+
+#: front-page.php:71
+#@ bizstudio
+msgid "Bespoke Development"
+msgstr ""
+
+#: front-page.php:74
+#: front-page.php:86
+#: front-page.php:98
+#@ bizstudio
+msgid "Duis sed tempus ante. Sed sollic itudin lacus vitae eros semper semper ac scelerisque nisl. Maecenas tortor lectus,..."
+msgstr ""
+
+#: front-page.php:83
+#@ bizstudio
+msgid "Tailored Solutions"
+msgstr ""
+
+#: front-page.php:95
+#@ bizstudio
+msgid "Elegant Business Model"
+msgstr ""
+
+#: functions.php:39
+#@ bizstudio
+msgid "Main Navigation"
+msgstr ""
+
+#: options.php:40
+#: options.php:55
+#: options.php:65
+#: options.php:70
+#@ bizstudio
+msgid "Yes"
+msgstr ""
+
+#: options.php:41
+#: options.php:56
+#: options.php:66
+#: options.php:71
+#@ bizstudio
+msgid "No"
+msgstr ""
+
+#: options.php:45
+#@ bizstudio
+msgid "Fade"
+msgstr ""
+
+#: options.php:46
+#@ bizstudio
+msgid "Slide"
+msgstr ""
+
+#: options.php:50
+#: options.php:75
+#: options.php:80
+#: options.php:85
+#@ bizstudio
+msgid "Show"
+msgstr ""
+
+#: options.php:51
+#: options.php:76
+#: options.php:81
+#: options.php:86
+#@ bizstudio
+msgid "Hide"
+msgstr ""
+
+#: options.php:60
+#@ bizstudio
+msgid "Horizontal"
+msgstr ""
+
+#: options.php:61
+#@ bizstudio
+msgid "Vertical"
+msgstr ""
+
+#: options.php:119
+#@ bizstudio
+msgid "General Settings"
+msgstr ""
+
+#: options.php:122
+#@ bizstudio
+msgid "Change logo (full path to logo image)"
+msgstr ""
+
+#: options.php:123
+#@ bizstudio
+msgid "This creates a Custom logo that previews the image."
+msgstr ""
+
+#: options.php:128
+#@ bizstudio
+msgid "Logo ALT Text"
+msgstr ""
+
+#: options.php:129
+#@ bizstudio
+msgid "Logo ALT Text field."
+msgstr ""
+
+#: options.php:134
+#@ bizstudio
+msgid "Change favicon"
+msgstr ""
+
+#: options.php:135
+#@ bizstudio
+msgid "This creates a Custom favicon that previews the image."
+msgstr ""
+
+#: options.php:140
+#@ bizstudio
+msgid "Show Custom Pagination"
+msgstr ""
+
+#: options.php:141
+#@ bizstudio
+msgid "Show custom pagination on blog page."
+msgstr ""
+
+#: options.php:149
+#@ bizstudio
+msgid "Custom Background"
+msgstr ""
+
+#: options.php:150
+#@ bizstudio
+msgid "Change the background CSS."
+msgstr ""
+
+#: options.php:156
+#@ bizstudio
+msgid "Slider Configuration"
+msgstr ""
+
+#: options.php:160
+#@ bizstudio
+msgid "Upload Slider Image 1"
+msgstr ""
+
+#: options.php:161
+#@ bizstudio
+msgid "Upload Slider Image 1."
+msgstr ""
+
+#: options.php:167
+#: options.php:168
+#@ bizstudio
+msgid "Enter Content For Slide 1 Caption."
+msgstr ""
+
+#: options.php:174
+#@ bizstudio
+msgid "Enter Slider Link 1."
+msgstr ""
+
+#: options.php:175
+#@ bizstudio
+msgid "Enter slider Link 1."
+msgstr ""
+
+#: options.php:181
+#@ bizstudio
+msgid "Upload Slider Image 2"
+msgstr ""
+
+#: options.php:182
+#@ bizstudio
+msgid "Upload Slider Image 2."
+msgstr ""
+
+#: options.php:188
+#: options.php:189
+#@ bizstudio
+msgid "Enter Content For Slide 2 Caption."
+msgstr ""
+
+#: options.php:195
+#@ bizstudio
+msgid "Enter Slider Link 2."
+msgstr ""
+
+#: options.php:196
+#@ bizstudio
+msgid "Enter slider Link 2."
+msgstr ""
+
+#: options.php:202
+#@ bizstudio
+msgid "Upload Slider Image 3"
+msgstr ""
+
+#: options.php:203
+#@ bizstudio
+msgid "Upload Slider Image 3."
+msgstr ""
+
+#: options.php:209
+#: options.php:210
+#@ bizstudio
+msgid "Enter Content For Slide 3 Caption."
+msgstr ""
+
+#: options.php:216
+#@ bizstudio
+msgid "Enter Slider Link 3."
+msgstr ""
+
+#: options.php:217
+#@ bizstudio
+msgid "Enter slider Link 3."
+msgstr ""
+
+#: options.php:223
+#@ bizstudio
+msgid "Select Mode"
+msgstr ""
+
+#: options.php:224
+#@ bizstudio
+msgid "Select Mode."
+msgstr ""
+
+#: options.php:231
+#@ bizstudio
+msgid "Direction"
+msgstr ""
+
+#: options.php:232
+#@ bizstudio
+msgid "Select the sliding direction, \"horizontal\" or \"vertical\"."
+msgstr ""
+
+#: options.php:239
+#@ bizstudio
+msgid "Animation duration"
+msgstr ""
+
+#: options.php:240
+#@ bizstudio
+msgid "how fast the animation are."
+msgstr ""
+
+#: options.php:245
+#@ bizstudio
+msgid "Animationspeed"
+msgstr ""
+
+#: options.php:246
+#@ bizstudio
+msgid "The delay between each slide."
+msgstr ""
+
+#: options.php:251
+#@ bizstudio
+msgid "show next and prev controls"
+msgstr ""
+
+#: options.php:252
+#@ bizstudio
+msgid "If true, show next and prev controls."
+msgstr ""
+
+#: options.php:259
+#@ bizstudio
+msgid "Show individual slide markers"
+msgstr ""
+
+#: options.php:260
+#@ bizstudio
+msgid "navigation for paging control of each slide.(Pro Version)"
+msgstr ""
+
+#: options.php:269
+#@ bizstudio
+msgid "Contact Page Settings"
+msgstr ""
+
+#: options.php:272
+#@ bizstudio
+msgid "Select Contact us page"
+msgstr ""
+
+#: options.php:273
+#@ bizstudio
+msgid "Contact us page"
+msgstr ""
+
+#: options.php:278
+#@ bizstudio
+msgid "Contact Page main Text"
+msgstr ""
+
+#: options.php:279
+#@ bizstudio
+msgid "Contact Page main Text."
+msgstr ""
+
+#: options.php:284
+#@ bizstudio
+msgid "Contact Map Embed Code"
+msgstr ""
+
+#: options.php:285
+#@ bizstudio
+msgid "Contact Map Embed Code."
+msgstr ""
+
+#: options.php:291
+#@ bizstudio
+msgid "Contact Number."
+msgstr ""
+
+#: options.php:296
+#@ bizstudio
+msgid "Address :"
+msgstr ""
+
+#: options.php:297
+#@ bizstudio
+msgid "Address."
+msgstr ""
+
+#: options.php:302
+#@ bizstudio
+msgid "webaddress:"
+msgstr ""
+
+#: options.php:303
+#@ bizstudio
+msgid "webaddress."
+msgstr ""
+
+#: options.php:308
+#@ bizstudio
+msgid "Email Address for Contact Form"
+msgstr ""
+
+#: options.php:309
+#@ bizstudio
+msgid "Email Address for Contact Form."
+msgstr ""
+
+#: options.php:316
+#@ bizstudio
+msgid "Footer"
+msgstr ""
+
+#: options.php:320
+#@ bizstudio
+msgid "CopyrightText"
+msgstr ""
+
+#: options.php:328
+#@ bizstudio
+msgid "Front Page Options"
+msgstr ""
+
+#: options.php:331
+#@ bizstudio
+msgid "Front page middle Sidebar Text"
+msgstr ""
+
+#: options.php:332
+#@ bizstudio
+msgid "Front page middle Sidebar Text Instead of Twitter."
+msgstr ""
+
+#: options.php:338
+#@ bizstudio
+msgid "Main Box Heading:"
+msgstr ""
+
+#: options.php:339
+#@ bizstudio
+msgid "Enter Main Box Heading."
+msgstr ""
+
+#: options.php:344
+#: options.php:345
+#@ bizstudio
+msgid "Main Box content"
+msgstr ""
+
+#: options.php:351
+#@ bizstudio
+msgid "Featured Box 1 Heading:"
+msgstr ""
+
+#: options.php:352
+#@ bizstudio
+msgid "Enter Featured Box 1 Heading."
+msgstr ""
+
+#: options.php:357
+#@ bizstudio
+msgid "Featured Box 1 Icon"
+msgstr ""
+
+#: options.php:358
+#: options.php:375
+#: options.php:392
+#: options.php:410
+#: options.php:427
+#: options.php:444
+#: options.php:462
+#: options.php:473
+#: options.php:484
+#: options.php:495
+#: options.php:506
+#@ bizstudio
+msgid "This creates a full size uploader that previews the image."
+msgstr ""
+
+#: options.php:362
+#@ bizstudio
+msgid "Featured Box 1 Content:"
+msgstr ""
+
+#: options.php:363
+#@ bizstudio
+msgid "Enter Featured Box 1 Content."
+msgstr ""
+
+#: options.php:368
+#@ bizstudio
+msgid "Featured Box 2 Heading:"
+msgstr ""
+
+#: options.php:369
+#@ bizstudio
+msgid "Enter Featured Box 2 Heading."
+msgstr ""
+
+#: options.php:374
+#@ bizstudio
+msgid "Featured Box 2 Icon"
+msgstr ""
+
+#: options.php:379
+#@ bizstudio
+msgid "Featured Box 2 Content:"
+msgstr ""
+
+#: options.php:380
+#@ bizstudio
+msgid "Enter Featured Box 2 Content."
+msgstr ""
+
+#: options.php:385
+#@ bizstudio
+msgid "Featured Box 3 Heading:"
+msgstr ""
+
+#: options.php:386
+#@ bizstudio
+msgid "Enter Featured Box 3 Heading."
+msgstr ""
+
+#: options.php:391
+#@ bizstudio
+msgid "Featured Box 3 Icon"
+msgstr ""
+
+#: options.php:396
+#@ bizstudio
+msgid "Featured Box 3 Content:"
+msgstr ""
+
+#: options.php:397
+#@ bizstudio
+msgid "Enter Featured Box 3 Content."
+msgstr ""
+
+#: options.php:403
+#@ bizstudio
+msgid "Recent Box 1 Heading:"
+msgstr ""
+
+#: options.php:404
+#@ bizstudio
+msgid "Enter Recent Box 1 Heading."
+msgstr ""
+
+#: options.php:409
+#@ bizstudio
+msgid "Recent Box 1 Icon"
+msgstr ""
+
+#: options.php:414
+#@ bizstudio
+msgid "Recent Box 1 Content:"
+msgstr ""
+
+#: options.php:415
+#@ bizstudio
+msgid "Enter Recent Box 1 Content."
+msgstr ""
+
+#: options.php:420
+#@ bizstudio
+msgid "Recent Box 2 Heading:"
+msgstr ""
+
+#: options.php:421
+#@ bizstudio
+msgid "Enter Recent Box 2 Heading."
+msgstr ""
+
+#: options.php:426
+#@ bizstudio
+msgid "Recent Box 2 Icon"
+msgstr ""
+
+#: options.php:431
+#@ bizstudio
+msgid "Recent Box 2 Content:"
+msgstr ""
+
+#: options.php:432
+#@ bizstudio
+msgid "Enter Recent Box 2 Content."
+msgstr ""
+
+#: options.php:437
+#@ bizstudio
+msgid "Recent Box 3 Heading:"
+msgstr ""
+
+#: options.php:438
+#@ bizstudio
+msgid "Enter Recent Box 3 Heading."
+msgstr ""
+
+#: options.php:443
+#@ bizstudio
+msgid "Recent Box 3 Icon"
+msgstr ""
+
+#: options.php:448
+#@ bizstudio
+msgid "Recent Box 3 Content:"
+msgstr ""
+
+#: options.php:449
+#@ bizstudio
+msgid "Enter Recent Box 3 Content."
+msgstr ""
+
+#: options.php:455
+#@ bizstudio
+msgid "Image 1 Title:"
+msgstr ""
+
+#: options.php:456
+#: options.php:467
+#: options.php:478
+#: options.php:489
+#: options.php:500
+#@ bizstudio
+msgid "Enter Image 1 Title."
+msgstr ""
+
+#: options.php:461
+#@ bizstudio
+msgid "Image 1 Icon"
+msgstr ""
+
+#: options.php:466
+#@ bizstudio
+msgid "Image 2 Title:"
+msgstr ""
+
+#: options.php:472
+#@ bizstudio
+msgid "Image 2 Icon"
+msgstr ""
+
+#: options.php:477
+#@ bizstudio
+msgid "Image 3 Title:"
+msgstr ""
+
+#: options.php:483
+#@ bizstudio
+msgid "Image 3 Icon"
+msgstr ""
+
+#: options.php:488
+#@ bizstudio
+msgid "Image 4 Title:"
+msgstr ""
+
+#: options.php:494
+#@ bizstudio
+msgid "Image 4 Icon"
+msgstr ""
+
+#: options.php:499
+#@ bizstudio
+msgid "Image 5 Title:"
+msgstr ""
+
+#: options.php:505
+#@ bizstudio
+msgid "Image 5 Icon"
+msgstr ""
+
+#: search.php:6
+#, php-format
+#@ bizstudio
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:64
+#@ bizstudio
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: sidebar-footer.php:7
+#: sidebar.php:12
+#@ bizstudio
+msgid "Archives"
+msgstr ""
+
+#: sidebar-footer.php:20
+#: sidebar.php:20
+#@ bizstudio
+msgid "Meta"
+msgstr ""
+
+#: sidebar-footer.php:36
+#@ bizstudio
+msgid "Categories"
+msgstr ""
+
+#: single.php:40
+#@ bizstudio
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: single.php:41
+#@ bizstudio
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: tag.php:8
+#, php-format
+#@ bizstudio
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: template-contact-us.php:20
+#@ bizstudio
+msgid "wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the"
+msgstr ""
+
+#: template-contact-us.php:31
+#@ bizstudio
+msgid "Send us use SMS"
+msgstr ""
+
+#: template-contact-us.php:36
+#@ bizstudio
+msgid "Name *"
+msgstr ""
+
+#: template-contact-us.php:41
+#@ bizstudio
+msgid "Email *"
+msgstr ""
+
+#: template-contact-us.php:62
+#@ bizstudio
+msgid "Sending..."
+msgstr ""
+

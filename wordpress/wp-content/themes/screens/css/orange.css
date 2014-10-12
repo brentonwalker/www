@@ -1,0 +1,39 @@
+body, #searchform, #searchform #s, #portfolio-filter .current, .format-quote .quote_post {
+	background-color: #EFE5E0;
+	color: #444
+}
+a {
+	color: #9E0A0A
+}
+.toggle_header, #home_blog article, .two-col {
+	background-color: #FFF5EF;
+}
+#header, #footer, .border_bottom, article, .meta_post, #breadcrumbs, #sidebar li, .toggle_header, #sidebar .widget li li, #searchform, .page-link a, .wp-pagenavi a, .wp-pagenavi .alignright, .author-info, #comments .comment, .title_headers, .time_meta, .sidebar_meta, .s_tabs .ui-state-active, #home_list {
+	border-color: #DFD6D1;
+}
+.link, #comments .bypostauthor {
+	background: #4F4F4F !important;
+}
+#wrapper {
+	background: #fff;
+}
+.masonry_box {
+	box-shadow: 0 0 3px #CFAB8E
+}
+.no-shadow {
+	box-shadow: 0 0 0 #CFCFCF
+}
+#twitter_div ul li, #twitter-link {
+	background: #DFD6D1 url(../images/slide_hover.png) !important;
+	border: 1px solid #DFD6D1 !important;
+}
+.format-link .link {
+	background-color: #EFE5E0 !important;
+	background-image: url(../images/icons.png) -300px -202px no-repeat !important;
+}
+.flex-direction-nav li a.next:hover, .list_carousel a.next:hover {
+	background: url(../images/icons.png) no-repeat -305px -50px !important;
+}
+.flex-direction-nav li a.prev:hover, .list_carousel a.prev:hover {
+	background: url(../images/icons.png) no-repeat -160px 0 !important;
+}

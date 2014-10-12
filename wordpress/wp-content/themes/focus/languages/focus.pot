@@ -1,0 +1,959 @@
+# Copyright SiteOrigin (c) 2013
+# This file is distributed under the GNU General Public License 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: focus 1.0.3\n"
+"POT-Creation-Date: 2013-02-21T14:09:30+02:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+msgid "Page Not Found"
+msgstr ""
+
+msgid "We couldn't find the page you were looking for."
+msgstr ""
+
+msgid "Most Used Categories"
+msgstr ""
+
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+msgid "Public"
+msgstr ""
+
+msgid "Premium"
+msgstr ""
+
+msgid "Premium Video"
+msgstr ""
+
+msgid "Allows you to set a premium version of a video, and only show that video to paying members of your site using membership plugins like S2Member"
+msgstr ""
+
+msgid "Comment navigation"
+msgstr ""
+
+msgid "&larr; Older Comments"
+msgstr ""
+
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+msgid "Comments are closed."
+msgstr ""
+
+msgid "SiteOrigin Themes"
+msgstr ""
+
+msgid "dismiss"
+msgstr ""
+
+msgid "Create custom tileable background images using our free <a href='%s' target='_blank'>background image generator</a>."
+msgstr ""
+
+msgid "Hi! I'm Greg Priday from SiteOrigin."
+msgstr ""
+
+msgid "I hope you enjoy my WordPress theme."
+msgstr ""
+
+msgid "Please follow me on Twitter and Facebook for updates."
+msgstr ""
+
+msgid "You're using %s in demo mode. <a href='%s'>Click here</a> to disable all demo content."
+msgstr ""
+
+msgid "Disable Demo Mode"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Check this box to disable demo mode. You can't re-enable the demo mode."
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "%s is displaying demo content. <a href=\"%s\">Disable demo mode</a> to start creating and displaying your own content."
+msgstr ""
+
+msgid "Custom Home Page"
+msgstr ""
+
+msgid "Home Page"
+msgstr ""
+
+msgid "Page Builder"
+msgstr ""
+
+msgid "Advanced functionality like the ability to create post type and page templates"
+msgstr ""
+
+msgid "Insert"
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Columns deleted"
+msgstr ""
+
+msgid "Widget deleted"
+msgstr ""
+
+msgid "Are you sure you want to load this layout? It will overwrite your current page."
+msgstr ""
+
+msgid "Edit %s Widget"
+msgstr ""
+
+msgid "Edit Home Page"
+msgstr ""
+
+msgid "ON"
+msgstr ""
+
+msgid "OFF"
+msgstr ""
+
+msgid "Home page updated. <a href=\"%s\">View page</a>"
+msgstr ""
+
+msgid "Preview Changes"
+msgstr ""
+
+msgid "Save Home Page"
+msgstr ""
+
+msgid "This interface requires Javascript"
+msgstr ""
+
+msgid "SiteOrigin themes include a unique page building tool."
+msgstr ""
+
+msgid "You can use this tool to create home and sub pages, filled your own widgets."
+msgstr ""
+
+msgid "The page layouts are responsive and completely customizable."
+msgstr ""
+
+msgid "Read the <a href='%s' target='_blank'>full documentation</a> on SiteOrigin's support site."
+msgstr ""
+
+msgid "Add Widget"
+msgstr ""
+
+msgid "Add Columns"
+msgstr ""
+
+msgid "Prebuilt Layouts"
+msgstr ""
+
+msgid "Add New Widget"
+msgstr ""
+
+msgid "Additional widgets are available in %s Premium"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Insert Prebuilt Page Layout"
+msgstr ""
+
+msgid "Page Layout"
+msgstr ""
+
+msgid "Untitled Layout"
+msgstr ""
+
+msgid "Premium Upgrade"
+msgstr ""
+
+msgid "There's a premium version of %s coming soon."
+msgstr ""
+
+msgid "After you pay for %s Premium, we'll email you a download link and an order number to your <strong>PayPal email address</strong>. "
+msgstr ""
+
+msgid "Use <a href='%s' target='_blank'>this form</a> if you don't receive your order number in the next 15 minutes. "
+msgstr ""
+
+msgid "Be sure to check your spam folder."
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Enable Upgrade"
+msgstr ""
+
+msgid "Already Paid?"
+msgstr ""
+
+msgid "Buy Upgrade"
+msgstr ""
+
+msgid "Some of our User Comments"
+msgstr ""
+
+msgid "Your Order Number Is [%s]"
+msgstr ""
+
+msgid "There was a problem contacting our validation servers."
+msgstr ""
+
+msgid "Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+
+msgid "We've validated your order number."
+msgstr ""
+
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr ""
+
+msgid "This update will unlock all the premium features."
+msgstr ""
+
+msgid "Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+msgid "Update Theme"
+msgstr ""
+
+msgid "We couldn't validate your order number."
+msgstr ""
+
+msgid "There might be a problem with our validation server."
+msgstr ""
+
+msgid "Only available in <strong>%s Premium</strong> - <strong class=\"upgrade\">Upgrade Now</strong>"
+msgstr ""
+
+msgid "Check out the <a href='%s'>documentation</a> for %s. "
+msgstr ""
+
+msgid "Please like and follow SiteOrigin to hear about my new WordPress freebies."
+msgstr ""
+
+msgid "%s Theme Settings"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Calling undefined setting [%s]"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+
+msgid "Choose Media"
+msgstr ""
+
+msgid "Set Media"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Unknown Field Type"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Read %s's <a href='%s'>theme documentation</a> for help with these settings."
+msgstr ""
+
+msgid "Settings Help"
+msgstr ""
+
+msgid "Set Media File"
+msgstr ""
+
+msgid "Sliders"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+# siteorigin
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Slider"
+msgstr ""
+
+msgid "Edit Slider"
+msgstr ""
+
+msgid "New Slider"
+msgstr ""
+
+msgid "All Sliders"
+msgstr ""
+
+msgid "View Slider"
+msgstr ""
+
+msgid "Search Sliders"
+msgstr ""
+
+msgid "No sliders found"
+msgstr ""
+
+msgid "No sliders found in Trash"
+msgstr ""
+
+msgid "Slider Slides"
+msgstr ""
+
+msgid "Slides"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Upgrade to <a href=\"%s\">%s Premium</a> to link slides to URLS"
+msgstr ""
+
+msgid "Insert a slider."
+msgstr ""
+
+msgid "Please select a slider."
+msgstr ""
+
+msgid "Image Size"
+msgstr ""
+
+msgid "New Item"
+msgstr ""
+
+msgid "Title Text"
+msgstr ""
+
+msgid "Extra Text"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+msgid "Add Slide"
+msgstr ""
+
+msgid "Upload Media"
+msgstr ""
+
+msgid "%s Order Code"
+msgstr ""
+
+msgid "Order Code"
+msgstr ""
+
+msgid "Find your order code in your original download email from SiteOrigin"
+msgstr ""
+
+msgid "Call To Action"
+msgstr ""
+
+msgid "A call to action block, generally for your home page."
+msgstr ""
+
+msgid "Headline"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Button URL"
+msgstr ""
+
+msgid "Button Style"
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Display a button."
+msgstr ""
+
+msgid "Click Me"
+msgstr ""
+
+msgid "Alignment"
+msgstr ""
+
+msgid "Icon and Text"
+msgstr ""
+
+msgid "A block of text with an icon."
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Upload icon images to your <a href=\"%s\" target=\"_blank\">media library</a>. Find <a href=\"%s\" target=\"_blank\">free icon packs</a>."
+msgstr ""
+
+msgid "Post List"
+msgstr ""
+
+msgid "Displays a list of posts."
+msgstr ""
+
+msgid "Post Type"
+msgstr ""
+
+msgid "Post Count"
+msgstr ""
+
+msgid "Order By"
+msgstr ""
+
+msgid "Show Post Title"
+msgstr ""
+
+msgid "Displays a simple headline."
+msgstr ""
+
+msgid "Headline Text"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Gallery"
+msgstr ""
+
+msgid "Displays a gallery."
+msgstr ""
+
+msgid "Gallery Images"
+msgstr ""
+
+msgid "edit gallery"
+msgstr ""
+
+msgid "Comma separated attachment IDs. Defaults to all current page's attachments."
+msgstr ""
+
+msgid "Gallery Type"
+msgstr ""
+
+msgid "Post Content"
+msgstr ""
+
+msgid "Displays some form of post content form the current post."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Featured Image"
+msgstr ""
+
+msgid "Post Tags"
+msgstr ""
+
+msgid "Post Categories"
+msgstr ""
+
+msgid "Display Content"
+msgstr ""
+
+msgid "Displays a simple image."
+msgstr ""
+
+msgid "Image URL"
+msgstr ""
+
+msgid "Destination URL"
+msgstr ""
+
+msgid "Post Loop"
+msgstr ""
+
+msgid "Displays a post loop."
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Posts Per Page"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Sticky Posts"
+msgstr ""
+
+msgid "Additional "
+msgstr ""
+
+msgid "Additional query arguments. See <a href=\"%s\" target=\"_blank\">query_posts</a>."
+msgstr ""
+
+msgid "Primary Menu"
+msgstr ""
+
+msgid "Post Sidebar"
+msgstr ""
+
+msgid "Page Sidebar"
+msgstr ""
+
+msgid "Footer Widgets"
+msgstr ""
+
+msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a> and <a href=\"http://siteorigin.com/theme/focus/\">Focus</a>."
+msgstr ""
+
+msgid "Theme By <a href=\"%s\">SiteOrigin</a>"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Skip to content"
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Main Menu"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Choose Logo Image"
+msgstr ""
+
+msgid "Set Logo"
+msgstr ""
+
+msgid "Scale Logo"
+msgstr ""
+
+msgid "If used, scale the logo to fit the menu bar"
+msgstr ""
+
+msgid "Display Post Author"
+msgstr ""
+
+msgid "Displays post author information on a post page."
+msgstr ""
+
+msgid "Display Post Navigation"
+msgstr ""
+
+msgid "Display next and previous post links on post single pages."
+msgstr ""
+
+msgid "Ajax Comments"
+msgstr ""
+
+msgid "Lets your users post comments without interrupting video play."
+msgstr ""
+
+msgid "The number of posts to display."
+msgstr ""
+
+msgid "Post Category"
+msgstr ""
+
+msgid "Which category to fetch the video posts from."
+msgstr ""
+
+msgid "Posts Order"
+msgstr ""
+
+msgid "The order in which to display the posts."
+msgstr ""
+
+msgid "Video By Text"
+msgstr ""
+
+msgid "Change the text \"video by\" on single post pages."
+msgstr ""
+
+msgid "Autoplay Videos"
+msgstr ""
+
+msgid "Videos start playing as soon as the video page is loaded."
+msgstr ""
+
+msgid "Hide Related Videos"
+msgstr ""
+
+msgid "Hides related videos after a YouTube or Vimeo Plus video finishes."
+msgstr ""
+
+msgid "Play Videos in HD"
+msgstr ""
+
+msgid "Play YouTube oEmbed videos in HD. Vimeo HD playback is controlled on Vimeo itself."
+msgstr ""
+
+msgid "Play Button"
+msgstr ""
+
+msgid "Add a custom play button to self hosted video."
+msgstr ""
+
+msgid "Premium Access Rights"
+msgstr ""
+
+msgid "The access rights required to view the premium version of a video. Can be used to integrate with plugins like <a href=\"http://www.s2member.com/3000.html\">S2Member</a>"
+msgstr ""
+
+msgid "Responsive Layout"
+msgstr ""
+
+msgid "Make your site responsive."
+msgstr ""
+
+msgid "No Search Results"
+msgstr ""
+
+msgid "Text displayed on your no search results pages."
+msgstr ""
+
+msgid "Text displayed on your 404 pages."
+msgstr ""
+
+msgid "Footer Copyright"
+msgstr ""
+
+msgid "Text in your site footer."
+msgstr ""
+
+msgid "Latest Posts Headline"
+msgstr ""
+
+msgid "Home Link"
+msgstr ""
+
+msgid "Add a home link to your menu bar."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Adds a small search box in your menu bar."
+msgstr ""
+
+msgid "CTA Text"
+msgstr ""
+
+msgid "CTA Button Text"
+msgstr ""
+
+msgid "CTA Button URL"
+msgstr ""
+
+msgid "Hide CTA"
+msgstr ""
+
+msgid "Comma separated list of capabilities from which to hide the CTA."
+msgstr ""
+
+msgid "Hide Page Comments"
+msgstr ""
+
+msgid "Automatically hides the comments and comment form on pages."
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Hide Allowed Tags"
+msgstr ""
+
+msgid "Hides allowed tags from the comment form."
+msgstr ""
+
+msgid "Post navigation"
+msgstr ""
+
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+msgid "Pingback:"
+msgstr ""
+
+msgid "(Edit)"
+msgstr ""
+
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Posted On %s in %s with %s."
+msgstr ""
+
+msgid "Tagged: "
+msgstr ""
+
+msgid "Set Video"
+msgstr ""
+
+msgid "%s Video"
+msgstr ""
+
+msgid "Video Type"
+msgstr ""
+
+msgid "External Video URL"
+msgstr ""
+
+msgid "Self Hosted Video"
+msgstr ""
+
+msgid "Select Video File"
+msgstr ""
+
+msgid "Add %s Video"
+msgstr ""
+
+msgid "Remove %s Video"
+msgstr ""
+
+msgid "MP4 File URL"
+msgstr ""
+
+msgid "Custom Embed Code"
+msgstr ""
+
+msgid "Displays the post author."
+msgstr ""
+
+msgid "This widget doesn't have any settings"
+msgstr ""
+
+msgid "Video By"
+msgstr ""
+
+msgid "Latest Videos"
+msgstr ""
+
+msgid "Untitled"
+msgstr ""
+
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+msgid "We couldn't find any results for your query."
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "%s adds any custom CSS you enter here into your site's header. "
+msgstr ""
+
+msgid "These changes will persist across updates so it's best to make all your changes here. "
+msgstr ""
+
+msgid "Contact <a href='%s' target='_blank'>SiteOrigin Support</a> for help with making edits. "
+msgstr ""
+
+msgid "Changes apply to %s and its child themes"
+msgstr ""
+
+msgid "Save CSS"
+msgstr ""
+
+msgid "Navigate"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "Google Map"
+msgstr ""
+
+msgid "Displays a very simple Google map"
+msgstr ""
+
+msgid "Map Location"
+msgstr ""
+
+msgid "The Map address"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Map pixel, the width is decided by the size of its panel."
+msgstr ""
+
+msgid "Zoom"
+msgstr ""
+
+msgid "The zoom of the map."
+msgstr ""
+
+msgid "Embedded Video"
+msgstr ""
+
+msgid "Embeds a video."
+msgstr ""
+
+msgid "Bullet List"
+msgstr ""
+
+msgid "A simple bullet list."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "List Text"
+msgstr ""
+
+msgid "Use a * at the beginning of each list entry line."
+msgstr ""
+
+msgid "Contact Form 7"
+msgstr ""
+
+msgid "Displays a contact form."
+msgstr ""
+
+msgid "This widget requires the Contact Form 7 plugin."
+msgstr ""
+
+msgid "Contact Form"
+msgstr ""
+
+msgid "S2Member - Level 4 Members"
+msgstr ""
+
+msgid "S2Member - Level 3 Members"
+msgstr ""
+
+msgid "S2Member - Level 2 Members"
+msgstr ""
+
+msgid "S2Member - Level 1 Members"
+msgstr ""
+
+msgid "S2Member - Free Subscribers"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Comment Count"
+msgstr ""
+
+msgid "Upgrade To Focus Premium"
+msgstr ""
+
+msgid "If you've enjoyed using Focus, you'll going to love Focus Premium. It's a robust upgrade to Focus that gives you loads of cool features and support. For just a few dollars, it's a cost effective way to give your site a professional edge."
+msgstr ""
+
+msgid "If you're not delighted with Focus Premium, I'll give you a full refund"
+msgstr ""
+
+msgid "Buy now and enjoy continued updates"
+msgstr ""
+
+msgid "Take your videos to the mobile web with a fully responsive site layout."
+msgstr ""
+
+msgid "Multiple Video Types"
+msgstr ""
+
+msgid "Have multiple versions of a video, showing different version to your paying customers. Easy integrations with membership plugins like S2Member."
+msgstr ""
+
+msgid "Remove Attribution Links"
+msgstr ""
+
+msgid "Focus premium gives you the option to easily remove the \"Powered by WordPress, Theme by SiteOrigin\" text from your footer. "
+msgstr ""
+
+msgid "Want to keep the conversation flowing? Ajax comments means your visitors can comment without reloading your page. So commenting wont interrupt a video or lose their position in one of your galleries."
+msgstr ""
+
+msgid "CSS Editor"
+msgstr ""
+
+msgid "A simple CSS editor that lets you easily add code that changes the look of Focus. You can count on our support staff to help you with CSS snippets to get the look you're after. Best of all, your changes will persist across updates."
+msgstr ""
+
+msgid "Premium Support"
+msgstr ""
+
+msgid "Need help setting up Focus? Upgrading to Focus Premium gives you prioritized support on our support forums."
+msgstr ""
+
+msgid "Continued Updates"
+msgstr ""
+
+msgid "You'll get continued updates, ensuring that your Focus powered site keeps on working with the latest version of WordPress for years to come."
+msgstr ""

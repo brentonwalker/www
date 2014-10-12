@@ -1,0 +1,468 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-07T13:56:05+00:00\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: Iran\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "About..."
+msgstr "درباره"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Log options"
+msgstr "تاریخچه تنظیمات"
+
+msgid "What is the debug level:"
+msgstr "سطح اشکال زدایی:"
+
+msgid "See the debug logs"
+msgstr "مشاهده تاریخچه اشکالزایی"
+
+msgid "1=log only the critical errors;"
+msgstr ""
+
+msgid "2=log only the critical errors and the standard errors;"
+msgstr ""
+
+msgid "3=log only the critical errors, the standard errors and the warnings;"
+msgstr ""
+
+msgid "4=log information;"
+msgstr ""
+
+msgid "5=log verbose;"
+msgstr ""
+
+msgid "Multisite Management"
+msgstr "مدیریت سایت چند"
+
+msgid "Do you want to allow sub-blogs to modify the translations of the plugins:"
+msgstr ""
+
+msgid "If this option is unchecked, the translation tab won't be displayed in the blog administration panel."
+msgstr ""
+
+msgid "Summary page for the plugins developped with the SL framework"
+msgstr ""
+
+msgid "For now, you have installed %d  plugins including %d plugins developped with the 'SL framework':"
+msgstr ""
+
+msgid "Plugin name"
+msgstr "نام افزونه"
+
+msgid "Description"
+msgstr "توضیحات"
+
+msgid "There is a SQL database for this plugin"
+msgstr ""
+
+msgid "Version: %s by %s"
+msgstr "نسخه: %s از %s"
+
+msgid "List of SL plugins"
+msgstr ""
+
+msgid "Parameters of the framework"
+msgstr "پارامترهای چارچوب"
+
+msgid "Manage translation of the framework"
+msgstr "مدیریت ترجمه چارچوب"
+
+msgid "The folder %s is not %s !"
+msgstr ""
+
+msgid "The file %s is not %s !"
+msgstr ""
+
+msgid "The folder %s does not exists and cannot be created !"
+msgstr ""
+
+msgid "The file %s does not exists and cannot be created !"
+msgstr ""
+
+msgid "There are some issues with folders rights. Please corret them as soon as possible as they could induce bugs and instabilities."
+msgstr ""
+
+msgid "Please see below:"
+msgstr ""
+
+msgid "KB"
+msgstr "KB"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Error: the submitted value is not an integer and thus, the parameter has not been updated!"
+msgstr ""
+
+msgid "Error: the submitted string does not match the constrains"
+msgstr "خطا: رشته ارائه شده با محدودیت مطابقت ندارد"
+
+msgid "Error: the submitted file can not be uploaded!"
+msgstr "خطا: فایل ارائه شده را نمی توان به آپلود!"
+
+msgid "Error: security issue!"
+msgstr "خطای امنیتی!"
+
+msgid "Parameters"
+msgstr "پارامتر"
+
+msgid "Here are the parameters of the plugin. Modify them at will to fit your needs."
+msgstr ""
+
+msgid "Here are the parameters of the framework. Modify them at will to fit your needs."
+msgstr ""
+
+msgid "Values"
+msgstr "مقدار"
+
+msgid "Warning: some characters have been removed because they are not allowed here"
+msgstr ""
+
+msgid "(integer)"
+msgstr ""
+
+msgid "(If you want to delete this file, please check this box %s)"
+msgstr ""
+
+msgid "Update"
+msgstr "بروز رسانی"
+
+msgid "Reset to default values"
+msgstr "باز گردانی به تنظیمات اولیه"
+
+msgid "Some parameters have not been updated due to errors (see below)!"
+msgstr ""
+
+msgid "Parameters have been updated (but with some warnings)!"
+msgstr ""
+
+msgid "Parameters have been updated successfully!"
+msgstr "پارامترهای موفقیت به روز رسانی شده اند!"
+
+msgid "Parameters have been reset to their default values!"
+msgstr "مقادیر پارامترها به مقدار پیشفرض تغییر یافت!"
+
+msgid "Here, you may configure three levels of translations: at the plugin level, at the framework level, and at the dashboard level."
+msgstr ""
+
+msgid "Please be informed that your current language is %s. Text will be translated if a translation is available."
+msgstr ""
+
+msgid "If you want to modify the language, please go in %s and find %s or %s. The second argument is your language and you may modify it as you want."
+msgstr ""
+
+msgid "Translations available for this plugin (i.e. %s)"
+msgstr ""
+
+msgid "Translations available for the SL framework (stored in %s)"
+msgstr ""
+
+msgid "Adding a new translation for this language: %s"
+msgstr ""
+
+msgid "Sentence to translate"
+msgstr "جمله برای ترجمه"
+
+msgid "Translation"
+msgstr "ترجه"
+
+msgid "Your name:"
+msgstr "نام شما:"
+
+msgid "(if your name/pseudo is already in the list, there is no need to fill this input)"
+msgstr ""
+
+msgid "Your email or your website:"
+msgstr "ایمیل:"
+
+msgid "Create the translation files"
+msgstr "ایجاد فایل های ترجمه"
+
+msgid "Modifying the translation for this language: %s"
+msgstr "اصلاح ترجمه این زبان: %s"
+
+msgid "Modify the translation files"
+msgstr "اصلاح فایل های ترجمه"
+
+msgid "The file %s cannot be extracted from mail attachments"
+msgstr ""
+
+msgid "The file %s cannot be written in the %s folder"
+msgstr ""
+
+msgid "The file %s has been imported in the %s folder"
+msgstr ""
+
+msgid "Plugin"
+msgstr "افزونه"
+
+msgid "Language"
+msgstr "زبان"
+
+msgid "Information"
+msgstr "اطلاعات"
+
+msgid "%s sentences have been translated (i.e. %s)."
+msgstr ""
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "See the new translation file and merge"
+msgstr "مشاهده فایل ترجمه جدید و ادغام"
+
+msgid "%s sentences have been newly translated and %s sentences have been modified (the old file has %s translated sentences)."
+msgstr ""
+
+msgid "See the modifications/new translations and Merge"
+msgstr ""
+
+msgid "See the new translations and Merge"
+msgstr "مشاهده ترجمه و ادغام"
+
+msgid "New translations are available"
+msgstr "ترجمه جدید در دسترس است"
+
+msgid "Updates of translations are available"
+msgstr "به روز رسانی از ترجمه در دسترس است"
+
+msgid "What are the differences between these two files?"
+msgstr ""
+
+msgid "Old sentence"
+msgstr ""
+
+msgid "New sentence"
+msgstr ""
+
+msgid "To replace?"
+msgstr "جایگزین شود؟"
+
+msgid "Merge"
+msgstr "ادغام"
+
+msgid "%s sentences have been translated (i.e. %s) %s %s sentences have to be checked because they are close (but not identical) to those to translate.%s"
+msgstr ""
+
+msgid "The translation %s have been sent"
+msgstr "ترجمه از %s فرستاده شده"
+
+msgid "An error occured sending the email."
+msgstr "با بروز خطا، ایمیل ارسال شود."
+
+msgid "Make sure that your wordpress is able to send email."
+msgstr ""
+
+msgid "%s file cannot be created for %s as there is no translated sentence. Please, translate at least one sentence to create a file"
+msgstr ""
+
+msgid "%s file has been updated for %s"
+msgstr ""
+
+msgid "%s file has been updated from this file"
+msgstr ""
+
+msgid "%s file has been created with a new translation for %s"
+msgstr ""
+
+msgid "%s file has been created from this file"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, it is recommended to send the translation files to the author by clicking %s here %s !"
+msgstr ""
+
+msgid "If you do not want to loose your translations on the next upgrading of this plugin, please save them on your hard disk before upgrading and then restore them after the upgrade !"
+msgstr ""
+
+msgid "Summary cached %s"
+msgstr "خلاصه کش %s"
+
+msgid "The sentences used in this plugin are in English. Help the others users using the same language as you by translating this plugin."
+msgstr ""
+
+msgid "This plugin is available in %d languages."
+msgstr "این افزونه در دسترس است برای زبان %d ."
+
+msgid "There are %d sentences to be translated in this plugin."
+msgstr ""
+
+msgid "Ratio %"
+msgstr "ضریب %"
+
+msgid "Translators"
+msgstr "مترجمان"
+
+msgid "This is the default language of the plugin. It cannot be modified."
+msgstr ""
+
+msgid "Modify"
+msgstr "تغییر دادن"
+
+msgid "Send to the author of the plugin"
+msgstr "ارسال به نویسنده این افزونه"
+
+msgid "Add a new translation"
+msgstr "اضافه کردن ترجمه جدید"
+
+msgid "You may add a new translation hereafter (Please note that it is recommended to send your translation to the author so that he would be able to add your translation to the future release of the plugin !)"
+msgstr ""
+
+msgid "Add"
+msgstr "اضافه کردن"
+
+msgid "The 'SL framework' is a framework used for developping many plugins like this one. Thus, if you participate translating the framework, it will be very helpful for a bunch of plugins."
+msgstr ""
+
+msgid "There is %d languages supported for the 'SL framework'."
+msgstr ""
+
+msgid "There is %d sentence to be translated in the framework."
+msgstr ""
+
+msgid "Send to the author of the framework"
+msgstr ""
+
+msgid "Donate"
+msgstr "حمایت"
+
+msgid "If you like the plugin, do not hesitate to donate. Please note that this plugin is developed in my spare time for free."
+msgstr ""
+
+msgid "This is not mandatory! but it may be a sign that this plugin fits you needs: it makes me happy..."
+msgstr ""
+
+msgid "Feedback form"
+msgstr "بازخورد از:"
+
+msgid "This form is an easy way to contact the author and to discuss issues/incompatibilities/etc. with him"
+msgstr ""
+
+msgid "Contact the author"
+msgstr "تماس با نویسنده"
+
+msgid "Your email:"
+msgstr "ایمیل:"
+
+msgid "Useful... so that the author will be able to anwser you."
+msgstr ""
+
+msgid "Your comments:"
+msgstr "نظر شما:"
+
+msgid "Please note that additional information on your wordpress installation will be sent to the author in order to help the debugging if needed (such as : the wordpress version, the installed plugins, etc.)"
+msgstr ""
+
+msgid "Send feedback"
+msgstr "ارسال بازخورد"
+
+msgid "No email have been provided for the author of this plugin. Therefore, the feedback is impossible"
+msgstr ""
+
+msgid "The feedback has been sent"
+msgstr "بازخورد ارسال شده است"
+
+msgid "Plugins that you may install"
+msgstr "افزونه می تواند نصب شود"
+
+msgid "The following plugins have been developed by the author and are not yet installed:"
+msgstr ""
+
+msgid "Plugin not yet installed"
+msgstr "افزونه هنوز نصب نشده است"
+
+msgid "Description and Screenshots"
+msgstr "توضیحات و تصاویر"
+
+msgid "All author's plugins have been installed. Thank you!"
+msgstr ""
+
+msgid "Installed plugins"
+msgstr "افزونه های نصب شده"
+
+msgid "You have already installed the following author's plugins:"
+msgstr ""
+
+msgid "Plugin already installed"
+msgstr "افزونه نصب شد"
+
+msgid "The Wordpress page: %s"
+msgstr "صفحه : %s"
+
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+msgid "Last update:"
+msgstr "آخرین بروز رسانی"
+
+msgid "Rating: %s"
+msgstr "امتیاز : %s"
+
+msgid "by %s persons"
+msgstr "بر حسب %s"
+
+msgid "Number of download:"
+msgstr "تعداد دریافت:"
+
+msgid "Close popup"
+msgstr "بستن پنجره"
+
+msgid "Filter: %s"
+msgstr "فیلتر: %s"
+
+msgid "%s of %s"
+msgstr "%s از %s"
+
+msgid "Current Page"
+msgstr "صفحه جاری"
+
+msgid "Error: %s function is not found"
+msgstr ""
+
+msgid "The file %s cannot be read. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The folder %s cannot be opened. You should have a problem with folder permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be deleted. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "An other process is still running (it runs for %s seconds)"
+msgstr ""
+
+msgid "The file %s cannot be modified/created. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be created. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be compressed."
+msgstr ""
+
+msgid "The file %s cannot be renamed. You should have a problem with file permissions or security restrictions."
+msgstr ""
+
+msgid "The file %s cannot be modified. You should have a problem with file permissions or security restrictions."
+msgstr ""
+

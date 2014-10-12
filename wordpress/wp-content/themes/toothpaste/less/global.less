@@ -1,0 +1,281 @@
+/* =Global
+----------------------------------------------- */
+
+body,
+button,
+input,
+select,
+textarea {
+    color: #666666;
+	font-family: "Muli", "Helvetica Neue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+	font-weight: 400;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+	color: #444444;
+	font-weight: 300;
+}
+hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em;
+}
+/* Text elements */
+p {
+    margin-bottom: 1.5em;
+}
+ul,
+ol {
+    margin: 0 0 1.5em 3em;
+}
+ul {
+    list-style: disc;
+}
+ol {
+    list-style: decimal;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin-bottom: 0;
+    margin-left: 1.5em;
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin: 0 1.5em 1.5em;
+}
+b,
+strong {
+    font-weight: bold;
+}
+dfn,
+cite,
+em,
+i {
+    font-style: italic;
+}
+blockquote {
+    margin: 0 1.5em;
+}
+address {
+    margin: 0 0 1.5em;
+}
+pre {
+    background: #eee;
+    font-family: "Courier 10 Pitch", Courier, monospace;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    padding: 1.6em;
+    overflow: auto;
+    max-width: 100%;
+}
+code,
+kbd,
+tt,
+var {
+    font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+abbr,
+acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+mark,
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+sup,
+sub {
+    font-size: 75%;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    bottom: 1ex;
+}
+sub {
+    top: .5ex;
+}
+small {
+    font-size: 75%;
+}
+big {
+    font-size: 125%;
+}
+figure {
+    margin: 0;
+}
+table {
+    margin: 0 0 1.5em;
+    width: 100%;
+}
+th {
+    font-weight: bold;
+}
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    /* Corrects font size not being inherited in all browsers */
+
+    margin: 0;
+    /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+
+    vertical-align: baseline;
+    /* Improves appearance and consistency in all browsers */
+
+    *vertical-align: middle;
+    /* Improves appearance and consistency in all browsers */
+
+}
+button,
+input {
+    line-height: normal;
+    /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+
+    *overflow: visible;
+    /* Corrects inner spacing displayed oddly in IE6/7 */
+
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	display:inline-block;
+	padding: 9px 26px;
+
+	.rounded(4px);
+
+	font-size: 0.875em;
+	text-decoration:none;
+	color: white;
+	text-shadow: 0 1px 0 rgba(0,0,0,05);
+
+	.box-shadow(~"inset 0 1px 0 rgba(255,255,255,0.3), inset 0 -1px 0 rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1)");
+	.gradient(#565656, #565656, #686868);
+	.bordered(#404040, #373737, #2e2e2e, #373737);
+
+	&:hover {
+		.gradient(#5c5c5c, #5c5c5c, #6d6d6d);
+	}
+	
+	cursor:pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	.box-sizing(border-box);
+
+    padding: 0;
+    /* Addresses excess padding in IE8/9 */
+
+}
+input[type="search"] {
+	/* Addresses appearance set to searchfield in S5, Chrome */
+    -webkit-appearance: textfield;
+
+	/* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+	.box-sizing(border-box);
+}
+input[type="search"]::-webkit-search-decoration {
+    /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+
+    border: 0;
+    padding: 0;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+	.box-sizing(border-box);
+	
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+textarea:focus {
+    color: #111;
+}
+input[type=text],
+input[type=email],
+input[type=password] {
+    padding: 3px;
+}
+textarea {
+    overflow: auto;
+    /* Removes default vertical scrollbar in IE6/7/8/9 */
+
+    vertical-align: top;
+    /* Improves readability and alignment in all browsers */
+
+}
+/* Links */
+a {
+    color: royalblue;
+}
+a:visited {
+}
+a:hover,
+a:focus,
+a:active {
+	
+}
+/* Alignment */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Text meant only for screen readers */
+.assistive-text {
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.page-links{
+	clear:both;
+}
+
+.site-title a{
+	color: inherit;
+}

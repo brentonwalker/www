@@ -1,0 +1,54 @@
+[cond=$Ankle]
+The elevator door opens to three of armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. The left guard lunges at you and grabs your arm while the middle one kicks you in the shin. You squeeze the trigger again, shooting upwards and knocking out one of the lit sections of the elevator. 
+
+Glass shatters all around as the light explodes into a million pieces of glittering sharpness. You reach to the ground and grab a shard, jabbing it into the guards forearm. He reacts, leaping backwards.
+
+The middle guard lunges at you with full force. You're able to dodge his attack but just barely. He stumbles to the floor of the elevator and you close the door and mash the fire alarm button before he can get up. The elevator closes its doors and he can't do a thing about it. 
+[cond=$Luck>=7 or $Strength>8]
+You quickly turn and stare down the remaining guard. 
+The last guard jumps at you with glass shard in hand. You step to the right, narrowly avoiding the sharp dagger. You kick the guard with full force, adding to his momentum as he slams into the closed elevator doors head first. He doesn't get up.
+
+You turn around and head over to the server farm entrance, wiping the stew of glass shards and blood from your arms.
+
+[jump=The Farm]Head into the server farm[/jump]
+[/cond]
+
+You quickly turn and stare down the remaining guard. 
+The last guard jumps at you with glass shard in hand. You step to the right, and your damaged ankle gives way and you stumble.
+
+He guard is instantly back on his feet, and you're now the one on the ground writhing in pain, clutching your ankle. 
+
+The guard drops the glass shard to the ground as he cocks back the gun, and pulls the trigger.
+
+[b]THE END[/b]
+
+[/cond]
+
+
+
+[cond=$Used_Raven]
+The elevator door opens to three of armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. The left guard lunges at you and grabs your arm while the middle one kicks you in the shin. You squeeze the trigger again, shooting upwards and knocking out one of the lit sections of the elevator. 
+
+Glass shatters all around as the light explodes into a million pieces of glittering sharpness. You reach to the ground and grab a shard, jabbing it into the guards forearm. He reacts, leaping backwards.
+
+The middle guard lunges at you with full force. You're able to dodge his attack but just barely. He stumbles to the floor of the elevator and you close the door and mash the fire alarm button before he can get up. The elevator closes its doors and he can't do a thing about it. 
+
+[cond=$Luck>=7 or $Willpower>7]
+The last guard jumps on your back and stabs your shoulder with the bloody glass shard he has now pulled from his arm. You groan in agony before flipping him over your shoulder.
+
+ With one silky smooth motion, you jam your palm into his sternum knocking the air out of him and rendering him unconscious. 
+
+You head over to the server farm entrance, ripping the glass shard from your flesh and dropping it on the ground.
+[jump=The Farm]Head to the server farm[/jump]
+[/cond]
+
+The last guard jumps on your back and stabs your shoulder with the bloody glass shard he has now pulled from his arm. You groan in agony before flipping him over your shoulder. He grabs the shard embedded in your shoulder, ripping it out as he goes over. You cry out in pain from the large wound.
+
+As you stagger back, the guard has time to coil backwards and charge you, knocking you down.
+
+The last thing you see is the guard's boot winding up and coming down on your head.
+
+[lose]
+[b]THE END[/b]
+
+[/cond]

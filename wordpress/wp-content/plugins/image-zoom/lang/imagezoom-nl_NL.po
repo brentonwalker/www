@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-03-03T18:28:53+00:00\n"
+"Last-Translator: PC-Rider <annodevries@gmail.com>\n"
+"Last-Translator: Erik <www.digihulpdienst.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: Netherlands\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Thema 01"
+
+msgid "Theme 02"
+msgstr "Thema 02"
+
+msgid "Theme 03"
+msgstr "Thema 03"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Je thema bevat (i.e. in%s bestand) een hardgecodeerde referentie naar de jQuery javascript bibliotheek"
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Deze referentie kan de plugin stukmaken. Dus als de plugin niet werkt, dan kun je deze referentie verwijderen of verplaatsen naar net na de %s declaratie."
+
+msgid "This plugin allows a dynamic zoom on the images (based on the highslide javascript library)"
+msgstr "Deze plugin staat een dynamische zoom toe op de afbeeldingen (gebaseerd op de highslide javascript bibliotheek)"
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Wat zijn de ingekorte dimensies van de gezoomde afbeelding?"
+
+msgid "Max width:"
+msgstr "Max breedte"
+
+msgid "Max height:"
+msgstr "Max hoogte"
+
+msgid "What is the text for the frontend?"
+msgstr "Wat is de tekst voor de voorzijde?"
+
+msgid "Previous:"
+msgstr "Vorige:"
+
+msgid "Next:"
+msgstr "Volgende:"
+
+msgid "Close:"
+msgstr "Sluit:"
+
+msgid "Play:"
+msgstr "Speel af:"
+
+msgid "Pause:"
+msgstr "Pauseer:"
+
+msgid "The image counter:"
+msgstr "De afbeeldings teller:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "De %s zal vervangen worden door de index van de afbeelding en %s met het totaal aantal afbeeldingen op de pagina."
+
+msgid "What is the theme?"
+msgstr "Wat is het thema?"
+
+msgid "Choose the theme:"
+msgstr "Kies het thema:"
+
+msgid "Theme 01 is : %s."
+msgstr "Thema 01 is %s."
+
+msgid "Theme 02 is : %s."
+msgstr "Thema 02 is %s."
+
+msgid "Theme 03 is : %s."
+msgstr "Thema 03 is %s."
+
+msgid "What are the other parameters?"
+msgstr "Wat zijn de andere parameters?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Overgangstijd als de slideshow is ingeschakeld:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Auto-start de diavoorstelling wanneer ingeschakeld:"
+
+msgid "The opacity of the background:"
+msgstr "De ondoorzichtigheid van de achtergrond:"
+
+msgid "Parameters"
+msgstr "Parameters"
+
+msgid "Manage translations"
+msgstr "Beheer vertalingen"
+
+msgid "Give feedback"
+msgstr "Geef feedback"
+
+msgid "Other plugins"
+msgstr "Andere plugins"
+
+msgid "Advanced parameters?"
+msgstr "Geavanceerde instellingen?"
+
+msgid "List of page exclusions:"
+msgstr "Lijst van uitgesloten pagina&#039;s:"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "Bijvoorbeeld kun je pagina&#039;s uitsluiten met een URL als: %s door deze optie op %s te zetten. Voeg a.u.b één reguliere expressie per regel toe."
+
+msgid "Please, do not use the %s characters in the regular expression but instead %s or %s"
+msgstr "A.u.b gebruik de %s characters niet in de reguliere expressie maar %s of %s."
+
+msgid "This plugin allows a dynamic zoom on the images (based on the colorbox javascript library)"
+msgstr "Met deze plugin kun je afbeelding dynamisch zommen (gebaseerd op de colorbox javascript library)"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr "Je kunt eventueeel die optie kiezen om %s en %s om de beginpagina uit te sluiten"
+

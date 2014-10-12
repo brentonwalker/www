@@ -1,0 +1,69 @@
+body, #searchform, #searchform #s, #portfolio-filter .current, .format-quote .quote_post {
+	background-color: #272727;
+	color: #aaa
+}
+a {
+	color: #fff;
+}
+.toggle_header, #home_blog article, .two-col, #home_list {
+	background-color: #393B40 !important;
+}
+#header, #footer, .border_bottom, article, .meta_post, #breadcrumbs, #sidebar li, .toggle_header, #sidebar .widget li li, #searchform, .page-link a, .wp-pagenavi a, .wp-pagenavi .alignright, .author-info, #comments .comment, .title_headers, .time_meta, .sidebar_meta, .s_tabs .ui-state-active, #home_list {
+	border-color: #4F4F4F;
+}
+.link, #comments .bypostauthor, #nav li li {
+	background: #4F4F4F !important;
+}
+#wrapper {
+	background: #3F3F3F;
+}
+.masonry_box {
+	box-shadow: 0 0 3px #0F0E0E
+}
+.no-shadow {
+	box-shadow: 0 0 0 #CFCFCF
+}
+#sidebar, #footer {
+	color: #999
+}
+#twitter_div ul li, #twitter-link {
+	background: #222 url(../images/slide_hover.png) !important;
+	border: 1px solid #444 !important;
+}
+.format-link h2.link {
+	background-color: #272727 !important;
+	background-image: url(../images/icons.png) -300px -202px no-repeat !important;
+}
+.s_toggle .ui-accordion-header {
+	background: #333 url(images/icons.png) no-repeat -260px -250px !important;
+}
+.s_toggle .ui-state-active {
+	background: #333 url(images/icons.png) no-repeat -210px -300px !important;
+}
+.s_tabs .ui-tabs-panel {
+	background: #333 !important;
+}
+.s_tabs .ui-state-active {
+	border-top: 3px solid #ddd;
+	background: #333 !important;
+}
+.ui-state-active a {
+	color: #999;
+}
+.gallery_title{
+    background: #000!important;
+    background: rgba(000, 000, 000, 0.8)!important;
+}
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#nav li {
+		background: #333 !important;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	#nav li {
+		background: #333 !important;
+	}
+}

@@ -1,0 +1,94 @@
+/* =Design
+----------------------------------------------- */
+
+.container, #main{
+	width: 1140px;
+	margin: 0 auto;
+	position:relative;
+	padding: 0 25px;
+	
+	.clearfix();
+}
+
+body.responsive{
+	.container, #main{
+		width: auto;
+		max-width: 1024px;
+	}
+}
+
+#masthead {
+	background: #FFF;
+	margin-bottom: 35px;
+	
+	hgroup {
+		position:relative;
+		overflow:hidden;
+		
+		/* Give it a nice diagonal gradient */
+		.linear-gradient(#107FC9, ~"-45deg,  #107FC9 0%, #3f7fe3 100%");
+		
+		.container {
+			height: 180px;
+		}
+		
+		.table-wrapper{
+			display:table;
+			width: 100%;
+			height: 100%;
+		}
+
+		.cell-wrapper{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		
+		.site-title {
+			line-height: 1;
+			color: white;
+			font-size: 60px;
+			margin-bottom: 0.125em;
+			
+			text-shadow: 0 3px 3px rgba(0,0,0,0.175);
+			
+			a{
+				text-decoration:none;
+			}
+			
+			img {
+				float:left;
+				display:block;
+			}
+		}
+		
+		.site-description{
+			line-height:1;
+			color: white;
+			font-size: 18px;
+		}
+		
+		img.header-decoration {
+			position:absolute;
+			
+			&.dark {
+				bottom: 0;
+				left: 0;
+			}
+			
+			&.light {
+				bottom: 0;
+				right: 0;
+			}
+			
+			/* All the dark and light variants */
+
+			&.light-3, &.dark-2, &.dark-3 {
+				top: 0;
+			}
+		}
+	}
+ }
+
+body.siteorigin-panels-home #masthead hgroup .container{
+	height: 260px;
+}

@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Book>
+  <Name>InfoRunners</Name>
+  <StartingPage>Intro</StartingPage>
+  <LeftPage>Summary</LeftPage>
+  <MP3Soundtrack>0</MP3Soundtrack>
+  <MP3SoundtrackValue />
+  <OGGSoundtrack>0</OGGSoundtrack>
+  <OGGSoundtrackValue />
+  <HideTitle>0</HideTitle>
+  <StartOverConfirmText>0</StartOverConfirmText>
+  <StartOverConfirmTextValue>Are you sure you want to start over?</StartOverConfirmTextValue>
+  <EmbedImages>1</EmbedImages>
+  <FlipAnimation>0</FlipAnimation>
+  <BackgroundColor>0</BackgroundColor>
+  <BackgroundColorValue>#FFFFFF</BackgroundColorValue>
+  <SecondaryBackgroundColor>0</SecondaryBackgroundColor>
+  <SecondaryBackgroundColorValue>#FFFFFF</SecondaryBackgroundColorValue>
+  <TextColor>0</TextColor>
+  <TextColorValue>#000000</TextColorValue>
+  <PaperImage>0</PaperImage>
+  <PaperImageValue />
+  <BookmarkImage>0</BookmarkImage>
+  <BookmarkImageValue />
+  <LeftPageImage>0</LeftPageImage>
+  <LeftPageImageValue />
+  <DiceImage>0</DiceImage>
+  <DiceImageValue />
+  <DiceSize>0</DiceSize>
+  <DiceSizeValue>100</DiceSizeValue>
+  <CustomCSS>0</CustomCSS>
+  <CustomCSSValue />
+  <StatPoints>20</StatPoints>
+  <Statistics>
+    <Statistic>
+      <Name>Strength</Name>
+      <StartingValue>0</StartingValue>
+    </Statistic>
+    <Statistic>
+      <Name>Intelligence</Name>
+      <StartingValue>0</StartingValue>
+    </Statistic>
+    <Statistic>
+      <Name>Willpower</Name>
+      <StartingValue>0</StartingValue>
+    </Statistic>
+  </Statistics>
+  <Childs>
+    <Page>
+      <Name>Intro</Name>
+      <Text>[size=5]InfoRunners[/size]
+
+The world is run by information. You have the power to manipulate that information. [b]What will you do with this power?[/b]
+
+Inforunners are young, brash, and brilliant mercenaries. They trade information in return for pay. Similar to organized crime cells of the previous century, Inforunner cells are warring factions which vie for dominance in an age ruled by information. 
+
+They are comprised of drugged up teenagers and twenty somethings who rule the streets. These drugs, mixed with cybernetic implants make them nearly immortal for a price. The prolonged hypermetabolic stimulants irreparably damage the bodies of these youth, artificially shortening their life expectancy to their early thirties. 
+
+This story takes place in the warring metrolopolis of Buenos Aires. [b]Elect these first few choices carefully[/b], they will effect you throughout the game. 
+
+[b][size=2]You are [input=Player_Name][/input]
+ the inforunner that could change it all.[/size][/b]
+
+
+
+[jump=Origin]Proceed to choose your background.[/jump]
+</Text>
+      <Keywords />
+      <Jumps>Origin</Jumps>
+      <Childs />
+    </Page>
+    <Page>
+      <Name>Summary</Name>
+      <Text>[trim]
+[cond=$Player_Name][size=6]$Player_Name[/size][/cond]
+[cond=$Has_Origin]The $Origin [hr][/cond]
+
+[cond=$Strength][b]Strength:[/b] $Strength[/cond]
+[cond=$Intelligence][b]Intelligence:[/b] $Intelligence[/cond]
+[cond=$Willpower][b]Willpower:[/b] $Willpower[/cond]
+[cond=$Luck][b]Luck:[/b] $Luck [hr][/cond]
+[cond=$Has_Journal][b]Journal:[/b][/cond]
+[cond=$Ankle]- Your ankle is a bit twisted[/cond]
+[cond=$Blitz_Injured]- You nearly killed blitz[/cond]
+[cond=$Injured_Firefight]- You're bleeding from a gunshot[/cond]
+[cond=$Ministry_Sneak]- You chose to sneak into the ministry[/cond]
+[cond=$Sky_Entrance]- You entered the ministry from the roof[/cond]
+[cond=$Smashing]- Your route inside of the ministry was 'smashing'[/cond]
+[cond=$Ventilation_Entrance]- Chose the ventilation system[/cond]
+[cond=$Maintenance]- Chose the maintenance staircase[/cond]
+[cond=$Has_Inventory][hr][b]Inventory:[/b][/cond]
+[cond=$Charged]- You're carrying a lot of weaponry[/cond]
+
+
+[/trim]</Text>
+      <Keywords>$Player_Name,$Has_Origin,$Origin,$Strength,$Intelligence,$Willpower,$Luck,$Has_Journal,$Ankle,$Blitz_Injured,$Injured_Firefight,$Ministry_Sneak,$Sky_Entrance,$Smashing,$Ventilation_Entrance,$Maintenance,$Has_Inventory,$Charged</Keywords>
+      <Jumps />
+      <Childs />
+    </Page>
+    <Page>
+      <Name>Origin</Name>
+      <Text>[op]$Player_Name=get(Player_Name)[/op]
+
+$Player_name, choose your origin story wisely, [b]it has great ramifications[/b]  regarding your choices later on.[cond=!$Has_Origin]
+
+[jump=Stats?Orphan][b]You are the ruthless and lonely orphan.[/b][/jump]
+Growing up on the street after losing your family to an enemy bombing run, you learned to fend for yourself. Escaping from the orphanage at a young age you were forced to find your own way by your own merit and actions. The world has never given you anything and you and you feel like you owe it nothing. Your street. Your Rules. The street rats are your kin are now your family - one which has taught you the fiercest of loyalty. Inforunners represented this kinship and a way of life, thus you joined them. 
+
+[jump=Stats?Rebel][b]You are the unrelenting rebel and a family disappointment.[/b][/jump]
+Descending from a long line of those knowing nothing but the luxuries of the upper class, you had enough of their lies and politicking. They supported a monarchical regime in which you wanted no part. You evolved beyond their complacent and corrupt ways and found yourself when you found the inforunners on the streets. Their product was an eternal one that cannot be silenced: truth.
+
+[jump=Stats?Veteran][b]You are the young and atoning war veteran.[/b][/jump]
+ A young war veteran, already returned from overseas battles in your early 20s. You learned quickly that brotherhood is essential. However, after raiding an innocent civillian village in South Africa and being forced to commit horrible war crimes without your knowledge, your world shattered. Your later realization of these terrors caused you to break mentally. Returning to Buenos Aires, you found solace in the mind-numbing drugs, chems, and stimulants of the inforunners. You dull the pain while choosing your own moral battles. You answer to no one but the moral truth. 
+
+
+[hr]
+[/cond]
+
+
+</Text>
+      <Keywords>$Player_Name,$Player_name,$Has_Origin</Keywords>
+      <Jumps>Stats</Jumps>
+      <Childs />
+    </Page>
+    <Page>
+      <Name>Stats</Name>
+      <Text>[cond=from(Orphan)]
+[op]$Has_Origin=true[/op]
+[op]$Origin="Orphan"[/op]
+[op]$IsOrphan=true[/op]
+[/cond]
+[cond=from(Rebel)]
+[op]$Has_Origin=true[/op]
+[op]$Origin="Rebel"[/op]
+[op]$IsRebel=true[/op]
+[/cond]
+[cond=from(Veteran)]
+[op]$Has_Origin=true[/op]
+[op]$Origin="Veteran"[/op]
+[op]$IsVeteran=true[/op]
+[/cond]
+
+$Player_Name, choose your features wisely. You only have [statsleft] points remaining.
+
+[trim][table]
+[tr][td]Strength:    [/td] [td][stat=Strength]1[/stat]    [/td][/tr]
+[tr][td]Intelligence:[/td] [td][stat=Intelligence]1[/stat][/td][/tr]
+[tr][td]Willpower:   [/td] [td][stat=Willpower]1[/stat]   [/td][/tr]
+[/table][/trim]
+
+[jump=Backstory?Stats]Proceed to determine [b]who you are[/b] and [b]how lucky[/b] you feel.[/jump]</Text>
+      <Keywords />
+      <Jumps>Backstory</Jumps>
+      <Childs />
+    </Page>
+    <Folder>
+      <Name>Beginning</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Backstory</Name>
+          <Text>[cond=from(Stats)]
+[op]$Strength=get(Strength)[/op]
+[op]$Intelligence=get(Intelligence)[/op]
+[op]$Willpower=get(Willpower)[/op]
+[op]$Luck=roll("Luck") + roll()[/op]
+[/cond]
+
+$Player_Name, you are an Inforunner. This gives you a great responsibility, as your journey will impact many more lives than just your own. [b]Remember, you are fast, smart, and extremely powerful.[/b]
+[hr]
+Our story beings with he world is in state of complete ruin. After the mutually assured destruction of China, Europe and the USA because of their nuclear war, the northern hemisphere lies in rubble as nothing but an irradiated wasteland.
+
+You live in the sprawling, dystopian metropolis of Buenos Aires. Run by a hodgepodge government comprised of rebels who dared fight against the onward march of the South Alliance - a hegemonic and totalitarian regime based in South Africa driven by the thirst for power. The largest entity to emerge after the war, it opresses Buenos Aires and the opposition.
+
+What remains of Buenos Aires is a crime-riddled, filth filled poverty hole barely clinging to the definition of civilization. 
+
+[jump=Your Cell]Learn about your inforunner cell.[/jump]
+</Text>
+          <Keywords>$Strength,$Intelligence,$Willpower,$Luck,$Player_Name</Keywords>
+          <Jumps>Your Cell</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Your Cell</Name>
+          <Text>Your cell is run by a nefarious, but lazy and fairly decrepit man named [b]Blitz[/b]. The definition of a lucky scumbag. Blitz is a man who has never earned anything in his life, but rather has been in the right place at the right time more than once. He has been lucky enough to surround himself with people smarter and more talented than himself while he coasts along with just enough intelligence to get away with the things he does with his info runner cell. He has become lazy in his later life (early 30s for retired inforunners) and suffers from complications from his permanently drugged existence. 
+
+While he doesn’t have much time left in his life, he does still try to feel important and needed. He doesn’t think much of you, yet he's small business compared to some of the more elite and advanced runner cells around. His hollowed out demeanor makes him look more intimidating than he actually is.
+
+However, your fellow runners are your family. You trust them and care about them. They're all you have in this world. 
+
+[b]Now, lets get started...[/b]
+[hr]
+
+[jump=The Call to Action]Jump into the fray[/jump]</Text>
+          <Keywords />
+          <Jumps>The Call to Action</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Call To Action</Name>
+          <Text>You receive a call from Blitz on your VIVI arm band (Virtual Intelligence Variable Integration). It's 2:30am and you're forced awake in a cold sweat by the incessant notification gently tingling your arm. He says you need to be at HQ in less than 15 min.
+
+[img=sitting.jpg][/img]
+
+Throwing on one of your more grungy work outfits, you take a hit of a minor stim and are up and in less than 10 minutes you're out the door and bounding in the empty streets and through the shadows. 
+
+You get lost in through as you tear through the thick night shadows at a breakneck pace. "Sure" you think to yourself, "Blitz is a moron, but he helped me get where I am today." You wonder if the vegetating waste of human space has more than a few months left in his withering body. He's not doing horrible for a 35 year old ex-runner, but his days are counted. 
+
+You jump from building to building on your way over to headquarters.
+
+[cond=$Origin=="Veteran"][cond=$Willpower&lt;9]As you're leaping, you remember the horrific conditions of the war over in South Africa. The flashback knocks you off your feet and you take a rough tumble.[b]You twist your ankle as a sharp pain travels directly up the right side of your left shin.[/b]
+
+[jump=Blitz?ankle]Tread lightly over to HQ[/jump][/cond][/cond]
+[cond=!$IsVeteran][jump=Blitz]Jump into the fray[/jump][/cond]
+[cond=($IsVeteran and $Willpower&gt;9)][jump=Blitz]Jump into the fray[/jump][/cond]</Text>
+          <Keywords />
+          <Jumps>Blitz</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Blitz</Name>
+          <Text>[cond=from(ankle)][op]$Ankle=true[/op][op]$Has_Journal=true[/op][/cond]
+You enter the dark, and surprisingly dry apartment from the 3rd floor emergency access panel of the rather uninteresting skyscraper. It's a pain, but luckily Blitz doesn't usually call you in. 
+You pass through empty and pitch black hallways up to the non descript door which leads to the inner den of the cell. 
+
+The stench is as bad as you last remember it. If living flesh could rot, this would be the smell it made. Not a single light is lit in the den. 
+In his usual corner, Blitz is hooked into his stationary life support machines, drinking in the flow of the digital waterfall of information cascading down his various screens. 
+
+His expressionless face only visible thanks to the back light of his screens. He's laid back, but alert. Despite his body withering away, his mind is sharp.
+
+[quote]"Took you long enough, [b]$Player_Name[/b]. Busy sitting around amounting to nothing as usual?"[/quote]
+
+You check your VIVI not paying any attention to his hollow threat. 
+
+[quote]"Lets cut the small talk." He responds to himself. "Good thing I have a job for you. It's a big one too."[/quote]
+
+[cond=$Origin=="Veteran"][jump=A Task For a Mercenary]A Task For a Mercenary[/jump][/cond]
+[cond=$Origin=="Orphan"][jump=The Lonely Ones]The Lonely Ones[/jump][/cond]
+[cond=$Origin=="Rebel"][jump=Rebellious Nature]Rebellious Nature[/jump][/cond]</Text>
+          <Keywords />
+          <Jumps>A Task For a Mercenary,The Lonely Ones,Rebellious Nature</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Rebellious Nature</Name>
+          <Text>Blitz starts with a jab at your heritage, [quote]"Well, since you're the high and mighty king himself you should already have connections with the ministry of information, correct?"[/quote] 
+You nod confirming you do, thinking of Silvia who works as head of IT in the ministry.
+
+[quote]"Let me get down to why you're here. We've got a leak and it needs plugging. The master list detailing all the vitals on the cell's members is out. Someone leaked your info too, $Player_Name. I need this list back because I've got too much to lose."
+[/quote]
+
+Your heartbeat races. If your true information is leaked, your runner credentials are as good as wiped out. All of your accounts and personas you've built up over the last few years would be gone, and you'd be as good as jailed. You'll never work as a runner again. you ask:
+
+[quote]"What do you mean leaked? Who has the information and how do we get it back?"[/quote] 
+He continues: 
+
+[quote]"I don't know the whole story, but I have my suspisions. Our server logs have been mostly wiped clean, but we can tell it came from one of the automated scrapers built by the Ministry. It's only a manner of time before they filter it through the system and it gets to human eyes. This is probably part of their efforts to eliminate the inforunner cells as a threat to their own secretive intelligence"[/quote]
+
+Blitz blubbers on:
+
+[quote] "This means you need to get in there and wipe out all trace of the list. I need very tangible proof on this one. Everything is at stake".[/quote]
+
+Everything you worked for in getting away from your previous life will have gone to waste if you don't destroy that list. You take the dossier from Blitz and, in a single motion, whip around and walk out. 
+
+
+[jump=Preparation]Preparation[/jump]</Text>
+          <Keywords />
+          <Jumps>Preparation</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>A Task For a Mercenary</Name>
+          <Text>You stare at your VIVI paying no attention to his attempt to raise some form of interest from you. He can sense your lack of interest
+
+[quote]"You really are nothing but a washed up vet, aren't you?"[/quote] 
+
+...says the blabbering idiot. You start to block him out as you read about the developments in the local chem trade on your VIVI. Looks like prices might be going up again. Unfortunate.
+
+[quote]"[b]$Player_Name[/b], are you even listening to me?". [/quote]You snap back to attention realizing that his lack of joking means he probably has something of a serious job on his hands. You give him a sarcastic smirk and look back down at your wrist, pretending to pay attention. 
+
+[quote]"You really need to learn to concentrate, scum bag." [/quote]
+His incessesant desparaging remarks are starting to wear thin on your patience. 
+[quote]"Let me get down to why you're here. We've got a leak and it needs plugging. The master list detailing all the vitals on the cell's members is out. Someone leaked your info too, $Player_Name. I need this list back because I've got too much to lose."
+[/quote]
+Did he just say he leaked your identity and information? If that gets out, you're done. The army will find you and will make you pay for your abandonment. 
+
+You feel the sudden urge to destroy Blitz rise to the top of you. It bursts like a boiled over pot. The blind rage thrusts you onto the waste of human life and you find yourself smashing your fists into his head with as much force as you can muster. His muffled cries for you to stop bring you back to reality. The fleshy pulp of his face shares a similar color tone as your bloodied and raw hands.
+
+You stand back, satisfied, yet slightly shocked at your own animosity. The war truly never left you. 
+
+He looks at you with his glaring eyes, unable to move. He'll live, but just barely. The dossier with the details of the mission appears on your VIVI and you walk out.
+ 
+
+[jump=Preparation?A Task For a Mercenary]Preparation[/jump]</Text>
+          <Keywords />
+          <Jumps>Preparation</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Lonely Ones</Name>
+          <Text>You stare at Blitz, anxious, yet showing no emotion. 
+
+[quote]"Still playing the silent game, eh? Well, no worries I don't need your feedback. Let me get down to why you're here. We've got a leak and it needs plugging. The master list detailing all the vitals on the cell's members is out. Someone leaked your info too, $Player_Name. I need this list back because I've got too much to lose."[/quote]
+
+You stare at him with a mute rage, yet listen on. 
+
+[quote]"I don't know the whole story, but I have my suspisions. Our server logs have been mostly wiped clean, but we can tell it came from one of the automated scrapers built by the Ministry. It's only a manner of time before they filter it through the system and it gets to human eyes. This is probably part of their efforts to eliminate the inforunner cells as a threat to their own secretive intelligence"[/quote]
+
+You continue to stare, your eyes as daggers. Your intensity is tangible yet you still say nothing. Your face has yet to show any sign of emotion. This makes Blitz uneasy.
+
+[quote]"Listen kid, I know I haven't worked with you long, and I'm sorry, but we're all in this together now. I need you to take what I know in this dossier and get out and fix this"[/quote]
+
+You can tell that his blood pressure is rising, yet this achieves nothing.You decide not to waste any more time or words on Blitz,  now focusing your energy on how to break into the ministry to get the list. If that list comes to light, your past crimes are likely to speak against you. You'd be done. 
+
+
+[jump=Preparation]Preparation[/jump]</Text>
+          <Keywords>$Player_Name</Keywords>
+          <Jumps>Preparation</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Preparation</Name>
+          <Text>[cond=from(A Task For a Mercenary)][op]$Has_Journal=true[/op][op]$Blitz_Injured=true[/op][/cond]
+
+You step back outside of the den and start walking down the street. The rain gently beats against your exposed face as you being to read:
+
+[quote]Here's what we know, $Player_Name. The ministry has scraped our list from our servers and is now filtering it through their system. You need to get into the ministry, remove it from their servers, and get out. I would recommend one of three approaches:
+
+1. You can try to enter with force and take down their entire infrastructure. [b]A one man army.[/b]
+
+2. You can talk your way into the ministry with a disguise. [b]Sneaking. [/b]
+
+3. Trick someone into giving you access. [b]Indirect social engineer.[/b]
+
+[/quote]
+
+You ponder for a moment in thinking which route you'd like to take.
+
+(Think on how your origin story and stats might effect each of these routes. The risk of failure grows throughout the story.)
+
+[jump=Charge the Premise]One Man Army[/jump]
+[jump=Stealth Action]Sneaky[/jump]
+[jump=Talk The Talk]Indirect Social Engineer[/jump]</Text>
+          <Keywords>$Has_Journal,$Blitz_Injured,$Player_Name</Keywords>
+          <Jumps>Charge the Premise,Stealth Action,Talk The Talk</Jumps>
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Heist</Name>
+      <Prefix />
+      <Childs>
+        <Folder>
+          <Name>One Man Army</Name>
+          <Prefix />
+          <Childs>
+            <Page>
+              <Name>Charge the Premise</Name>
+              <Text>[op]$Charged=true[/op][op]$Has_Inventory=true[/op]
+You decide to take on the ministry head to head - like a true runner of power. You take a few days to prepare for your direct assault. You've planned your heist in between shifts at 3am - when you'll find the least amount of resistance and personnel. After two days of intense planning and preparation you begin your journey across the city to reach the Ministry of information.
+[img=4seconds.jpg][/img]
+As you travel across the wet streets, you ponder the city. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer.
+
+You arrive in front of the ministry of information. Small droplets trickle down its marble walls. You wonder if this will be your concrete and marble tomb.
+[cond=$Origin=="Veteran"][op]$Veteran_Charge_Advantage=true[/op]
+Thanks to some old war buddies you still have access to some of the most ridiculous chems available, not to mention the firepower. This is why you're known as the runner who can force his way through anything. You have the resources. You've injected yourself with a cocktail of stims which will heighten your reaction time, physical stamina and endurance. You also bring some heavy weaponry. You intend to shoot on sight.
+[/cond]
+[cond=$Origin=="Orphan"][op]$Orphan_Charge_Advantage=true[/op]
+Because of your life on the streets, you have quite a few contacts that can help you out in times of need. They're able to provide you with the firepower necessary for this job and willing to back you up. You called in a few favors and a box of armaments and 'goodies' showed up at your door. 
+[/cond]
+You gather yourself, your equipment, and start up what seems to be thousands of steps, pushing you back with a cascade of small waterfalls generated by the rain at your feet.
+[cond=$Luck&gt;=8][op]$Luck_Charge_Advantage=true[/op][/cond]
+[cond=$Orphan_Charge_Advantage or $Veteran_Charge_Advantage or $Luck_Charge_Advantage][jump=Firefight]Firefight[/jump][/cond]
+[cond=!($Luck_Charge_Advantage or $Veteran_Charge_Advantage or $Orphan_Charge_Advantage or $IsVeteran or $IsOrphan)][jump=Your Big Moment Awaits]Your Big Moment Awaits[/jump][/cond]</Text>
+              <Keywords>$Charged,$Has_Inventory,$Origin,$Veteran_Charge_Advantage,$Orphan_Charge_Advantage,$Luck,$Luck_Charge_Advantage,$IsVeteran,$IsOrphan</Keywords>
+              <Jumps>Firefight,Your Big Moment Awaits</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Firefight</Name>
+              <Text>[cond=$Luck_Charge_Advantage=true][op]$Snuck_Through=true[/op]Because you're a very fortunate soul, you're able to time your entrance just right. Not only are the four guards on duty not present, but there isn't a soul in sight. You wonder what the bizarre absence must be about. Either way, you're not complaining. 
+
+You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. You spot countless CCTV cameras. There are at least two dozen scattered around. You make your way through the corridor minding your steps as you progress to the elevators on the far right side. Although weighed down by the small armory you're holding on your back, you're squeak through the elevator doors and glance down at the floor selection panel.
+
+[jump=Floor Selection]Select Your Floor[/jump][/cond]
+[cond=(!$Luck_Charge_Advantage and $IsVeteran)][op]$Won_Firefight=true[/op]You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. They seem preoccupied. Immediately you spot the main elevator bank on the right side about 100 feet in front of you.
+
+The toughest looking guard is the first to yell:
+
+[quote]Hey, you forgot to scan your ID.[/quote]
+
+You keep walking, pretending that you didn't hear him. 
+
+He shouts again:
+
+[quote]Hey are you hearing me right now?[/quote]
+
+You start to move quicker, and you hear footsteps behind you speeding up.
+
+You accelerate. The single pair of footprints has transformed into a cacophony of all four guards. Your war experience and intuition tell you to act now.
+
+In a brutal sequence of slow motion gun slinging, you dive forward, turning belly up, and rotate your body 180 degrees to face the guards -  bullets flying from your two pistols in near perfect synchronicity as gravity slowly pulls you to the ground. Before you feel the cold hard crunch against your spinal column you've been able to watch as bullets tear through the flesh of the sprinting regiment, knocking them off their feet.
+
+Their bodies collide against each other on their way to the ground and ultimately make horrible cracking noises as they slam against the floor. 
+All four guards are dead. 
+
+It is unlikely anyone but a stimmed up runner, and a war vet at that, would have had such a quick and accurate draw. You gather yourself, stand up, and jump into the elevator bank.
+[jump=Floor Selection?Veteran]Select your floor, you lucky veteran[/jump]
+ [/cond]
+[cond=(!$Luck_Charge_Advantage and $IsOrphan)]You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+
+The odds are completely against you in this scenario. You pull up your VIVI, calling in your buddy Raven - a fellow street kid who offered to help based on the favor you're owed. You quickly explain the situation to Raven. He meets you around the block from the Ministry's entrance. 
+
+Handing off two pistols to the kid, you instruct him to take out as many guards as possible. It's dirty, but you know force is the only way into this fortress. Gotta knock down the castle gates to get the to king, right?
+
+In a synchronized and timed instant, Raven shouts:
+[quote]$Player_Name, NOW![/quote]
+You take off running as Raven takes out two of the guards with singles shots. While the remaining two guards shoot off after Raven, you continue your unhindered run to the elevator bank, squeezing in the doors. You hear the guns echoing in the distance, hoping Raven made it out alive. With at least 2 guards on his tail, it's unlikely. You stare down at the floor selection panel.
+[op]$Used_Raven=true[/op]
+[jump=Floor Selection]Select your floor, you sly orphan[/jump]
+[/cond]</Text>
+              <Keywords>$Luck_Charge_Advantage,$Snuck_Through,$IsVeteran,$Won_Firefight,$IsOrphan,$Player_Name,$Used_Raven</Keywords>
+              <Jumps>Floor Selection</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Floor Selection</Name>
+              <Text>[cond=$Used_Raven] [/cond]
+[cond=from(Veteran)][cond=$Ankle] As you're looking over the floor selection in the elevator, you look down and notice that you've been hit by one of the guards bullets. You're bleeding profusely from your leg. You must not have noticed because the same stims you took to dull the pain from your twisted ankle are now dulling the pain from the gunshot[/cond][/cond]
+[cond=$Snuck_Through]Snuck[/cond]</Text>
+              <Keywords />
+              <Jumps />
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Your Big Moment Awaits</Name>
+              <Text>You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+ 
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. They seem preoccupied. Immediately you spot the main elevator bank on the right side about 100 feet in front of you. 
+
+The toughest looking guard is the first to yell:
+
+[quote]Hey, you forgot to scan your ID.[/quote]
+
+You keep walking, pretending that you didn't hear him. 
+
+He shouts again:
+
+[quote]Hey are you hearing me right now?[/quote]
+
+You start to move quicker, and you hear footsteps behind you speeding up.
+
+You accelerate. The single pair of footprints has transformed into a cacophony of all four guards.
+
+You're fast. Fast enough for the world to blur around you - sound fades and adrenaline kicks in. You're easily outrunning all four guards behind you.
+
+[quote]Last chance before...[/quote]
+
+His muffled voice trails off into your adrenaline haze as you slam up against the controls of the elevator bank at full sprint. Before you can even turn to face your pursuers, you're thrown backwards with a force you've never felt before - like the weight of a boulder has relentlessly rammed your side with a velocity at least twice what you were running, but exponentially more weight. 
+
+As you sit up , you look down to the bloodied and frayed fibers of your left side. It's a rather ethereal feeling looking at your body and not seeing a part of it which has always been there.
+
+The world starts to fade as you slowly black out from blood loss. The guards catch up to you. The last thing you see as you tilt your heads to the guards is the bottom of a  boot coming down on your head with full force. 
+
+[b]THE END[/b]
+
+</Text>
+              <Keywords />
+              <Jumps />
+              <Childs />
+            </Page>
+          </Childs>
+        </Folder>
+        <Folder>
+          <Name>Stealth</Name>
+          <Prefix />
+          <Childs>
+            <Page>
+              <Name>Stealth Action</Name>
+              <Text>[op]$Has_Journal=true[/op][op]$Ministry_Sneak=true[/op]
+You decide on taking the stealth route . This could be the most perilous route, but you're committed to getting in and out with that list without even the ministry knowing it's gone. 
+After a few days of prep, you begin your trek across the city.
+[img=4seconds.jpg][/img]
+After days of endless urban navigation you finally arrive at the Ministry of Information and ponder on your next move. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+
+You stare up at the imposing skyscraper - it must be at least 1500 feet tall. This means that they can't possibly watch all of it. Based on your research, you know you have at least two viable options here. You can either enter from the top, or you can go in through the ventilation system. Neither are small feats and you risk detection, or even worse, death. 
+
+The ventilation system will try your [b]willpower[/b], and going through the roof will try your [b]strength[/b]. Which way will you choose?
+
+[jump=Shadows From Above]Through the roof[/jump]
+[jump=Windy Passages]The ventilation system[/jump]</Text>
+              <Keywords>$Has_Journal,$Ministry_Sneak</Keywords>
+              <Jumps>Shadows From Above,Windy Passages</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Windy Passages</Name>
+              <Text>[op]$Ventilation_Entrance=true[/op][op]$Has_Journal=true[/op]
+</Text>
+              <Keywords>$Ventilation_Entrance,$Has_Journal</Keywords>
+              <Jumps />
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Shadows From Above</Name>
+              <Text>[op]$Sky_Entrance=true[/op]
+You decide to go through the roof of the building. The only problem is scaling the behemoth of a structure. In a city where air travel is so severely restricted, it's hard to imagine even thinking about some kind of airlift. Your only option is to scale the external shell of the building. Luckily the window grid system of the building allows for blind spots all the way up the exterior of the edifice.
+
+You make your way around to one of the sides of the monolithic pillar and find one of the pillars that will hide you from internal eyes on your way up.
+
+You pull out your scaling gear from your bag and affix the electrogrippers to your hands. Electrogrippers are a rather new technology. Designed to look something like a non-translucent, black cup, they atomically bond most materials to the inside of the cup for a short period of time.Even though they'll do the majority of the work, you know the task at hand will be exhausting. 
+
+You activate the pads after you strap them to your hands and wrists. The low hum of the pads sends tingles down your spine as you lift one hand up and place it on the wall. 
+
+Instantly your hand is glued to the structure. You lift your right hand just above the level of your left, deactivating the left cup as you firmly fasten your right handed pad to the smooth surface. You then lift it above your head to the next level and continue the pattern. 
+
+[cond=$Strength&gt;8][jump=All The Way]Keep climbing[/jump][/cond]
+[cond=$Strength&lt;8][jump=Struggling Upwards]Struggle upwards[/jump][/cond]
+</Text>
+              <Keywords />
+              <Jumps>All The Way,Struggling Upwards</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Struggling Upwards</Name>
+              <Text>Sweat rolls down your face as you struggle up the menacingly smooth surface. With only about half of the building behind you, your arms are on their last wind already. You're huffing and heaving. The hum of your electrogrippers resonating with the crosswinds throwing you back and forth. 
+As your vision blurs, you know you're in trouble. You're running out of time and options. Your grippers aren't going to have enough charge to get you to the top at your current pace. You have to act now. 
+
+[cond=($Intelligence&gt;7) and !$Ankle][jump=Shattering]Make a new path[/jump][/cond]
+[cond=($Intelligence&lt;7 or $Ankle)][jump=Fatigue]A long way down[/jump][/cond]</Text>
+              <Keywords>$Intelligence,$Ankle</Keywords>
+              <Jumps>Shattering,Fatigue</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>All The Way</Name>
+              <Text>Your knees rub against the smooth surface. A deceiving surface. Although as smooth as anything you've ever felt, the consistent rubbing of your inner knees for over 1400 feet have rubbed the sides of your pants completely raw.Your knees are leaving a trail of skin and blood as you shimmy up the final 50 feet of the surface. 
+
+You reach the edge of the roof, just as your grippers start to send off panic noises, intent on warning the user that the charge has been depleted. 
+As you roll over onto your back, you're covered in a mixture of sweat and blood. The heat from your head rolls off in the form of steam.
+
+After about 15 minutes without moving, you pull yourself together, looking down at the miniature city below. You've conquered the climb, but the real task remains - getting that list. 
+
+You search around for a way down. You pull up your dossier and find the correct floor for the IT servers holding the list data. 
+
+You find the main elevator and the maintenance staircase. 
+
+[cond=$Intelligence&lt;7] The elevator isn't an option because you just can't figure out how to get around the lock on it.[/cond]
+
+[cond=$Intelligence&gt;7]Because of your background experience in hacking, you can go through the elevator, directly to the IT floor, should you choose.
+
+[jump=IT Floor]Go directly to the server room[/jump] [/cond]
+
+[jump=Maintenance Staircase]Head through the maintenance stairway[/jump]
+</Text>
+              <Keywords>$Intelligence</Keywords>
+              <Jumps>IT Floor,Maintenance Staircase</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Fatigue</Name>
+              <Text>You push forward, mustering all your strength. Unable to push yourself further, you glance downwards at the faint bokeh of the city lights. You knew this was a ridiculously ambitious idea and if you had been stronger or had the option to do it differently, you might have seen success.
+
+As the charge on your left gripper runs out, you suddenly feel a calm come over you. You know your fate now. Instead of waiting for time on your right hand's cup to run out, you decide to untie your hand and let gravity take its course.
+
+[b]THE END[/b]</Text>
+              <Keywords />
+              <Jumps />
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Shattering</Name>
+              <Text>[op]$Smashing=true[/op]
+You're now out of time and options. Your only way into the building is directly in front of you: the glass window. You curl up into a ball, and position your feet flat on the glass in front of you. 
+
+Looking at the charges on your palms you have time for maybe three kicks before the pads die. You coil yourself as tightly as possible and push backwards away from the window, swinging you upwards.
+
+You collide against the window with brutal force, but it isn't enough. Your horizontal force only cracks the window. 
+
+You coil and prepare to strike again. Pushing off with your full strength, you hold on as tightly as you can, feeling the strain of the force against your wrists holding you against the building. 
+
+You pull downwards with your full force using your hands and wrists as the pivots and stretch out both feet as rigidly as possible and collide with the glass window. 
+
+The glass cracks further, but it's still not enough. Both pads are now blinking and alarming wildly and the hum is stuttering. They're giving out. Last chance.
+
+You coil. Push off. Pull down as hard as you can. As you whip yourself towards the window, you rip the pads off of the building pushing your feet through the window. A a shower of glass erupts around you.
+
+[img=glass.jpg][/img]
+
+[jump=Unintended Entrance]Unintended Entrance[/jump]</Text>
+              <Keywords>$Smashing</Keywords>
+              <Jumps>Unintended Entrance</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Unintended Entrance</Name>
+              <Text>You roll as you hit the ground, since you came in near the ceiling of the floor whose glass panel you rammed. The drop hits hard on your already tender ankles. You fear the worst as you raise your head to try and decipher where exactly you landed inside of this massive building. 
+
+You brush off flecks of glass as you try and gather yourself and your bearings. To your surprise, you find yourself inside of some kind of board room with table, chairs and projector.
+
+Somehow, you were able to dodge all of the tables and chairs and rolled to a safe position.
+
+Now you have to figure out your way to the elevator. You pull up your VIVI and associate your estimated location with the closest maintenance exit. It's your only way to make it to the server room. 
+
+You see that your closest exit is off to your right about 30 feet down the hallway. You slowly open the door and slowly move down the hallway. You realize your time is limited because you surely set off some kind of alarm by shattering the window so loudly.
+
+You sneak into the staircase and make your way up to the server farm, just a few levels above you.
+
+[jump=Maintenance Staircase]Head upstairs[/jump]
+</Text>
+              <Keywords />
+              <Jumps>Maintenance Staircase</Jumps>
+              <Childs />
+            </Page>
+            <Page>
+              <Name>Maintenance Staircase</Name>
+              <Text>[op]$Maintenance=true[/op][op]$Has_Journal[/op]
+</Text>
+              <Keywords>$Maintenance,$Has_Journal</Keywords>
+              <Jumps />
+              <Childs />
+            </Page>
+          </Childs>
+        </Folder>
+        <Folder>
+          <Name>Indirect</Name>
+          <Prefix />
+          <Childs>
+            <Page>
+              <Name>Talk The Talk</Name>
+              <Text>
+[img=4seconds.jpg][/img]
+It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+
+</Text>
+              <Keywords />
+              <Jumps />
+              <Childs />
+            </Page>
+          </Childs>
+        </Folder>
+        <Folder>
+          <Name>IT Room</Name>
+          <Prefix />
+          <Childs>
+            <Page>
+              <Name>IT Floor</Name>
+              <Text />
+              <Keywords />
+              <Jumps />
+              <Childs />
+            </Page>
+          </Childs>
+        </Folder>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Plan The Assault</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Planning</Name>
+          <Text />
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>The Club</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Entering</Name>
+          <Text />
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Boss Fight</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Beginning</Name>
+          <Text />
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Endings</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Ending 1</Name>
+          <Text />
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+  </Childs>
+</Book>

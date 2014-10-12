@@ -1,0 +1,130 @@
+.gallery_colorbox {
+	cursor: url(../img/zoomin.cur), pointer; 
+}
+
+#colorbox, #cboxOverlay{
+	position:fixed; 
+	top:0; 
+	left:0; 
+	width:100%; 
+	height:100%; 
+	z-index:9999;
+}
+#cboxWrapper{}
+#cboxOverlay{
+	background:#000;
+}
+#colorbox{
+}
+#cboxContent{
+	margin-top:20px;
+}
+.cboxIframe{
+	background:#fff;
+}
+#cboxError{
+	padding:50px; 
+	border:1px solid #ccc;
+}
+#cboxLoadedContent{
+	border:5px solid #FFFFFF; 
+	background:#FFFFFF;
+}
+#cboxTitle{
+	padding:5px; 
+	border:5px; 
+	color:#ccc;
+}
+#cboxTitle h2{
+	font-size:110%;
+	font-weight:bold ; 
+}
+#cboxCurrent{
+	position:absolute; 
+	top:-20px; 
+	right:0px; 
+	color:#ccc;
+}
+
+#cboxPrevious{
+	position:absolute; 
+	bottom:15px; 
+	left: 50%;
+	margin-left:-46px; 
+	background:url(../img/theme3.png) no-repeat; 
+	background-position:0px -16px;
+	width:34px; 
+	height:32px; 
+	text-indent:-9999px;
+}
+#cboxPrevious:hover{
+	background-position:0px -81px;
+}
+#cboxNext{
+	position:absolute; 
+	bottom:15px; 
+	left: 50%;
+	margin-left:12px; 
+	background:url(../img/theme3.png) no-repeat ; 
+	background-position:-63px -16px;
+	width:34px; 
+	height:32px; 
+	text-indent:-9999px;
+}
+#cboxNext:hover{
+	background-position:-63px -81px;
+}
+#cboxLoadingOverlay{
+	background:#000;
+}
+#cboxLoadingGraphic{
+	background:url(../img/loading.gif) no-repeat center center;
+}
+#cboxClose{
+	position:absolute; 
+	top:5px; 
+	right:-10px; 
+	display:block; 
+	background:url(../img/theme3.png) no-repeat ;
+	background-position:-35px 0px; 
+	width:28px; 
+	height:26px; 
+	text-indent:-9999px;
+}
+#cboxClose:hover{
+	background-position:-35px -29px; 
+}
+
+.cboxSlideshow_off #cboxSlideshow{
+	position:absolute; 
+	bottom:15px; 
+	left: 50%;
+    margin-left: -13px;
+	display:block; 
+	background:url(../img/theme3.png) no-repeat ;
+	background-position:-37px -130px; 
+	width:26px; 
+	height:32px; 
+	text-indent:-9999px;
+}
+
+.cboxSlideshow_off #cboxSlideshow:hover{
+	background-position:-37px -161px; 
+}
+
+.cboxSlideshow_on #cboxSlideshow{
+	position:absolute; 
+	bottom:15px; 
+	left: 50%;
+    margin-left: -13px;
+	display:block; 
+	background:url(../img/theme3.png) no-repeat ;
+	background-position:-37px -193px; 
+	width:26px; 
+	height:32px; 
+	text-indent:-9999px;
+}
+.cboxSlideshow_on #cboxSlideshow:hover{
+	background-position:-37px -224px; 
+}
+	

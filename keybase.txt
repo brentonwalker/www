@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/brentonwalker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brentonwalker.com
+  * I am brentonwalker (https://keybase.io/brentonwalker) on keybase.
+  * I have a public key with fingerprint 6DDF 7BF6 C957 A338 2CA2  6DEC C8D2 FFE1 47FC 0DC5
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6ddf7bf6c957a3382ca26decc8d2ffe147fc0dc5",
+            "host": "keybase.io",
+            "key_id": "c8d2ffe147fc0dc5",
+            "uid": "4dad86e5bba88d0a633b5a66808eff00",
+            "username": "brentonwalker"
+        },
+        "service": {
+            "hostname": "brentonwalker.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412888704,
+    "expire_in": 157680000,
+    "prev": "8be4895e674793a75b6bb4de2263e9c234f0ae6d122f98b7111c63f3e22e9fc6",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHoAnicbZFdSBRRFMd3t93CdaWeJCHQxkgoP+Z7ZjetUDOKsLJ9KPzY5s7c0UF3
+ZpqdVdf1ozBoSSKItXqIggSDwohStPCrVJISgghMKQkfDM18EcNKrDtSb96Xyz3n
+d/7nf+4ZTdpic9vHu6YKz432ddrfDv8O2/zs6sUoBjQpgvmiWDXcuGRFrYSGbiiq
+ifkwVpJkDsis6GU4gaJ4UhRIVoKiyEukLEOC5mQRl0QGy8SqtJBVgWSAEILZioZi
+6BFQJBTdhA9vJGhJkHgWMgAIPC/hAktRgBFYlsd5KMs4boEhaKhCECIaGFA1NbVO
+qKmGBtaUiaFUrSJCy7jVfzMsW9SCSEU3NFMTtRqUrjJN3WdVmxHdwusgCPwTCgBF
+ldAPoIJaaIQUTcV8BCJFU7GUCZogeZ7ncDoTg/W6YsCAYhEMhwyjY7WBtUiSB5Dm
+vQxkOZrzUgLHABYAWoIkyVLQK5IULeMCZCWCJGUvDziCIESWkikEQK8sspg12gVV
+w3wUsilUIsmQUqkKZtiAWNOr4TKnze62bXU5rB3a3Ak7/m82pXXbevpSsivKnsTd
+a97c6YwzeWpbVkdaS7d2r+jy9GCD86zf3/5iZrFiSFua78xo10t/DjR4slcnHU+b
+U5dT4hnnk5vjwX3hrWmXOhy9V3YNLXgKHi8m9Ov28f56fvoX5QklcinMcdU1luaP
+P1wpi7+MtJvq1YKe3mPxnD/rsdulRyTXStvN66d/3J+ojnWlH9L7Wl+vUaAzv2XW
+eXgsd778c1JqXXAgv2w41nNgonQ2svfDUne9Xpg1M7c8MnmicepWcd578fmzyTd7
+QsWNnt0Vnjuzq58Wiq6VZ9XkjLxTSk5Ftz9KPLjTORf44vB/+3pj/vuTj3cb9ycO
+xkuOxh78BaFgGws=
+=vpdr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brentonwalker
+
+==================================================================

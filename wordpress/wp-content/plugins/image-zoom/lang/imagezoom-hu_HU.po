@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-11-19T21:48:53+00:00\n"
+"Last-Translator: Metoyou <http://webdesignelemek.hu>\n"
+"Last-Translator: DvnyiFerenc <http://webdesignelemek.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: Hungary\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin allows a dynamic zoom on the images (based on the highslide javascript library)"
+msgstr "Ez a plugin lehetővé teszik hogy a képekre kattintva kinagyítva megtekinthessük őket!"
+
+msgid "Here is the parameters of the plugin. Please modify them at your convenience."
+msgstr "Itt látható a plugin paraméterei. Kérem módosítsa az ön izlésének megfelelően."
+
+msgid "What is the clipped dimensions of the zoomed image?"
+msgstr "Mekkora legyen maximum a kép nagyított állapotban?"
+
+msgid "Max width:"
+msgstr "Max. Szélesség:"
+
+msgid "Max height:"
+msgstr "Max. Magasság:"
+
+msgid "What is the other parameters?"
+msgstr "Mik a további paraméterek?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Átmenet idő ha a diavetítés be van kapcsolva:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Autómatikusan induljon el a diavetítés:"
+
+msgid "The position of the button (play, next, ...) (e.g top center):"
+msgstr "A gombok helye (Indít,Tovább,...) (Pl. top center):"
+
+msgid "The opacity of the background:"
+msgstr "Háttér átlátszósága:"
+
+msgid "Parameters"
+msgstr "Paraméterek"
+
+msgid "Manage translations"
+msgstr "Fordítások kezelése"
+
+msgid "This form is an easy way to contact the author and to discuss issues / incompatibilities / etc."
+msgstr "Ez a form egy egyszerű módja annak, hogy kapcsolatba lépjünk a szerzővel és kérdéseket tegyünk fel / inkompatibilitás / stb.."
+
+msgid "Give feedback"
+msgstr "Visszajelzés küldése"
+
+msgid "Here is the plugins developped by the author"
+msgstr ""
+
+msgid "Other possible plugins"
+msgstr ""
+
+msgid "Here is the plugins developped by the author:"
+msgstr ""
+

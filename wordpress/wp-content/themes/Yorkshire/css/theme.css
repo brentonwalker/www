@@ -1,0 +1,747 @@
+/* Layout */
+
+#page{
+	background: #fffdf8;
+	margin-top: 50px;
+}
+
+#primary,#secondary{
+	padding-top: 30px;
+}
+
+#main{
+	padding: 20px 0px;
+}
+
+/* Header */
+
+.logo {
+	text-align: center;
+}
+
+.logo h1{
+	text-transform: uppercase;
+	margin:20px 0px 0px 0px;
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.logo h1 a:link, .logo h1 a:visited{
+	color:#111;
+}
+
+.logo h2{
+	font-size: 16px;
+	
+}
+
+.topbar{
+	height:40px;
+	border-bottom: 1px solid #c5c5c5;
+}
+
+.topbar h3{
+	line-height: 40px;
+	padding-left: 0px;
+	color: #E72D2E;
+	font-size: 16px;
+	float: left;
+	text-transform: uppercase;
+}
+
+.postsnav{
+	float:right;
+	margin-right: 0px;
+	line-height: 40px;
+}
+
+.pnavi{
+	float:left;
+	margin-left: 20px;
+}
+
+.pnavi a:link,.pnavi a:visited{
+	color:#a5a5a5;
+}
+/* Slider */
+
+#slider{
+	width:920px;
+	height: 420px;
+	background: #e8e2da;
+}
+
+
+/* Menu */
+
+.topnavi{
+	height:70px;
+	text-transform: uppercase;
+	font-size: 12px;
+	
+}
+#submenu{
+
+}
+.sf-menu, .sf-menu * {
+
+	padding:		0;
+	list-style:		none;
+}
+
+.sf-menu li a {
+	padding:	30px 10px 18px 10px;
+	border: none;
+}
+
+.sf-menu li a:hover {
+	background:#FFFDF8 url(../images/menu.png) top repeat-x;
+	color:#e72d2e;
+}
+
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			14em; /* left offset of submenus need to match (see below) */
+	margin:0px;
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu ul li a {
+	padding:	12px 10px 12px 10px;
+	background: #E0D9D0;
+}
+
+.sf-menu ul li a:hover {
+	background: #E72D2E;
+	color:#fff;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	left:			0;
+	top:			65px; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
+	left:			14em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
+	left:			14em; /* match ul width */
+	top:			0;
+}
+/*** DEMO SKIN ***/
+.sf-menu {
+	/*float:			left;*/   /* commented this out to make the menu center */
+	margin-bottom:	1em;
+	margin:0 auto;
+}
+.sf-menu a {
+	border-left:	1px solid #fff;
+	border-top:		1px solid #CFDEFF;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-menu a, .sf-menu a:visited { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#777;
+}
+.sf-menu li {
+
+}
+.sf-menu li li {
+	background:		#AABDE6;
+}
+.sf-menu li li li {
+	background:		#9AAEDB;
+}
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#FFFDF8;
+	outline:		0;
+}
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('superfish/superfish-1.4.8/images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator, li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator {
+	background-position:  -10px 0;
+}
+.sf-menu ul a > .sf-sub-indicator {
+	background-position:  0 0;
+}
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator, .sf-menu ul a:hover > .sf-sub-indicator, .sf-menu ul a:active > .sf-sub-indicator, .sf-menu ul li:hover > a > .sf-sub-indicator, .sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('superfish/superfish-1.4.8/images/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+/* based on stu nichols css play http://www.cssplay.co.uk/menus/centered.html */
+#wrapper {
+	text-align:center;
+}
+.container {
+	clear:both;
+	text-decoration:none;
+}
+.sf-menu {
+	display:table;
+	margin: 0 auto;
+}
+
+/* Searchform */
+
+
+#searchform{
+	background:#FFFDF8;
+}
+
+input#s{
+	width:175px;
+}
+/* Posts */
+
+h2.index-title {
+    font-size: 16px;
+    padding:0px 0px 0px 20px;
+    font-weight: bold;
+    margin:0px 0px 30px 0px;
+    color:#fff;
+    background: #E72D2E;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+article.post,article.page{
+	margin-bottom: 30px;
+}
+header.entry-header{
+	
+}
+
+h1.entry-title{
+	margin-bottom: 5px;
+	color: #111;
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 100%;
+}
+
+h1.entry-title a:link, h1.entry-title a:visited{
+	color:#111;
+}
+
+.entry-meta{
+	font-size: 10px;
+	text-transform: uppercase;
+	color:#e72d2e;
+}
+
+.leftbox{
+	position: relative;
+	width: 250px;
+	height:200px;
+	background: #e8e2da;
+	float: left;
+}
+img.postimg{
+	margin:10px 10px;
+}
+
+.rightbox{
+	width:310px;
+	float:left;
+	margin-left:30px;
+}
+
+.datebox{
+	width:50px;
+	height: 50px;
+	background:#e72d2e;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	text-align: center;
+	color: #fff; 
+}
+
+.dmonth{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 12px;
+	line-height: 100%;
+}
+
+/* Sidebar */
+
+
+
+/* =Widgets
+----------------------------------------------- */
+
+.widget {
+	margin: 0 0px 30px 0px;
+	background: #f8f5ee;
+	
+}
+
+h1.widget-title, h3.sidetitl {
+    font-size: 16px;
+    padding:0px 0px 0px 20px;
+    font-weight: bold;
+    margin:0px;
+    color:#fff;
+    background: #E72D2E;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.widget ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 20px 20px 20px;
+}
+
+.widget li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.widget ul ul {
+    list-style-type: none;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px 0px;
+}
+
+.widget ul li {
+    list-style-type: none;
+    margin: 0px;
+    margin: 0px 0px;
+    color: #777;
+}
+
+.widget ul li a:link,.widget ul li a:visited {
+    color: #777;
+    text-decoration: none;
+}
+
+.widget ul li a:hover{
+	color:#F5634A;
+}
+
+.widget.widget_categories ul li,.widget.widget_pages ul li,.widget.widget_archive ul li,.widget.widget_links ul li,.widget.widget_meta ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 7px 0px;
+}
+
+.widget.widget_recent_entries ul li  {
+	padding: 7px 0px;
+     border-bottom: 1px solid #ddd;
+}
+
+.widget ul#recentcomments li.recentcomments {
+     border-bottom: 1px solid #ddd;
+    padding: 7px 0;
+}
+
+.widget .textwidget p {
+    padding: 0px 0px;
+}
+
+.widget .tagcloud {
+    padding: 0px 0px 20px 0px;
+}
+
+.widget .tagcloud a{
+	color:#F5634A;
+}
+
+.widget #calendar_wrap{
+	padding:0px 20px 20px 20px;
+	color: #fff;
+}
+
+.squarebanner{
+	margin:0px 0px;
+}
+
+.squarebanner ul{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 10px 10px !important;
+	background: #F8F5EE;
+
+}
+
+.squarebanner ul li{
+	margin:10px 10px 0px 0px;
+	list-style:none;
+	float:left;
+}
+
+
+li.rbanner{
+	margin-right:0px!important;
+}
+
+
+/* Footer widgets */
+
+
+#bottom{
+	margin:0px;
+	padding:10px 0px 30px 0px;
+	background:#434343;
+	}
+
+#bottom ul{
+	margin:0px;
+	padding:0px;
+}
+
+h3.bothead{
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom:10px;
+	color:#fff;
+	text-transform: uppercase;
+	}
+	
+.botwid{
+	padding:30px 0px;
+	color:#aaa;
+	list-style:none;
+	width:280px;
+	float:left;
+
+	}
+	
+.botwid ul {
+	list-style-type: none;
+	margin:  0px;
+	padding: 0px 0px 0px 0px ;
+
+
+	}
+.botwid li{
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0px 0px;
+   border-bottom: 1px solid #545454;
+	}
+.botwid ul ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	background-repeat:no-repeat;
+		}
+
+.botwid ul ul ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+	}
+
+.botwid ul ul ul ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border:0;
+
+	}
+
+.botwid ul li {
+	height:100%;
+	line-height:18px;
+	clear: left;	
+	list-style-type: none;
+	}
+	
+.botwid ul li a:link, .botwid ul li a:visited  {
+	
+	color: #eee;
+	text-decoration: none;
+	padding: 7px 0px 7px 0px;
+	display:block;
+
+
+	}
+
+.botwid ul li a:hover{
+
+	color: #fff;
+	}
+
+.botwid p{
+	padding: 7px 0px;
+	margin:0;
+	line-height:150%;
+	}
+
+.botwid table {
+	width:100%;
+	text-align:center;
+	color:#787d7f;
+	}			
+.botwid ul#recentcomments li.recentcomments {
+     border-bottom: 1px solid #545454;
+    padding: 7px 0;
+}
+
+/* COMMENTS */
+#comments {
+    margin: 20px 0px 20px 0px;
+    padding: 0px 0px;
+  
+}
+
+h2.comments-title {
+    padding: 10px 10px ;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 10px 0px;
+    color: #fff;
+	background: #E72D2E;	
+    }
+    
+#comments ol.commentlist {
+    clear: both;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+}
+.space{
+	height:30px;
+	display:block;
+}
+#comments ol.commentlist li.comment,#comments ol.commentlist li.pingback {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+
+.comment-avatar{
+	width:64px;
+	height:64px;
+	float:left;
+	margin-right:20px;
+}
+
+.comment-avatar img{
+	border-radius: 5px;
+	
+}
+
+ol.commentlist li .comment-author {
+	font-style: none;
+	position:relative;
+	padding-bottom: 10px;
+	
+}
+
+cite.fn {
+    color: #222;
+    font-style:normal;
+    font-weight:bold;
+    font-size:16px;
+}
+
+cite.fn a:link,cite.fn a:visited {
+	color:#222;
+}
+.comment-content{
+	margin-left:84px;
+	border-top:1px solid #eee;
+	padding:15px 0px;
+}
+
+
+
+ol.commentlist li .reply {
+	float:right;
+    background: #A5A5A5;
+    color: #fff;
+    font-size: 12px;
+    padding:3px 10px;
+    border-radius:3px;
+    display:inline-block;
+   position:absolute;
+   top:10px;
+   right: 0px;
+}
+
+ol.commentlist li .reply a {
+	color:#fff;
+	text-shadow:1px 1px 0px #444;
+}
+
+ol.commentlist li ul.children {
+    list-style: none;
+    text-indent: 0;
+    margin: 0px 0 0 0px 50px;
+}
+
+.comment-nav {
+    height: 20px;
+    padding: 5px;
+}
+
+.comment-nav a:link,.comment-nav a:visited {
+    color: #777;
+}
+
+#respond {
+    margin: 30px 0;
+
+}
+
+#respond h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    padding: 5px 0px;
+    margin:0px 0px;
+}
+
+#commentform {
+    padding: 0px 0px;
+}
+
+#commentform p {
+    color: #777;
+    margin: 5px 0;
+}
+
+.form-allowed-tags{
+	font-size:13px;
+}
+
+#respond label {
+    display:inline;
+    color: #777;
+    padding: 5px 0;
+}
+
+#respond input {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #777;
+    margin: 0 10px 10px 0;
+    padding: 5px;
+}
+
+#commentform input {
+    width: 50%;
+    display:block;
+    margin-top:5px;
+}
+
+#respond input#submit {
+	width:130px;
+    background:#eee;
+    color: #555;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+textarea#comment {
+    display:block;
+    margin-top:5px;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 70%;
+    color: #333;
+    margin: 5px 0 0;
+    padding: 10px 10px;
+}
+
+
+.form-allowed-tags{
+	padding:20px 0px;
+
+}
+
+
+
+ol.commentlist li .comment-meta,#respond label small {
+    font-size: 10px;
+}
+
+ol.commentlist li ul.children li.depth-2,ol.commentlist li ul.children li.depth-3,ol.commentlist li ul.children li.depth-4,ol.commentlist li ul.children li.depth-5 {
+    margin: 0 0 0 50px;
+}	
+
+/* Footer */
+
+.site-footer{
+	background: #343434;
+	padding:20px 0px;
+	font-size:12px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.fcred{
+	color:#fff;
+	padding:0px 30px;
+}
+
+.fcred a:link, .fcred a:visited{
+	color:#fff;
+	text-decoration:none;
+	
+}

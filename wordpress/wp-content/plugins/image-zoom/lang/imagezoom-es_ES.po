@@ -1,0 +1,125 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-07T14:51:50+00:00\n"
+"Last-Translator: genteblackberry <http://newgenteblackberry.com>\n"
+"Last-Translator: Wildsouth <wildsout@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "Tema 01"
+
+msgid "Theme 02"
+msgstr "Tema 02"
+
+msgid "Theme 03"
+msgstr "Tema 03"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "Su tema contiene (i.e. in %s file) una referencia explícita a la biblioteca jQuery javascript."
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "Esta referencia puede provocar fallos del plugin. Por lo tanto, si el algo no funciona, por favor suprima esta referencia o insertela justo después de la declaración %s."
+
+msgid "This plugin allows a dynamic zoom on the images (based on the colorbox javascript library)"
+msgstr ""
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "¿Cuáles son las dimensiones recortadas de la imagen ampliada?"
+
+msgid "Max width:"
+msgstr "Ancho máximo:"
+
+msgid "Max height:"
+msgstr "Altura máxima:"
+
+msgid "What is the text for the frontend?"
+msgstr "¿Cuál es el texto de la pagina principal?"
+
+msgid "Previous:"
+msgstr ""
+
+msgid "Next:"
+msgstr ""
+
+msgid "Close:"
+msgstr ""
+
+msgid "Play:"
+msgstr ""
+
+msgid "Pause:"
+msgstr ""
+
+msgid "The image counter:"
+msgstr ""
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr ""
+
+msgid "What is the theme?"
+msgstr ""
+
+msgid "Choose the theme:"
+msgstr ""
+
+msgid "Theme 01 is : %s."
+msgstr ""
+
+msgid "Theme 02 is : %s."
+msgstr ""
+
+msgid "Theme 03 is : %s."
+msgstr ""
+
+msgid "What are the other parameters?"
+msgstr ""
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Tiempo de transición, si la presentación está en:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr ""
+
+msgid "The opacity of the background:"
+msgstr "La opacidad de los antecedentes:"
+
+msgid "Advanced parameters?"
+msgstr ""
+
+msgid "List of page exclusions:"
+msgstr ""
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr ""
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr ""
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Manage translations"
+msgstr "Administrar traducciones"
+
+msgid "Give feedback"
+msgstr "Deje su comentario"
+
+msgid "Other plugins"
+msgstr ""
+

@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-12-09T23:03:27+00:00\n"
+"Last-Translator: Rene <http://thefalljourney.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: Croatia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin allows a dynamic zoom on the images (based on the highslide javascript library)"
+msgstr "Ovaj dodatak omogućuje dinamičko povećanje slika (bazirano na highslide javascript zbirci)"
+
+msgid "Here is the parameters of the plugin. Please modify them at your convenience."
+msgstr "Ovo su postavke dodatka. Izmijenite po želji."
+
+msgid "What is the clipped dimensions of the zoomed image?"
+msgstr "Koje su odrezane dimenzije povećane slike?"
+
+msgid "Max width:"
+msgstr "Maksimalna širina:"
+
+msgid "Max height:"
+msgstr "Maksimalna visina:"
+
+msgid "What is the other parameters?"
+msgstr "Koja je druga postavka?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Vrijeme izmjene u prezentaciji:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Automatsko započinjanje prezentacije:"
+
+msgid "The position of the button (play, next, ...) (e.g top center):"
+msgstr "Položaj sučelja (započni, slijedeća, ...) (npr. top center):"
+
+msgid "The opacity of the background:"
+msgstr "Prozirnost pozadine:"
+
+msgid "What is the text for the frontend?"
+msgstr "Kako glasi tekst za prikaz u sučelju?"
+
+msgid "Load:"
+msgstr "Učitavanje:"
+
+msgid "Expand:"
+msgstr "Proširi:"
+
+msgid "Previous:"
+msgstr "Prethodna:"
+
+msgid "Next:"
+msgstr "Sljedeća:"
+
+msgid "Move:"
+msgstr "Pomakni:"
+
+msgid "Close:"
+msgstr "Zatvori:"
+
+msgid "Play:"
+msgstr "Započni:"
+
+msgid "Pause:"
+msgstr "Prekini:"
+
+msgid "Restore:"
+msgstr "Vraćanje u prethodno stanje:"
+
+msgid "Parameters"
+msgstr "Postavke"
+
+msgid "Manage translations"
+msgstr "Ostali jezici"
+
+msgid "This form is an easy way to contact the author and to discuss issues / incompatibilities / etc."
+msgstr "Ovim formularom lako možete kontaktirati autora i raspravljati o problemima / nekompatibilnosti/ itd."
+
+msgid "Give feedback"
+msgstr "Mišljenje o dodatku"
+
+msgid "Here is the plugins developped by the author"
+msgstr "Ostali dodaci istog autora"
+
+msgid "Other possible plugins"
+msgstr "Ostali dodaci"
+
+msgid "Here is the plugins developped by the author:"
+msgstr "Ostali dodaci istog autora:"
+

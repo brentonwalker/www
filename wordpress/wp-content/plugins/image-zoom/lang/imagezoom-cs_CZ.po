@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-02T10:32:06+00:00\n"
+"Last-Translator: jurajh <>\n"
+"Last-Translator: LukasProkop <http://lukasp.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: Czech Republic\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin allows a dynamic zoom on the images (based on the highslide javascript library)"
+msgstr "Tento plugin umožňuje dynamické zvětšení obrázku (na základě Highslide javascript knihovny)"
+
+msgid "Here is the parameters of the plugin. Please modify them at your convenience."
+msgstr "Zde jsou parametry pluginu. Upravte je dle vašich potřeb."
+
+msgid "What is the clipped dimensions of the zoomed image?"
+msgstr "Jaké jsou maximální rozměny zvětšeného obrázku?"
+
+msgid "Max width:"
+msgstr "Maximální šířka:"
+
+msgid "Max height:"
+msgstr "Maximální výška:"
+
+msgid "What is the other parameters?"
+msgstr "Další volby nastavení ..."
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Čas zobrazení snímků při prazentaci:"
+
+msgid "The position of the button (play, next, ...) (e.g top center):"
+msgstr "Pozice tlačítek (spustit, další, ...) (např. top center):"
+
+msgid "The opacity of the background:"
+msgstr "Průhlednost pozadí:"
+
+msgid "Parameters"
+msgstr "Nastavení"
+
+msgid "Manage translations"
+msgstr "Správa překladů"
+
+msgid "This form is an easy way to contact the author and to discuss issues / incompatibilities / etc."
+msgstr "Toto je nejsnažší způsob, jak kontaktovat autora a konzultovat potíže / nekompatibilnost / apod."
+
+msgid "Give feedback"
+msgstr "Zpětná vazba"
+
+msgid "Here is the plugins developped by the author"
+msgstr "Další pluginy autora"
+
+msgid "Other possible plugins"
+msgstr "Další pluginy"
+
+msgid "Here is the plugins developped by the author:"
+msgstr "Další pluginy autora:"
+
+msgid "Theme 01"
+msgstr "Vzhled 01"
+
+msgid "Theme 02"
+msgstr "Vzhled 02"
+
+msgid "Theme 03"
+msgstr "Vzhled 03"
+
+msgid "Previous:"
+msgstr "Předchozí"
+
+msgid "Next:"
+msgstr "Další"
+
+msgid "Close:"
+msgstr "Zavřít"
+
+msgid "Play:"
+msgstr "Spustit"
+
+msgid "Pause:"
+msgstr "Pauza"
+
+msgid "What is the theme?"
+msgstr "Jaký je vzhled?"
+
+msgid "Choose the theme:"
+msgstr "Vyber si vzhled:"
+
+msgid "Theme 01 is : %s."
+msgstr "Vzhled 01 je: %s"
+
+msgid "Theme 02 is : %s."
+msgstr "Vzhled 02 je: %s"
+
+msgid "Theme 03 is : %s."
+msgstr "Vzhled 03 je: %s"
+
+msgid "What are the other parameters?"
+msgstr "Jaké jsou ostatní parametry?"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Automaticky spustit prezentaci, když se spustí galerie:"
+
+msgid "Advanced parameters?"
+msgstr "Další parametry?"
+
+msgid "Other plugins"
+msgstr "Ostatní pluginy"
+

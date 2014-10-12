@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Brenton Walker</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="shortcut icon" href="../favicon.ico">
+		<!-- <link rel="stylesheet" type="text/css" href="css/component.css" /> -->
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+
+	<body>
+		<div>
+	<header class="top">
+		<h1><strong>Brenton Walker</strong></h1>
+		<h2 class="bio">a graduate student in the Entertainment Arts and Engineering program at
+		<p style="color:red;">The University of Utah.</p></h2>
+	</header>
+
+	<!-- begin main links -->
+		<nav class="cl-effect-14">
+			<ul class="services">
+
+				<li class="service blog">
+					<a href="http://blogs.eae.utah.edu/bwalker">EAE Blog</a>
+				</li>
+<!--
+				<li class="service personal ">
+					<a href="http://brentonwalker.com/blog">Personal Blog</a>
+				</li>
+-->
+
+				<li class="service twitter">
+					<a href="http://twitter.com/brentonwalker">Twitter</a>
+				</li>
+
+
+				<li class="service linkedIn">
+					<a href="http://linkedin.com/in/brentonwalker/">LinkedIn</a>
+				</li>
+
+				<li class="service portfolio">
+					<a href="http://brentonwalker.com/resume.pdf">Resume</a>
+				</li>
+<!---
+				<li class="service inspiration">
+					<a href="http://thebdub.com">Inspiration</a>
+				</li>
+-->
+<!--
+				<li class="service unplayed">
+					<a href="http://brentonwalker.com/unplayed">Unplayed</a>
+				</li>
+
+				<li class="service portfolio">
+					<a href="http://brentonwalker.com/portfolio">Portfolio</a>
+					-->
+					<!--
+					 class="tooltip">Portfolio
+					<span>
+					<b></b>
+					Check back shortly...
+					</span>
+					</a>
+					-->
+				</li>
+
+			</ul>
+		</nav>
+		</div>
+
+<br></br>
+
+		
+<script>
+	var services = document.getElementsByClassName('service'),
+		len = services.length;
+		
+	while(len--) {
+		var me = services[len];
+		
+		me.addEventListener('mouseover', function(event) {
+			document.body.className = this.className.replace('service ', '');
+		}, false);
+	}
+</script>	
+
+<!-- Don't give me that look, you know exactly what this is. Putting it down here so that things load faster, duh. -->
+
+<script> 
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40438127-2', 'brentonwalker.com');
+  ga('send', 'pageview');
+
+</script>
+	</body>
+<!-- This site inspired by http://lkd.to/mbarvian -->
+</html>

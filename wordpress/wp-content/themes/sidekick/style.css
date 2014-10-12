@@ -1,0 +1,244 @@
+/*
+Theme Name: Sidekick
+Theme URI: https://wpcom-themes.svn.automattic.com/sidekick/
+Author: Automattic
+Author URI: http://automattic.com/
+Description: The single-column, widget-free child theme of Superhero.
+Version: 1.0
+Tags: gray, light, one-column, custom-background, custom-header, custom-menu, featured-images, flexible-header,post-formats, rtl-language-support, sticky-post
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: superhero
+*/
+
+@import url('../superhero/style.css');
+
+#page {
+	padding-top: 0;
+}
+#main {
+	margin: 0 auto;
+	width: 100%;
+}
+#masthead-wrap {
+	background-color: #f2f2f2;
+	-webkit-box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
+	position: relative;
+}
+.logged-in #masthead-wrap {
+	top: 0;
+}
+.demo-site #masthead-wrap {
+	top: 0;
+}
+.demo-site.logged-in #masthead-wrap {
+	top: 0;
+}
+.wp-admin .logged-in #masthead-wrap {
+	top: 0;
+}
+#masthead {
+	margin: 0 auto 10px auto;
+	padding: 25px 0;
+}
+#masthead hgroup {
+	padding-left: 20px;
+	width: 47%;
+}
+.site-title,
+.site-title a {
+	color: #262626;
+}
+#primary,
+#content {
+	float: none;
+	margin-right: 0;
+	width: 100%;
+}
+.hentry-wrap {
+	position: relative;
+	width: 100%;
+}
+.hentry-wrap.featured {
+	overflow: hidden;
+	margin-bottom: 45px;
+	padding-top: 250px;
+}
+.hentry-wrap.featured .hentry {
+	margin-bottom: 5px;
+}
+.hentry-wrap .wp-post-image {
+	display: block;
+	position: absolute;
+		top: 0;
+		left: 0;
+	width: 100%;
+	height: auto;
+}
+.hentry {
+	border-bottom-width: 0;
+	margin: 0 auto 50px auto;
+	position: relative;
+	width: 620px;
+}
+#comments {
+	margin: 0 auto;
+	width: 620px;
+}
+.custom-background .comments-area {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	padding: 1.5em 25px 0;
+}
+.site-content .site-navigation,
+.paging-navigation,
+.post-navigation {
+	margin: 0 auto;
+	max-width: 100%;
+	overflow: hidden;
+	width: 620px;
+}
+.nav-previous {
+	float: left;
+	width: 49%;
+}
+.nav-next,
+.next-image {
+	float: right;
+	text-align: right;
+	width: 49%;
+}
+#colophon-wrap {
+	background-color: #f2f2f2;
+	padding: 0 0 25px 0;
+}
+
+/* =Infinity Styles
+-------------------------------------------------------------- */
+
+.infinite-scroll #wrapper:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+.infinite-scroll #content {
+	margin-bottom: 1.5em;
+}
+.infinite-scroll.neverending #content {
+	margin-bottom: 1.5em;
+}
+#infinite-footer .container {
+	float: none;
+}
+.infinite-loader {
+	clear: both;
+	color: #333;
+	padding: 0 0 1.5em 0;
+}
+#infinite-handle {
+	margin: 0 auto 3em auto;
+}
+#infinite-handle span {
+	border: 0 none;
+	clear: both;
+}
+.infinite-scroll .infinite-wrap {
+	border: 0 none;
+	padding: 0;
+}
+
+/* Elements to hide: (footer widgets, post navigation, regular footer) */
+.infinite-scroll #nav-below,
+.infinite-scroll.neverending .footer {
+	display: none;
+}
+
+/* Hooks to infinity-end body class to restore footer */
+.infinity-end.neverending .footer {
+	display: block;
+}
+
+img#wpstats {
+	background-color: #ccc;
+}
+
+
+/* Media queries for responsive design
+--------------------------------------------- */
+
+/* --- iPad Portrait --- */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/* --- Smartphones and small Tablet PCs --- */
+@media screen and (max-width: 767px) {
+	.hentry,
+	#comments {
+		width: 100%;
+	}
+	#comments {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:    border-box;
+		box-sizing:         border-box;
+		padding: 0 25px;
+	}
+	.site-content .site-navigation,
+	.paging-navigation,
+	.post-navigation,
+	#colophon-wrap {
+		padding-right: 3%;
+		padding-left: 3%;
+		width: 94%;
+	}
+}
+
+/* --- Smartphones (portrait and landscape) --- */
+@media screen and (max-width : 600px) {
+	#masthead hgroup {
+		padding-left: 0;
+		width: 100%;
+	}
+	.hentry-wrap.featured {
+		padding-top: 0;
+	}
+	.hentry-wrap .wp-post-image {
+		position: relative;
+	}
+}
+
+
+/* ---------added------------ */
+
+div#disqus_thread {
+  width: 620px;
+  padding-top: 25px;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+
+body,
+button,
+input,
+select,
+textarea {
+	color: #262626;
+	font-family: 'Verdana', sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.0;
+}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	clear: both;
+	font-weight: 400;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}

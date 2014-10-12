@@ -1,0 +1,76 @@
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	.container {
+	}
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		li {
+			display:inline-block;
+			position: relative;
+
+			margin-right: 35px;
+			padding: 35px 0
+		}
+		
+		li:hover > ul {
+			display: block;
+		}
+	}
+	
+	a {
+		display: block;
+		text-decoration: none;
+		color: #444;
+	}
+	
+	ul ul {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 99999;
+
+		background: white;
+		padding: 20px 0;
+		
+		.drop-shadow(0, 1px, 2px, 0.15);
+		.linear-gradient(#107FC9, ~"#FFFFFF 0%, #F6F6F6 100%");
+		
+		/* Second level menu items */
+		
+		li {
+			padding: 0 25px;
+			margin-right: 0;
+		}
+		
+		ul {
+			left: 100%;
+			top: -20px;
+			
+			/* Remove the drop shadow */
+			.drop-shadow(1px, 1px, 1px, 0.15);
+		}
+
+		a {
+			padding: 5px 0;
+			width: 160px;
+		}
+	}
+}
+
+.mobilenav{
+	display:block;
+	text-decoration: none;
+	color: #444;
+	padding: 30px 25px;
+	
+	text-align: center;
+	font-size: 1.35em;
+	font-weight: 500;
+}

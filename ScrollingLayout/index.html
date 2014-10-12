@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Brenton Walker Portfolio</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Brenton Walker" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>A Brenton Walker Gamebook</span>
+				<h1>Inforunners</h1>
+				<nav>
+					<a href="http://brentonwalker.com" class="icon-arrow-left" data-info="Go home">Brentonwalker.com</a>
+				</nav>
+			</header>	
+			<div id="cbp-fbscroller" class="cbp-fbscroller">
+				<nav>
+					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
+					<a href="#fbsection2">Section 2</a>
+				</nav>
+				<section id="fbsection1"></section>
+				<section id="fbsection2"></section>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script src="js/jquery.easing.min.js"></script>
+		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+		<script src="js/waypoints.min.js"></script>
+		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+		<script src="js/jquery.debouncedresize.js"></script>
+		<script src="js/cbpFixedScrollLayout.min.js"></script>
+		<script>
+			$(function() {
+				cbpFixedScrollLayout.init();
+			});
+		</script>
+	</body>
+</html>

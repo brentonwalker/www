@@ -1,0 +1,1073 @@
+# Copyright SiteOrigin (c) 2013
+# This file is distributed under the GNU General Public License 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: origami 1.5.15\n"
+"POT-Creation-Date: 2013-11-05T14:44:07+02:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+msgid "Not Found"
+msgstr ""
+
+msgid "We couldn't find what you were looking for."
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Daily Archives: %s"
+msgstr ""
+
+msgid "Monthly Archives: %s"
+msgstr ""
+
+msgid "Yearly Archives: %s"
+msgstr ""
+
+msgid "Posts Tagged: %s"
+msgstr ""
+
+msgid "Posts in Category: %s"
+msgstr ""
+
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "Blog Archives"
+msgstr ""
+
+msgid "Newer Entries"
+msgstr ""
+
+msgid "Older Entries"
+msgstr ""
+
+msgid "Posts By %s"
+msgstr ""
+
+msgid "Password Required"
+msgstr ""
+
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Comments are Disabled"
+msgstr ""
+
+msgid "dismiss"
+msgstr ""
+
+msgid "Create custom tileable background images using our free <a href='%s' target='_blank'>background image generator</a>."
+msgstr ""
+
+msgid "Hi! I'm Greg from SiteOrigin. I hope you enjoy using %s. Sign up to <a href='%s' target='_blank'>our newsletter</a> if you'd like more free themes and exclusive offers."
+msgstr ""
+
+msgid "Basic Left"
+msgstr ""
+
+msgid "This Is The First Line"
+msgstr ""
+
+msgid "This is The Second"
+msgstr ""
+
+msgid "An Action Button"
+msgstr ""
+
+msgid "Basic Right"
+msgstr ""
+
+msgid "Big Headline"
+msgstr ""
+
+msgid "Prebuilt Slide Layouts"
+msgstr ""
+
+msgid "Are you sure you want to replace your current slide content with this prebuilt layout?"
+msgstr ""
+
+msgid "Prebuilt Layouts"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Demo Slider"
+msgstr ""
+
+msgid "Slider: "
+msgstr ""
+
+msgid "Custom Home Page"
+msgstr ""
+
+msgid "Home Page"
+msgstr ""
+
+msgid "Page Builder"
+msgstr ""
+
+msgid "Advanced functionality like the ability to create post type and page templates"
+msgstr ""
+
+msgid "Insert"
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Columns deleted"
+msgstr ""
+
+msgid "Widget deleted"
+msgstr ""
+
+msgid "Are you sure you want to load this layout? It will overwrite your current page."
+msgstr ""
+
+msgid "Edit %s Widget"
+msgstr ""
+
+msgid "Edit Home Page"
+msgstr ""
+
+msgid "ON"
+msgstr ""
+
+msgid "OFF"
+msgstr ""
+
+msgid "Home page updated. <a href=\"%s\">View page</a>"
+msgstr ""
+
+msgid "Preview Changes"
+msgstr ""
+
+msgid "Save Home Page"
+msgstr ""
+
+msgid "This interface requires Javascript"
+msgstr ""
+
+msgid "SiteOrigin themes include a unique page building tool."
+msgstr ""
+
+msgid "You can use this tool to create home and sub pages, filled your own widgets."
+msgstr ""
+
+msgid "The page layouts are responsive and completely customizable."
+msgstr ""
+
+msgid "Read the <a href='%s' target='_blank'>full documentation</a> on SiteOrigin's support site."
+msgstr ""
+
+msgid "Please <a href=\"%s\">update</a> to the latest version of Page Builder."
+msgstr ""
+
+msgid "Add Widget"
+msgstr ""
+
+msgid "Add Columns"
+msgstr ""
+
+msgid "Add New Widget"
+msgstr ""
+
+msgid "Find More Page Builder Widgets"
+msgstr ""
+
+msgid "Insert Prebuilt Page Layout"
+msgstr ""
+
+msgid "Page Layout"
+msgstr ""
+
+msgid "Select Layout"
+msgstr ""
+
+msgid "Untitled Layout"
+msgstr ""
+
+msgid "Post Loop (PB)"
+msgstr ""
+
+msgid "Displays a post loop."
+msgstr ""
+
+msgid "Unfortunately your theme doesn't have any post loops."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Post Type"
+msgstr ""
+
+msgid "Posts Per Page"
+msgstr ""
+
+msgid "Order By"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Sticky Posts"
+msgstr ""
+
+msgid "Additional "
+msgstr ""
+
+msgid "Additional query arguments. See <a href=\"%s\" target=\"_blank\">query_posts</a>."
+msgstr ""
+
+msgid "Image (PB)"
+msgstr ""
+
+msgid "Displays a simple image."
+msgstr ""
+
+msgid "Image URL"
+msgstr ""
+
+msgid "Destination URL"
+msgstr ""
+
+msgid "Embedded Video (PB)"
+msgstr ""
+
+msgid "Embeds a video."
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Custom Home Page Builder"
+msgstr ""
+
+msgid "Refresh this page after you've installed Page Builder."
+msgstr ""
+
+msgid "Your theme has Page Builder support. Would you like to install it? It's free."
+msgstr ""
+
+msgid "This theme is compatible with SiteOrigin's powerful drag and drop page builder."
+msgstr ""
+
+msgid "It allows you to build responsive columnized pages, populated with the widgets you know and love."
+msgstr ""
+
+msgid "It's a <strong>free plugin</strong> that works well with most WordPress themes."
+msgstr ""
+
+msgid "If you don't want to use it, click the toggle switch above to disable the default home page."
+msgstr ""
+
+msgid "Install Page Builder"
+msgstr ""
+
+msgid "Install Theme Plugin"
+msgstr ""
+
+msgid "Installing %s"
+msgstr ""
+
+msgid "Premium Upgrade"
+msgstr ""
+
+msgid "Your Order Number Is [%s]"
+msgstr ""
+
+msgid "There was a problem contacting our validation servers."
+msgstr ""
+
+msgid "Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+
+msgid "We've validated your order number."
+msgstr ""
+
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr ""
+
+msgid "This update will add all the premium features."
+msgstr ""
+
+msgid "Updating this theme will lose any code customizations (CSS, PHP, Javascript, etc) you have made to the free version. You will not lose your content, images or settings. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+msgid "Update Theme"
+msgstr ""
+
+msgid "We couldn't validate your order number."
+msgstr ""
+
+msgid "There might be a problem with our validation server."
+msgstr ""
+
+msgid "Get Additional Templates"
+msgstr ""
+
+msgid "%s Premium includes additional templates"
+msgstr ""
+
+msgid "Available in <strong>%s Premium</strong> - <strong class=\"upgrade\">Upgrade Now</strong>"
+msgstr ""
+
+msgid "Get Additional Customizations"
+msgstr ""
+
+msgid "A Copy of %s Premium"
+msgstr ""
+
+msgid "You get a copy of %s Premium, delivered instantly to your PayPal email address. This includes the same basic support we offer users of our free themes."
+msgstr ""
+
+msgid "Premium Support"
+msgstr ""
+
+msgid "This includes Premium email support from our support team for a single site. We'll help you as quickly as possible with all your setup and configuration questions."
+msgstr ""
+
+msgid "Advanced Premium Support"
+msgstr ""
+
+msgid "We'll go the extra mile and help you with minor CSS customizations, plugin conflicts and anything else that falls outside standard %s Premium support."
+msgstr ""
+
+msgid "A Special Thank You"
+msgstr ""
+
+msgid "Our highest level of support. If you need it, you'll get support directly from the developer of %s. We'll also include your name on our contributors list."
+msgstr ""
+
+msgid "After you pay for %s Premium, we'll email you an order number to your <strong>PayPal email address</strong>. "
+msgstr ""
+
+msgid "Use <a href='%s' target='_blank'>this form</a> if you don't receive your order number in the next 15 minutes. "
+msgstr ""
+
+msgid "To be sure, check your spam folder."
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Enable Upgrade"
+msgstr ""
+
+msgid "Already Paid?"
+msgstr ""
+
+msgid "The premium version of this theme is no longer available. If you need any help, please contact <a href='http://siteorigin.com/#support'>SiteOrigin support</a>."
+msgstr ""
+
+msgid "Buy Now"
+msgstr ""
+
+msgid "Although we appreciate and support all our premium users, our support staff prioritize orders of <strong>$15</strong> or more. Support on this order might take longer."
+msgstr ""
+
+msgid "You choose the price, so you can pay what %s is worth to you."
+msgstr ""
+
+msgid "Building your site on a budget"
+msgstr ""
+
+msgid "A fair price for a powerful theme"
+msgstr ""
+
+msgid "Our sincere thanks"
+msgstr ""
+
+msgid "We'll go that extra mile for you"
+msgstr ""
+
+msgid "A huge contribution to its development"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Please enable Javascript to change pricing"
+msgstr ""
+
+msgid "We offer a 60 day full refund if you're not happy with your purchase"
+msgstr ""
+
+msgid "Your contribution will help fund new features in %s."
+msgstr ""
+
+msgid "Find out more on our <a href=\"%s\" target=\"_blank\">roadmap</a>."
+msgstr ""
+
+msgid "Our User Feedback"
+msgstr ""
+
+msgid "%s Addons"
+msgstr ""
+
+msgid "Get More Options"
+msgstr ""
+
+msgid "These are some plugins that you can use to enhance the functionality of %s."
+msgstr ""
+
+msgid "They were all built to work perfectly with %s."
+msgstr ""
+
+msgid "I hope %s is working well for you! Sign up to <a href='%s' target='_blank'>our newsletter</a> if you'd like more free themes and goodies."
+msgstr ""
+
+msgid "%s Theme Settings"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Please update to the latest version of WordPress to use theme settings."
+msgstr ""
+
+msgid "Display Hover Edit Icon"
+msgstr ""
+
+msgid "Display a small icon that makes quickly editing fields easy. This is only shown to admin users."
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+
+msgid "Choose Media"
+msgstr ""
+
+msgid "Set Media"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Only available in <strong>%s Premium</strong> - <strong class=\"upgrade\">Upgrade Now</strong>"
+msgstr ""
+
+msgid "Select Images"
+msgstr ""
+
+msgid "Unknown Field Type"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Read %s's <a href='%s'>theme documentation</a> for help with these settings."
+msgstr ""
+
+msgid "Settings Help"
+msgstr ""
+
+msgid "Set Media File"
+msgstr ""
+
+msgid "Sliders"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+# siteorigin
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Slider"
+msgstr ""
+
+msgid "Edit Slider"
+msgstr ""
+
+msgid "New Slider"
+msgstr ""
+
+msgid "All Sliders"
+msgstr ""
+
+msgid "View Slider"
+msgstr ""
+
+msgid "Search Sliders"
+msgstr ""
+
+msgid "No sliders found"
+msgstr ""
+
+msgid "No sliders found in Trash"
+msgstr ""
+
+msgid "Slider Slides"
+msgstr ""
+
+msgid "Slides"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Upgrade to <a href=\"%s\">%s Premium</a> to link slides to URLS"
+msgstr ""
+
+msgid "Insert a slider."
+msgstr ""
+
+msgid "Please select a slider."
+msgstr ""
+
+msgid "Image Size"
+msgstr ""
+
+msgid "New Item"
+msgstr ""
+
+msgid "Title Text"
+msgstr ""
+
+msgid "Extra Text"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+msgid "Add Slide"
+msgstr ""
+
+msgid "Upload Media"
+msgstr ""
+
+msgid "Theme Widgets"
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "You can enable/disable any widgets you need."
+msgstr ""
+
+msgid "%s Order Code"
+msgstr ""
+
+msgid "Order Code"
+msgstr ""
+
+msgid "Find your order number in your original order email from SiteOrigin"
+msgstr ""
+
+msgid "SiteOrigin Call To Action"
+msgstr ""
+
+msgid "A call to action block, generally for your home page."
+msgstr ""
+
+msgid "Headline"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Button URL"
+msgstr ""
+
+msgid "Button Style"
+msgstr ""
+
+msgid "SiteOrigin Button"
+msgstr ""
+
+msgid "Display a button."
+msgstr ""
+
+msgid "Click Me"
+msgstr ""
+
+msgid "Alignment"
+msgstr ""
+
+msgid "SiteOrigin Icon and Text"
+msgstr ""
+
+msgid "A block of text with an icon."
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Upload icon images to your <a href=\"%s\" target=\"_blank\">media library</a>. Find <a href=\"%s\" target=\"_blank\">free icon packs</a>."
+msgstr ""
+
+msgid "SiteOrigin Headline"
+msgstr ""
+
+msgid "Displays a simple headline."
+msgstr ""
+
+msgid "Headline Text"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "This is a default gallery."
+msgstr ""
+
+msgid "Edit it by editing the gallery widget."
+msgstr ""
+
+msgid "You can easily add your own images and captions."
+msgstr ""
+
+msgid "With a beautifully simple interface."
+msgstr ""
+
+msgid "Business Home Page"
+msgstr ""
+
+msgid "Call To Action Title"
+msgstr ""
+
+msgid "And this is some subtext"
+msgstr ""
+
+msgid "Action Text"
+msgstr ""
+
+msgid "Feature Headline"
+msgstr ""
+
+msgid "Origami Bundle"
+msgstr ""
+
+msgid "All the recommended addons for Origami at one low price."
+msgstr ""
+
+msgid "Origami Customizer"
+msgstr ""
+
+msgid "Customize the design of your Origami powered site."
+msgstr ""
+
+msgid "Responsive Menu"
+msgstr ""
+
+msgid "Make your menu responsive."
+msgstr ""
+
+msgid "Remove Link"
+msgstr ""
+
+msgid "Remove the \"Theme By SiteOrigin\" link from your footer."
+msgstr ""
+
+msgid "Masonry Layout"
+msgstr ""
+
+msgid "Display your posts in style with a masonry layout."
+msgstr ""
+
+msgid "Ajax Comments"
+msgstr ""
+
+msgid "Keep the conversation flowing with Ajax comments."
+msgstr ""
+
+msgid "Copyright"
+msgstr ""
+
+msgid "404 Message"
+msgstr ""
+
+msgid "No Search Results"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Display Post Author"
+msgstr ""
+
+msgid "Display Comment Count"
+msgstr ""
+
+msgid "Use Columns"
+msgstr ""
+
+msgid "Use Origami Gallery"
+msgstr ""
+
+msgid "Changes [gallery] shortcode galleries into a fancy slider."
+msgstr ""
+
+msgid "Display featured Image"
+msgstr ""
+
+msgid "Featured image above posts"
+msgstr ""
+
+msgid "Header Search"
+msgstr ""
+
+msgid "Search input in header"
+msgstr ""
+
+msgid "Footer Attribution Link"
+msgstr ""
+
+msgid "Remove WordPress and SiteOrigin links from your footer."
+msgstr ""
+
+msgid "Center Logo"
+msgstr ""
+
+msgid "Center the main logo"
+msgstr ""
+
+msgid "Post Navigation"
+msgstr ""
+
+msgid "Next and previous post links on single post pages."
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Users can comment without leaving the page."
+msgstr ""
+
+msgid "Responsive"
+msgstr ""
+
+msgid "Responsive Navigation"
+msgstr ""
+
+msgid "Gorgeous mobile navigation menu for your main menu."
+msgstr ""
+
+msgid "Social"
+msgstr ""
+
+msgid "Share Post"
+msgstr ""
+
+msgid "Display post sharing on the single post pages."
+msgstr ""
+
+msgid "Twitter Username"
+msgstr ""
+
+msgid "Recommend your Twitter account after someone tweets your post."
+msgstr ""
+
+msgid "Copyright %s"
+msgstr ""
+
+msgid "No results for your query."
+msgstr ""
+
+msgid "Primary Menu"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Page %s"
+msgstr ""
+
+msgid "On %s"
+msgstr ""
+
+msgid "by %s"
+msgstr ""
+
+msgid "With"
+msgstr ""
+
+msgid "<strong>%u</strong> Comments"
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+msgid "Continue Reading"
+msgstr ""
+
+msgid "Recent Posts"
+msgstr ""
+
+msgid "By Year"
+msgstr ""
+
+msgid "By Month"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Theme By %s"
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "%s adds any custom CSS you enter here into your site's header. "
+msgstr ""
+
+msgid "These changes will persist across updates so it's best to make all your changes here. "
+msgstr ""
+
+msgid "Contact <a href='%s' target='_blank'>SiteOrigin Support</a> for help with making edits. "
+msgstr ""
+
+msgid "Changes apply to %s and its child themes"
+msgstr ""
+
+msgid "Save CSS"
+msgstr ""
+
+msgid "Navigate"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "SiteOrigin Google Map"
+msgstr ""
+
+msgid "Displays a very simple Google map"
+msgstr ""
+
+msgid "Map Location"
+msgstr ""
+
+msgid "The Map address"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Map pixel, the width is decided by the size of its panel."
+msgstr ""
+
+msgid "Zoom"
+msgstr ""
+
+msgid "The zoom of the map."
+msgstr ""
+
+msgid "SiteOrigin Embedded Video"
+msgstr ""
+
+msgid "SiteOrigin Bullet List"
+msgstr ""
+
+msgid "A simple bullet list."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "List Text"
+msgstr ""
+
+msgid "Use a * at the beginning of each list entry line."
+msgstr ""
+
+msgid "SiteOrigin Contact Form 7"
+msgstr ""
+
+msgid "Displays a contact form."
+msgstr ""
+
+msgid "This widget requires the Contact Form 7 plugin."
+msgstr ""
+
+msgid "Contact Form"
+msgstr ""
+
+msgid "Body Font"
+msgstr ""
+
+msgid "Title Font"
+msgstr ""
+
+msgid "Heading Font"
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Border Color"
+msgstr ""
+
+msgid "Text Color"
+msgstr ""
+
+msgid "2nd Level Border Color"
+msgstr ""
+
+msgid "2nd Level Background Color"
+msgstr ""
+
+msgid "2nd Level Text Color"
+msgstr ""
+
+msgid "Padding"
+msgstr ""
+
+msgid "Link Color"
+msgstr ""
+
+msgid "Title Color"
+msgstr ""
+
+msgid "Copyright Text Color"
+msgstr ""
+
+msgid "Copyright Link Color"
+msgstr ""
+
+msgid "General Link Color"
+msgstr ""
+
+msgid "Fonts"
+msgstr ""
+
+msgid "Page Container"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Target URL"
+msgstr ""
+
+msgid "Upgrade To Origami Premium"
+msgstr ""
+
+msgid "If you've enjoyed using Origami, you're going to love Origami Premium. It's a robust upgrade to Origami that gives you loads of cool features. You choose the price, so you can decide what it's worth to give your site a professional edge."
+msgstr ""
+
+msgid "Premium Email Support"
+msgstr ""
+
+msgid "Need help setting up Origami? Upgrading to Origami Premium gives you email support."
+msgstr ""
+
+msgid "Name The Price"
+msgstr ""
+
+msgid "You can choose exactly how much you pay for Origami Premium. Pay what ever you think the features are worth to you. Regardless, you're supporting the continued development of Origami."
+msgstr ""
+
+msgid "Responsive Features"
+msgstr ""
+
+msgid "The final puzzle pieces in making Origami fully responsive. Origami Premium has footer widgets that collapse below each other on small screen devices. Its menu collapses into a single navigate button which activates an intuitive nested menu system and site search."
+msgstr ""
+
+msgid "Customizer Integration"
+msgstr ""
+
+msgid "Origami Premium includes integration with WordPress customizer. This gives you a way to edit colors, fonts and other styles in real time. "
+msgstr ""
+
+msgid "Additional Widgets for Your Panel Pages"
+msgstr ""
+
+msgid "Origami Premium has additional widgets that you can use to populate your Panels pages."
+msgstr ""
+
+msgid "Remove Attribution Links"
+msgstr ""
+
+msgid "Origami premium gives you the option to easily remove the \"Powered by WordPress, Theme by SiteOrigin\" text from your footer. "
+msgstr ""
+
+msgid "Want to keep the conversation flowing? Ajax comments means your visitors can comment without reloading your page. So commenting wont interrupt a video or lose their position in one of your galleries."
+msgstr ""
+
+msgid "Social Sharing"
+msgstr ""
+
+msgid "Origami Premium includes social sharing for Facebook, Twitter and Google Plus. They fit right into the clean design of Origami."
+msgstr ""
+
+msgid "CSS Editor"
+msgstr ""
+
+msgid "A simple CSS editor that lets you easily add code that changes the look of Origami. You can count on our support staff to help you with CSS snippets to get the look you're after. Best of all, your changes will persist across updates."
+msgstr ""
+
+msgid "Continued Updates"
+msgstr ""
+
+msgid "You'll help support the continued development of Origami - ensuring it works with future versions of WordPress for years to come."
+msgstr ""
+
+msgid "This is an overlooked WordPress theme! It's flexible, FAST, and clean. Love it!"
+msgstr ""
+
+msgid "I love this theme very much."
+msgstr ""
+
+msgid "This is exactly the kind of theme I was looking for."
+msgstr ""
+
+msgid "Before trying any theme I check Pagespeed score and Yslow score on basic WordPress installation. This theme rocks on these two parameters."
+msgstr ""

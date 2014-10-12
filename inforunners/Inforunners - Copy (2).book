@@ -1,0 +1,3049 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Book>
+  <Name>InfoRunners</Name>
+  <StartingPage>Intro</StartingPage>
+  <LeftPage>Summary</LeftPage>
+  <MP3Soundtrack>0</MP3Soundtrack>
+  <MP3SoundtrackValue />
+  <OGGSoundtrack>0</OGGSoundtrack>
+  <OGGSoundtrackValue />
+  <HideTitle>0</HideTitle>
+  <StartOverConfirmText>0</StartOverConfirmText>
+  <StartOverConfirmTextValue>Are you sure you want to start over?</StartOverConfirmTextValue>
+  <EmbedImages>1</EmbedImages>
+  <FlipAnimation>0</FlipAnimation>
+  <BackgroundColor>0</BackgroundColor>
+  <BackgroundColorValue>#FFFFFF</BackgroundColorValue>
+  <SecondaryBackgroundColor>0</SecondaryBackgroundColor>
+  <SecondaryBackgroundColorValue>#FFFFFF</SecondaryBackgroundColorValue>
+  <TextColor>0</TextColor>
+  <TextColorValue>#000000</TextColorValue>
+  <PaperImage>0</PaperImage>
+  <PaperImageValue />
+  <BookmarkImage>0</BookmarkImage>
+  <BookmarkImageValue />
+  <LeftPageImage>0</LeftPageImage>
+  <LeftPageImageValue />
+  <DiceImage>0</DiceImage>
+  <DiceImageValue />
+  <DiceSize>0</DiceSize>
+  <DiceSizeValue>100</DiceSizeValue>
+  <CustomCSS>0</CustomCSS>
+  <CustomCSSValue />
+  <StatPoints>20</StatPoints>
+  <Statistics>
+    <Statistic>
+      <Name>Strength</Name>
+      <StartingValue>0</StartingValue>
+    </Statistic>
+    <Statistic>
+      <Name>Intelligence</Name>
+      <StartingValue>0</StartingValue>
+    </Statistic>
+    <Statistic>
+      <Name>Willpower</Name>
+      <StartingValue>0</StartingValue>
+    </Statistic>
+  </Statistics>
+  <Childs>
+    <Page>
+      <Name>Intro</Name>
+      <Text>[size=5]InfoRunners[/size]
+
+The world is run by information. You have the power to manipulate that information. [b]What will you do with this power?[/b]
+
+Inforunners are young, brash, and brilliant mercenaries. They trade information in return for pay. Similar to organized crime cells of the previous century, Inforunner cells are warring factions which vie for dominance in an age ruled by information. 
+
+They are comprised of drugged up teenagers and twenty somethings who rule the streets. These drugs, mixed with cybernetic implants make them nearly immortal for a price. The prolonged hypermetabolic stimulants irreparably damage the bodies of these youth, artificially shortening their life expectancy to their early thirties. 
+
+This story takes place in the warring metrolopolis of Buenos Aires. [b]Elect these first few choices carefully[/b], they will effect you throughout the game. 
+
+[b][size=2]You are [input=Player_Name][/input]
+ the inforunner that could change it all.[/size][/b]
+
+
+
+[jump=Origin]Proceed to choose your background.[/jump]
+</Text>
+      <Keywords />
+      <Jumps>Origin</Jumps>
+      <Childs />
+    </Page>
+    <Page>
+      <Name>Summary</Name>
+      <Text>[trim]
+[cond=$Player_Name][size=6]$Player_Name[/size][/cond]
+[cond=$Has_Origin]The $Origin [hr][/cond]
+
+[cond=$Strength][b]Strength:[/b] $Strength[/cond]
+[cond=$Intelligence][b]Intelligence:[/b] $Intelligence[/cond]
+[cond=$Willpower][b]Willpower:[/b] $Willpower[/cond]
+[cond=$Luck][b]Luck:[/b] $Luck [hr][/cond]
+[cond=$Has_Journal][b]Journal:[/b][/cond]
+[cond=$Ankle]- Your ankle is a bit twisted[/cond]
+[cond=$Blitz_Injured]- You nearly killed blitz[/cond]
+[cond=$Injured_Firefight]- You're bleeding from a gunshot[/cond]
+[cond=$Ministry_Sneak]- You chose to sneak into the ministry[/cond]
+[cond=$Sky_Entrance]- You entered the ministry from the roof[/cond]
+[cond=$Smashing]- Your route inside of the ministry was 'smashing'[/cond]
+[cond=$Ventilation_Entrance]- Chose the ventilation system[/cond]
+[cond=$Chose_Indirect]- Elected for a more indirect path[/cond]
+[cond=$Chose_Hackers]- Contacted Spark and her hackers[/cond]
+[cond=$Caught_Up_With_Silvia]- Caught up with Silvia[/cond]
+[cond=$Chose_Slums]- Traversed the slums to find some friends[/cond]
+[cond=$Have_Bolo]- Bolo has joined your cause[/cond]
+[cond=$Maintenance]- Chose the maintenance staircase[/cond]
+[cond=$Been_Shot]- You've been shot and are bleeding[/cond]
+[cond=$Won_Firefight]- Somehow, you took out all the guards[/cond]
+[cond=$Hand_Melted]- You've melted your hand to nearly nothing[/cond]
+[cond=$High_Alert][b]- The ministry is on high alert[/b][/cond]
+[cond=$Low_Alert][b]- The ministry is on low alert[/b][/cond]
+[cond=$Silvia_Alliance]- Silvia has joined your cause[/cond]
+[cond=$Servers_Destroyed][b]- You ripped the server room to pieces.[/b][/cond]
+[cond=$Has_Inventory][hr][b]Inventory:[/b][/cond]
+[cond=$Charged]- You're carrying a lot of weaponry[/cond]
+[cond=$Paulo_Credentials]- Stole Paulo's credentials[/cond]
+[cond=$Extra_Data][b][hr]- You grabbed the extra data on other runner cells and notable citizens of the city[/b][/cond]
+[hr]
+
+
+
+[/trim]</Text>
+      <Keywords>$Player_Name,$Has_Origin,$Origin,$Strength,$Intelligence,$Willpower,$Luck,$Has_Journal,$Ankle,$Blitz_Injured,$Injured_Firefight,$Ministry_Sneak,$Sky_Entrance,$Smashing,$Ventilation_Entrance,$Chose_Indirect,$Chose_Hackers,$Caught_Up_With_Silvia,$Chose_Slums,$Have_Bolo,$Maintenance,$Been_Shot,$Won_Firefight,$Hand_Melted,$High_Alert,$Low_Alert,$Silvia_Alliance,$Servers_Destroyed,$Has_Inventory,$Charged,$Paulo_Credentials,$Extra_Data</Keywords>
+      <Jumps />
+      <Childs />
+    </Page>
+    <Page>
+      <Name>Origin</Name>
+      <Text>[op]$Player_Name=get(Player_Name)[/op]
+
+$Player_name, choose your origin story wisely, [b]it has great ramifications[/b]  regarding your choices later on.[cond=!$Has_Origin]
+
+[jump=Stats?Orphan][b]You are the ruthless and lonely orphan.[/b][/jump]
+Growing up on the street after losing your family to an enemy bombing run, you learned to fend for yourself. Escaping from the orphanage at a young age you were forced to find your own way by your own merit and actions. The world has never given you anything and you and you feel like you owe it nothing. Your street. Your Rules. The street rats are your kin are now your family - one which has taught you the fiercest of loyalty. Inforunners represented this kinship and a way of life, thus you joined them. 
+
+[jump=Stats?Rebel][b]You are the unrelenting rebel and a family disappointment.[/b][/jump]
+Descending from a long line of those knowing nothing but the luxuries of the upper class, you had enough of their lies and politicking. They supported a monarchical regime in which you wanted no part. Your anti-government sentiments are strong, and you are committed to the Southern Alliance, rather than the rebels running your city. You evolved beyond their complacent and corrupt ways and found yourself when you found the inforunners on the streets. Their product was an eternal one that cannot be silenced: truth.
+
+[jump=Stats?Veteran][b]You are the young and atoning war veteran.[/b][/jump]
+ A young war veteran, already returned from overseas battles in your early 20s. You learned quickly that brotherhood is essential. However, after raiding an innocent civillian village in South Africa and being forced to commit horrible war crimes without your knowledge, your world shattered. Your later realization of these terrors caused you to break mentally. Returning to Buenos Aires, you found solace in the mind-numbing drugs, chems, and stimulants of the inforunners. You dull the pain while choosing your own moral battles. You answer to no one but the moral truth. 
+
+
+[hr]
+[/cond]
+
+
+</Text>
+      <Keywords />
+      <Jumps>Stats</Jumps>
+      <Childs />
+    </Page>
+    <Page>
+      <Name>Stats</Name>
+      <Text>[cond=from(Orphan)]
+[op]$Has_Origin=true[/op]
+[op]$Origin="Orphan"[/op]
+[op]$IsOrphan=true[/op]
+[/cond]
+[cond=from(Rebel)]
+[op]$Has_Origin=true[/op]
+[op]$Origin="Rebel"[/op]
+[op]$IsRebel=true[/op]
+[/cond]
+[cond=from(Veteran)]
+[op]$Has_Origin=true[/op]
+[op]$Origin="Veteran"[/op]
+[op]$IsVeteran=true[/op]
+[/cond]
+
+$Player_Name, choose your features wisely. You only have [statsleft] points remaining.
+
+[trim][table]
+[tr][td]Strength:    [/td] [td][stat=Strength]1[/stat]    [/td][/tr]
+[tr][td]Intelligence:[/td] [td][stat=Intelligence]1[/stat][/td][/tr]
+[tr][td]Willpower:   [/td] [td][stat=Willpower]1[/stat]   [/td][/tr]
+[/table][/trim]
+
+[jump=Backstory?Stats]Proceed to determine [b]who you are[/b] and [b]how lucky[/b] you feel.[/jump]</Text>
+      <Keywords>$Has_Origin,$Origin,$IsOrphan,$IsRebel,$IsVeteran,$Player_Name</Keywords>
+      <Jumps>Backstory</Jumps>
+      <Childs />
+    </Page>
+    <Folder>
+      <Name>Beginning</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Backstory</Name>
+          <Text>[cond=from(Stats)]
+[op]$Strength=get(Strength)[/op]
+[op]$Intelligence=get(Intelligence)[/op]
+[op]$Willpower=get(Willpower)[/op]
+[op]$Luck=roll("Luck") + roll()[/op]
+[/cond]
+
+$Player_Name, you are an Inforunner. This gives you a great responsibility, as your journey will impact many more lives than just your own. [b]Remember, you are fast, smart, and extremely powerful.[/b]
+[hr]
+Our story beings with he world is in state of complete ruin. After the mutually assured destruction of China, Europe and the USA because of their nuclear war, the northern hemisphere lies in rubble as nothing but an irradiated wasteland.
+
+You live in the sprawling, dystopian metropolis of Buenos Aires. Run by a hodgepodge government comprised of rebels who dared fight against the onward march of the South Alliance - a hegemonic and totalitarian regime based in South Africa driven by the thirst for power. The largest entity to emerge after the war, it opresses Buenos Aires and the opposition.
+
+What remains of Buenos Aires is a crime-riddled, filth filled poverty hole barely clinging to the definition of civilization. 
+
+[jump=Your Cell]Learn about your inforunner cell.[/jump]
+</Text>
+          <Keywords>$Strength,$Intelligence,$Willpower,$Luck,$Player_Name</Keywords>
+          <Jumps>Your Cell</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Your Cell</Name>
+          <Text>Your cell is run by a nefarious, but lazy and fairly decrepit man named [b]Blitz[/b]. The definition of a lucky scumbag. Blitz is a man who has never earned anything in his life, but rather has been in the right place at the right time more than once. He has been lucky enough to surround himself with people smarter and more talented than himself while he coasts along with just enough intelligence to get away with the things he does with his info runner cell. He has become lazy in his later life (early 30s for retired inforunners) and suffers from complications from his permanently drugged existence. 
+
+While he doesn’t have much time left in his life, he does still try to feel important and needed. He doesn’t think much of you, yet he's small business compared to some of the more elite and advanced runner cells around. His hollowed out demeanor makes him look more intimidating than he actually is.
+
+However, your fellow runners are your family. You trust them and care about them. They're all you have in this world. 
+
+[b]Now, lets get started...[/b]
+[hr]
+
+[jump=The Call To Action]Jump into the fray[/jump]</Text>
+          <Keywords />
+          <Jumps>The Call To Action</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Call To Action</Name>
+          <Text>You receive a call from Blitz on your VIVI arm band (Virtual Intelligence Variable Integration). It's 2:30am and you're forced awake in a cold sweat by the incessant notification gently tingling your arm. He says you need to be at HQ in less than 15 min.
+
+[img=sitting.jpg][/img]
+
+Throwing on one of your more grungy work outfits, you take a hit of a minor stim and are up and in less than 10 minutes you're out the door and bounding in the empty streets and through the shadows. 
+
+You get lost in through as you tear through the thick night shadows at a breakneck pace. "Sure" you think to yourself, "Blitz is a moron, but he helped me get where I am today." You wonder if the vegetating waste of human space has more than a few months left in his withering body. He's not doing horrible for a 35 year old ex-runner, but his days are counted. 
+
+You jump from building to building on your way over to headquarters.
+
+[cond=$Origin=="Veteran"][cond=$Willpower&lt;9]As you're leaping, you remember the horrific conditions of the war over in South Africa. The flashback knocks you off your feet and you take a rough tumble.[b]You twist your ankle as a sharp pain travels directly up the right side of your left shin.[/b]
+
+[jump=Blitz?ankle]Tread lightly over to HQ[/jump][/cond][/cond]
+[cond=!$IsVeteran][jump=Blitz]Jump into the fray[/jump][/cond]
+[cond=($IsVeteran and $Willpower&gt;=9)][jump=Blitz]Jump into the fray[/jump][/cond]</Text>
+          <Keywords>$Origin,$Willpower,$IsVeteran</Keywords>
+          <Jumps>Blitz</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Blitz</Name>
+          <Text>[cond=from(ankle)][op]$Ankle=true[/op][op]$Has_Journal=true[/op][/cond]
+You enter the dark, and surprisingly dry apartment from the 3rd floor emergency access panel of the rather uninteresting skyscraper. It's a pain, but luckily Blitz doesn't usually call you in. 
+You pass through empty and pitch black hallways up to the non descript door which leads to the inner den of the cell. 
+
+The stench is as bad as you last remember it. If living flesh could rot, this would be the smell it made. Not a single light is lit in the den. 
+In his usual corner, Blitz is hooked into his stationary life support machines, drinking in the flow of the digital waterfall of information cascading down his various screens. 
+
+His expressionless face only visible thanks to the back light of his screens. He's laid back, but alert. Despite his body withering away, his mind is sharp.
+
+[quote]"Took you long enough, [b]$Player_Name[/b]. Busy sitting around amounting to nothing as usual?"[/quote]
+
+You check your VIVI not paying any attention to his hollow threat. 
+
+[quote]"Lets cut the small talk." He responds to himself. "I have a job for you. It's a big one too."[/quote]
+
+[cond=$Origin=="Veteran"][jump=A Task For a Mercenary]A Task For a Mercenary[/jump][/cond]
+[cond=$Origin=="Orphan"][jump=The Lonely Ones]The Lonely Ones[/jump][/cond]
+[cond=$Origin=="Rebel"][jump=Rebellious Nature]Rebellious Nature[/jump][/cond]</Text>
+          <Keywords>$Ankle,$Has_Journal,$Player_Name,$Origin</Keywords>
+          <Jumps>A Task For a Mercenary,The Lonely Ones,Rebellious Nature</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Rebellious Nature</Name>
+          <Text>Blitz starts with a jab at your heritage, [quote]"Well, since you're the high and mighty king himself you should already have connections with the ministry of information, correct?"[/quote] 
+You nod confirming you do, thinking of Silvia who works as head of IT in the ministry.
+
+[quote]"Let me get down to why you're here. We've got a leak and it needs plugging. The master list detailing all the vitals on the cell's members is out. Someone leaked your info too, $Player_Name. I need this list back because I've got too much to lose."
+[/quote]
+
+Your heartbeat races. If your true information is leaked, your runner credentials are as good as wiped out. All of your accounts and personas you've built up over the last few years would be gone, and you'd be as good as jailed. You'll never work as a runner again. you ask:
+
+[quote]"What do you mean leaked? Who has the information and how do we get it back?"[/quote] 
+He continues: 
+
+[quote]"I don't know the whole story. I traded some information for some...well...information. I found out later that the trade had been a bug which infiltrated our systems when I merged it with our database. Our server logs have been mostly wiped clean. It looks like someone has sold us all of us to the ministry. They've been buying up information like this to stifle the runner cells and hunt them down, one by one. It's only a manner of time before they filter it through the system and it gets to human eyes. Then, they'll hunt us down like dogs."[/quote]
+
+Blitz blubbers on:
+
+[quote] "This means you need to get in there and wipe out all trace of the list. I need very tangible proof on this one. Everything is at stake".[/quote]
+
+Everything you worked for in getting away from your previous life will have gone to waste if you don't destroy that list. You take the dossier from Blitz and, in a single motion, whip around and walk out. 
+
+
+[jump=Preparation]Preparation[/jump]</Text>
+          <Keywords>$Player_Name</Keywords>
+          <Jumps>Preparation</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>A Task For a Mercenary</Name>
+          <Text>You stare at your VIVI paying no attention to his attempt to raise some form of interest from you. He can sense your lack of interest
+
+[quote]"You really are nothing but a washed up vet, aren't you?"[/quote] 
+
+...says the blabbering idiot. You start to block him out as you read about the developments in the local chem trade on your VIVI. Looks like prices might be going up again. Unfortunate.
+
+[quote]"[b]$Player_Name[/b], are you even listening to me?". [/quote]You snap back to attention realizing that his lack of joking means he probably has something of a serious job on his hands. You give him a sarcastic smirk and look back down at your wrist, pretending to pay attention. 
+
+[quote]"You really need to learn to concentrate, scum bag." [/quote]
+His incessesant desparaging remarks are starting to wear thin on your patience. 
+[quote]"Let me get down to why you're here. We've got a leak and it needs plugging. The master list detailing all the vitals on the cell's members is out. Someone leaked your info too, $Player_Name. I need this list back because I've got too much to lose."
+[/quote]
+Did he just say he leaked your identity and information? If that gets out, you're done. The army will find you and will make you pay for your abandonment. 
+
+You feel the sudden urge to destroy Blitz rise to the top of you. It bursts like a boiled over pot. The blind rage thrusts you onto the waste of human life and you find yourself smashing your fists into his head with as much force as you can muster. His muffled cries for you to stop bring you back to reality. The fleshy pulp of his face shares a similar color tone as your bloodied and raw hands.
+
+You stand back, satisfied, yet slightly shocked at your own animosity. The war truly never left you. 
+
+He looks at you with his glaring eyes, unable to move. He'll live, but just barely. The dossier with the details of the mission appears on your VIVI and you walk out.
+ 
+
+[jump=Preparation?A Task For a Mercenary]Preparation[/jump]</Text>
+          <Keywords>$Player_Name</Keywords>
+          <Jumps>Preparation</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Lonely Ones</Name>
+          <Text>You stare at Blitz, anxious, yet showing no emotion. 
+
+[quote]"Still playing the silent game, eh? Well, no worries I don't need your feedback. Let me get down to why you're here. We've got a leak and it needs plugging. The master list detailing all the vitals on the cell's members is out. Someone leaked your info too, $Player_Name. I need this list back because I've got too much to lose."[/quote]
+
+You stare at him with a mute rage, yet listen on. 
+
+[quote]"I don't know the whole story. I traded some information for some...well...information. I found out later that the trade had been a bug which infiltrated our systems when I merged it with our database. Our server logs have been mostly wiped clean. It looks like someone has sold us all of us to the ministry. They've been buying up information like this to stifle the runner cells and hunt them down, one by one. It's only a manner of time before they filter it through the system and it gets to human eyes. Then, they'll hunt us down like dogs."[/quote]
+
+You continue to stare, your eyes as daggers. Your intensity is tangible yet you still say nothing. Your face has yet to show any sign of emotion. This makes Blitz uneasy.
+
+[quote]"Listen kid, I know I haven't worked with you long, and I'm sorry, but we're all in this together now. I need you to take what I know in this dossier and get out and fix this"[/quote]
+
+You can tell that his blood pressure is rising, yet this achieves nothing.You decide not to waste any more time or words on Blitz,  now focusing your energy on how to break into the ministry to get the list. If that list comes to light, your past crimes are likely to speak against you. You'd be done. 
+
+
+[jump=Preparation]Preparation[/jump]</Text>
+          <Keywords>$Player_Name</Keywords>
+          <Jumps>Preparation</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Preparation</Name>
+          <Text>[cond=from(A Task For a Mercenary)][op]$Has_Journal=true[/op][op]$Blitz_Injured=true[/op][/cond]
+
+You step back outside of the den and start walking down the street. The rain gently beats against your exposed face as you being to read:
+
+[quote]Here's what we know, $Player_Name. The ministry has your information. You need to get into the ministry, remove it from their servers, and get out. I would recommend one of three approaches:
+
+1. You can try to enter with force and take down their entire infrastructure. [b]A one man army.[/b]
+
+2. You can talk your way into the ministry with a disguise. [b]Sneaking. [/b]
+
+3. Trick someone into giving you access. [b]Indirect social engineer.[/b]
+
+[/quote]
+
+Blitz, what a scumbag. The man traded your personal information, [b][i]on purpose[/i][/b] for his own personal gain. He's going to to pay for this. The only thing he got right was the need to destroy the data. 
+
+You ponder for a moment in thinking which route you'd like to take.
+
+[i](Think on how your origin story and stats might effect each of these routes. Each is a drastically different approach. The risk of failure grows throughout the story.)[/i]
+
+[b][jump=Charge the Premise]One Man Army[/jump]
+
+[jump=Stealth Action]Stealth[/jump]
+
+[jump=Talk The Talk]Indirect[/jump][/b]</Text>
+          <Keywords>$Has_Journal,$Blitz_Injured,$Player_Name</Keywords>
+          <Jumps>Charge the Premise,Stealth Action,Talk The Talk</Jumps>
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>One Man Army</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Charge the Premise</Name>
+          <Text>[op]$Charged=true[/op][op]$Has_Inventory=true[/op]
+You decide to take on the ministry head to head - like a true runner of power. You take a few days to prepare for your direct assault. You've planned your heist in between shifts at 3am - when you'll find the least amount of resistance and personnel. After two days of intense planning and preparation you begin your journey across the city to reach the Ministry of information.
+[img=4seconds.jpg][/img]
+As you travel across the wet streets, you ponder the city. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer.
+
+You arrive in front of the ministry of information. Small droplets trickle down its marble walls. You wonder if this will be your concrete and marble tomb.
+[cond=$Origin=="Veteran"][op]$Veteran_Charge_Advantage=true[/op]
+Thanks to some old war buddies you still have access to some of the most ridiculous chems available, not to mention the firepower. This is why you're known as the runner who can force his way through anything. You have the resources. You've injected yourself with a cocktail of stims which will heighten your reaction time, physical stamina and endurance. You also bring some heavy weaponry. You intend to shoot on sight.
+[/cond]
+[cond=$Origin=="Orphan"][op]$Orphan_Charge_Advantage=true[/op]
+Because of your life on the streets, you have quite a few contacts that can help you out in times of need. They're able to provide you with the firepower necessary for this job and willing to back you up. You called in a few favors and a box of armaments and 'goodies' showed up at your door. 
+[/cond]
+You gather yourself, your equipment, and start up what seems to be thousands of steps, pushing you back with a cascade of small waterfalls generated by the rain at your feet.
+[cond=$Luck&gt;=9][op]$Luck_Charge_Advantage=true[/op][/cond]
+[cond=$Orphan_Charge_Advantage or $Veteran_Charge_Advantage or $Luck_Charge_Advantage][jump=Firefight]Firefight[/jump][/cond]
+[cond=!($Luck_Charge_Advantage or $Veteran_Charge_Advantage or $Orphan_Charge_Advantage or $IsVeteran or $IsOrphan)][jump=Your Big Moment Awaits]Your Big Moment Awaits[/jump][/cond]</Text>
+          <Keywords>$Charged,$Has_Inventory,$Origin,$Veteran_Charge_Advantage,$Orphan_Charge_Advantage,$Luck,$Luck_Charge_Advantage,$IsVeteran,$IsOrphan</Keywords>
+          <Jumps>Firefight,Your Big Moment Awaits</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Firefight</Name>
+          <Text>[cond=$Luck_Charge_Advantage=true][op]$Snuck_Through=true[/op][op]$Low_Alert[/op] Because you're a very fortunate soul, you're able to time your entrance just right. Not only are the four guards on duty not present, but there isn't a soul in sight. You wonder what the bizarre absence must be about. Either way, you're not complaining. 
+
+You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. You spot countless CCTV cameras. There are at least two dozen scattered around. You make your way through the corridor minding your steps as you progress to the elevators on the far right side. Although weighed down by the small armory you're holding on your back, you're squeak through the elevator doors and glance down at the floor selection panel.
+
+[jump=Floor Selection]Select Your Floor[/jump][/cond]
+[cond=(!$Luck_Charge_Advantage and $IsVeteran)][op]$Won_Firefight=true[/op]You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. They seem preoccupied. Immediately you spot the main elevator bank on the right side about 100 feet in front of you.
+
+The toughest looking guard is the first to yell:
+
+[quote]Hey, you forgot to scan your ID.[/quote]
+
+You keep walking, pretending that you didn't hear him. 
+
+He shouts again:
+
+[quote]Hey are you hearing me right now?[/quote]
+
+You start to move quicker, and you hear footsteps behind you speeding up.
+
+You accelerate. The single pair of footprints has transformed into a cacophony of all four guards. Your war experience and intuition tell you to act now.
+
+In a brutal sequence of slow motion gun slinging, you dive forward, turning belly up, and rotate your body 180 degrees to face the guards -  bullets flying from your two pistols in near perfect synchronicity as gravity slowly pulls you to the ground. Before you feel the cold hard crunch against your spinal column you've been able to watch as bullets tear through the flesh of the sprinting regiment, knocking them off their feet.
+
+Their bodies collide against each other on their way to the ground and ultimately make horrible cracking noises as they slam against the floor. 
+All four guards are dead. 
+
+It is unlikely anyone but a stimmed up runner, and a war vet at that, would have had such a quick and accurate draw. You gather yourself, stand up, and jump into the elevator bank.
+[jump=Floor Selection]Select your floor, you lucky veteran[/jump]
+ [/cond]
+[cond=(!$Luck_Charge_Advantage and $IsOrphan)]You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+
+The odds are completely against you in this scenario. You pull up your VIVI, calling in your buddy Raven - a fellow street kid who offered to help based on the favor you're owed. You quickly explain the situation to Raven. He meets you around the block from the Ministry's entrance. 
+
+Handing off two pistols to the kid, you instruct him to take out as many guards as possible. It's dirty, but you know force is the only way into this fortress. Gotta knock down the castle gates to get the to king, right?
+
+In a synchronized and timed instant, Raven shouts:
+[quote]$Player_Name, NOW![/quote]
+You take off running as Raven takes out two of the guards with singles shots. While the remaining two guards shoot off after Raven, you continue your unhindered run to the elevator bank, squeezing in the doors. You hear the guns echoing in the distance, hoping Raven made it out alive. With at least 2 guards on his tail, it's unlikely. You stare down at the floor selection panel.
+[op]$Used_Raven=true[/op]
+[jump=Floor Selection]Select your floor, you sly orphan[/jump]
+[/cond]</Text>
+          <Keywords>$Luck_Charge_Advantage,$Snuck_Through,$Low_Alert,$IsVeteran,$Won_Firefight,$IsOrphan,$Player_Name,$Used_Raven</Keywords>
+          <Jumps>Floor Selection</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Your Big Moment Awaits</Name>
+          <Text>You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+ 
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. They seem preoccupied. Immediately you spot the main elevator bank on the right side about 100 feet in front of you. 
+
+The toughest looking guard is the first to yell:
+
+[quote]Hey, you forgot to scan your ID.[/quote]
+
+You keep walking, pretending that you didn't hear him. 
+
+He shouts again:
+
+[quote]Hey are you hearing me right now?[/quote]
+
+You start to move quicker, and you hear footsteps behind you speeding up.
+
+You accelerate. The single pair of footprints has transformed into a cacophony of all four guards.
+
+You're fast. Fast enough for the world to blur around you - sound fades and adrenaline kicks in. You're easily outrunning all four guards behind you.
+
+[quote]Last chance before...[/quote]
+
+His muffled voice trails off into your adrenaline haze as you slam up against the controls of the elevator bank at full sprint. Before you can even turn to face your pursuers, you're thrown backwards with a force you've never felt before - like the weight of a boulder has relentlessly rammed your side with a velocity at least twice what you were running, but exponentially more weight. 
+
+As you sit up , you look down to the bloodied and frayed fibers of your left side. It's a rather ethereal feeling looking at your body and not seeing a part of it which has always been there.
+
+The world starts to fade as you slowly black out from blood loss. The guards catch up to you. The last thing you see as you tilt your heads to the guards is the bottom of a  boot coming down on your head with full force. 
+
+[b]THE END[/b]
+[lose]
+
+</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Stealth</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Stealth Action</Name>
+          <Text>[op]$Has_Journal=true[/op][op]$Ministry_Sneak=true[/op]
+You decide on taking the stealth route . This could be the most perilous route, but you're committed to getting in and out with that list without even the ministry knowing it's gone. 
+After a few days of prep, you begin your trek across the city.
+[img=4seconds.jpg][/img]
+After days of endless urban navigation you finally arrive at the Ministry of Information and ponder on your next move. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+
+You stare up at the imposing skyscraper - it must be at least 1500 feet tall. This means that they can't possibly watch all of it. Based on your research, you know you have at least two viable options here. You can either enter from the top, or you can go in through the ventilation system. Neither are small feats and you risk detection, or even worse, death. 
+
+The ventilation system will try your [b]willpower[/b], and going through the roof will try your [b]strength[/b]. Which way will you choose?
+
+[jump=Shadows From Above]Through the roof[/jump]
+[jump=Windy Passages]The ventilation system[/jump]</Text>
+          <Keywords>$Has_Journal,$Ministry_Sneak</Keywords>
+          <Jumps>Shadows From Above,Windy Passages</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Windy Passages</Name>
+          <Text>[op]$Ventilation_Entrance=true[/op][op]$Has_Journal=true[/op]
+You elect for the ventilation system. The physical risks of scaling such a monsterous building smell like trouble, even with your physical power you doubt you'd be able to scale the entire thing. 
+
+You loop around to a side of the building where the ventilation system pulls in all the fresh air. It's a large gated area that extends the length of a city block. it's been gated off with barbed wire fences to prevent any stray animals (or people) from getting in.
+
+You fix this quickly with some cuts from your multi-tool and slip into one of the blowing grates and follow the pipeline. 
+
+As you make your way through the system, you become more and more disoriented by the loud fans and howling winds all around you. It seems that the generators are compensating for the current clog in the system - you. The tunnel is pitch black and obviously not meant for human traversal. 
+
+You come to a vertical section of the piping and scale up with your legs pressed against opposite sides of the pipe. As you shimmy up the pipe, you start to feel the sides of the piping getting hotter and hotter. You must be getting close to the cleansing rooms. In essence these rooms 'boil' the air, just as you would with water, and decontaminate it with innate gasses and chemicals before filtering it through the recirculation system. 
+
+As you get closer and closer, you can tell something in the system is compensating for your mass as well. The system detects you as though you were a foreign body about to get sucked into the incinerator and it's heating up faster and faster, even if you're not moving. 
+
+The suction continues to pull at you, even to the point where you're pushing against the flow of air, rather than with it. Something is going to reach critical mass soon, and you don't want to be there when it does.
+
+The sound of the rotors on the turbines are accelerating just up the tube, and you have to make it to the fork and turn away from the filtration system, but it has begun to glow red hot.  Sweating profusely, you push forward.
+
+[cond=$Willpower&gt;=7][jump=Getting Hot]Things are heating up[/jump][/cond]
+[cond=$Willpower&lt;7][jump=Tingling feeling]Tingling feeling[/jump][/cond]
+</Text>
+          <Keywords>$Ventilation_Entrance,$Has_Journal,$Willpower</Keywords>
+          <Jumps>Getting Hot,Tingling feeling</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Shadows From Above</Name>
+          <Text>[op]$Sky_Entrance=true[/op][op]$Has_Journal=true[/op]
+You decide to go through the roof of the building. The only problem is scaling the behemoth of a structure. In a city where air travel is so severely restricted, it's hard to imagine even thinking about some kind of airlift. Your only option is to scale the external shell of the building. Luckily the window grid system of the building allows for blind spots all the way up the exterior of the edifice.
+
+You make your way around to one of the sides of the monolithic pillar and find one of the pillars that will hide you from internal eyes on your way up.
+
+You pull out your scaling gear from your bag and affix the electrogrippers to your hands. Electrogrippers are a rather new technology. Designed to look something like a non-translucent, black cup, they atomically bond most materials to the inside of the cup for a short period of time.Even though they'll do the majority of the work, you know the task at hand will be exhausting. 
+
+You activate the pads after you strap them to your hands and wrists. The low hum of the pads sends tingles down your spine as you lift one hand up and place it on the wall. 
+
+Instantly your hand is glued to the structure. You lift your right hand just above the level of your left, deactivating the left cup as you firmly fasten your right handed pad to the smooth surface. You then lift it above your head to the next level and continue the pattern. 
+
+[cond=$Strength&gt;=8][jump=All The Way]Keep climbing[/jump][/cond]
+[cond=$Strength&lt;8][jump=Struggling Upwards]Struggle upwards[/jump][/cond]
+</Text>
+          <Keywords>$Sky_Entrance,$Has_Journal,$Strength</Keywords>
+          <Jumps>All The Way,Struggling Upwards</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Struggling Upwards</Name>
+          <Text>Sweat rolls down your face as you struggle up the menacingly smooth surface. With only about half of the building behind you, your arms are on their last wind already. You're huffing and heaving. The hum of your electrogrippers resonating with the crosswinds throwing you back and forth. 
+As your vision blurs, you know you're in trouble. You're running out of time and options. Your grippers aren't going to have enough charge to get you to the top at your current pace. You have to act now. 
+
+[cond=($Intelligence&gt;7) and !$Ankle][jump=Shattering]Make a new path[/jump][/cond]
+[cond=($Intelligence&lt;7 or $Ankle)][jump=Fatigue]A long way down[/jump][/cond]</Text>
+          <Keywords />
+          <Jumps>Shattering,Fatigue</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>All The Way</Name>
+          <Text>Your knees rub against the smooth surface. A deceiving surface. Although as smooth as anything you've ever felt, the consistent rubbing of your inner knees for over 1400 feet have rubbed the sides of your pants completely raw.Your knees are leaving a trail of skin and blood as you shimmy up the final 50 feet of the surface. 
+
+You reach the edge of the roof, just as your grippers start to send off panic noises, intent on warning the user that the charge has been depleted. 
+As you roll over onto your back, you're covered in a mixture of sweat and blood. The heat from your head rolls off in the form of steam.
+
+After about 15 minutes without moving, you pull yourself together, looking down at the miniature city below. You've conquered the climb, but the real task remains - getting that list. 
+
+You search around for a way down. You pull up your dossier and find the correct floor for the IT servers holding the list data. 
+
+You find the main elevator and the maintenance staircase. 
+
+[cond=$Intelligence&lt;7] The elevator isn't an option because you just can't figure out how to get around the lock on it.[/cond]
+
+[cond=$Intelligence&gt;=7]Because of your background experience in hacking, you can go through the elevator, directly to the IT floor, should you choose.
+
+[jump=IT Floor]Go directly to the server room[/jump] [/cond]
+
+[jump=Maintenance Staircase]Head through the maintenance stairway[/jump]
+</Text>
+          <Keywords />
+          <Jumps>IT Floor,Maintenance Staircase</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Fatigue</Name>
+          <Text>You push forward, mustering all your strength. Unable to push yourself further, you glance downwards at the faint bokeh of the city lights. You knew this was a ridiculously ambitious idea and if you had been stronger or had the option to do it differently, you might have seen success.
+
+As the charge on your left gripper runs out, you suddenly feel a calm come over you. You know your fate now. Instead of waiting for time on your right hand's cup to run out, you decide to untie your hand and let gravity take its course.
+
+[b]THE END[/b]
+[lose]</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Shattering</Name>
+          <Text>[op]$Smashing=true[/op][op]$High_Alert=true[/op]
+You're now out of time and options. Your only way into the building is directly in front of you: the glass window. You curl up into a ball, and position your feet flat on the glass in front of you. 
+
+Looking at the charges on your palms you have time for maybe three kicks before the pads die. You coil yourself as tightly as possible and push backwards away from the window, swinging you upwards.
+
+You collide against the window with brutal force, but it isn't enough. Your horizontal force only cracks the window. 
+
+You coil and prepare to strike again. Pushing off with your full strength, you hold on as tightly as you can, feeling the strain of the force against your wrists holding you against the building. 
+
+You pull downwards with your full force using your hands and wrists as the pivots and stretch out both feet as rigidly as possible and collide with the glass window. 
+
+The glass cracks further, but it's still not enough. Both pads are now blinking and alarming wildly and the hum is stuttering. They're giving out. Last chance.
+
+You coil. Push off. Pull down as hard as you can. As you whip yourself towards the window, you rip the pads off of the building pushing your feet through the window. A a shower of glass erupts around you.
+
+[img=glass.jpg][/img]
+
+[jump=Unintended Entrance]Unintended Entrance[/jump]</Text>
+          <Keywords />
+          <Jumps>Unintended Entrance</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Unintended Entrance</Name>
+          <Text>You roll as you hit the ground, since you came in near the ceiling of the floor whose glass panel you rammed. The drop hits hard on your already tender ankles. You fear the worst as you raise your head to try and decipher where exactly you landed inside of this massive building. 
+
+You brush off flecks of glass as you try and gather yourself and your bearings. To your surprise, you find yourself inside of some kind of board room with table, chairs and projector.
+
+Somehow, you were able to dodge all of the tables and chairs and rolled to a safe position.
+
+Now you have to figure out your way to the server farm. You pull up your VIVI and to your surprise, you're on the same exact floor as the server farm, albeit on the wrong side of the building. 
+
+You see that your closest exit in the large board room is off to your right about 20 feet away. You slowly open the door and  move down the hallway. You realize your time is limited because you surely set off some kind of alarm by shattering the window so loudly.
+
+You start heading over to the entrance of the server farm, near the elevator bank.
+[cond=$Intelligence&gt;=11]
+Your quick eye spots something on the way over. It's a ventilation duct that seems to connect up into the server room. You have the option to try to drop into the room, if you so desire. It would get you out of the hallways quicker and allow for a faster route inside. The choice is yours.
+[jump=The Farm]Through the ducts[/jump]
+[/cond]
+
+[jump=Welcoming Party]Head to the front of the Server farm[/jump]
+</Text>
+          <Keywords />
+          <Jumps>The Farm,Welcoming Party</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Maintenance Staircase</Name>
+          <Text>[op]$Maintenance=true[/op][op]$Has_Journal=true[/op][op]$Low_Alert=true[/op]
+You decide to go down through the dark and damp stairway. It's obviously leaking in rainwater and the smell is pungent.
+
+You wind around to the correct floor exit and end up just outside of the server room, but unfortunately you spot a pair of guards.
+
+You slowly creep up behind them and recognize the damage firing a weapon might cause. You holster your weapon.
+
+You slowly raise your hands to grab the necks of both men simultaneously. You force your hands together once they're in place and throw your hands together with as much force as you can muster.
+
+Both men's heads collide and they fall to the floor.
+
+[jump=The Farm]Head inside the server room.[/jump]</Text>
+          <Keywords />
+          <Jumps>The Farm</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Getting Hot</Name>
+          <Text>You will your way through the boiling pipe, ignoring the incredible pull of the wind and heat, tearing at your face. It must be at least 150 degrees and rising. You will not last long in this. 
+
+You reach for the corner of the pipe at the fork, but realize you can't make the grab without losing too much grip on the pipe. You'll be literally toasted if you make a lunge like that. Having run out of other options, you force your hand into the side of the boiling pipe. You can smell the melting and burning skin as your hand literally boils against the pipe wall.
+
+After hitting a point of excruciating pain, you lunge from the ledge while your melded hand keeps your pivot secure. Now comes the part you're really fearing. Cringing from the searing pain, you rip your hand away from the red hot pipe in order to pull yourself up. Like skin from a chicken leg, your hand is peeled of layers of flesh as you rip it away from the wall. Despite the amount of chems and stims in your system, no amount of drugs can dull the pain of the freshly scorched and distorted hand. 
+
+Through sheer will, you force yourself up and over the fork and into the adjacent tubing. 
+
+[jump=Into The Freezer]Into the Freezer[/jump]</Text>
+          <Keywords />
+          <Jumps>Into The Freezer</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Tingling feeling</Name>
+          <Text>You have to move fast, and your fingers are starting to melt into the sides of the piping, even with your gripping gloves. You push forwards quickly, smelling the burnt flesh of your hands slide against the glowing pipe. 
+
+The steely incinerator room - a room not filled with flames (as they would consume all the oxygen) but rather one plated with superheated steel. 
+
+The turbine is whirring at a high-pitch and breakneck speed now. You're forced to jam your hands into the sides of the pipe to hold on because the pull is too strong. You leap forward towards the fork in the pipe in an attempt to grab the opposing ledge, but you're forced backwards against the pipe, losing your grip.
+
+With an immense force, you're launched upwards and sucked down the pipe towards the incinerator room, ramming against the filtration grating. Your world slowly begins to melts away. The last thing you hear is the deceleration of the turbine as it celebrates its victory.
+[b]THE END[/b]
+[lose]
+</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Into The Freezer</Name>
+          <Text>[op]$Hand_Melted=true[/op][op]$Low_Alert=true[/op][op]$Has_Journal=true[/op]
+
+You crouch in the adjacent piping to the main ducts and cradle your now misshapen hand. You take a hardcore pain blocker from your bag and apply it to your forearm. It begins to take effect almost immediately. You bandage your hand, and carry on.
+
+As you crawl through the ducts, you're able to notice that you've happened right into a section of the server farm, but you know that the security system therein is going to be extremely strong. No doubt you'll find countless motion detectors within the room. Not a risk to be taken lightly.
+
+You have the option to drop down into the room, or carry on to a different route.
+
+[jump=A Cold Reception]Risk the jump[/jump]
+[jump=Maintenance Staircase]Keep moving for an alternate entrance[/jump]</Text>
+          <Keywords>$Hand_Melted,$Low_Alert,$Has_Journal</Keywords>
+          <Jumps>A Cold Reception,Maintenance Staircase</Jumps>
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Indirect</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Talk The Talk</Name>
+          <Text>[op]$Chose_Indirect=true[/op][op]$Has_Journal=true[/op]
+You decide to take a more indirect route. The ministry is something of an armored fortress. You'd rather take a route less...lethal.
+[cond=$IsRebel]
+Lucky for you, your family still has connections from within the ministry. Silvia, one of the heads of IT in the ministry is an old family friend, only a few years older than you. Your father and hers were old friends from their childhood. You always liked her, but she never had the strong conviction to escape her parents expectations, and that's how she ended up working for the government. She's something of a tech savant. Though you're no slouch yourself, you feel archaic comparing your knowledge to hers.
+
+You can give Silvia a call and ask to catch up over a cup of coffee. She could be your easy ticket in.
+
+[jump=Catching Up]Catch up with Silvia[/jump][/cond]
+[cond=$Intelligence&gt;=7]
+You grew up as something of a hacker growing from minor menace to someone wielding some real power. However, your friends and connections are even better than you. You wonder if now is the time to call in that help. Should you choose, this is an option.
+
+[jump=If Button Pressed]Reach out to the hacker elites[/jump]
+
+[/cond]
+Alternatively, you've been keeping an eye on the shifts of the various custodial workers at the ministry and have a particular custodian in mind who could give you access to the right floors on the elevator in order to access the server farm. You're not sure how you'd convince him to give you access...but there are a few tricks up your sleeve.
+
+This might take some muscle or very careful planning. The choice is yours.
+
+[jump=Janitorial Work]Janitorial Work[/jump]
+
+
+
+</Text>
+          <Keywords>$Chose_Indirect,$Has_Journal,$IsRebel,$Intelligence</Keywords>
+          <Jumps>Catching Up,If Button Pressed,Janitorial Work</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Catching Up</Name>
+          <Text>[cond=$Intelligence&gt;5]
+[op]$Caught_Up_With_Silvia=true[/op][op]$Has_Journal[/op]
+
+You contact Silvia, propose to meet and she happily agrees. You meet her a few days later just outside of the ministry.
+
+Silvia is a gorgeous and dark-haired true latina. She's that older girl you always had a crush on growing up, but could do nothing about. She has a gentle and friendly smile, but you know she's going to be analyzing you the second you sit down. Her nature is such that she stares into your soul and is constantly trying to figure out what makes people tick...and their motivations. 
+
+You are genuinely glad to see her. She proposes a place just a few blocks down from the ministry and you talk as you walk. 
+
+[img=restaurant.jpg][/img]
+
+[quote]$Player_Name! I can't believe it's you. It's been what, 8 years? You're huge! I can't believe how big you are![/quote]
+
+You respond to Silvia with similar warmth and echo her sentiment. 
+
+You take a seat and begin to catch up on all things regarding your families. You mention your separation from them and their disappointment, but don't go into any further details in fear of scaring her away.
+
+Your conversation goes on for hours, and you enjoy catching up with Silvia. If everything goes right, after this current operation you might try to strike up something between you two.
+
+As you begin to finish up, you tell her it was really great to see her again, and ask if you can stop by her work sometime. She seems uneasy at this request. 
+
+You prod and gently nudge her towards the suggestion stating that you've always been interested in seeing her work.
+
+She concedes:
+
+[quote]You really are persistent, aren't you? I guess I can show you around during my lunch hour tomorrow. I'll have to get you into the database as a visitor, and I'm not sure your family situation will pass the check...I might have to make some...arrangements.[/quote]
+
+You agree, thank her for the meal and leave.
+
+[jump=Another Meal]Go see Silvia tomorrow[/jump]
+[/cond]
+[cond=$Intelligence&lt;=5]
+Silvia is a gorgeous and dark-haired true latina. She's that older girl you always had a crush on growing up, but could do nothing about. She has a gentle and friendly smile, but you know she's going to be analyzing you the second you sit down. Her nature is such that she stares into your soul and is constantly trying to figure out what makes people tick...and their motivations. 
+
+You are genuinely glad to see her as she turns the corner and meets you at a nice little hole-in-the wall.
+
+[img=restaurant.jpg][/img]
+
+[quote]$Player_Name! I can't believe it's you. It's been what, 8 years? You're huge! I can't believe how big you are![/quote]
+
+You respond to Silvia with similar warmth and echo her sentiment. 
+
+You take a seat and begin to catch up on all things regarding your families. You mention your separation from them and their disappointment, but don't go into any further details in fear of scaring her away.
+
+Your conversation goes on for hours, and you enjoy catching up with Silvia. If everything goes right, after this current operation you might try to strike up something between you two.
+
+As you begin to finish up, you tell her it was really great to see her again, and ask if you can stop by her work sometime. She seems uneasy at this request. 
+
+You prod and gently nudge her towards the suggestion stating that you've always been interested in seeing her work.
+
+[quote]Why on earth are you so anxious to see my work?[/quote]
+
+You figure the only way is to tell her about your true intentions and political stance. You detail the falling out with your family, and your true feelings towards the corruption of the government.
+
+Silvia's blank stare says it all. 
+
+[quote]I should show you something...[/quote]
+
+She trails off and suggests you follow her. 
+[jump=Politicking]Follow Silvia[/jump]
+
+[/cond]</Text>
+          <Keywords>$Intelligence,$Caught_Up_With_Silvia,$Has_Journal,$Player_Name</Keywords>
+          <Jumps>Another Meal,Politicking</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Janitorial Work</Name>
+          <Text>[cond=$IsOrphan]
+Your time on the streets gave you a wide array of connections. You know a couple of kids that migrated over to the slums just outside of the Ministry a few years ago. You decide to try and get in contact with them. 
+
+You make the long journey across the city - a nearly 2 day trek - to make it to the front of the Ministry. You finally arrive at the ministry after navigating the surface roads of the city. You're soaked. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+
+Before heading to the slums you verify your research by waiting for the particular janitor to leave the building at his scheduled time. Paulo is indeed on time to the minute. A night shift janitor who leaves at 2:45am every morning. The perfect time to 'borrow' his credentials. But you know it won't be that easy. 
+
+[i]You can either try to acquire his passcard and credentials but now, or head to the slums and get some backup. You won't have a chance to head to the slums if you don't do it now. However, the slums are risky even though you're a kid from the streets.[/i]
+
+[jump=Ministry Slums]Ministry Slums[/jump] 
+
+[jump=Janitorial Arts]Tail the janitor now[/jump]
+[/cond]
+
+[cond=!$IsOrphan]
+You make the long journey across the city - a nearly 2 day trek - to make it to the front of the Ministry. You finally arrive at the ministry after navigating the surface roads of the city. You're soaked. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+
+After reaching a safe vantage point, you verify your research by waiting for the particular janitor to leave the building at his scheduled time. Paulo is indeed on time to the minute. A night shift janitor who leaves at 2:45am every morning. The perfect time to 'borrow' his credentials. But you know it won't be that easy. 
+
+[jump=Janitorial Arts]Tail the janitor now[/jump]
+
+[/cond]</Text>
+          <Keywords />
+          <Jumps>Ministry Slums,Janitorial Arts</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>If Button Pressed</Name>
+          <Text>[op]$Chose_Hackers=true[/op][op]$Has_Journal[/op]
+You decide it would be silly to pass up on the opportunity to get back with your old gang - especially for a hack this big. 
+
+You pull up VIVI and connect to Spark. Calls to her usually take about 25 seconds to connect due to all her filtering and firewalling. Luckily for you, you're on the bypass list for all her safeguards.
+
+[quote]$Player_Name, long time. Finally ready to come back and help do the good lord's work?[/quote]
+
+[img=spark.jpg][/img]
+
+You never understood her weird religious overtones. 
+
+You respond:
+
+[quote]Well, Spark. I've got a job. A big one. Biblical even. Only thing I've got for you on this one is notoriety, and whatever else I can dig out of their servers. It's the Ministry of information.[/quote]
+
+Spark is a pretty hard-headed girl, but you see that she's noticeably jolted by the request.
+
+Spark:
+
+[quote]You have my attention, $Player_Name[/quote]
+
+You explain the situation with the list and ask for ideas on how to proceed. She ponders for a minute. 
+
+[quote]It's going to be hard. Really hard. I need a day or two to scout it out and figure this out. Start heading across town, and I'll be ready by then. Dress nicely, will you? [/quote]
+
+You thank Spark and sign off.
+
+You set out on the two day trek to the other side of town.
+
+[jump=Infiltrator]Infiltrator[/jump]
+</Text>
+          <Keywords>$Chose_Hackers,$Has_Journal,$Player_Name</Keywords>
+          <Jumps>Infiltrator</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Infiltrator</Name>
+          <Text>After days of endless urban navigation you finally arrive at the Ministry of Information and call up Spark on your VIVI. It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+
+[img=4seconds.jpg][/img]
+
+Dressed in an impeccable suit and tie Spark almost doesn't recognize you.
+
+[quote]$Player_Name, I guess you actually took my advice for once. Good. This is the easy part. Walk in and head up to the elevator bank on your right. Don't run. You'll scan through just fine. You're currently on the board for interior economic ration distribution. Enjoy it while it lasts for the next 15 minutes.[/quote]
+
+You take a deep breath, inject some stims for good measure, and start up what seems to be thousands of steps, pushing you back with a cascade of small waterfalls generated by the rain at your feet. You wonder if this marble tomb will allow you to escape. 
+
+You walk through the large glass doors, uneasy at your lack of armaments. You notice that there are only a handful of guards left at this time of evening, none of them particularly interested in you. 
+
+You pass the first scanner, which checks your VIVI for identification. If Spark didn't do this right, you will be walking into your graveyard.
+
+[quote]"Welcome Yoshihiro Takashi"[/quote]
+
+The voice dryly welcomes you. You think to yourself, really, Spark? You couldn't even try and match my race? Luckily none of the guards bat an eye.
+
+You continue up to the elevator bank and look down at the floor selection menu.
+
+[jump=Floor Selection]Head up[/jump]</Text>
+          <Keywords />
+          <Jumps>Floor Selection</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Another Meal</Name>
+          <Text> It’s always wet in Buenos Aires. Not just the kind of wet you get from the rain of everyday, but the heavy humidity feels like a spongy membrane covering every pore. Skin longs for air, and only finds a thick soup of stickiness. The heavy dew seems to coat everything. Railings, handles, walls. Nothing can escape the thick aqueous layer. Small droplets trickle down the marble walls of the Ministry of information.
+You ascend the long staircase as the water cascades down, pushing back at your feet. You enter nervously through the large glass entrance of the ministry and prepare to be scanned.
+
+Your pulse escalates as you walk through the scan gate. 
+
+[quote]Purpose of your visit?[/quote]
+
+The synthetic voice asks. 
+
+You hesitate, then respond
+
+[quote]To visit Silvia Romero in IT[/quote]
+
+The synthetic machine processes your response, then the barrier lighting around you fades to a pleasant shade of green followed by the message [b]"Access Granted". [/b]
+
+The guards glare at you as you walk to the elevator bank and look down at the floor selection.
+
+[jump=Floor Selection]Select your floor[/jump]</Text>
+          <Keywords />
+          <Jumps>Floor Selection</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ministry Slums</Name>
+          <Text>[op]$Chose_Slums=true[/op][op]$Has_Journal[/op]
+
+[cond=$Strength&gt;=8 and $Intelligence&gt;=7]
+You arrive at the slums just after 3 am. A few shacks with a candle or other small light source flicker in the dark. You come up to a small campfire with a few older men warming themselves. 
+
+You ask if they've seen your friend, Bolo. They haven't. You keep walking deeper into the slums.
+
+The night feels so dark that it is enveloping you. A catalyst with the wetness sinking into your skin. You begin to shiver.
+
+The sudden barking of a herd of pitbulls can be heard down the row of shacks. You steer clear. You find a small boy in the next section over and ask him about Bolo. The boys eyes widen, but he says nothing. 
+You ask again. The boy turns and runs. You follow closely.
+
+Diving deeper into the slums, the boy arrives at a small shack and  knocks on what must be a door. Without turning or hesitating, bolts off into the darkness. 
+
+At the door, emerges a man, whom you don't recognize. 
+
+[quote]Who are you? What do you want? Speak fast before I bash your face in. [/quote]
+
+You ask about Bolo. His eyes light up.
+
+Without missing a beat he throws his right elbow at your head. You're so stimmed up that you see it a mile away.
+As he comes down, you grab his elbow, forcing it upwards above his head and locking it in an unnatural position with his hand halfway down his back facing outwards. He drops to his knees. You push down and he lets out piercing screams.
+
+You stare at him sternly:
+
+[quote]Where. Is. Bolo.[/quote]
+
+He groans in pain but says nothing. You push down harder. You can almost feel this arm starting to break lose from its socket. The wails grow louder. 
+
+[quote]Last chance.[/quote]
+
+You begin to put your full weight and force into pushing his arm downwards, as he wriggles in agony. Finally he points down the rows of shacks to a dimly lit shack in the corner. You drop his arm and make your way over, leaving him as he writes in pain cradling his arm.
+
+[jump=Streetkin]Streetkin[/jump]
+
+[/cond]
+
+[cond=$Strength&lt;8 or $Intelligence&lt;7]You arrive at the slums just after 3 am. A few shacks with a candle or other small light source flicker in the dark. You come up to a small campfire with a few older men warming themselves. 
+
+You ask if they've seen your friend, Bolo. They haven't. You keep walking deeper into the slums.
+
+The night feels so dark that it is enveloping you. A catalyst with the wetness sinking into your skin. You begin to shiver.
+
+The sudden barking of a herd of pitbulls can be heard down the row of shacks. You steer clear. You find a small boy in the next section over and ask him about Bolo. The boys eyes widen, but he says nothing. 
+You ask again. The boy turns and runs. You follow closely.
+
+Diving deeper into the slums, the boy arrives at a small shack and  knocks on what must be a door. Without turning or hesitating, bolts off into the darkness. 
+
+At the door, emerges a man, whom you don't recognize. 
+
+[quote]Who are you? What do you want? Speak fast before I bash your face in. [/quote]
+
+You ask about Bolo. His eyes light up.
+
+The lumbering brute charges at you and knocks you down with incredible force. The power of his force throws you onto your back
+
+[jump=Stand Your Ground]Stand Your Ground[/jump]
+
+[/cond]</Text>
+          <Keywords />
+          <Jumps>Streetkin,Stand Your Ground</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Janitorial Arts</Name>
+          <Text>You decide to follow Paulo as he turns the block. The rain is now coming down in sheets to the point of obscuring your vision and your ability to run. The street is one giant puddle. 
+
+The film of water gives the ground a gelatinous feel as you increase your pace. This is going to make this even more messy if you're not smart about this.
+
+You know, based on your CCTV research that Paulo is about to turn down a darkened section of the street, and it's your time to either take him out, or take attempt to steal his security card credential discretely from out of his bag. 
+
+The timing on this has to be perfect, or you'll alert him.
+
+[cond=$Intelligence&gt;=11][jump=Ghost]Time the pick...[/jump][/cond]
+[cond=$Intelligence&lt;11][jump=Butter Fingers]Time the pick...[/jump][/cond]
+
+[cond=$Strength&gt;=11][jump=Brute]Take him down, hard[/jump][/cond]
+[cond=$Strength&lt;11][jump=Small Fry]Take him down, hard[/jump][/cond]</Text>
+          <Keywords>$Intelligence,$Strength</Keywords>
+          <Jumps>Ghost,Butter Fingers,Brute,Small Fry</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Streetkin</Name>
+          <Text>You approach the shack and pound on the door. A groggy moan emenates from within. 
+
+He yawns:
+
+[quote]Go away, I'll get you the stuff in the morning...[/quote]
+
+You elect a path with less waiting and bash the door in. You find Bolo drooling and half asleep. Somewhat of an awkward find for such a large kid. 
+He jumps to a right angle while trying to orient himself. He squints in the faint light trying to recognize you. 
+
+[quote]$Player_Name, is that you?[/quote]
+
+You nod as he jumps up to give you a big hug. 
+
+[quote]Man, I thought I'd never see you again after I moved over here! What are you doing all the way on this side of the city?[/quote]
+
+You take the next 15 minutes to catch up, and then explain your plight.
+
+[quote]You're absolutely nuts, $Player_Name. No one gets in there. Even if we could, what's in it for me?[/quote]
+
+You offer Bolo the chance out of the slums, to be a runner like you. He dislikes the idea.
+
+[quote]Nah, man. That's not my life. I just want to live peacefully, ya know?[/quote]
+
+You mention the massive supply of computer hardware, bank accounts, and other physical and virtual goods that could have very serious price points.
+Bolo likes the idea, but says he'll have to bring along his boys to help carry out the goods. You're fine with this idea so long as they stay out of your way. 
+
+You take a day to plan and prepare with Bolo.
+
+[jump=The Crowd]Join the crowd[/jump]
+
+</Text>
+          <Keywords />
+          <Jumps>The Crowd</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Stand Your Ground</Name>
+          <Text>[op][/op]
+The hulking behemoth stands tall over you. He grunts and spits at the ground.
+
+[quote]Bolo's payin' me first. You ain't getting to him. He ain't here. [/quote]
+
+You realize that, even though you yourself are not small by any definition, this guy could break you quickly and assuredly. You know the only way to take him down is to act fast, or expect a miracle.
+
+[cond=$Luck&lt;7][jump=Swept]Sweep his feet[/jump][/cond]
+[cond=$Luck&gt;8][jump=Good Timing]Stall[/jump][/cond]
+</Text>
+          <Keywords>$Luck</Keywords>
+          <Jumps>Swept,Good Timing</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Swept</Name>
+          <Text>You know that if you lay on your back much longer, it will be the end of you. You whip back and kick as hard as you can against the behemoth's shins
+[cond=$Strength&gt;10]
+Your power kick against his weight bearing leg brings a strong crack and a piercing cry of pain. You kick again, knocking him down and creating a compound fracture as blood ejects from the location you target.
+
+You stand, grinning at the reversal of fate as he's the one on the ground now. You demand the location of Bolo's house.
+
+His whimpering reply points you to the the corner shack down the alley. 
+
+[jump=Streetkin]Streetkin[/jump]
+[/cond]
+
+[cond=$Strength&lt;10]You kick as hard as you can against his shin, but your kick seems to  have no noticeable impact on the behemoth. He laughs then grabs you by the throat. The world around you begins to grow hazy as the nearby residents watch you fading into darkness.
+THE END
+[lose]
+[/cond]</Text>
+          <Keywords />
+          <Jumps>Streetkin</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Good Timing</Name>
+          <Text>You feel around looking for anything to slow the man down, but find nothing but a hand of dirt. You throw it into his face as he leans down to taunt you. His face now filled with dirt, the rage is visible.
+
+With one swift, yet brutal action he swipes down and grabs you by the neck, easily lifting you by one hand. He begins to squeeze.
+
+The world starts to turn black around you and you begin to let go. Just as you are about to close your eyes and give in, you suddenly feel the rush of gravity. You've been dropped. 
+
+Coughing and wheezing you look up and wonder what's going on. You can't focus, but you look to your left and notice a body being kicked repeatedly on the ground. It's the behemoth that just tried to choke you. He's being beaten down by a familiar face. Bolo.
+
+[quote]Stay down, nerd![/quote]
+
+Shouts the familiar voice.
+
+Bolo looks down with surprise in his voice
+
+[quote]$Player_Name, is that you?[/quote]
+
+You nod slowly as sharp pain sears through your neck. 
+
+[quote]
+Lets get you back somewhere safe, old friend.[/quote]
+
+Bolo carries you back to his small shack in the corner of the slum. 
+
+[quote]Man, I thought I'd never see you again after I moved over here! What are you doing all the way on this side of the city?[/quote]
+
+You take the next 15 minutes to catch up, and then explain your plight and mission. Bolo's expression droops from a smile to something between confusion and fear. 
+
+[quote]You're absolutely nuts, $Player_Name. No one gets in there. Even if we could, what's in it for me?[/quote]
+
+You offer Bolo the chance out of the slums, to be a runner like you. He dislikes the idea.
+
+[quote]Nah, man. That's not my life. I just want to live peacefully, ya know?[/quote]
+
+You mention the massive supply of computer hardware, bank accounts, and other physical and virtual goods that could have very serious price points.
+Bolo likes the idea, but says he'll have to bring along his boys to help carry out the goods. He warns you that the haul better be good.
+
+You're fine with this idea so long as they stay out of your way. It could be a mutually beneficial partnership.
+
+You take a day to plan and prepare with Bolo while nursing your pained neck. Thanks to the cocktail of stims and chems, you'll notice not difference once the operation starts.
+
+[jump=The Crowd]Join the crowd[/jump]
+</Text>
+          <Keywords>$Player_Name</Keywords>
+          <Jumps>The Crowd</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Politicking</Name>
+          <Text>[quote]We should go to the ministry right now. It's important.[/quote]
+
+You can't believe your luck! You follow her as she leads you right up to the ministry just a few blocks from where you've been eating.
+
+The massive glass doors lead you into a large open space with guards and checkpoints. 
+
+[quote]Give me just a minute while I get you clearance.[/quote]
+
+She looks backwards and runs up to the guard quarters off to the side of the checkpoint. You wait a few minutes without saying anything.
+
+The guard quarters start to shuffle and a few guards come out. 
+
+They approach you with stern faces, and surround you.
+
+[quote]Do you confirm that you are $Player_Name, Friend of Silvia Romero?[/quote]
+
+You nod your head. 
+
+The guard grabs the back of your head and slams you against the ground.
+
+[quote]$Player_Name, you're under arrest for the intent to commit treasonous acts, punishable by Buenos Aires order 3217.3.  [/quote]
+
+You feel the cold steel barrel of a rifle pushed up against your back as you're cuffed and escorted away.
+
+THE END
+[lose]</Text>
+          <Keywords>$Player_Name</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Crowd</Name>
+          <Text>[op]$Have_Bolo=true[/op][op]$Has_Journal=true[/op]
+
+The time for the operation has come. Bolo has brought with him 6 other guys to help with the heist. You're definitely a small army, and a force to be reckoned with. Though they're all street kids, they're smart, fast, strong, and pumped up on stimulants. They're also carrying all sorts of weaponry. 
+
+You take your places outside of the ministry. Paulo is on time as he clocks out without even a minute of error. You signal Bolo's guys to grab him and knock him out. 
+
+The operation is swift and silent. They drag him back to the alley where you're hiding
+
+[quote]Sorry buddy. I hope you don't lose your job for this.[/quote]
+
+You strip his identity card and uniform, and change into it. Just as you planned, it fits perfectly. You lay the poor man's body aside. 
+
+Now it's game time.
+
+You head to the bottom of the stairs of the main entrance to the ministry where Paulo had just exited moments earlier. 
+
+Small droplets of rain trickle down its marble walls. You wonder if this will be your concrete and marble tomb.
+
+With Bolo and his 6 men following closely behind, you proceed through the entrance. You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+ 
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. They seem preoccupied. Immediately you spot the main elevator bank on the right side about 100 feet in front of you. 
+
+Now you signal Bolo and his men to move. They're fast and swift. Weapons drawn, they fire in unison and you watch as all guards in the room are dropped instantly. The regiment of street soldiers joins you at the elevator. 
+
+[jump=Floor Selection]Select your floor[/jump]
+</Text>
+          <Keywords />
+          <Jumps>Floor Selection</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ghost</Name>
+          <Text>[op]$Paulo_Credentials=true[/op][op]$Has_Inventory=true[/op]
+You make your move as he turns into the dimly lit area. You sneak up behind him slowly, yet at a brisk pace. The water spreads out from your foot steps, helping to cushion noise from the pavement, but creating an ethereal 'gloop' noise that could give you away if you're not careful.
+
+When you reach an arm's length distance from him, you slowly reach into the bag he has slung over one shoulder. He stops at the intersection. You make your move. You fumble around for a split second without feeling the lanyard you're looking for. 
+You see 2 seconds remaining on the opposite crosswalk and know you're out of time.
+
+You feel the cord. You instinctively squeeze your fist shut, and pull backwards with a swift, dexterous flow of movement. 
+
+The lanyard is in your grip, and Paulo continues down the street. 
+
+You make your way back through the shadows and to the front of the well lit, monolithic building. Credentials in hand, you start heading up the long flight of stairs to the glass door entrance.
+
+You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. 
+
+[quote]Welcome back, Paulo[/quote]
+
+says the attractive synthetic voice. Your heart races. The guards look up from their conversation, but you're already in the elevator...
+
+[jump=Floor Selection]Select your floor[/jump]</Text>
+          <Keywords>$Paulo_Credentials,$Has_Inventory</Keywords>
+          <Jumps>Floor Selection</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Butter Fingers</Name>
+          <Text>You make your move as he turns into the dimly lit area. You sneak up behind him slowly, yet at a brisk pace. The water spreads out from your foot steps, helping to cushion noise from the pavement, but creating an ethereal 'gloop' noise that could give you away if you're not careful.
+
+When you reach an arm's length distance from him, you slowly reach into the bag he has slung over one shoulder. He stops at the intersection. You make your move. You fumble around for a split second without feeling the lanyard you're looking for. 
+You see 2 seconds remaining on the opposite crosswalk and know you're out of time.
+
+You feel the cord. You instinctively squeeze your fist shut, and pull backwards.
+
+Your timing couldn't be worse. Your hand gets caught at an awkward angle as Paulo starts to walk forward again. Your hand pulls against the side of the bag pulling him backwards by the strap, and you, forward onto your knees and opposite hand.
+
+Paulo looks at you stunned as your hand is embedded in his bag, kneeling in the puddle 
+
+Without even hesitating, the old man moves quickly. A solid kick to the chin is all he needs to knock you on your back. Stars override your vision as your head slams against the ground.
+
+He slowly fishes through his bag for his sidearm, and removes it from the satchel.
+
+[quote]This is for going after a poor old man[/quote]
+
+you hazily stare down the barrel of the gun as he pulls the trigger.
+
+[b]THE END[/b]
+[lose]</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Brute</Name>
+          <Text>[op]$Paulo_Credentials=true[/op][op]$Has_Inventory=true[/op]
+You make your move as he turns into the dimly lit area. You sneak up behind him slowly, yet at a brisk pace. The water spreads out from your foot steps, helping to cushion noise from the pavement, but creating an ethereal 'gloop' noise that could give you away if you're not careful.
+
+You're a hulking goliath compared to Paulo, and you know that now is the time to use that to your advantage. 
+
+As he turns onto the darkest portion of his route, you grab Paulo by the back of his neck while simultaneously covering his mouth from screams. 
+
+You don't want to hurt him if you don't have to. He is not your enemy.
+
+You quietly struggle backwards against a wall and reach for your tranquilizer. You're able to hold him down as you inject him with the substance. It will give him something equivalent to a heavy hangover, but nothing he won't live through. He may not even remember the night.
+
+You hold him tightly until he stops struggling. Fishing through his bag reveals miscellaneous personal affects, including a handgun. You're glad you didn't have to deal with that.
+
+You snatch up the lanyard with his keycard, and head back towards the Ministry a few blocks away, but not before you make sure Paulo is covered and out of the rain. 
+
+You make your way back through the shadows and to the front of the well lit, monolithic building. Credentials in hand, you start heading up the long flight of stairs to the glass door entrance.
+
+You breach the door to the ministry and spot 4 guards inside of a cavernous open space. You glance upwards noticing the glass roof must be at least 1400 feet from where you stand. Though you only count the 4 of you in the football-field-sized room, there must be at least half a dozen or more watching on CCTV cameras scattered around.
+
+You walk straight through the security gate checkpoint without even glancing at the chatting guards. 
+
+[quote]Welcome back, Paulo[/quote]
+
+says the attractive synthetic voice. Your heart races. The guards look up from their conversation, but you're already in the elevator...
+
+
+[jump=Floor Selection]Select your floor[/jump]</Text>
+          <Keywords>$Paulo_Credentials,$Has_Inventory</Keywords>
+          <Jumps>Floor Selection</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Small Fry</Name>
+          <Text>You make your move as he turns into the dimly lit area. You sneak up behind him slowly, yet at a brisk pace. The water spreads out from your foot steps, helping to cushion noise from the pavement, but creating an ethereal 'gloop' noise that could give you away if you're not careful.
+
+You're a hulking goliath compared to Paulo, and you know that now is the time to use that to your advantage. 
+
+As he turns onto the darkest portion of his route, you grab Paulo by the back of his neck while simultaneously covering his mouth from screams.
+
+You struggle to hold on, surprised by the old janitor's strength. Suddnely you're elbowed in the temple and lose your balance. Your involuntary flinch has given Paulo the time to run about 15 feet in front of you. He's frantically digging through his bag.
+
+You erupt in full sprint after him. You're gaining on him, just in time to see him pull a sidearm out of the bag. You know it's too late to stop your sprint and push yourself harder to close the remaining 8 feet . 
+
+Your eyes widen as you see Paulo cock the gun, and squeeze back on the trigger. You hear the blast just as everything in your world turns black. 
+
+[b]THE END[/b]
+
+[lose]</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>IT and Server Farm</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Floor Selection</Name>
+          <Text>[cond=$Used_Raven][op]$High_Alert=true[/op] You hear the faint echo of gunshots at Raven draws the guards away. You feel sorry for the kid but you don't know what else you can do for him at the moment. Rest assured that the building is now on lockdown. You're going to be on your own from here forward.
+[/cond]
+[cond=$Have_Bolo][op]$High_Alert=true[/op]
+You somehow manage to pack you, Bolo and his 6 men into the elevator with all of your equipment. You know that you've set off just about every internal alarm system possible. You huddle into the elevator together, and reload all guns and ammuntion on the way up to the server farm.
+[/cond]
+
+[cond=$IsVeteran]
+[cond=!$Ankle][op]$High_Alert=true[/op][op]$Won_Firefight=true[/op]
+You somehow make it out of the firefight unscathed by any bullet. Adrenaline saturating your system to such an extent, you can actually see the pulsing of your heart through your vision. You are pumped up. You've also likely alerted the entire government to your presence. You close the elevator doors and head upwards to the IT floor.
+[/cond] 
+[cond=$Ankle and $Won_Firefight]
+[op]$Been_Shot=true[/op][op]$High_Alert=true[/op] As you're looking over the floor selection in the elevator, you look down and notice that you've been hit by one of the guards bullets. You're bleeding profusely from your leg. You must not have noticed because the same stims you took to dull the pain from your twisted ankle are now dulling the pain from the gunshot. You'll have to keep an eye on this.
+You choose the floor of the server farm and head upwards.
+[/cond]
+[/cond]
+
+
+[cond=$Snuck_Through][op]$Low_Alert=true[/op]You're running on luck. Pure. Dumb. Luck. You haven't fired a single bullet and somehow snuck into the elevator. You'd be wise to not counting on luck in the future. It might be running out
+ You don't know how long it's going to last, but you're keeping your fingers crossed and a four leaf clover close to your heart. You have a bag full of artillery, ammunition and other utility items. You should stay out of sight.
+
+You select the floor with the server farm and hear the faint whir of the magnetic elevator motors engage.
+[/cond]
+[cond=$Chose_Hackers][op]$Low_Alert=true[/op][op]$High_Alert[/op]Spark comes up on your VIVI and instructs you on which floor you should take, and you select the corresponding floor. She's nervous for the next part, and tells you to be on your guard.
+A bullet of sweat runs down your cheek as you brace yourself for what's on the other side of the elevator
+[/cond]
+[cond=$Caught_Up_With_Silvia][op]$Low_Alert=true[/op]
+You ride the elevator up, in a cold sweat while listening to the ironic and uncomfortable jazz tunes.
+
+The elevator opens up on the IT floor. The rush of synthetic plastic smells invade the elevator.
+
+[/cond]
+[cond=$Paulo_Credentials][op]$Low_Alert=true[/op]
+You anxiously select the floor with the server farm. Your sweaty palms clasping the access card you took from Paulo. So far no one has even looked twice at you. You know that if you don't watch your step, that could change.
+
+[/cond]
+
+[cond=$Low_Alert][jump=IT Floor]To the IT floor[/jump][/cond]
+[cond=$High_Alert][jump=Welcoming Party]Join the party on the IT floor[/jump][/cond]
+
+</Text>
+          <Keywords>$Used_Raven,$High_Alert,$Have_Bolo,$IsVeteran,$Ankle,$Won_Firefight,$Been_Shot,$Snuck_Through,$Low_Alert,$Chose_Hackers,$Caught_Up_With_Silvia,$Paulo_Credentials</Keywords>
+          <Jumps>IT Floor,Welcoming Party</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Welcoming Party</Name>
+          <Text>[cond=$Been_Shot and $Used_Raven][op]$High_Alert[/op]
+The elevator door opens to a pair of armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. The left guard lunges at you and grabs your arm. You squeeze the trigger again, shooting upwards and knocking out one of the lit sections of the elevator. 
+
+Glass shatters all around as the light explodes into a million pieces of glittering sharpness. You reach to the ground and grab a shard, jabbing it into the guards forearm. He reacts, leaping backwards.
+
+After recoiling, he spots your bullet wound and charges at you punching with full force as you prepare to block him. 
+
+The pain is immediate and intense. You collapse in agony as the guard forces his thumb into the wound.
+[cond=$Luck&gt;=4 and $Willpower&gt;=7]
+You are able to overcome the pain and you pick up another glass shard on the floor next to you. This time instead of his arm, you go straight for his temple. Diving the glass shard into the guard's head, his body goes limp. You slowly rise to your feet, wiping the stew of glass and blood from your arms. You head to the server farm entrance, bloody and in pain.
+[jump=The Farm]Head to the server farm[/jump]
+[/cond] 
+[cond=$luck&lt;7 and $Willpower&lt;7]
+The guard pushes with his full force. You can't breath. You gulp for air, but nothing comes. With his free arm, the guard reaches for his pistol. He holds it against your head and squeezes the trigger.
+[lose]
+[b]THE END[/b]
+[/cond]
+[/cond]
+[cond=$Have_Bolo]
+The elevator door opens to a pair of armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. Bolo charges forward knocking the other on his back while a handful of the gang jumps on him and silences him. That could have gone much worse without your own entourage.
+
+[jump=The Farm]Head to the server farm[/jump]
+[/cond]
+[cond=$Smashing]
+As you turn the hallway you notice 3 guards waiting at the elevator, guarding the adjacent entrance to the server farm. You don't hesitate. You break out in a sprint. As the guards turn and notice you, it's too late. You slam two of their heads together, knocking them out cold. You then jump off of the wall to boost yourself higher and throw your body to the right, allowing your left leg to follow in a whipping motion.
+
+With a deep crunch, you connect with the guards jaw and send him to the ground.
+
+You think to yourself. "That could have gone much worse".
+
+Just then, a fourth guard come sprinting around the corner and grabs your head and throws you to the ground.
+
+[quote]Move and I shoot![/quote]
+
+[cond=$Intelligence&gt;=8]
+You're smart enough to notice that the guard has approached you too closely for his own good. You kick hard  and upwards into his knee caps. His head pivots sharply as it comes crashing towards the ground. You hear a sharp crack as he collides against the solid floor.
+
+You turn around, slowly open the server farm door to a low hiss and enter the dry, cool environment.
+
+[jump=The Farm]Go to the server farm[/jump]
+[/cond]
+[cond=$Intelligence&lt;8]
+You've seen his type before. They won't actually shoot. You begin to stand up and guard shouts once more at you.
+
+You reply calmly:
+[quote]Relax, bud. I'm a friend.[/quote]
+
+He cocks his gun and says:
+[quote]Yeah is that what you told my friends before you killed them?[/quote]
+
+As he squeezes back on the trigger, you wish you would have believed him.
+THE END
+[lose]
+
+[/cond]
+[/cond]
+[cond=$Won_Firefight and !$Ankle and !$Been_Shot]
+The elevator door opens with four of armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. Because of your army training, you simultaneously are able to unleash your shotgun from its back holster and blast the two middle ones
+The remaining guard charges at you. You squeeze the trigger again just as he comes in contact with you, shooting upwards and knocking out one of the lit sections of the elevator. 
+
+He seems more stunned than you as you flip your shotgun around and smash the butt of the handle against his head. His body goes limp.
+You head over to the server farm entrance, wiping the stew of glass shards and blood from your arms.
+
+[jump=The Farm]Head to the server farm[/jump]
+[/cond]
+[cond=$Snuck_Through and !$Won_Firefight]
+The elevator door opens to three of armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. The left guard lunges at you and grabs your arm while the middle one kicks you in the shin. You squeeze the trigger again, shooting upwards and knocking out one of the lit sections of the elevator. 
+
+Glass shatters all around as the light explodes into a million pieces of glittering sharpness. You reach to the ground and grab a shard, jabbing it into the guards forearm. He reacts, leaping backwards.
+
+The middle guard lunges at you with full force. You're able to dodge his attack but just barely. He stumbles to the floor of the elevator and you close the door and mash the fire alarm button before he can get up. The elevator closes its doors and he can't do a thing about it. 
+
+[cond=$Luck&gt;=10 and $Willpower&gt;=7]
+The last guard jumps on your back and stabs your shoulder with the bloody glass shard he has now pulled from his arm. You groan in agony before flipping him over your shoulder.
+
+ With one silky smooth motion, you jam your palm into his sternum knocking the air out of him and rendering him unconscious. 
+
+You head over to the server farm entrance, ripping the glass shard from your flesh and dropping it on the ground.
+[jump=The Farm]Head to the server farm[/jump]
+[/cond]
+
+[cond=$Luck&lt;10 or $Willpower&lt;7]
+The last guard jumps on your back and stabs your shoulder with the bloody glass shard he has now pulled from his arm. You groan in agony before flipping him over your shoulder. He grabs the shard embedded in your shoulder, ripping it out as he goes over. You cry out in pain from the large wound.
+
+As you stagger back, the guard has time to coil backwards and charge you, knocking you down.
+
+The last thing you see is the guard's boot winding up and coming down on your head.
+
+[lose]
+[b]THE END[/b]
+[/cond]
+[/cond]
+[cond=$Sky_Entrance and !$Smashing]
+As you turn the corner, three armed guards waiting for you on the other side. You reach for your sidearm and shoot the one on the right. The left guard lunges at you and grabs your arm while the middle one kicks you in the shin. You squeeze the trigger again, shooting upwards and knocking out one of the lit sections of the elevator. 
+
+Glass shatters all around as the light explodes into a million pieces of glittering sharpness. You reach to the ground and grab a shard, jabbing it into the guards forearm. He reacts, leaping backwards.
+
+The middle guard lunges at you with full force. You're able to dodge his attack but just barely. He stumbles to the floor of the elevator and you close the door and mash the fire alarm button before he can get up. The elevator closes its doors and he can't do a thing about it. 
+
+[cond=$Luck&gt;=4 and $Willpower&gt;=4]
+The last guard jumps on your back and stabs your shoulder with the bloody glass shard he has now pulled from his arm. You groan in agony before flipping him over your shoulder.
+
+ With one silky smooth motion, you jam your palm into his sternum knocking the air out of him and rendering him unconscious. 
+
+You head over to the server farm entrance, ripping the glass shard from your flesh and dropping it on the ground.
+[jump=The Farm]Head to the server farm[/jump]
+[/cond]
+
+[cond=$Luck&lt;4 or $Willpower&lt;4]
+The last guard jumps on your back and stabs your shoulder with the bloody glass shard he has now pulled from his arm. You groan in agony before flipping him over your shoulder. He grabs the shard embedded in your shoulder, ripping it out as he goes over. You cry out in pain from the large wound.
+
+As you stagger back, the guard has time to coil backwards and charge you, knocking you down.
+
+The last thing you see is the guard's boot winding up and coming down on your head.
+
+[lose]
+[b]THE END[/b]
+[/cond]
+[/cond]</Text>
+          <Keywords>$Been_Shot,$Used_Raven,$High_Alert,$Luck,$Willpower,$luck,$Have_Bolo,$Smashing,$Intelligence,$Won_Firefight,$Ankle,$Snuck_Through,$Sky_Entrance</Keywords>
+          <Jumps>The Farm</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>IT Floor</Name>
+          <Text>[cond=$Sky_Entrance][op]$Low_Alert=true[/op]
+You come out of the elevator, and see no one around you in the hallway. A pleasant surprise. You're exhausted, but you can tell the biggest job is yet to come. 
+[cond=$Intelligence&gt;=11]
+Your quick eye spots something on the way over. It's a ventilation duct that seems to connect up into the server room. You have the option to try to drop into the room, if you so desire. It would get you out of the hallways quicker and allow for a faster route inside. The choice is yours.
+[jump=The Farm]Crawl into the ducts[/jump]
+[/cond]
+[cond=$Intelligence&lt;11]
+[jump=Welcoming Party]Head around the corner to the server room[/jump]
+[/cond]
+
+[/cond]
+
+[cond=$Caught_Up_With_Silvia]
+You arrive at the top of the elevator to see Silvia waiting for you. She's just as gorgeous as she was at dinner. You stutter for a moment before greeting her. She chuckles at your lack of composure and smiles:
+
+[quote]$Player_Name, it's good to see you again too! Come on in, let me show you around.[/quote]
+
+[jump=The Tour]Take the tour[/jump]
+
+[/cond]
+
+[cond=$Chose_Hackers]
+Spark tells you to tread lightly as you enter into the next room, because that's where the actual sensors are.
+
+You slowly approach the door to the server farm, push gently and feel the burst of cold, dry air flow from the seams of the door. 
+
+[jump=The Farm]Head to the Server Farm[/jump]
+[/cond]
+
+[cond=$Paulo_Credentials]
+With Paulo's credentials in hand you tread lightly as you walk up to the server room door. You gently push the door open, and feel the rush of cold, dry air envelop you. The door closes behind you to a small hissing noise.
+[jump=The Farm]You're now in the farm.[/jump]
+[/cond]
+
+
+[cond=$Snuck_Through and $Luck&gt;=10]
+As the elevator gets close to your designated floor, you have a really strange feeling that you're somehow bypassing all the guards in the entire building so far. You really are ridiculously lucky.
+You cover behind the edge of the elevator as the door opens, and to your surprise see no one on the other side.
+
+You shrug your shoulders and move to the server farm.
+[jump=The Farm]The Server farm[/jump]
+[/cond]
+
+[cond=($Snuck_Through and $Luck&lt;10)]
+The door finally gets close to the intended and you have a horrible feeling come over you. You have a good sense for these kinds of things. You're lucky enough to know when danger is coming...but apparently not lucky enough to avoid it this time. 
+[jump=Welcoming Party]Head to the welcoming party[/jump]
+[/cond]
+
+[cond=$Won_Firefight or $Been_Shot]
+Managing to win the firefight
+[/cond]</Text>
+          <Keywords>$Sky_Entrance,$Low_Alert,$Intelligence,$Caught_Up_With_Silvia,$Player_Name,$Chose_Hackers,$Paulo_Credentials,$Snuck_Through,$Luck,$Won_Firefight,$Been_Shot</Keywords>
+          <Jumps>The Farm,Welcoming Party,The Tour</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Farm</Name>
+          <Text>[cond=$Low_Alert]
+[cond=$Ventilation_Entrance and !$]
+You reach the point above the server farm that seems safe. You spot a grating and remove it from the duct. Using your immense upper body strength, you lower yourself into the dark room.
+
+ You hear the constant whirring of the server fans as both of your feet touch down lightly
+[/cond]
+Your eyes attempt to adjust to the blackness dotted with LEDs. The roar is almost deafening. You've reached the center of the fortress. Before you move in any direction you carefully examine your surroundings. Motion sensors must be everywhere, and you know that even the slightest change in temperature can set off alarms. Your presence alone has already shortened the amount of time you have.
+The rows of servers are imposing and reminiscent of a sleeping monster. You've entered its lair and dare not awake it from its slumber.
+[cond=$Intelligence&gt;=10]Your background in hacking allows you to work quickly.You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. After taking a minute or two to orient yourself, you find a directory called 'Unfiltered_inforunner_reports'. Going through the contents, you find your cell's list! You execute a discrete wipe command to remove all traces of it from the server. Before you start to pack up, you feel you should check the logs to make sure it wasn't accessed by anyone else. It wasn't. 
+
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information. This is critical information, and a goldmine for someone in the information business. 
+
+You collect as much data as you can, and copy everything from the directory to your VIVI and pack up. 
+You jump up and through the grating and crawl down the tunnel, avoiding the same route you chose on the way up. 
+As you travel down the tunnel, you find a way out into a maintenance staircase that should allow you a discrete exit path.
+[op]$Extra_Data=true[/op]
+[jump=Maintenance Staircase 2]drop into the staircase[/jump]
+[/cond]
+[cond=$Intelligence&lt;10]
+You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. Being completely unfamiliar with their server system and file structure, you're not sure where to go next. You don't recognize this system.
+
+5 minutes pass. Then 10. Then 15. You know your body warmth alone is altering the ambient temperature in the room and you're running out of time.
+[cond=$Chose_Hackers][op]$Extra_Data[/op]Just as you're about to give up, you hear Spark's voice jump into your head.
+
+[quote]Need a little help there, $Player_Name? Let me get that for you. Just connect your VIVI to the system. No, don't worry, they won't be able to track you. I'm prepared.[/quote]
+
+You connect to the system, something you would have never imagined. Just as watching any master of their trade, watching Spark do her work was an astounding experience. She weaves a web of confusing code and utilities, wiping out data as she goes. 
+
+[quote]I've packed you a little extra something: the ministry's reports on all other cells and notable people in the city. All the rest of the reports  completely wiped on the ministry's side and only exist on your VIVI. I saved a copy for myself too, of course, but they're probably more valuable in your hands. [/quote]
+
+I've got your back on the cameras, motion sensors and other systems. They're only deactivated for a minute though. You have to move now before they reactivate.
+
+[jump=Overseer]Get out of the room quickly[/jump]
+[/cond]
+
+[cond=!$Chose_Hackers]
+Your only option now is to destroy the servers physically. You're out of time and options. The alert has now been sounded. A calming beep notifies you that unauthorized access has been detected along with a temperature and humidity fluctuation.
+
+[jump=Bash]Start bashing the servers. Make sure nothing survives[/jump][[/cond]
+
+[/cond]
+[/cond]
+
+[cond=$High_Alert]
+
+[cond=$Have_Bolo]
+You and Bolo's gang enter the server farm. Alarms immediately get set off.
+Bolo signals the gang to hold the entrance down while you extract the necessary information. 
+
+Your eyes attempt to adjust to the blackness dotted with LEDs. The roar is almost deafening. You've reached the center of the fortress. The rows of servers are imposing and reminiscent of a sleeping monster. You've entered its lair and dare not awake it from its slumber.
+
+[cond=$Intelligence&gt;=10]Your background in hacking allows you to work quickly.You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. After taking a minute or two to orient yourself, you find a directory called 'Unfiltered_inforunner_reports'. Going through the contents, you find your cell's list! You execute a discrete wipe command to remove all traces of it from the server. Before you start to pack up, you feel you should check the logs to make sure it wasn't accessed by anyone else. It wasn't. 
+
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information. This is critical information, and a goldmine for someone in the information business. 
+
+You collect as much data as you can, and copy everything from the directory to your VIVI and pack up. 
+
+You signal Bolo and his gang that it's time to go. You push out over the bodies and find your way to the maintenance staircase - the only way down due to the locked down elevators. 
+[op]$Extra_Data=true[/op]
+[jump=Maintenance Staircase 2]drop into the staircase[/jump]
+[/cond]
+[cond=$Intelligence&lt;10]
+You head to the nearest monitor. A command prompt pops up and you access a the main directory structure. Being completely unfamiliar with their server system and file structure, you're not sure where to go next. You don't recognize this system.
+
+5 minutes pass. Then 10. Then 15. Bolo's guards are slowly building a body count as they keep taking down waves of enemies trying to break into the barricaded room. It won't be too long before they're vanquished.
+
+[quote]I hope you're hurrying, boss![/quote]
+
+You begin to panic.
+
+[cond=$Willpower&gt;7]
+You know that it's a long shot but you try to bruteforce one final directory you suspsect to hold the data. Your instinct is correct and you smash the encryption holding the motherlode: information on not only your cell, but every other cell in the city, not to mention a government report on most dignitaries both pro and anti-government. An inforunners dream cache.
+[op]$Extra_Data=true[/op]
+
+[/cond]
+Unable to go anywhere or do anything else , you realize the guards are now breaking in and you have to go. 
+
+Bolo realizes he's down to his last man, who is mortally wounded and holding off the guards as long as he can.
+
+He reaches into his bag and throws out what looks like a small brown parcel. He tosses it and takes off down the maintenance stairway. 
+
+As the door to the staircase closes, you feel an immense impulse of pressure and an ear-ratttling explosion behind you. The shockwave shakes the whole building and you have to reorient yourself and you follow Bolo down the stairs.
+[op]$Servers_Destroyed[/op]
+
+[jump=Maintenance Staircase 2]Down the stairs[/jump]
+
+[/cond]
+[/cond]
+
+[cond=$Smashing]
+Your eyes attempt to adjust to the blackness dotted with LEDs. The roar is almost deafening. You've reached the center of the fortress and the  rows of servers represent a sleeping monster whose treasure you want to unearth. You've entered its lair and dare not awake it from its slumber.
+[cond=$Intelligence&gt;=10]Your background in hacking allows you to work quickly.You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. After taking a minute or two to orient yourself, you find a directory called 'Unfiltered_inforunner_reports'. Going through the contents, you find your cell's list! You execute a discrete wipe command to remove all traces of it from the server. Before you start to pack up, you feel you should check the logs to make sure it wasn't accessed by anyone else. It wasn't. 
+
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information. This is critical information, and a goldmine for someone in the information business. 
+
+You collect as much data as you can, and copy everything from the directory to your VIVI and pack up. 
+You jump up and through the grating and crawl down the tunnel, avoiding the same route you chose on the way up. 
+As you travel down the tunnel, you find a way out into a maintenance staircase that should allow you a discrete exit path.
+[op]$Extra_Data=true[/op]
+[jump=Maintenance Staircase 2]drop into the staircase[/jump]
+[/cond]
+[cond=$Intelligence&lt;10]
+You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. Being completely unfamiliar with their server system and file structure, you're not sure where to go next. You don't recognize this system.
+
+5 minutes pass. Then 10. Then 15. You know your body warmth alone is altering the ambient temperature in the room and you're running out of time.
+[/cond]
+
+[/cond]
+
+[cond=$Won_Firefight]
+
+Your eyes attempt to adjust to the blackness dotted with LEDs. The roar is almost deafening. You've reached the center of the fortress and the  rows of servers represent a sleeping monster whose treasure you want to unearth. You've entered its lair and dare not awake it from its slumber.
+[cond=$Intelligence&gt;=10]Your background in hacking allows you to work quickly.You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. After taking a minute or two to orient yourself, you find a directory called 'Unfiltered_inforunner_reports'. Going through the contents, you find your cell's list! You execute a discrete wipe command to remove all traces of it from the server. Before you start to pack up, you feel you should check the logs to make sure it wasn't accessed by anyone else. It wasn't. 
+
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information. This is critical information, and a goldmine for someone in the information business. 
+
+You collect as much data as you can, and copy everything from the directory to your VIVI and pack up. 
+You jump up and through the grating and crawl down the tunnel, avoiding the same route you chose on the way up. 
+As you travel down the tunnel, you find a way out into a maintenance staircase that should allow you a discrete exit path.
+[op]$Extra_Data=true[/op]
+[jump=Maintenance Staircase 2]drop into the staircase[/jump]
+[/cond]
+[cond=$Intelligence&lt;10]
+You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. Being completely unfamiliar with their server system and file structure, you're not sure where to go next. You don't recognize this system.
+
+5 minutes pass. Then 10. Then 15. You know your body warmth alone is altering the ambient temperature in the room and you're running out of time.
+
+Your only option now is to destroy the servers physically. You're out of time and options. The alert has now been sounded. A calming beep notifies you that unauthorized access has been detected along with a temperature and humidity fluctuation.
+
+[jump=Bash]Start bashing the servers. Make sure nothing survives[/jump]
+[/cond]
+
+[/cond]
+
+[/cond]
+
+</Text>
+          <Keywords>$Low_Alert,$Ventilation_Entrance,$Intelligence,$Extra_Data,$Chose_Hackers,$Player_Name,$High_Alert,$Have_Bolo,$Willpower,$Servers_Destroyed,$Smashing,$Won_Firefight</Keywords>
+          <Jumps>Maintenance Staircase 2,Overseer,Bash</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Maintenance Staircase 2</Name>
+          <Text>[cond=$Have_Bolo]
+Bolo is plowing down not just security guards, but the polic force now. His hulking mass is the only thing between you and the ground floor. You duck behind him and don't stop running.
+[/cond]
+You make your way down the staircase at breakneck speed. You're barely touching the stairs on your way down. You've already started uploading the file package back to your encrypted database at home in case something happens to you on the way back.
+
+You make it down to the bottom of the stairway and notice the dual authentication door at the exit. Man these guys are thorough. 
+
+You are lucky that the custodian quarters are just down the hallway. You wander in and look for a cabinet or locker - anything where the keycards would be stored.
+
+You find the locker bank and kick the locks off of 6 of them before you find two cards. Looks like most of the workers don't leave them here. Smart move, but you have to account for the lowest common denominator.
+
+You take the two keycards and walk back towards the back door, ignoring the custodian who has emerged from a side room after hearing the noise. He's still wearing a towel and clearly just getting out of the shower. You walk outside into the pouring rain, leaving the echos of his voice behind. He won't be able to get out without his keycard anyway.
+
+You exit into an alley on a different side of the monolith and head back to a main street. 
+
+[jump=Homeward Bound]Homeward Bound[/jump]</Text>
+          <Keywords>$Have_Bolo</Keywords>
+          <Jumps>Homeward Bound</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Overseer</Name>
+          <Text>[op]$Extra_Data=true[/op]
+You break out into a dead sprint back to the elevator, but notice that it's in use. It's headed up to your floor.
+
+You shout,
+[quote]Spark! I thought you had this under control![/quote]
+
+She responds calmly yet sternly.
+
+[quote]Listen, I can't control free will. The guard seems to just be making his rounds. [/quote]
+
+You step into the shadows just as the elevator door dings, and a monster of a man steps out. He seems completely unaware of your presence. You take a dive for the elevator just as the door begins to close. 
+
+The doors shut behind you as the man looks back, but not in time to catch the door to question you.
+
+A bead of sweat rolls down your face.
+
+...that was close... 
+
+[jump=Clean]Get out of there[/jump]</Text>
+          <Keywords />
+          <Jumps>Clean</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Bash</Name>
+          <Text>[op]$High_Alert=true[/op][op]$Low_Alert=false[/op]
+You begin to pick up any spare hardware and throw it at full force against the server banks. You run up and down the aisles pulling plugs left and right, ripping them out at full force. 
+
+The rage flows through you and you begin kicking over cabinets with full body force. Adrenaline surging in your veins, you can feel your heartbeat in your head. 
+
+Sparks explode out from the falling cabinets as you decimate the machines. More alarms begin and you the sprinklers turn on to help snuff out the fires you've just started. 
+
+The alarms bring with them hard metal bars to seal the exits.
+[cond=$Strength&lt;6]
+You have to make your move if you're going to get out. You grab one of the biggest machines you can manage to hold and you hold it close to your chest. You back up against the opposite wall of the bar-locked door, and ram it with full force.
+
+You are knocked back by the bars and fall on your back to a piercing pain. You've landed hard against some of the debris of the machines you've just crushed. 
+
+You realize this is your last stand. As the fires and sparks rage on around you, you're able to decimate the entire room and raze it to the ground. As the guards open then locks, you stand above your magnum opus with pride. 
+The location of your greatest moment is also your last one you'll see on this earth. The guards raise their weapons and fire in unison.
+
+[b]THE END[/b]
+[lose]
+[/cond]
+[cond=$Strength&gt;=6]
+You have to make your move if you're going to get out. You grab one of the biggest machines you can manage to hold and you hold it close to your chest. You back up against the opposite wall of the bar-locked door, and ram it with full force.
+
+With a shower of metal bars and hinges and door fragments, you burst through to the other side.
+[op]$Servers_Destroyed[/op]
+[jump=Dirty]Get out of there![/jump]
+[/cond]
+</Text>
+          <Keywords>$High_Alert,$Low_Alert,$Strength,$Servers_Destroyed</Keywords>
+          <Jumps>Dirty</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>The Tour</Name>
+          <Text>You move forward to the server farm entrance door. You slowly open the door and  hear a large blast of air gush from the seams of the portal. Silvia makes a snarky remark on the sci-fi inspired noise. 
+
+Upon entering into the room, you find yourself centered in a deserted, yet massive conglomeration of servers with whirring fans, and an unnaturally dry air. The dehumidifiers help climate the control the air and it's a sharp contrast for your skin.
+
+[quote]Let me show you some of the stuff I've been working on...[/quote]
+
+She takes you over to the terminal where her work is stored. Immediately you know that this is where you need to access the files. You should act fast.
+
+You know that no one else is around. You can either tranquilize her, or try and explain your plight to her and attempt to convert her to your side.. You can tell she's begun to trust you, but you aren't sure if you're charismatic enough to pull it off
+
+[i]Make your choice:[/i]
+
+[jump=Tranquilize]Grab her and sedate her[/jump]
+[jump=Charismatic]Explain the situation[/jump]</Text>
+          <Keywords />
+          <Jumps>Tranquilize,Charismatic</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Charismatic</Name>
+          <Text>[cond=$Intelligence&gt;=10][op]$Extra_Data=true[/op]
+You decide to talk to her. You know you can convince her. She's a smart girl who can analyze a situation and you know she'll side with you. You begin your plea
+
+[quote]Silvia, I'm in trouble. I came to you for help. The ministry has scraped a list that contains information about me and my whole life. If it comes to light, I'm done. They'll have everything they need to execute me. I beg of you to help me clear that data from your internal database.[/quote]
+
+Silvia's eyes widen in disbelief and she stares at you intently. 
+
+[quote]You...you...used me? $Player_Name..I just...[/quote]
+
+You continue to plead with her.
+Tears streaming down her face she looks at you
+
+[quote]I love my country and my job. I don't want to do this, but I'm doing it because I care about you, but I don't think I'll be able to look at you after this. You'll need to leave once the data has been removed.[/quote]
+
+She looks up the list and removes the files in just a few keystrokes
+
+[cond=$Willpower&gt;=8]
+[op]$Silvia_Alliance=true[/op]
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information.
+
+You put your hand on Silvia's and say
+
+[quote]Silvia, come with me. Lets take this data and get out of here. We can stop this corruption. This data is as good as money. We can secure a future for each other. Lets take it and leave.[/quote]
+
+She says nothing. Her wet eyes staring back at you. You can see a visible change in her eyes as she looks up at you again. She copies all of the data, motioning for you to turn on your VIVI to accept the connection. She does not look up while the data copies, tears streaming down her cheek.
+
+After an eternity, she nods to you and you both walk out of the room.
+[/cond]
+
+You look at her sullenly, and nod in a show of gratitude. She glances at you, then looks down and begins to cry.
+
+[jump=Clean]It's time to head back[/jump]
+[/cond]
+[cond=$Intelligence&lt;10]
+You decide to talk to her. You know you can convince her. She's a smart girl who can analyze a situation and you know she'll side with you. You begin your plea
+
+[quote]Silvia, I'm in trouble. I came to you for help. The ministry has scraped a list that contains information about me and my whole life. If it comes to light, I'm done. They'll have everything they need to execute me. I beg of you to help me clear that data from your internal database.[/quote]
+
+Silvia's eyes widen in disbelief and she stares at you intently. 
+
+[quote]You...you...used me? $Player_Name..I just...[/quote]
+
+You continue to plead with her.
+Tears streaming down her face she looks at you and can only say:
+
+[quote]$Player_Name, I'm....sorry...[/quote]
+
+Before you can process her intent, she types a command into the console and locks down the room. Giant bars come flying down on all doors and a soft alarm begins to blare.
+
+She turns away from you and sits, awaiting the guards that will ultimately take you away.
+
+[b]THE END[/b]
+[lose]
+[/cond]</Text>
+          <Keywords>$Intelligence,$Extra_Data,$Player_Name,$Willpower,$Silvia_Alliance</Keywords>
+          <Jumps>Clean</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Tranquilize</Name>
+          <Text>[cond=$Strength&gt;=10]
+[op]$Sedated_Silvia=true[/op]
+Silvia is small enough that you know you you can sedate her without much of a fight. 
+You really hate yourself for what you're about to do, but you know there's no other choice. Silvia turns her back to you and continues:
+
+[quote]And this is my term...[/quote]
+
+You make your move. You cover her mouth and hold her steady while you inject the tranquilizer into her shoulder. He accusatory and confused eyes look at you, wondering why you're doing this. The tranquilizer takes effect after about 8 seconds of struggling.
+
+You place her body down gently.
+
+[cond=$Intelligence&gt;=10]Your background in hacking allows you to work quickly.You make your way over to the nearby terminal.
+A command prompt pops up and you access a the main directory structure. After taking a minute or two to orient yourself, you find a directory called 'Unfiltered_inforunner_reports'. Going through the contents, you find your cell's list! You execute a discrete wipe command to remove all traces of it from the server. Before you start to pack up, you feel you should check the logs to make sure it wasn't accessed by anyone else. It wasn't. 
+
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information. This is critical information, and a goldmine for someone in the information business. 
+
+You collect as much data as you can, and copy everything from the directory to your VIVI and pack up. 
+You jump up and through the grating and crawl down the tunnel, avoiding the same route you chose on the way up. 
+As you travel down the tunnel, you find a way out into a maintenance staircase that should allow you a discrete exit path.
+[op]$Extra_Data=true[/op]
+[jump=Maintenance Staircase 2]drop into the staircase[/jump]
+[/cond]
+
+[cond=$Intelligence&lt;10]
+Stepping over Silvia's limp body, make your way over to her terminal she was about to show you.
+A command prompt pops up and you access a the main directory structure. Being completely unfamiliar with their server system and file structure, you're not sure where to go next. You don't recognize this system.
+
+5 minutes pass. Then 10. Then 15. You're running out of time before someone notices that Silvia has gone missing. 
+
+You decide to simply destroy the data before you get out
+[jump=Bash]Destroy it all...[/jump]
+
+[/cond]
+
+[/cond]
+[cond=$Strength&lt;10]
+Silvia is small enough that you know you you can sedate her without much of a fight. 
+You really hate yourself for what you're about to do, but you know there's no other choice. Silvia turns her back to you and continues:
+
+[quote]And this is my term...[/quote]
+
+You make your move. You cover her mouth and hold her steady while you inject the tranquilizer into her shoulder. Her accusatory and confused eyes look at you, wondering why you're doing this.
+She manages to get one of her arms free and elbows you on the side of your head. You are stunned and step backwards grabbing the side of your head in unbelief. 
+
+Without your grip to restrain her, she pulls the tranquilizer out of her arm and ducks down. Before you can even look downwards, you feel a sharp prick against your right thigh. She's stuck you with the tranquilizer. Before you can move or react. You feel your legs shoot forward from underneath you as she's just swept you with her legs from behind you.
+
+You fall flat on your back, leaving the tranquilizer just enough time to activate and flow through your bloodstream
+
+[quote]I knew you were putting on a show, $Player_Name...[/quote]
+
+[b]THE END[/b]
+[lose]
+[/cond]</Text>
+          <Keywords>$Strength,$Sedated_Silvia,$Intelligence,$Extra_Data,$Player_Name</Keywords>
+          <Jumps>Maintenance Staircase 2,Bash</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>A Cold Reception</Name>
+          <Text>[cond=$Hand_Melted and $Strength&lt;8]
+As you roll over the edge of the duct, you can't hold on with your melted and mangled hand. You had completely forgotten that you had roasted your ligaments and can't can't move your fingers. 
+You drop with a hard thud against the ground, instantly shutting off the audio sensors and forcing a lockdown.
+Giant bars isolate you from any exit, and the duct is too high to reach from where you stand on the ground. Your last option is to destroy as much as you can before the backup arrives.
+
+[jump=Bash]Start the destruction[/jump]
+[/cond]
+
+[cond=$Hand_Melted and $Strength&gt;=8]
+As you roll over the edge of the duct, you can't hold on with your melted hand. You had completely forgotten that you had roasted your ligaments and can't can't move your fingers.
+You thrust your other arm upwards and grab on before you fall and interupt the sensors. 
+
+Shimmying along the top of the room's piping, you slowly position yourself in what seems to be a safe area, close enough to drop into next to a terminal.
+
+The constant whirring of the server fans seem to explode in your ears as both of your feet touch down lightly.
+
+Your eyes attempt to adjust to the blackness dotted with LEDs. The roar is almost deafening You look up once you've landed on the ground and notice the rows and rows of servers. You've reached the center of the fortress. Before you move in any direction you carefully examine your surroundings.Motion sensors must be everywhere, and you know that even the slightest change in temperature can set off alarms. Your presence alone has already shortened the amount of time you have.
+The rows of servers are imposing and reminiscent of a sleeping monster. You've entered its lair and dare not awake it from its slumber.
+
+[cond=$Intelligence&gt;=10]Your background in hacking allows you to work quickly.You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. After taking a minute or two to orient yourself, you find a directory called 'Unfiltered_inforunner_reports'. Going through the contents, you find your cell's list! You execute a discrete wipe command to remove all traces of it from the server. Before you start to pack up, you feel you should check the logs to make sure it wasn't accessed by anyone else. It wasn't. 
+
+You notice that the amount of information on screen is a goldmine. Information on all other cells and inforunners, not to mention most notable people in the city. It includes dossiers on their jobs, backgrounds, families, occupations, and similar and private information. This is critical information, and a goldmine for someone in the information business. 
+
+You collect as much data as you can, and copy everything from the directory to your VIVI and pack up. 
+You jump up and through the grating and crawl down the tunnel, avoiding the same route you chose on the way up. 
+As you travel down the tunnel, you find a way out into a maintenance staircase that should allow you a discrete exit path.
+[op]$Extra_Data=true[/op]
+[jump=Maintenance Staircase 2]Drop into the staircase[/jump]
+[/cond]
+[cond=$Intelligence&lt;10]
+You carefully navigate the minefield of motion sensors as you make your way over to the nearest console.
+A command prompt pops up and you access a the main directory structure. Being completely unfamiliar with their server system and file structure, you're not sure where to go next. You don't recognize this system.
+
+5 minutes pass. Then 10. Then 15. You know your body warmth alone is altering the ambient temperature in the room and you're running out of time.
+
+Giant bars isolate you from any exit, and the duct is too high to reach from where you stand on the ground. With alarms rining in your ears, your last option is to destroy as much as you can before the backup arrives.
+[jump=Bash]Start the destruction[/jump]
+[/cond]
+[/cond]</Text>
+          <Keywords>$Hand_Melted,$Strength,$Intelligence,$Extra_Data</Keywords>
+          <Jumps>Bash,Maintenance Staircase 2</Jumps>
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Home Again</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Clean</Name>
+          <Text>[cond=$Chose_Hackers][op]$Extra_Data=true[/op][/cond]
+You make a quick getaway once you arrive in the lobby and head back to the street. The rain is now a thick soup. The sheets are visible and cascade with menacing force. The pavement reflects the neon lights and glow of the various signs around you. The city is a restless force, even while she sleeps. 
+
+You begin the long journey home.
+
+[cond=$Extra_Data]With this extra data in hand, you now have the drop on all rival inforunner cells not to mention countless high class citizens and government officials. You know everything about everyone important in the city. What will you do with this data?[/cond]
+
+[cond=$Silvia_Alliance]Silvia stops you before  you start across the city. She offers a stay at her place to rest up before heading back. Your exhausted body accepts for you. You rest a few days. While resting, you continue to catch up with Silvia over your life and your interests. Your families and goals. The more and more you talk to her, the more you've fallen for her. 
+
+You get a message on your VIVI. It's Blitz. He demands you get back. Something about you being a worthless scumbag. It's probably a good time to head back, not for Blitz's sake, however. This is going to be for you. Silvia elects to follow you after filing for a leave of absence at the ministry.
+
+[op]$Ankle=false[/op] [/cond]
+
+[jump=Homeward Bound]Head home, runner[/jump]</Text>
+          <Keywords>$Chose_Hackers,$Extra_Data,$Silvia_Alliance,$Ankle</Keywords>
+          <Jumps>Homeward Bound</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Dirty</Name>
+          <Text>[op]$Servers_Destroyed=true[/op]
+Explosions echo behind you as you bypass the elevator in favor of an external escape. You know that guards will be swarming the stairs so you take off to an office space. Looking out over the rainy city, you see the refracted lights through the combination of rain drops and large glass panes. You grab the office table and ram it through the glass. 
+
+The sudden shower of glass, raindrops, and the blast of cold, humid air almost throw you off your feet. You watch the table tumble the 500+ feet to the street below. It seems to liquify with the rest of the rain on contact.
+
+You pull out your scaling gear from your bag and affix the electrogrippers to your hands. Even though they'll do the majority of the work, you know the task at hand will be exhausting. 
+
+You carefully swing your body around the glass shards remaining in the window frame and affix your grippers to the wide, slippery side of the building.
+
+Hand over hand you affix and release your grippers as you slowly descend into the rainy abyss below.
+
+You finally reach the ground and pack up your things. You notice the police force has a large presence at the front of the building. You count at least 40+ officers and custom vehicles swarming the premise. You need to get out now. 
+
+You make your way down the shiny street and begin the long trek home.
+
+[jump=Homeward Bound]Head Home[/jump]</Text>
+          <Keywords>$Servers_Destroyed</Keywords>
+          <Jumps>Homeward Bound</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Homeward Bound</Name>
+          <Text>[cond=$Have_Bolo]You and bolo pause once you're out of the light. Huffing and wheezing, you can tell that even the toughened Bolo has been affected by the events which have transpired. Despite the physical bruising and cuts, the loss of all of his friends is what seems to have hurt him the most
+[cond=$Extra_Data]
+You try to console him:
+[quote]Listen...Bolo. About your gang. I'm really sorry.[/quote]
+
+It doesn't seem to help.
+
+You look down and notice that your VIVI has finished uploading the final bits of data and you shouldn't have any more worries from here on out. You've accomplished your mission and then achieved much more. 
+
+You ask Bolo if he wants to reconsider joining up with you as a runner. He responds softly.
+
+[quote]
+What else do I have now, man? I've got nothing back in the slums now. No one. Nothing. 
+[/quote]
+
+Soaking wet from the rain, you talk him into coming back to you and set off on a trek back home.
+
+[/cond]
+[cond=!$Extra_Data]
+You try to console him:
+[quote]Listen...Bolo. About your gang. I'm really sorry.[/quote]
+
+It doesn't seem to help.
+You ask Bolo if he wants to reconsider joining up with you as a runner. He responds softly.
+
+[quote]
+What else do I have now, man? I've got nothing back in the slums now. No one. Nothing. We didn't even get anything out of that stupid....whatever we just did. I'm done. I hope I never see you again.
+[/quote]
+
+It truly is the last time you ever see Bolo.
+[/cond]
+[/cond]
+
+This time, it only takes you a day to make it across the city. You have to report back to Blitz, and this is not a report to be done virtually. The old man needs to see this. He needs to know that not only did you do the job, you did it in a convincing and resonating manner.
+
+[jump=Second Meeting]Go see Blitz[/jump]
+</Text>
+          <Keywords />
+          <Jumps>Second Meeting</Jumps>
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Second Meeting</Name>
+          <Text>[cond=$Silvia_Alliance]
+With Silvia at your side, you lead her back to headquarters to confront Blitz. 
+[/cond]
+[cond=$Blitz_Injured]
+With a smirk of satisfaction, you step back into headquarters to see Blitz set up in casts and ventilation tubes. The idiot absolutely deserved the beating you gave him.
+
+He stutters,
+
+[quote]Listen, $Player_Name. You ever so much as come within 5 feet of me again. I'll blow your brains out. Then I'll blow the brains out of everyone you ever cared about.[/quote]
+
+Being insulted by this cripple does nothing but anger and motivate you.
+
+You glare at him, unflinching.
+
+[/cond]
+[cond=!$Blitz_Injured]
+You return to blitz after your journey. The old fool has the nerve to insult you when you enter.
+
+[quote]You worthless IDIOT! I have so much riding on that list, you better have destroyed it like I asked. DID YOU GET IT? DID YOU DESTROY THE LIST!?[/quote]
+
+You glare at him, unflinching.
+[/cond]
+
+[cond=$Servers_Destroyed]
+You explain to him how you destroyed the server room. That you unleashed your wrath and ripped the entire system apart. That there's no way on earth the data was able to survive that. 
+
+You continue your rampage, pointing at Blitz:
+
+[quote]We're done here Blitz. I'm done with you and your stupid orders. I destroyed that list for my sake. Not for yours.[/quote]
+
+Blitz, for the first time in his life, closes his mouth and doesn't utter a word. 
+
+[cond=$Sky_Entrance]
+[jump=Ending 0]Shut him up permanently[/jump]
+[/cond]
+
+[cond=$Paulo_Credentials]
+[quote]See this? I probably stripped an old man of his livelihood. He didn't need to get involved in this. Innocent people get hurt when you make stupid mistakes, Blitz. When you trade away my personal information for your gain, people get hurt.
+[/quote]
+
+[jump=Ending 1]See who gets hurt[/jump]
+[/cond]
+[cond=$Hand_Melted]
+You lift up your mangled hand, still smelling of melted flesh. You show off the flecks of piping embedded in your skin. 
+
+[quote]You see what happens when you force me to clean up after your mistakes, Blitz? Irreversible things happen. Bad things. 
+[/quote]
+[jump=Ending 2]Go to the irreversible end[/jump]
+[/cond]
+[cond=$Caught_Up_With_Silvia]
+[quote]I was even forced to attack a woman I once cared about because of your stupid mistake of losing our information. What good came of it? And what good came from it? Why do I have to clean up your messes?[/quote]
+[jump=Ending 3]Walk out of the room[/jump]
+[/cond]
+[cond=$Smashing]
+[quote]I almost lost my life climbing that  building. All because of your careless and selfish mistakes.[/quote]
+[jump=Ending 4]Smashing[/jump]
+[/cond]
+[cond=$Have_Bolo]
+Blitz seemed to have not taken notice of Bolo before now. The hulking street kid emerges from the shadows and the beeping noises from Blitz's life support systems double in pace. 
+
+[quote]You see, Blitz. When kids grow up on the streets, they make friends. Friends are people you can trust with your most important secrets. Kind of like that list of information you had on me.[/quote]
+[jump=Ending 5]A New gang in town[/jump]
+[/cond]
+[cond=$Won_Firefight]
+[quote]You whine and moan and complain. But you know what? You never actually do anything but screw me over, Blitz. I'm done with it Blitz. Let me show you what I just went through back at the Ministry.[/quote]
+
+[jump=Ending 6]Show Blitz [/jump]
+[/cond]
+[/cond]
+
+[cond=$Extra_Data]
+
+You explain to Blitz that while you were destroying the data on the servers of the ministry, you were able to come across some very interesting data. Data that makes you more powerful than him.
+
+[cond=$Smashing]
+[quote]
+Blitz, when I was hanging off the side of that building, wondering if I was going to make it to the top, I was wondering, "what is Blitz doing right now? Is he paying for his mistake? Why am I doing this?
+[/quote]
+
+[jump=Ending 7]Rhetorical questions...[/jump]
+[/cond]
+[cond=$Silvia_Alliance]
+Silvia, standing at your right hand, pulls up the holoprojector on her wrist and begins playing back some of the data she acquired from the ministry.
+[jump=Ending 8]Observe the data[/jump]
+[/cond]
+[cond=$Hand_Melted]
+You lift up your mangled hand, still smelling of melted flesh. You show off the flecks of piping embedded in your skin. 
+
+[quote]You see what happens when you force me to clean up after your mistakes, Blitz? Irreversible things happen. Bad things. 
+[/quote]
+[jump=Ending 9]Go to the irreversible end[/jump]
+[/cond]
+[cond=$Have_Bolo]
+Blitz seemed to have not taken notice of Bolo before now. The hulking street kid emerges from the shadows and the beeping noises from Blitz's life support systems double in pace. 
+
+[quote]You see, Blitz. When kids grow up on the streets, they make friends. Friends are people you can trust with your most important secrets. Kind of like that list of information you had on me.[/quote]
+[jump=Ending 10]A New gang in town[/jump]
+[/cond]
+[cond=$Won_Firefight]
+[quote]You whine and moan and complain. But you know what? You never actually do anything but screw me over, Blitz. I'm done with it Blitz. Let me show you what I just went through back at the Ministry; and more importantly, what I found.[/quote]
+[jump=Ending 11]Show Blitz what you found and saw[/jump]
+[/cond]
+[cond=$Chose_Hackers]
+Spark comes online in your ear:
+[quote]
+Hey, $Player_Name. I've got a guy in your proximity you might want to know about. I wasn't even checking my monitors, but this guy is lighting up the whole board. It's like armageddon over here! This scumbag was the one who was selling your information. I think he made some decent money off the sale of your personal information too. Do you know him? I would recommend taking him out
+[/quote]
+
+You grin and move slowly towards Blitz
+
+[jump=Ending 12]Show Blitz what you think of his sale[/jump]
+[/cond]
+[cond=$Paulo_Credentials]
+You hold up the keycard you took from Paulo.
+
+[quote]See this? I probably stripped an old man of his livelihood. He didn't need to get involved in this. Innocent people get hurt when you make stupid mistakes, Blitz. When you trade away my personal information for your gain, people get hurt.
+[/quote]
+[jump=Ending 13]Continue the explanation[/jump]
+[/cond]
+[/cond]
+
+</Text>
+          <Keywords>$Silvia_Alliance,$Blitz_Injured,$Player_Name,$Servers_Destroyed,$Sky_Entrance,$Paulo_Credentials,$Hand_Melted,$Caught_Up_With_Silvia,$Smashing,$Have_Bolo,$Won_Firefight,$Extra_Data,$Chose_Hackers</Keywords>
+          <Jumps>Ending 0,Ending 1,Ending 2,Ending 3,Ending 4,Ending 5,Ending 6,Ending 7,Ending 8,Ending 9,Ending 10,Ending 11,Ending 12,Ending 13</Jumps>
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+    <Folder>
+      <Name>Endings</Name>
+      <Prefix />
+      <Childs>
+        <Page>
+          <Name>Ending 0</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder are thunder rips through the sky.
+
+[quote]I've killed lesser men than you.[/quote]
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger.
+
+Dropping the gun, a faint stream of smoke smolders off the tip of the barrel. 
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. They raised you. You'll continue to wander them until you find what you're looking for. 
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man and pull the trigger.
+
+Dropping the gun, a faint stream of smoke smolders off the tip of the barrel. 
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss.
+Seeking truth, you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lied within those who claimed to be in the business of information. You were wrong. 
+Your restless soul hungers on.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man and  pull the trigger.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss.
+
+?military service taught you many things, one of which was to defy all corruption. Blitz was the epitome of that. 
+
+You sought answers in this corrupt and degenerate world. The inforunners did not provide those answers. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+[/cond]
+
+[lose]
+[lose]</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 1</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+[quote]I've killed lesser men than you.[/quote]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger and walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+
+[lose]</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 2</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+[quote]Do you see this hand, Blitz? It's the price I paid this week, due to your negligence. A mutilated, useless bit of pulp. All in order to fix your idiotic business plan from ruining my life.[/quote]
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+[cond=$IsOrphan]
+You recall the ventilation system and the burning, searing pain. You must have your revenge. 
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger.
+
+You drop the gun, a faint stream of smoke smouldering off the tip of the barrel. 
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. They raised you. You'll continue to wander them until you find what you're looking for. 
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+You recall the ventilation system and the burning, searing pain. You must have your revenge. 
+
+You seek truth and you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lied within those who claimed to be in the business of information. You were wrong. 
+Your restless soul hungers on.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You recall the ventilation system and the burning, searing pain. You must have your revenge. 
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss.
+
+Your military service taught you many things, one of which was to corruption. Blitz was the epitome of that. 
+
+You sought answers in this corrupt and degenerate world. The inforunners did not provide those answers. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+[/cond]
+
+[lose]</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 3</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+You close your eyes and picture Silvia. Her innocence. Her willingness to help and do good for others. This is for her.
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger. 
+
+Dropping the gun, a faint stream of smoke smoulders off the tip of the barrel. 
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you, now it's time to go back to them until you find what you're looking for.
+
+THE END
+[/cond]
+[cond=$IsRebel]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger. 
+
+Dropping the gun, a faint stream of smoke smolders off the tip of the barrel. 
+
+You seek truth and you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lay within the possession of those who claimed to be in the business of information.
+
+You must once again abandon the life you know in hopes of finding a new one.
+
+THE END
+
+[/cond]
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger. 
+
+Dropping the gun, a faint stream of smoke smolders off the tip of the barrel. 
+
+Your military service taught you many things, one of which was to avoid corruption. Blitz was the epitome of that - selling information for his own betterment, while degrading others. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+[/cond]
+[lose]
+</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 4</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+You pick up Blitz and carry him over to the window. You dangle him over the edge, high enough for an instant, painless death. More than he deserves.
+
+[quote]This is how I felt on the side of that building. Now you get to know how your greed feels to others.[/quote]
+
+You unlock your grip and watch gravity grab him and pull him down. 
+
+[cond=$IsOrphan]
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you, now it's time to go back to them until you find what you're looking for.
+
+THE END
+[/cond]
+[cond=$IsRebel]
+You seek truth and you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lay within the possession of those who claimed to be in the business of information.
+
+You must once again abandon the life you know in hopes of finding a new one.
+
+THE END
+[/cond]
+[cond=$IsVeteran]
+Your military service taught you many things, one of which was to avoid corruption. Blitz was the epitome of that - selling information for his own betterment, while degrading others. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+[/cond]
+[lose]
+</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 5</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake. You even put my friend here in danger. [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+You drop him back in his chair. 
+
+You turn around and face Bolo
+
+[quote]This was the man who sold out those who trusted him for his own gain.[/quote]
+
+You tell Bolo to leave. This is your fight.
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+You pull the trigger. 
+
+Dropping the gun, a faint stream of smoke smoulders off the tip of the barrel. 
+
+You and Bolo continue to work together on various jobs throuhout the rest of your lives. You remain good friends. 
+
+[cond=$IsOrphan]
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you, now it's time to go back to them until you find what you're looking for.
+
+THE END
+[/cond]
+[lose]</Text>
+          <Keywords>$IsOrphan</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 6</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+You pull your arm back and thrust it forward with full force. It connects with the right side of his head. He's easily knocked unconscious. Picking up his useless body, you take him downstairs to the alleyway and leave him in the gutter. The rats and the rain are his new home. He's no longer your problem.
+
+[cond=$IsOrphan]
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you, now it's time to go back to them until you find what you're looking for.
+
+THE END
+[/cond]
+
+[cond=$IsVeteran]
+Your military service taught you many things, one of which was to avoid corruption. Blitz was the epitome of that - selling information for his own betterment, while degrading others. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+
+THE END
+[/cond]
+[lose]
+</Text>
+          <Keywords>$IsOrphan,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 7</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. As you're staring into his face with a piercing rage - you squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you. 
+
+Over time you become the boss of a cell of runners, but one with an ethical priority. You use the data you obtained from the ministry for good. You go about changing the face of a corrupt country in a time of war.
+
+You take in orphans off the street and give them purpose and direction. You welcome all who seek truth.
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You seek truth and you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lied within those who claimed to be in the business of information.
+While Blitz was not the answer, you ultimately get closer to finding it in creating your own cell of runners - ones who stood for something more than personal gain. These are agents of truth in every sense of the word. You are a warrior in an eternal cause.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+Your military service taught you many things, one of which was to corruption. Blitz was the epitome of that. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+
+THE END
+[/cond]
+
+[win]
+
+[win]</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 8</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage, squeezing his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+Replacing him in his original chair, you demand his attention for the hologram playing on Silvia's wrist. 
+
+He watches in horror as you display all of his vital records and information that the ministry kept on him.
+
+You continue:
+
+[quote]Isn't it ironic, Blitz, that this ends with me selling out information with you?[/quote]
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+You decide to give up the life of inforunning and settle down with Silvia. You start up a small orphanage and soup kitchen for children, taking in as many orphans as you can off the street. 
+
+You use the stolen information for good, but only shifting the balance of some big governmental decisions when it feels necessary.
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+You settle down with Silvia, and begin to mend ties with your family. Silvia's family, although unhappy about her resignation from her job, never finds the truth about what happened back at the ministry.
+ 
+You use the stolen information for good, but only shifting the balance of some big governmental decisions when it feels necessary.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+You decide to give up the life of inforunning and settle down with Silvia. You have a family and retreat to the country side, away from the city. Though war rages on, you are no longer a soldier, and you live out your days in peace.
+
+You use the stolen information for good, but only shifting the balance of some big governmental decisions when it feels necessary.
+
+THE END
+[/cond]
+
+[win]
+[win]</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 9</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+[quote]Do you see this hand, Blitz? It's the price I paid this week, due to your negligence. A mutilated, useless bit of pulp. All in order to fix your idiotic business plan from ruining my life.[/quote]
+
+You recall the ventilation system and the burning, searing pain. You must have your revenge. 
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You're better than this, better than him. You will not murder this man. He deserve far worse than a quick and painless death.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you. 
+
+Over time you become the boss of a cell of runners, but one with an ethical priority. You use the data you obtained from the ministry for good. You go about changing the face of a corrupt country in a time of war.
+
+You take in orphans off the street and give them purpose and direction. You welcome all who seek truth.
+
+Your hand is ultimately reconstructed and healed through technology and therapy developed by the military for battle wounds. You live a long and fulfilling life.
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You're better than this, better than him. You will not murder this man. He deserve far worse than a quick and painless death.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You seek truth and you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lied within those who claimed to be in the business of information.
+While Blitz was not the answer, you ultimately get closer to finding it in creating your own cell of runners - ones who stood for something more than personal gain. These are agents of truth in every sense of the word. You are a warrior in an eternal cause.
+
+Your hand is ultimately reconstructed and healed through technology and therapy developed by the military for battle wounds. You live a long and fulfilling life.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You're better than this, better than him. You will not murder this man. He deserve far worse than a quick and painless death.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+Your military service taught you many things, one of which was to corruption. Blitz was the epitome of that. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+
+Your hand is ultimately reconstructed and healed through technology and therapy developed by the military for battle wounds. You live a long and fulfilling life.
+
+THE END
+[/cond]
+
+[win]
+</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 10</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake. You even put my friend here in danger. [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage, and squeeze his collar harder.
+
+[quote]I've killed lesser men than you.[/quote]
+
+You drop him back in his chair and turn around and face Bolo.
+
+[quote]This was the man who sold out those who trusted him for his own gain.[/quote]
+
+You tell Bolo to leave. This is your fight.
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+You and Bolo continue to work together. You do not recruit runners, but act something like independent information contractors. You utilize your new information database as a source to do good and persuade where you see fit. The information is used for good.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you, now it's time to go back to them until you find what you're looking for.
+
+With the money you ear, you fund your own orphanage and help kids get off the street. You have finally found what you were hoping for. 
+
+THE END
+[win]</Text>
+          <Keywords />
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 11</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+As you're about to beat him into submission, you realize you're a better man than this. You drop him and walk out.
+
+[cond=$IsOrphan]
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you, now it's time to go back to them until you find what you're looking for.
+
+You find peace in your calling as center of all sociopolitical both micro and macro, living out the rest of your days doing good.
+
+THE END
+[/cond]
+
+[cond=$IsVeteran]
+Your military service taught you many things, one of which was to avoid corruption. Blitz was the epitome of that - selling information for his own betterment, while degrading others. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You find peace in your calling as center of all sociopolitical both micro and macro, living out the rest of your days doing good.
+
+THE END
+[/cond]
+
+
+[win]</Text>
+          <Keywords>$IsOrphan,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 12</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you. 
+
+Over time you become the boss of a cell of runners, but one with an ethical priority. You use the data you obtained from the ministry for good. You go about changing the face of a corrupt country in a time of war.
+
+In addition to this, you now have the backing of Spark and her elite network of hackers. You become immensely powerful and influence up to the highest tier of governments
+
+You take in orphans off the street and give them purpose and direction. You welcome all who seek truth.
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+With the help of your hacker circle, and the new information from the ministry, You're able to finally achieve your goal - pure truth in information.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+Your military service taught you many things, one of which was to corruption. Blitz was the epitome of that. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+You now have the backing of Spark and her elite network of hackers. You become immensely powerful and influence up to the highest tier of governments
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+
+THE END
+[/cond]
+
+[win]
+[win]</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+        <Page>
+          <Name>Ending 13</Name>
+          <Text>You take time to slowly put one foot in front of the next and move closer to him while speaking.
+
+[quote]You see Blitz, I was forced to risk my life. I was forced to clean up after your mistake [/quote]
+
+Blitz is now visually alarmed.
+
+Gripping Blitz by the shirt, you lift him out of the chair. 
+
+You stare into his face with a piercing rage.
+
+You squeeze his collar harder
+
+[quote]I've killed lesser men than you.[/quote]
+
+[cond=$IsOrphan]
+
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You've lived your life as your own boss of the streets, and you'll continue to do so. The streets raised you. 
+
+Over time you become the boss of a cell of runners, but one with an ethical priority. You use the data you obtained from the ministry for good. You go about changing the face of a corrupt country in a time of war.
+
+You take in orphans off the street and give them purpose and direction. You welcome all who seek truth.
+
+THE END
+[/cond]
+
+[cond=$IsRebel]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+You seek truth and you've yet to find it. You had hopes that escaping your oppressive family would help you find the truth. You thought that truth lied within those who claimed to be in the business of information.
+While Blitz was not the answer, you ultimately get closer to finding it in creating your own cell of runners - ones who stood for something more than personal gain. These are agents of truth in every sense of the word. You are a warrior in an eternal cause.
+
+THE END
+
+[/cond]
+
+[cond=$IsVeteran]
+You draw your gun to the whimpering pleas of the shriveled up shell of a man. 
+
+However, you do not pull the trigger. You drop the gun.
+
+You walk out to a new life. One not constrained by the bosses of the inforunner world, but as your own boss. 
+
+You upload all information related to Blitz and his illegal activities to the local police force. They swarm the cell's HQ within an hour.
+
+Once everything is cleared out, you set up base in an adjacent building using all of Blitz's hardware, resources and connections, not to mention all of the data you retrieved from the ministry. It puts you light years ahead of anyone else in the city. You quickly become the de facto source for uncovering corruption in any form.
+
+Your military service taught you many things, one of which was to corruption. Blitz was the epitome of that. You create a new cell of runners - one which eschews everything blitz stood for in favor of truth and honor.
+
+You sought answers in this corrupt and degenerate world. It looks like you're going to have to dig the well to find it yourself. 
+
+Your restless soul hungers for the truth, and you won't stop until it's satiated.  
+
+THE END
+[/cond]
+
+[win]</Text>
+          <Keywords>$IsOrphan,$IsRebel,$IsVeteran</Keywords>
+          <Jumps />
+          <Childs />
+        </Page>
+      </Childs>
+    </Folder>
+  </Childs>
+</Book>

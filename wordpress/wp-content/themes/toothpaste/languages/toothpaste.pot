@@ -1,0 +1,911 @@
+# Copyright SiteOrigin (c) 2013
+# This file is distributed under the GNU General Public License 2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: toothpaste 1.0.3\n"
+"POT-Creation-Date: 2013-05-16T14:22:37+02:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+msgid "Most Used Categories"
+msgstr ""
+
+msgid "Try looking in the monthly archives."
+msgstr ""
+
+msgid "Comment navigation"
+msgstr ""
+
+msgid "&larr; Older Comments"
+msgstr ""
+
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+msgid "Comments are closed."
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+msgid "Permalink to %s"
+msgstr ""
+
+msgid ", "
+msgstr ""
+
+msgid "Posted in %1$s"
+msgstr ""
+
+msgid "Tagged %1$s"
+msgstr ""
+
+msgid "Leave a comment"
+msgstr ""
+
+msgid "1 Comment"
+msgstr ""
+
+msgid "% Comments"
+msgstr ""
+
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+msgid "SiteOrigin Themes"
+msgstr ""
+
+msgid "dismiss"
+msgstr ""
+
+msgid "Create custom tileable background images using our free <a href='%s' target='_blank'>background image generator</a>."
+msgstr ""
+
+msgid "Hi! I'm Greg Priday from SiteOrigin."
+msgstr ""
+
+msgid "I hope you enjoy my WordPress theme."
+msgstr ""
+
+msgid "Please follow me on Twitter and Facebook for updates."
+msgstr ""
+
+msgid "Custom Home Page"
+msgstr ""
+
+msgid "Home Page"
+msgstr ""
+
+msgid "Page Builder"
+msgstr ""
+
+msgid "Advanced functionality like the ability to create post type and page templates"
+msgstr ""
+
+msgid "Insert"
+msgstr ""
+
+msgid "cancel"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Undo"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Columns deleted"
+msgstr ""
+
+msgid "Widget deleted"
+msgstr ""
+
+msgid "Are you sure you want to load this layout? It will overwrite your current page."
+msgstr ""
+
+msgid "Edit %s Widget"
+msgstr ""
+
+msgid "Edit Home Page"
+msgstr ""
+
+msgid "ON"
+msgstr ""
+
+msgid "OFF"
+msgstr ""
+
+msgid "Home page updated. <a href=\"%s\">View page</a>"
+msgstr ""
+
+msgid "Preview Changes"
+msgstr ""
+
+msgid "Save Home Page"
+msgstr ""
+
+msgid "This interface requires Javascript"
+msgstr ""
+
+msgid "SiteOrigin themes include a unique page building tool."
+msgstr ""
+
+msgid "You can use this tool to create home and sub pages, filled your own widgets."
+msgstr ""
+
+msgid "The page layouts are responsive and completely customizable."
+msgstr ""
+
+msgid "Read the <a href='%s' target='_blank'>full documentation</a> on SiteOrigin's support site."
+msgstr ""
+
+msgid "Please <a href=\"%s\">update</a> to the latest version of Page Builder."
+msgstr ""
+
+msgid "Add Widget"
+msgstr ""
+
+msgid "Add Columns"
+msgstr ""
+
+msgid "Prebuilt Layouts"
+msgstr ""
+
+msgid "Add New Widget"
+msgstr ""
+
+msgid "Find More Page Builder Widgets"
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Insert Prebuilt Page Layout"
+msgstr ""
+
+msgid "Page Layout"
+msgstr ""
+
+msgid "Select Layout"
+msgstr ""
+
+msgid "Untitled Layout"
+msgstr ""
+
+msgid "Custom Home Page Builder"
+msgstr ""
+
+msgid "Refresh this page after you've installed Page Builder."
+msgstr ""
+
+msgid "Your theme has Page Builder support. Would you like to install it? It's free."
+msgstr ""
+
+msgid "This theme is compatible with SiteOrigin's powerful drag and drop page builder."
+msgstr ""
+
+msgid "It allows you to build responsive columnized pages, populated with the widgets you know and love."
+msgstr ""
+
+msgid "Best of all it's a <strong>free plugin</strong> that works well with most SiteOrigin themes."
+msgstr ""
+
+msgid "Install SiteOrigin Page Builder"
+msgstr ""
+
+msgid "Install Theme Plugin"
+msgstr ""
+
+msgid "Installing %s"
+msgstr ""
+
+msgid "Premium Upgrade"
+msgstr ""
+
+msgid "There's a premium version of %s coming soon."
+msgstr ""
+
+msgid "After you pay for %s Premium, we'll email you a download link and an order number to your <strong>PayPal email address</strong>. "
+msgstr ""
+
+msgid "Use <a href='%s' target='_blank'>this form</a> if you don't receive your order number in the next 15 minutes. "
+msgstr ""
+
+msgid "Be sure to check your spam folder."
+msgstr ""
+
+msgid "Order Number"
+msgstr ""
+
+msgid "Enable Upgrade"
+msgstr ""
+
+msgid "Already Paid?"
+msgstr ""
+
+msgid "Buy Upgrade"
+msgstr ""
+
+msgid "Some of our User Comments"
+msgstr ""
+
+msgid "What Level of Support Do You Need?"
+msgstr ""
+
+msgid "Premium theme with lifetime updates"
+msgstr ""
+
+msgid "Standard email support"
+msgstr ""
+
+msgid "1-2 day response time"
+msgstr ""
+
+msgid "Theme setup support"
+msgstr ""
+
+msgid "Help from SiteOrigin support staff"
+msgstr ""
+
+msgid "90 days of support"
+msgstr ""
+
+msgid "Standard Support"
+msgstr ""
+
+msgid "Recommended"
+msgstr ""
+
+msgid "<strong>Fast</strong> email support"
+msgstr ""
+
+msgid "<strong>4hr response</strong> during <abbr title=\"9am-6pm, Monday-Friday GMT 2+\">office hours</a>"
+msgstr ""
+
+msgid "<strong>Basic customization</strong> and setup support"
+msgstr ""
+
+msgid "Help from our <strong>WordPress developers</strong>"
+msgstr ""
+
+msgid "A <strong>full year</strong> of theme support"
+msgstr ""
+
+msgid "Priority Support"
+msgstr ""
+
+msgid "%1$s Premium includes email support."
+msgstr ""
+
+msgid "For an extra <strong>%s</strong>, you get faster replies and more detailed answers. Perfect if you're on a deadline."
+msgstr ""
+
+msgid "You're free to use our premium themes on as many sites as you like."
+msgstr ""
+
+msgid "Your Order Number Is [%s]"
+msgstr ""
+
+msgid "There was a problem contacting our validation servers."
+msgstr ""
+
+msgid "Please try again later, or upgrade manually using the ZIP file we sent you."
+msgstr ""
+
+msgid "We've validated your order number."
+msgstr ""
+
+msgid "You can update now, or later on your <a href=\"%s\">Themes page</a>."
+msgstr ""
+
+msgid "This update will add all the premium features."
+msgstr ""
+
+msgid "Updating this theme will lose any code customizations (CSS, PHP, Javascript, etc) you have made to the free version. You will not lose your content, images or settings. 'Cancel' to stop, 'OK' to update."
+msgstr ""
+
+msgid "Update Theme"
+msgstr ""
+
+msgid "We couldn't validate your order number."
+msgstr ""
+
+msgid "There might be a problem with our validation server."
+msgstr ""
+
+msgid "Get Additional Templates"
+msgstr ""
+
+msgid "%s Premium includes additional templates"
+msgstr ""
+
+msgid "Available in <strong>%s Premium</strong> - <strong class=\"upgrade\">Upgrade Now</strong>"
+msgstr ""
+
+msgid "Get Additional Customizations"
+msgstr ""
+
+msgid "%s Addons"
+msgstr ""
+
+msgid "Get More Options"
+msgstr ""
+
+msgid "These are some plugins that you can use to enhance the functionality of %s."
+msgstr ""
+
+msgid "They were all built to work perfectly with %s."
+msgstr ""
+
+msgid "Check out the <a href='%s'>documentation</a> for %s if you're lost. "
+msgstr ""
+
+msgid "Feel free to <a href='%s'>contact support</a> or post on the <a href='%s'>WordPress forums</a> if you need help. "
+msgstr ""
+
+msgid "%s Theme Settings"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Display Hover Edit Icon"
+msgstr ""
+
+msgid "Display a small icon that makes quickly editing fields easy. This is only shown to admin users."
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "You need to <a href=\"%s\">upgrade</a> to WordPress 3.5 to use media fields"
+msgstr ""
+
+msgid "Choose Media"
+msgstr ""
+
+msgid "Set Media"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Only available in <strong>%s Premium</strong> - <strong class=\"upgrade\">Upgrade Now</strong>"
+msgstr ""
+
+msgid "Unknown Field Type"
+msgstr ""
+
+msgid "Settings saved."
+msgstr ""
+
+msgid "Read %s's <a href='%s'>theme documentation</a> for help with these settings."
+msgstr ""
+
+msgid "Settings Help"
+msgstr ""
+
+msgid "Set Media File"
+msgstr ""
+
+msgid "Sliders"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+# siteorigin
+msgid "Add New"
+msgstr ""
+
+msgid "Add New Slider"
+msgstr ""
+
+msgid "Edit Slider"
+msgstr ""
+
+msgid "New Slider"
+msgstr ""
+
+msgid "All Sliders"
+msgstr ""
+
+msgid "View Slider"
+msgstr ""
+
+msgid "Search Sliders"
+msgstr ""
+
+msgid "No sliders found"
+msgstr ""
+
+msgid "No sliders found in Trash"
+msgstr ""
+
+msgid "Slider Slides"
+msgstr ""
+
+msgid "Slides"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Upgrade to <a href=\"%s\">%s Premium</a> to link slides to URLS"
+msgstr ""
+
+msgid "Insert a slider."
+msgstr ""
+
+msgid "Please select a slider."
+msgstr ""
+
+msgid "Image Size"
+msgstr ""
+
+msgid "New Item"
+msgstr ""
+
+msgid "Title Text"
+msgstr ""
+
+msgid "Extra Text"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Are you sure you want to delete this?"
+msgstr ""
+
+msgid "Add Slide"
+msgstr ""
+
+msgid "Upload Media"
+msgstr ""
+
+msgid "%s Order Code"
+msgstr ""
+
+msgid "Order Code"
+msgstr ""
+
+msgid "Find your order code in your original download email from SiteOrigin"
+msgstr ""
+
+msgid "SiteOrigin Call To Action"
+msgstr ""
+
+msgid "A call to action block, generally for your home page."
+msgstr ""
+
+msgid "Headline"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Button URL"
+msgstr ""
+
+msgid "Button Style"
+msgstr ""
+
+msgid "SiteOrigin Button"
+msgstr ""
+
+msgid "Display a button."
+msgstr ""
+
+msgid "Click Me"
+msgstr ""
+
+msgid "Alignment"
+msgstr ""
+
+msgid "SiteOrigin Icon and Text"
+msgstr ""
+
+msgid "A block of text with an icon."
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Upload icon images to your <a href=\"%s\" target=\"_blank\">media library</a>. Find <a href=\"%s\" target=\"_blank\">free icon packs</a>."
+msgstr ""
+
+msgid "SiteOrigin Headline"
+msgstr ""
+
+msgid "Displays a simple headline."
+msgstr ""
+
+msgid "Headline Text"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Primary Menu"
+msgstr ""
+
+msgid "Sidebar"
+msgstr ""
+
+msgid "Footer"
+msgstr ""
+
+msgid "Designed by %1$s."
+msgstr ""
+
+msgid "Blue"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Grey"
+msgstr ""
+
+msgid "Purple"
+msgstr ""
+
+msgid "Additional widgets are available in %s Premium"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Skip to content"
+msgstr ""
+
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+msgid "&larr; Previous"
+msgstr ""
+
+msgid "Next &rarr;"
+msgstr ""
+
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Page %s"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "Logo"
+msgstr ""
+
+msgid "Choose Image"
+msgstr ""
+
+msgid "Set Logo"
+msgstr ""
+
+msgid "Site Description"
+msgstr ""
+
+msgid "Display your site description under your logo."
+msgstr ""
+
+msgid "Ajax Comments"
+msgstr ""
+
+msgid "Keep your conversations flowing with ajax comments."
+msgstr ""
+
+msgid "Footer Copyright Text"
+msgstr ""
+
+msgid "Responsive Layout"
+msgstr ""
+
+msgid "Scale your layout for small screen devices."
+msgstr ""
+
+msgid "Responsive Menu"
+msgstr ""
+
+msgid "Use a special responsive menu for small screen devices."
+msgstr ""
+
+msgid "Blog Layout"
+msgstr ""
+
+msgid "Full Post"
+msgstr ""
+
+msgid "Post Summary"
+msgstr ""
+
+msgid "Copyright {site-title} {year}"
+msgstr ""
+
+msgid "Post navigation"
+msgstr ""
+
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+msgid "Pingback:"
+msgstr ""
+
+msgid "(Edit)"
+msgstr ""
+
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+msgid "%1$s at %2$s"
+msgstr ""
+
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+msgid "View all posts by %s"
+msgstr ""
+
+msgid "Category Archives: %s"
+msgstr ""
+
+msgid "Tag Archives: %s"
+msgstr ""
+
+msgid "Author Archives: %s"
+msgstr ""
+
+msgid "Daily Archives: %s"
+msgstr ""
+
+msgid "Monthly Archives: %s"
+msgstr ""
+
+msgid "Yearly Archives: %s"
+msgstr ""
+
+msgid "Archives"
+msgstr ""
+
+msgid "This entry was tagged %2$s."
+msgstr ""
+
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr ""
+
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+msgid "Nothing Found"
+msgstr ""
+
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "%s adds any custom CSS you enter here into your site's header. "
+msgstr ""
+
+msgid "These changes will persist across updates so it's best to make all your changes here. "
+msgstr ""
+
+msgid "Contact <a href='%s' target='_blank'>SiteOrigin Support</a> for help with making edits. "
+msgstr ""
+
+msgid "Changes apply to %s and its child themes"
+msgstr ""
+
+msgid "Save CSS"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Navigate"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "like"
+msgstr ""
+
+msgid "Destination URL"
+msgstr ""
+
+msgid "SiteOrigin Google Map"
+msgstr ""
+
+msgid "Displays a very simple Google map"
+msgstr ""
+
+msgid "Map Location"
+msgstr ""
+
+msgid "The Map address"
+msgstr ""
+
+msgid "Height"
+msgstr ""
+
+msgid "Map pixel, the width is decided by the size of its panel."
+msgstr ""
+
+msgid "Zoom"
+msgstr ""
+
+msgid "The zoom of the map."
+msgstr ""
+
+msgid "SiteOrigin Embedded Video"
+msgstr ""
+
+msgid "Embeds a video."
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "SiteOrigin Bullet List"
+msgstr ""
+
+msgid "A simple bullet list."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "List Text"
+msgstr ""
+
+msgid "Use a * at the beginning of each list entry line."
+msgstr ""
+
+msgid "SiteOrigin Contact Form 7"
+msgstr ""
+
+msgid "Displays a contact form."
+msgstr ""
+
+msgid "This widget requires the Contact Form 7 plugin."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Contact Form"
+msgstr ""
+
+msgid "Grey Check"
+msgstr ""
+
+msgid "Blue Check"
+msgstr ""
+
+msgid "Green Check"
+msgstr ""
+
+msgid "Purple Check"
+msgstr ""
+
+msgid "Red Check"
+msgstr ""
+
+msgid "Air Header"
+msgstr ""
+
+msgid "Header Background Start Color"
+msgstr ""
+
+msgid "Header Background End Color"
+msgstr ""
+
+msgid "Header Text Color"
+msgstr ""
+
+msgid "Light Overlay Variation"
+msgstr ""
+
+msgid "Version %s"
+msgstr ""
+
+msgid "Light Overlay Opacity"
+msgstr ""
+
+msgid "Dark Overlay Variation"
+msgstr ""
+
+msgid "Dark Overlay Opacity"
+msgstr ""
+
+msgid "Header Height"
+msgstr ""
+
+msgid "Home Header Height"
+msgstr ""
+
+msgid "Air Footer"
+msgstr ""
+
+msgid "Background"
+msgstr ""
+
+msgid "Heading"
+msgstr ""
+
+msgid "Footer %s Color"
+msgstr ""
+
+msgid "Air Fonts"
+msgstr ""
+
+msgid "Heading Font"
+msgstr ""
+
+msgid "Body Font"
+msgstr ""
+
+msgid "Search Results for: %s"
+msgstr ""
+
+msgid "Meta"
+msgstr ""

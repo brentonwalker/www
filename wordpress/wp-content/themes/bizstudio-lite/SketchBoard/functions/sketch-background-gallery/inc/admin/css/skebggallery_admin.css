@@ -1,0 +1,68 @@
+/*-- Sketch BG-Gallery Admin Style
+-----------------------------------*/
+#skebg_wrapper a,#skebg_wrapper input[type="checkbox"],#skebg_wrapper input[type="submit"]{outline:none;}
+#skebg_wrapper .skebg_fBitter{color:#D30E0E;font-size: 12px;margin-left:10px;}
+#skebg_wrapper .skebg_topbox{margin-top: 5px; width: 650px;} 	
+#skebg_wrapper .skebg_topbox.skebg_mn{ position: absolute; right: 51px; top: -70px; width: 50px; margin-top:0; } 	
+#skebg_wrapper {position:relative;margin-top: 15px;background-image: url("../../images/bg.png"); background-repeat: repeat; border: 1px solid #d4d4d4; border-radius: 5px 5px 5px 5px; height: auto; padding-bottom: 20px; width: 729px;} 
+#skebg_wrapper .skebg_clear{clear:both;}
+#skebg_wrapper .skebg_head{border-bottom: 1px solid #D4D4D4; height: auto; margin-left: 0; margin-top: -2px; width: 100%;} 	
+#skebg_wrapper .skebg_head .skebg_title{position:relative;width:auto; height:61px;background-image:url("../../images/banner.png"); background-repeat:no-repeat;}
+#skebg_wrapper .skebg_head .skebg_title .skebg_title_txt {color: #052A3A; font-family: 'Bitter',serif; font-size: 26px; left: 600px; line-height: 30px; position: absolute; top: 11px;} 	
+#skebg_wrapper .skebg_leftbox {height: auto; padding-left: 28px; padding-right: 10px; position: relative; width: 692px; } 
+#skebg_wrapper .skebg_leftbox .skebg_settings{ border: 1px solid #D4D4D4;margin-bottom:-1px;background: url("../../images/upr-display-bg.png") repeat-x scroll 0 0 transparent;height:45px;width:670px;border-radius: 2px 2px 2px 2px;} 
+#skebg_wrapper .skebg_leftbox .skebg_settings .skebg_distxt {color: #555; float: left; font-family: helvetica; font-size: 18px;margin-left: 23px; margin-top: 15px; text-shadow: 1px 1px 1px #FFFFFF; width: 370px; } 	
+#skebg_wrapper .skebg_form{}
+#skebg_wrapper .skebg_block{margin-top:10px;}
+#skebg_wrapper .skebg_savebox{float:right;height:auto;margin-right:26px;width:190px;}
+#skebg_wrapper input[type="submit"]{background: url("../../images/save-btn.png") no-repeat scroll center bottom transparent; border: 0 none; cursor: pointer; float: left; font-size: 0; height: 34px; margin-top: 6px; outline: medium none; width: 114px;} 	
+#skebg_wrapper input[type="submit"]:hover{background-position:top;}	
+#skebg_wrapper .skebg_plus_minus,#skebg_wrapper .skebg_expCol{background: url("../../images/plus_minus.png") no-repeat scroll top transparent;width:35px; height:34px; display:block; float:right; margin-top:7px;}
+#skebg_wrapper .skebg_expCol{background-color: #AAAAAA; border: 5px solid #AAAAAA; border-radius: 2px 2px 2px 2px; float: right; margin-top: 8px;} 	
+#skebg_wrapper .skebg_plus_minus.active,#skebg_wrapper .skebg_expCol.active{background-position:bottom;}
+#skebg_wrapper  .skebg_extendbox {display:none; width: 670px;border: 1px solid #D4D4D4;margin-bottom:30px;}
+#skebg_wrapper  .skebg_extendbox .skebg_topbdr{}
+#skebg_wrapper  .skebg_extendbox .skebg_midbdr{margin: 15px;}
+#skebg_wrapper  .skebg_extendbox .skebg_btmbdr{}
+#skebg_wrapper  .skebg_extendbox  table{color: #555555; font-family: arial; font-size: 13px; height: auto; width: 670px;} 	
+#skebg_wrapper  .skebg_extendbox  table th{text-align:left;width:150px; font-weight: normal;}
+#skebg_wrapper  .skebg_extendbox  table  th,#skebg_wrapper  .skebg_extendbox  table td {padding:8px;}
+#skebg_wrapper  .skebg_extendbox  table  input[type="text"] {border:1px solid #AEAEAE; width:66px; height:22px;} 
+#skebg_wrapper  .skebg_extendbox  table  input.skebg_uploadimg{background: none repeat scroll 0 0 #FFFFFF; border: 1px solid #AEAEAE; float: left; height: 25px; margin-top: 5px; padding-right: 4px; position: relative; width: 243px;} 	
+#skebg_wrapper  .skebg_extendbox  table  input.skebg_uploadbtn{background: url("../../images/browse.png") no-repeat scroll 0 0 transparent; border: 0 none; cursor: pointer; float: left; font-size: 0; height: 30px; margin-left: 20px; padding: 0; position: relative; top: 1px; width: 110px;} 	
+#skebg_wrapper  span.desc{background: none repeat scroll 0 0 #053B54;color: #FAFAFA;display: block;font-size: 12px;line-height: 20px;padding: 10px;text-align: center;border-radius: 2px 2px 2px 2px;}
+#skebg_wrapper h3.hndle span{font-family: fantasy;font-size: 14px;font-weight: bold;}
+#skebg_wrapper .skebg_rdlb{border: 4px solid #FFFFFF; border-radius:50px; float: left; margin: 5px 15px 5px 0; padding: 35px;} 
+#skebg_wrapper .skebg_rdlb input[type="radio"] {display:inline;position:absolute;left:-9999999px;}
+#skebg_wrapper .skebg_rdlb.active {border-color: #e3ba25;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.85);}
+#skebg_wrapper .skebg_colwrap{position:relative;width:87px;display:inline-block;}	
+#skebg_wrapper .skebg_colwrap .skebg_color_inp{width:100px;}
+#skebg_wrapper .skebg_colsel{background:url('../../images/color_pick.png');height: 22px;margin-top: 1px;position: absolute;top: 0;width: 22px;right:0;cursor:pointer;}
+#skebg_wrapper .skebg_colsel .farbtastic{z-index: 1;display:none;position:absolute;top:8px;}
+#skebg_updates{background: none repeat scroll 0 0 #D7E4EA;color: #B70303;font-family: verdana;font-size: 12px;font-weight: bold;margin-bottom: 10px;margin-top: 8px;padding: 4px 0;text-align: center;}
+#skebg_wrapper .skebg_mkchk{*float: left;background:url("../../images/chk-box.png") no-repeat scroll left center transparent;font-size: 0; padding: 15px;}
+#skebg_wrapper .skebg_mkchk.checked{background: url("../../images/chnboxselect.png") no-repeat scroll center top transparent}
+#skebg_wrapper .skebg_chkbox{cursor:pointer;display: inline; font-size: 0; height: 23px; left: 0; margin-left: -27px; margin-top: -2px; opacity: 0; position: relative; width: 20px; filter: alpha(opacity = 00);outline:none; }
+
+#skebg_wrapper label.skebg_td{margin-right:15px;width:32px;height:32px;border:4px solid #fff;display:block;float:left;}
+#skebg_wrapper label.skebg_td.skebg_thumbs_square{background: url("../../images/square.jpg") no-repeat scroll center top transparent}
+#skebg_wrapper label.skebg_td.skebg_thumbs_circle{background: url("../../images/circle.png") no-repeat scroll center top transparent;border-radius:20px;}
+#skebg_wrapper label.skebg_td input{  display: inline; left: -99999px; position: absolute;} 
+#skebg_wrapper label.skebg_td.checked{border-color: #e3ba25;box-shadow: 0 0 5px rgba(0, 0, 0, 0.85);}
+
+#skebg_wrapper  .skebg_onoff_chkbox{cursor: pointer;font-size: 0; height: 30px; left: 204px; opacity: 0; position: absolute; width: 62px;filter: alpha(opacity = 00);outline:none;} 
+#skebg_wrapper .skebg_setchk{background:url("../../images/on_off.png") no-repeat scroll left bottom transparent;font-size: 0;width:66px;height:33px;display:inline-block;}
+#skebg_wrapper .skebg_setchk.checked{background-position:top;}
+#skebg_wrapper.skebg_matas{width:100%;margin-top:0;padding-bottom:0;}
+#skebg_wrapper.skebg_matas .skebg_leftbox{ float: none; margin: 0 auto; padding-left: 10px; width: 670px;} 	
+#skebg_wrapper.skebg_matas .skebg_table{position:relative;}
+#skebg_wrapper.skebg_matas .skebg_table .skebg_expCol{position: absolute;right: 21px;margin-top: 6px;} 
+#skebggallery_post_metas h3.hndle{ color: #333333; font-family: verdana; font-size: 18px;} 	
+#skebg_wrapper a.skebg_tooltip{padding:0 10px;background:url('../../images/ques.png') no-repeat;cursor:pointer;position: relative;margin-left:10px; top: 3px;}
+#skebg_wrapper .skebg_tooltip_txt{display:none;    background: none repeat scroll 0 0 #F9F7CA; border: 1px solid #E4DD97; border-radius: 4px 4px 4px 4px; color: #000000; display: none; font-family: arial; font-size: 12px; left: 35px; line-height: 19px; padding: 11px; position: absolute; top: -15px; width: 175px; } 	 	
+#skebg_wrapper .skebg_tooltip_txt .skebg_tarr{background: url("../../images/tooltip-arr.png") no-repeat scroll 0 0 transparent; height: 21px; left: -13px; position: absolute; top: 10px; width: 14px;}
+#skebg_settsaved{left:375px;position:fixed;top:47%;display:none;z-index:1;}
+#skebg_settsaved .updated_msg{background: url("../../images/data-saved.png") no-repeat scroll transparent;width:323px;height:68px;} 
+#skebg_settsaved .info_msg{ background: url("../../images/info_msg.png") no-repeat scroll 0 0 transparent; height: 53px; left: -195px; position: relative; width: 700px;} 
+#skebg_ajaxloader{display:none;left:520px;position:fixed;top:47%;z-index:1;}
+#skebg_wrapper .skebg_overlay{display:none;background: url("../../images/overlay_bg.png") repeat scroll 0 0 transparent;height: 100%; left: 0; position: absolute; top: 0; width: 730px; }.pro { display: none;}.bizstudio_notify{   color: #D30E0E;font-size: 13px; margin-left: 10px;width:100%;  margin-top: 10px;}

@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-04-07T14:50:38+00:00\n"
+"Last-Translator: aboRoma <jacksacali@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: Syria\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Theme 01"
+msgstr "المظهر 01"
+
+msgid "Theme 02"
+msgstr "المظهر 02"
+
+msgid "Theme 03"
+msgstr "المظهر 03"
+
+msgid "Your theme contains (i.e. in %s file) a hardcoded reference to the jQuery javascript library."
+msgstr "المظهر يحتوي (مثلاً في %s ملف) في إشارة ضمنية إلى jQuery من مكتبة جافا سكريبت"
+
+msgid "This reference may break the plugin. So, if the plugin does not work, please either delete this reference or move it just after the %s declaration."
+msgstr "هذه الإشارة قد تعطل الإضافة، لذا إذا توقفت الإضافة عن العمل، إما إحذف هذه الإشارة %s أو إلتزم بما هو مكتوب"
+
+msgid "This plugin allows a dynamic zoom on the images (based on the colorbox javascript library)"
+msgstr ""
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "ما هي أبعاد القص للصورة المكبرة؟"
+
+msgid "Max width:"
+msgstr "العرض الأعظمي:"
+
+msgid "Max height:"
+msgstr "الطول الأعظمي:"
+
+msgid "What is the text for the frontend?"
+msgstr "ما هو النص على الواجهة؟"
+
+msgid "Previous:"
+msgstr "السابق:"
+
+msgid "Next:"
+msgstr "التالي:"
+
+msgid "Close:"
+msgstr "إغلاق:"
+
+msgid "Play:"
+msgstr "تشغيل:"
+
+msgid "Pause:"
+msgstr "إيقاف مؤقت:"
+
+msgid "The image counter:"
+msgstr "عداد الصور:"
+
+msgid "The %s will be replace with the index of the image and %s with the total number of images in the page."
+msgstr "الـ %s سيستبدل بفهرس الصورة و الـ %s بعدد الصور الكلّي في الصفحة."
+
+msgid "What is the theme?"
+msgstr "ماهو المظهر؟"
+
+msgid "Choose the theme:"
+msgstr "اختر المظهر:"
+
+msgid "Theme 01 is : %s."
+msgstr "المظهر 01 :  %s"
+
+msgid "Theme 02 is : %s."
+msgstr "المظهر 02 :  %s"
+
+msgid "Theme 03 is : %s."
+msgstr "المظهر 03 :  %s"
+
+msgid "What are the other parameters?"
+msgstr "ما هي الباراميترات الأخرى؟"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "وقت الانتقال في عرض الشرائح:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "تشغيل تلقائي لعرض الشرائح:"
+
+msgid "The opacity of the background:"
+msgstr "شفافية الخلفية:"
+
+msgid "Advanced parameters?"
+msgstr "بارامترات متقدمة؟"
+
+msgid "List of page exclusions:"
+msgstr "قائمة بالصفحات المستبعدة:"
+
+msgid "For instance, you may exclude page with URL like %s by setting this option to %s. Please add one regular expressions by line"
+msgstr "على سبيل المثال، قد تستبعد صفحة برابط مثل:  %s بوضع الإعداد على  %s. رجاء ضع تعبير نظامي واحد في كل سطر"
+
+msgid "In addition, you may set this option to %s and to %s to exclude the home page"
+msgstr ""
+
+msgid "Parameters"
+msgstr "البارامترات"
+
+msgid "Manage translations"
+msgstr "إدارة الترجمات"
+
+msgid "Give feedback"
+msgstr "ارسل مراجعة"
+
+msgid "Other plugins"
+msgstr "إضافات أخرى"
+

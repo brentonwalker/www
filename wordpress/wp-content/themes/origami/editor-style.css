@@ -1,0 +1,295 @@
+html .mceContentBody {
+	max-width: 904px;
+}
+
+* {
+	color: inherit;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+/* =WP Core 
+-------------------------------------------------------------- */
+
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin: 20px auto 20px auto;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	background: #EFEFEF;
+	border: 1px solid #C0C0C0;
+	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.25);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%; /* Image does not overflow the content area */ 
+	padding: 5px 3px 10px 3px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	width: auto;
+	height: auto;
+	
+	border: 0 none;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+}
+
+.wp-caption p.wp-caption-text {
+	color: #666;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 1;
+	margin: 0;
+	padding: 4px 5px 0 5px;
+}
+
+.sticky {
+}
+
+.gallery-caption {
+}
+
+html .mceContentBody *:first-child {
+	margin-top: 0px;
+}
+
+html .mceContentBody *:last-child {
+	margin-bottom: 0px;
+}
+
+ul {
+	margin-bottom: 1.5em;
+	padding-left: 1em;
+}
+
+a {
+	color: #36659f;
+}
+
+p,
+ul,
+ol,
+dl {
+	line-height: 1.6em;
+	margin: 2em 0;
+}
+
+ul li {
+	display: list-item;
+	line-height: 1.75em;
+	list-style: url(images/bullet.png);
+	list-style-position: outside;
+}
+
+ol {
+	list-style: outside decimal;
+	margin-bottom: 1.5em;
+	padding-left: 2.5em;
+}
+
+ol li {
+	display: list-item;
+	line-height: 1.75em;
+}
+
+ul ul,
+ol ol {
+	margin-bottom: 0;
+}
+
+blockquote {
+	position: relative;
+	
+	background: url(images/quote.png) no-repeat 10px center;
+	color: #666;
+	font-style: italic;
+	padding: 1.5em 20px 1.5em 60px;
+}
+
+blockquote cite {
+	color: #333;
+	font-weight: bold;
+}
+
+blockquote p:first-child {
+	margin-top: 0;
+}
+
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+strong,
+b {
+	font-weight: bold;
+}
+
+em,
+i {
+	font-style: italic;
+}
+
+img {
+	height: auto;
+	
+	max-width: 100%;
+}
+
+hr {
+	border: 0px;
+	border-top: 1px solid #CCC;
+}
+
+sup,
+sub {
+	position: relative;
+	height: 0;
+	
+	font-size: 10px;
+	line-height: 1;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+	
+}
+
+sub {
+	top: .5ex;
+	
+}
+
+/* =Definition list 
+-------------------------------------------------------------- */
+
+dl dt {
+	font-weight: bold;
+}
+
+dl dd {
+	margin-bottom: 1.5em;
+	padding-left: 1.5em;
+}
+
+/* =Headings 
+-------------------------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+	color: #333333;
+	margin: 1.5em 0;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20.4px;
+}
+
+h3 {
+	font-size: 18.48px;
+}
+
+h4 {
+	font-size: 16.32px;
+}
+
+h5 {
+	font-size: 13.92px;
+}
+
+h6 {
+	font-size: 12.48px;
+}
+
+/* =Table 
+-------------------------------------------------------------- */
+
+table {
+	width: 100%;
+	
+	margin: 1em 0;
+}
+
+th {
+	border-bottom: 3px solid #C0C0C0;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 8px;
+}
+
+thead th {
+	border-bottom: 3px solid #C0C0C0;
+}
+
+td {
+	padding: 8px;
+}
+

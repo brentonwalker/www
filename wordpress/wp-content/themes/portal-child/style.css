@@ -1,0 +1,10 @@
+/*
+Theme Name:     portal-child
+Theme URI:      http://brentonwalker.com
+Description:    Child for Portal theme by Brenton Walker. Use this to make crazy tweaks that won't break when the theme is updated....or if they do, you can just fix them here. 
+Author:         Brenton Walker
+Author URI:     http://about.brentonwalker.com
+Template:       portal                            
+Version:        1.0
+*/
+@import url("../portal/style.css");

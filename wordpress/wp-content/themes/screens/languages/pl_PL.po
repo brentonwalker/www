@@ -1,0 +1,1829 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Screens\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-19 15:38+0100\n"
+"PO-Revision-Date: 2012-09-19 15:38+0100\n"
+"Last-Translator: Tomasz Mazur <tommek77@gmail.com>\n"
+"Language-Team: Mazur Tomasz <tommek77@gmail.com>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-SearchPath-0: F:\\WWW\\wordpress\\wp-content\\themes\\screens\n"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/404.php:5
+msgid "Error 404 - Not Found"
+msgstr "Error 404 - Strona nie istnieje"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/404.php:7
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+"Nie udało się znaleźć tego, czego szukasz. Być może wyszukiwanie lub jeden z "
+"poniższych odnośników przyniesie lepsze rezultaty."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive-page-portfolio.php:8
+#: F:\WWW\wordpress\wp-content\themes\screens/archive-portfolio.php:8
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:114
+#: F:\WWW\wordpress\wp-content\themes\screens/taxonomy-projects.php:9
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:91
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:6
+#, php-format
+msgid ""
+"<h1 class=\"sixteen columns title_headers\">Category Archives: <em>%s</em></"
+"h1>"
+msgstr ""
+"<h1 class=\"sixteen columns title_headers\">Archiwum kategorii: <em>%s</em></"
+"h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:9
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:15
+#: F:\WWW\wordpress\wp-content\themes\screens/taxonomy-projects.php:14
+#, php-format
+msgid "<div class=\"sixteen columns\">%s</div>"
+msgstr "<div class=\"sixteen columns\">%s</div>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:12
+#, php-format
+msgid ""
+"<h1 class=\"sixteen columns title_headers\">Tag Archives: <em>%s</em></h1>"
+msgstr ""
+"<h1 class=\"sixteen columns title_headers\">Archiwum tagów: <em>%s</em></h1>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:18
+#, php-format
+msgid ""
+"<h1 class=\"sixteen columns title_headers\">Daily Archives: <em>%s</em></h1>"
+msgstr ""
+"<h1 class=\"sixteen columns title_headers\">Archiwum dnia: <em>%s</em></h1>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:20
+#, php-format
+msgid ""
+"<h1 class=\"sixteen columns title_headers\">Monthly Archives: <em>%s</em></"
+"h1>"
+msgstr ""
+"<h1 class=\"sixteen columns title_headers\">Archiwum miesiąca: <em>%s</em></"
+"h1>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:22
+#, php-format
+msgid ""
+"<h1 class=\"sixteen columns title_headers\">Yearly Archives: <em>%s</em></h1>"
+msgstr ""
+"<h1 class=\"sixteen columns title_headers\">Archiwum roku: <em>%s</em></h1>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:24
+#, php-format
+msgid ""
+"<h1 class=\"sixteen columns title_headers\">Author Archives: <em>%s</em></h1>"
+msgstr ""
+"<h1 class=\"sixteen columns title_headers\">Archiwum autora: <em>%s</em></h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:26
+msgid "<h1 class=\"sixteen columns title_headers\">Gallery</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Galeria</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:28
+msgid "<h1 class=\"sixteen columns title_headers\">Link</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Odnośniki</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:30
+msgid "<h1 class=\"sixteen columns title_headers\">Aside</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Notatki</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:32
+msgid "<h1 class=\"sixteen columns title_headers\">Quote</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Cytaty</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:34
+msgid "<h1 class=\"sixteen columns title_headers\">Video</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Filmy</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:36
+msgid "<h1 class=\"sixteen columns title_headers\">Images</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Obrazy</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:38
+msgid "<h1 class=\"sixteen columns title_headers\">Blog Archives</h1>"
+msgstr "<h1 class=\"sixteen columns title_headers\">Archiwum bloga</h1>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:5
+#, php-format
+msgid "Return to %s"
+msgstr "Powrót do  %s"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:6
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:72
+msgid "<li>Title : "
+msgstr "<li>Tytuł: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:74
+#, php-format
+msgid "<li><span class=\"%1$s\">Published</span> %2$s"
+msgstr "<li><span class=\"%1$s\">Opublikowane</span> %2$s"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:77
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "Orginalny rozmiar wynosi %s pikseli"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:77
+msgid "Link to full-size image"
+msgstr "Odnośnik do orginalnego rozmiaru obrazka"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:83
+msgid "<li>Caption: "
+msgstr "<li>Opis: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:85
+msgid "<li>Camera: "
+msgstr "<li>Aparat: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:87
+msgid "<li>Aperture: f/"
+msgstr "<li>Przesłona: f/"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:89
+msgid "<li>Copyright: "
+msgstr "<li>Prawo autorskie: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:91
+msgid "<li>Credit: "
+msgstr "<li>Autor: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:93
+msgid "<li>Focal Length: "
+msgstr "<li>Ogniskowa: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:95
+msgid "<li>ISO: "
+msgstr "<li>ISO: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:97
+msgid "<li>Shutter Speed: "
+msgstr "<li>Szybkość migawki: "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:101
+msgid "Edit"
+msgstr "Edytuj"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:108
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:11
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:11
+#: F:\WWW\wordpress\wp-content\themes\screens/taxonomy-projects.php:57
+#, php-format
+msgid " %s"
+msgstr " %s"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:108
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:11
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:11
+#: F:\WWW\wordpress\wp-content\themes\screens/taxonomy-projects.php:57
+msgid "Zoom"
+msgstr "Zoom"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:31
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:49
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:68
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:74
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:81
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:95
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:112
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:113
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:15
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:291
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:36
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:38
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-link.php:2
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-video.php:13
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:38
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-2col.php:56
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-4col.php:50
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-4colnav.php:48
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-slide.php:44
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:81
+#: F:\WWW\wordpress\wp-content\themes\screens/taxonomy-projects.php:50
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Odnośnik do %s"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:79
+#, php-format
+msgid "Links &raquo; %s"
+msgstr "Odnośnik &raquo; %s"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:114
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:310
+msgid ", "
+msgstr ", "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:120
+msgid "View all &raquo; "
+msgstr "Zobacz więcej &raquo; "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/comments.php:3
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Ten wpis jest zabezpieczony hasłem. Aby zobaczyć komentarze, proszę "
+"wprowadzić swoje hasło."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/comments.php:9
+#, php-format
+msgid "Response to <strong>%1$s</strong>"
+msgstr "Odpowiedź na  <strong>%1$s</strong>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/comments.php:29
+msgid "Comments are closed"
+msgstr "Komentarze są wyłączone"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/content-gallery.php:12
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:34
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:40
+msgid "<em>Pages</em>:"
+msgstr "<em>Strony</em>:"
+
+# @ optionsframework
+#: F:\WWW\wordpress\wp-content\themes\screens/content-gallery.php:15
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:50
+msgid "Previous Post"
+msgstr "Poprzedni wpis"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/content-gallery.php:16
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:51
+msgid "Next Post"
+msgstr "Następny wpis"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:52
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:146
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:52
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:146
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:55
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:149
+msgid "http://blankcanvas.eu/"
+msgstr "http://blankcanvas.eu/"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:38
+msgid "Primary Navigation"
+msgstr "Nawigacja główna"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:47
+msgid "Page - Widget is in the side panel"
+msgstr "Strona - widget w panelu bocznym."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:49
+msgid "Widget in the sidebar on the page."
+msgstr "Widget w panelu bocznym na stronie."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:57
+msgid "Blog - Widget is in the side panel"
+msgstr "Blog - widget w panelu bocznym."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:59
+msgid "Widget in the sidebar on the blog."
+msgstr "Widget w panelu bocznym na blogu."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:67
+msgid "Portfolio - Widget is in the side panel"
+msgstr "Portfolio - widget w panelu bocznym."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:69
+msgid "Widget in the sidebar on the portfolio."
+msgstr "Widget w panelu bocznym w portfolio."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:77
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:87
+msgid "Widget in the footer"
+msgstr "Widget w stopce."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:79
+msgid " Widget is in the left part of the footer."
+msgstr "Widget znajduje się w lewej części stopki."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:89
+msgid "Widget  in the right part of the footer."
+msgstr "Widget znajduje się w prawej części stopki."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:158
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:159
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:160
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:161
+msgid "Image {current} of {total}"
+msgstr "Obraz {current} z {total}"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:158
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:159
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:160
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:161
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:158
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:159
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:160
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:161
+msgid "Next"
+msgstr "Następny"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:280
+#, php-format
+msgid "<div class=\"time_meta\"><span>%4$s</span> %5$s %6$s</div>"
+msgstr "<div class=\"time_meta\"><span>%4$s</span> %5$s %6$s</div>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:282
+#, php-format
+msgid ""
+"<div class=\"time_meta\"><a href=\"%1$s\" title=\"%7$s\" rel=\"bookmark\"> "
+"<span>%4$s</span> %5$s %6$s </a></div>"
+msgstr ""
+"<div class=\"time_meta\"><a href=\"%1$s\" title=\"%7$s\" rel=\"bookmark\"> "
+"<span>%4$s</span> %5$s %6$s </a></div>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:298
+#, php-format
+msgid ""
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%4$s"
+"\" rel=\"author\">%3$s</a></span>"
+msgstr ""
+"<span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%4$s"
+"\" rel=\"author\">%3$s</a></span>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:303
+#, php-format
+msgid "View all posts by %s"
+msgstr "Zobacz wszystkie wpisy  %s"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:310
+#, php-format
+msgid "<li class=\"meta_cat\">%1$s</li>"
+msgstr "<li class=\"meta_cat\">%1$s</li>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:316
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:10
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:316
+msgid " <p class=\"meta_post\">Tags: "
+msgstr " <p class=\"meta_post\">Tagi: "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:321
+#: F:\WWW\wordpress\wp-content\themes\screens/page-fullwidth.php:23
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-left.php:24
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-without.php:23
+#: F:\WWW\wordpress\wp-content\themes\screens/page.php:18
+msgid "Continue reading &rarr;"
+msgstr "Czytaj dalej &rarr;"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:406
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s na %2$s"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:407
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:430
+msgid "(Edit)"
+msgstr "(Edytuj)"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:408
+#, php-format
+msgid "<em>%s <span class=\"says\">says:</span></em>"
+msgstr "<em>%s <span class=\"says\">pisze:</span></em>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:415
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz czeka na moderację."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:430
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:493
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:494
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:276
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:495
+msgid "Add New"
+msgstr "Dodaj nowy "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:496
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:531
+msgid "Add New Project"
+msgstr "Dodaj nowy projekt"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:497
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:529
+msgid "Edit Project"
+msgstr "Edytuj projekt"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:498
+msgid "New Portfolio"
+msgstr "Nowe portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:499
+msgid "View Portfolio"
+msgstr "Zobacz portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:500
+msgid "Search Portfolio"
+msgstr "Szukaj w portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:501
+msgid "No portfolio found"
+msgstr "Portfolio nie istnieje"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:502
+msgid "No portfolio found in Trash"
+msgstr "Brak portfolio w koszu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:524
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:525
+msgid "Projects"
+msgstr "Projekty "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:526
+msgid "All Projects"
+msgstr "Wszystkie projekty"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:527
+msgid "Parent Project"
+msgstr "Projekt nadrzędny"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:528
+msgid "Parent Project:"
+msgstr "Projekt nadrzędny:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:530
+msgid "Update Project"
+msgstr "Aktualizuj projekt"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:532
+msgid "New Project Name"
+msgstr "Tytuł nowego projektu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:48
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-video.php:19
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:45
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:77
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:14
+msgid "Leave a comment"
+msgstr "Dodaj komentarz"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:48
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-video.php:19
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:45
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:77
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:14
+msgid "1 Comment"
+msgstr "1 Komentarz"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:48
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-video.php:19
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:45
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:77
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:14
+msgid "% Comments"
+msgstr "% Komentarze"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:51
+#: F:\WWW\wordpress\wp-content\themes\screens/page-fullwidth.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-left.php:27
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-without.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/page.php:21
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:84
+msgid "Pages:"
+msgstr "Strony:"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/page-fullwidth.php:27
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-left.php:28
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-without.php:27
+#: F:\WWW\wordpress\wp-content\themes\screens/page.php:22
+msgid "Edit This"
+msgstr "Edytuj to"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home-horizontal.php:123
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:111
+msgid "Address:"
+msgstr "Adres:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home-horizontal.php:125
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:113
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home-horizontal.php:127
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:115
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-2col.php:8
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-4col.php:7
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+msgid "All"
+msgstr "Wszystkie"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-slide.php:51
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:138
+msgid "Sorry, no portfolio entries for while."
+msgstr "Przepraszamy, portfolio nie jest dostępne."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:4
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Wynik wyszukiwania dla: %s"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:91
+msgid "<h1>Nothing Found</h1>"
+msgstr "<h1>Nie istnieje</h1>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:94
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Przepraszamy, ale nic nie zostało dopasowane do Twoich kryteriów "
+"wyszukiwania. Proszę spróbować ponownie, korzystając z innych słów "
+"kluczowych."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/searchform.php:2
+msgid "Search"
+msgstr "Szukaj"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-page.php:13
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:30
+msgid "Categories"
+msgstr "Kategorie"
+
+# @ optionsframework
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:4
+msgid "Previous Project"
+msgstr "Poprzedni projekt"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:5
+msgid "Next Project"
+msgstr "Następny projekt "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:11
+msgid "<strong>Project</strong>: "
+msgstr "<strong>Projekt</strong>: "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:22
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:24
+msgid "<strong>Client</strong>: "
+msgstr "<strong>Klient</strong>: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:22
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:32
+msgid "Live Preview"
+msgstr "Aktywny podgląd"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:32
+msgid "Live Preview  &rarr;"
+msgstr "Aktywny podgląd &rarr;"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:10
+msgid "<li>Tags: "
+msgstr " <li> Tagi: "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:52
+msgid "<p>Screens is simple and utility theme for blog and portfolio.</p>"
+msgstr ""
+"<p>Screens jest prostym i funkcjonalnym motywem dla bloga jak i portfolio.</"
+"p>"
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:75
+msgid "Theme Options"
+msgstr "Opcje motywu"
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:78
+msgid "Screens Theme Options"
+msgstr "Opcje motywu Screens"
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:124
+msgid "General  options"
+msgstr "Ustawienia główne "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:125
+msgid "<p class=\"description\">General options</p>"
+msgstr "<p class=\"description\">Głowne opcje motywu</p>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:130
+msgid "Skin select"
+msgstr "Wybierz kolorystykę szablonu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:131
+msgid "Select the default color scheme here."
+msgstr "Wybierz domyślny schemat kolorystyczny."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:138
+msgid "Custom Logo"
+msgstr "Własne logo"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:139
+msgid ""
+"If you want to add a logo instead of the text in the Web title, you should "
+"add it by uploader and then you should place url address of the picture into "
+"the next text file. The width of the picture should not be more than 280px, "
+"a lucent file .PNG. is recommended."
+msgstr ""
+"Jeżeli chcesz dodać logo zamiast tekstu w tytule strony to należy dodać go "
+"poprzez uploader a następnie umieścić adres url obrazka w polu tekstowym "
+"obok. Szerokość obrazka nie powinna przekraczać 280px, zalecanym formatem "
+"jest przeźroczysty plik .PNG."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:144
+msgid "Custom Favicon"
+msgstr "Favicon "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:145
+msgid ""
+"If you want to add \"Favicon\" (a picture which is in breadcrumb bar "
+"browser), you can use the website which was resulted from the picture. "
+"<strong>http://www.genfavicon.com/</strong> \n"
+"\t\t\t\t\t\t<strong>http://www.degraeve.com/favicon</strong>"
+msgstr ""
+"Jeżeli chcesz dodać \"Favicon\" (obrazek w pasu adresu w przeglądarce) "
+"możesz skorzystać ze strony która wygeneruje obrazek. <strong>http://www."
+"genfavicon.com/</strong> \n"
+"\t\t\t\t\t\t<strong>http://www.degraeve.com/favicon</strong>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:151
+msgid "Custom Avatar"
+msgstr "Własny Avatar"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:152
+msgid ""
+"If you want to change a default avatar into your own, add the picture "
+"(max80x80px), then go into Settings>Discussion and activate it."
+msgstr ""
+"Jeżeli chcesz zmienić domyślny avatar na własny, dodaj obraz (max 80x80px), "
+"następnie przejdź do Settings > Discussion i aktywuj go."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:157
+msgid "Lightbox theme"
+msgstr "Szablony Lightbox "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:158
+msgid "Select the default lightbox theme."
+msgstr "Zmień domyślny szablon \"Lightbox\""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:164
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:261
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:165
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:262
+msgid "Change the colour of the background."
+msgstr "Zmień kolor tła."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:170
+msgid "Primary color"
+msgstr "Kolor podstawowy"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:171
+msgid "Change the colour."
+msgstr "Zmień kolor. "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:177
+msgid "Background image "
+msgstr "Obraz dla tła strony"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:178
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:186
+msgid "Select background image."
+msgstr "Wybierz obrazek dla tła strony."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:185
+msgid "Custom image background (repeat image)"
+msgstr "Własny obraz tła (obraz zostanie powielony) "
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:193
+msgid "Home  options"
+msgstr "Opcje strony głównej "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:194
+msgid "<p class=\"description\">Home page options</p>"
+msgstr "<p class=\"description\">Opcje strony głównej</p>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:199
+msgid "Panels"
+msgstr "Panele"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:200
+msgid "Show the panel (only a horizontal menu)."
+msgstr "Pokaż panel (tylko z pionowym menu)."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+msgid "None"
+msgstr "Brak"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:237
+msgid "Description"
+msgstr "Opis"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:298
+msgid "Blog"
+msgstr "Blog"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:334
+msgid "Contact"
+msgstr "Kontakt"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:206
+msgid "Display description"
+msgstr "Wyświetl opis"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:207
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:214
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:221
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:228
+msgid "Enable."
+msgstr "Włącz."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:213
+msgid "Display portfolio"
+msgstr "Wyświetl Portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:220
+msgid "Display blog"
+msgstr "Wyświetl Blog"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:227
+msgid "Display contact"
+msgstr "Wyświetl Kontakt"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:238
+msgid "<p class=\"description\">Description options</p>"
+msgstr "<p class=\"description\">Opcje opisu</p>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:243
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:282
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:304
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:340
+msgid "Title menu"
+msgstr "Tytuł menu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:244
+msgid "Insert  text."
+msgstr "Wstaw tekst."
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:250
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:352
+msgid "Title"
+msgstr "Tytuł"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:251
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:283
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:305
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:341
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:348
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:354
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:360
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:366
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:372
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:377
+msgid "Insert text."
+msgstr "Wstaw text."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:257
+msgid "Content"
+msgstr "Treść "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:268
+msgid "Custom backgound"
+msgstr "Własne tło "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:269
+msgid "Position top, left"
+msgstr "Pozycja góra, lewa strona"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:277
+msgid "<p class=\"description\">Portfolio options</p>"
+msgstr "<p class=\"description\">Portfolio options</p>"
+
+# @ optionsframework
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:289
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:30
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "Gallery options"
+msgstr "Opcje galerii"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:299
+msgid "<p class=\"description\">Blog options</p>"
+msgstr "<p class=\"description\">Opcje bloga</p>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:311
+msgid "Page with a blog"
+msgstr "Strona z blogiem"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:312
+msgid "Select page."
+msgstr "Wybierz stronę."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:318
+msgid "Social media icon"
+msgstr "Ikony mediów społecznościowych"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:319
+msgid ""
+"By choosing this option, you add the icon of social media next to the "
+"content of the entry (Google Plus, Twitter, Stumbleupon, Pinterest). If you "
+"need to add more \"Sexy bookmarks\" plug in is recommended."
+msgstr ""
+"Wybranie tej opcji doda ikony mediów społecznościowych obok treści wpisu "
+"(Facebook Like, Google Plus, Twitter, Stumbleupon, Pinterest). Jeżeli "
+"potrzebujesz dodać więcej mediów społecznościowych zalecane jest stosowanie "
+"wtyczek np \"SexyBookmarks\" "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:325
+msgid "Display the information about the author"
+msgstr "Wyświetl informacje o autorze"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:326
+msgid ""
+"By choosing this option you will display the information about the author of "
+"the article on the entry page ( to display the data you must fill in the "
+"author profile )"
+msgstr ""
+"By choosing this option you will display the information about the author of "
+"the article on the entry page ( to display the data you must fill in the "
+"author profile )"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:335
+msgid "<p class=\"description\">Contact options</p>"
+msgstr "<p class=\"description\">Opcje kontaktu</p>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:347
+msgid "Name"
+msgstr "Imie i nazwisko"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:353
+msgid "Address#1"
+msgstr "Adres#1"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:359
+msgid "Address#2"
+msgstr "Adres#2"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:365
+msgid "Phone#1"
+msgstr "Telefon#1"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:371
+msgid "Phone#2 "
+msgstr "Telefon#2"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:376
+msgid "E-mail"
+msgstr "E-mail"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:382
+msgid "Content - Left box (max width 400px)"
+msgstr "Treść - lewy box (max szerokość 400px)"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:388
+msgid "Content - Right box (max width 340px)"
+msgstr "Treść - prawy box (max szerokość 340px)"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:397
+msgid "Color and fonts"
+msgstr "Kolory i fonty "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:398
+msgid "<p class=\"description\">Color and fonts options</p>"
+msgstr "<p class=\"description\">Opcje kolorów i fontów dla motywu</p>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:402
+msgid "Links"
+msgstr "Odnośniki"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:403
+msgid "Change the colour of the links."
+msgstr "Zmień kolory odnośników."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:408
+msgid "Headers"
+msgstr "Nagłówki"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:409
+msgid "Change the colour of the headers (h1, h2, h3, h4, h5, h6)."
+msgstr "Zmień kolor nagłówków (h1, h2, h3, h4, h5, h6)."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:415
+msgid "Choose the type of the font for the text"
+msgstr "Wybierz rodzaj fontu dla tekstu "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:416
+msgid "The default font is \"Helvetica (Macintosh), Arial."
+msgstr "Domyślnym fontem jest \"Helvetica (Macintosh), Arial."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:423
+msgid "Change the font size"
+msgstr "Zmień rozmiar fontu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:424
+msgid "The default font size is 14px."
+msgstr "Domyślnym rozmiarem fontu jest 14px."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:431
+msgid "Choose the kind of the font for the header"
+msgstr "Wybierz rodzaj fontu dla nagłówka "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:432
+msgid ""
+"If you want to use  non-standard font in the page header, activate the "
+"options. In case of other languages before the using of the fonts you should "
+"check if the diacritical marks of the language are displayed."
+msgstr ""
+"Jeżeli chcesz użyć niestandardowych fontów w nagłówkach strony, aktywuj "
+"opcje. W przypadku języków innych niż angielski przed użyciem fontu należy "
+"sprawdzić czy wyświetlane są znaki diakrytczne danego języka. "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:433
+msgid "Google Fonts"
+msgstr "Fonty Google"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:443
+msgid "Custom code"
+msgstr "Własny kod"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:444
+msgid "<p class=\"description\">Css code and other.</p>"
+msgstr "<p class=\"description\">Kod Css i inne</p>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:449
+msgid "Footer copyright text"
+msgstr "Tekst o prawie autorskim w stopce"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:457
+msgid "Left footer text"
+msgstr "Tekst z lewej strony w stopce"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:464
+msgid "Custom css"
+msgstr "Własny kod  css"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:488
+msgid "<strong>Theme URL:</strong> "
+msgstr "<strong>Adres motywu:</strong> "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:489
+msgid "<strong>Author:</strong> "
+msgstr "<strong>Autor:</strong> "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:490
+msgid "<strong>Version:</strong> "
+msgstr "<strong>Wersja:</strong> "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:492
+msgid "<strong>Tags:</strong> "
+msgstr "<strong>Tagi:</strong> "
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:500
+msgid "Theme Information "
+msgstr "Informacje o motywie"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:73
+msgid "Share"
+msgstr "Dodaj do"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:74
+msgid "Tweet"
+msgstr "Tweet"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:167
+#, php-format
+msgid "<h2 class=\"fn\">%s</h2>"
+msgstr "<h2 class=\"fn\">%s</h2>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:171
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr "Zobacz wszystkie posty dla %s &rarr;"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:185
+msgid "Screens documentation"
+msgstr "Screens documentation"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:24
+msgid "Post formats options"
+msgstr "Opcje Formatu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:27
+msgid "Portfolio options"
+msgstr "Opcje portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "You can use the three kinds of presentation of the gallery."
+msgstr "You can use the three kinds of presentation of the gallery."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "One column"
+msgstr "Jedna kolumna"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "Two columns (lightbox)"
+msgstr "Dwie kolumny (lightbox)"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:38
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:55
+msgid "Post format - Video"
+msgstr "Post format - Video"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:38
+msgid ""
+"If you want to add a video, you must be sure that you insert the option in "
+"Settings>Media> When possible, embed the media content from a URL directly "
+"onto the page. For example: links to Flickr and YouTube. Then past the link "
+"to the website of the film in the field above e.g. http://vimeo."
+"com/33420937. The list of the services from which you can add films are at "
+"the following address http://codex.wordpress.org/Embeds"
+msgstr ""
+"Jeżeli wybierzesz format postu video, należy się upewnić czy zaznaczona jest "
+"opcja w ustawieniach Settings » Media » When possible, embed the media "
+"content from a URL directly onto the page. For example: links to Flickr and "
+"YouTube.Następnie wklej link do strony z filmem w polu powyżej np http://"
+"vimeo.com/33420937, ten sam link wklej w polu edytora wizualneg. Lista "
+"serwisów z których można dodawać filmy znajduje się pod adresem http://codex."
+"wordpress.org/Embeds  "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:40
+msgid "Live preview"
+msgstr "Live preview"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:40
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:47
+msgid "Paste link"
+msgstr "Wklej odnośnik"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:44
+msgid "Client"
+msgstr "Klient"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:42
+msgid "Client name"
+msgstr "Dane klienta"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:44
+msgid "Paste client link"
+msgstr "Wklej odnośnik do strony klienta"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:47
+msgid "Post format - Link"
+msgstr "Post formar - odnośnik"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:49
+msgid "Post format - Quote - Author"
+msgstr "Post format - Cytat - Autor"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:49
+msgid ""
+"If you choose the format of the post - quotation - and you want to add the "
+"author you must write his name."
+msgstr ""
+"Jeżeli wybierzesz format postu - cytat - i chcesz dodać autora należy wpisać "
+"jego Nazwisko/Nazwę. "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:51
+msgid "Post format - Quote - Link"
+msgstr "Post format - Cytat - Odnośnik"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:51
+msgid ""
+"Past the link into the source of quotation. The author of the quotation will "
+"be the link to the source, to make the link available fill in \\\"the Author "
+"quotation\\\" field."
+msgstr ""
+"Wklej link do źródła cytatu, \"Autor cytatu\" będzie odnośnikiem do źródła, "
+"aby odnośnik działał należy wypełnić pole \"Autor cytatu\"  "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:53
+msgid "Post Format - Quote - text"
+msgstr "Format postu - Cytat - treść"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:53
+msgid "Past quote text."
+msgstr "Wklej tekst cytatu."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:55
+msgid ""
+"If you choose the video post format, you must be sure that you insert the "
+"option in Settings>Media> When possible, embed the media content from a URL "
+"directly onto the page. For example: links to Flickr and YouTube. Then past "
+"the link to the website of the film in the field above e.g. http://vimeo."
+"com/33420937, the same link past in the visual editor field and. The list of "
+"the services from which you can add films are at the following address "
+"http://codex.wordpress.org/Embeds"
+msgstr ""
+"Jeżeli wybierzesz format postu video, należy się upewnić czy zaznaczona jest "
+"opcja w ustawieniach Settings » Media » When possible, embed the media "
+"content from a URL directly onto the page. For example: links to Flickr and "
+"YouTube. Następnie wklej link do strony z filmem w polu powyżej np http://"
+"vimeo.com/33420937, ten sam link wklej w polu edytora wizualneg. Lista "
+"serwisów z których można dodawać filmy znajduje się pod adresem http://codex."
+"wordpress.org/Embeds  "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:6
+msgid "Flickr gallery"
+msgstr "Flickr - galeria"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:51
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:176
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:250
+msgid "Title:"
+msgstr "Tytuł:"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:55
+#, php-format
+msgid "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+msgstr "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:55
+msgid "http://idgettr.com/"
+msgstr "http://idgettr.com/"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:60
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:179
+msgid "Number of photo to display:"
+msgstr "Ilość wyświetlanych zdjęć:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:78
+msgid "Portfolio gallery"
+msgstr "galeria portfolio"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:198
+msgid "A widget to enable people to follow you on Twitter"
+msgstr "A widget to enable people to follow you on Twitter"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:243
+msgid "follow me on Twitter"
+msgstr "follow me on Twitter"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:254
+msgid "User:"
+msgstr "Użytkownik:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:259
+msgid "Text:"
+msgstr "Tekst:"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:264
+msgid "Number of Tweets to display:"
+msgstr "Number of Tweets to display:"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:282
+msgid "User profiles"
+msgstr "Profil użytkownika"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:283
+msgid "Screens - Social Media Profiles"
+msgstr "Screens - profile mediów społecznościowych"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:304
+msgid "Syndicate this site using RSS"
+msgstr "Subskrybyj tę stronę w kanale  RSS"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:304
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:305
+msgid "Facebook profile"
+msgstr "Facebook profil"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:306
+msgid "Google Plus profile"
+msgstr "Google Plus profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:307
+msgid "Twitter profile"
+msgstr "Twitter profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:308
+msgid "YouTube profile"
+msgstr "YouTube profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:309
+msgid "LastFm profile"
+msgstr "LastFm profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:310
+msgid "DevianArt profile"
+msgstr "DevianArt profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:311
+msgid "Behance profile"
+msgstr "Behance profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:312
+msgid "Linkedin profile"
+msgstr "Linkedin profil"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:313
+msgid "Dribbble profile"
+msgstr "Dribbble profil"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:355
+msgid ""
+"Enter feed url,\n"
+"e.g. http://feedburner.com/userid"
+msgstr ""
+"Wklej adres kanału rss,\n"
+"np. http://feedburner.com/userid"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:360
+msgid "Enter <strong>Facebook</strong>  account url"
+msgstr "Wklej link do konta <strong>Facebook</strong>  "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:364
+msgid "Enter <strong>Google Plus</strong>  account url"
+msgstr "Wklej adres do konta  <strong>Google Plus</strong> "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:368
+msgid "Enter <strong>Twitter</strong>  account url"
+msgstr "Wklej link do konta <strong>Twitter</strong> "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:373
+msgid "Enter <strong>YouTube</strong>  account url"
+msgstr "Wklej link do konta <strong>YouTube</strong>  "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:378
+msgid "Enter <strong>LastFM</strong>  account url"
+msgstr "Wklej link do konta <strong>LastFM</strong>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:384
+msgid "Enter <strong>DeviantArt</strong>  account url"
+msgstr "Wklej link do konta <strong>DeviantArt</strong> "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:389
+msgid "Enter <strong>Behance</strong>  account url"
+msgstr "Wklej link do konta <strong>Behance</strong>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:394
+msgid "Enter <strong>Linkedin</strong>  account url"
+msgstr "Wklej link do konta <strong>Linkedin</strong> "
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:399
+msgid "Enter <strong>Dribbble</strong>  account url"
+msgstr "Wklej link do konta <strong>Dribbble</strong>  "
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:49
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:51
+msgid "Options"
+msgstr "Opcje"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:63
+msgid ""
+"<span id=\"footer-thankyou\">Options Panel created using the <a href="
+"\"http://leemason.github.com/NHP-Theme-Options-Framework/\" target=\"_blank"
+"\">NHP Theme Options Framework</a> Version  1.0.6</span>"
+msgstr ""
+"<span id=\"footer-thankyou\">Options Panel created using the <a href="
+"\"http://leemason.github.com/NHP-Theme-Options-Framework/\" target=\"_blank"
+"\">NHP Theme Options Framework</a> Version  1.0.6</span>"
+
+# @ sketchbook
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:66
+msgid " "
+msgstr " "
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:247
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:248
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:681
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:274
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:275
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:700
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:782
+msgid "Dev Mode Info"
+msgstr "Dev Mode Info"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:330
+msgid "Are you sure? Resetting will loose all custom values."
+msgstr "Are you sure? Resetting will loose all custom values."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:647
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:807
+msgid "Reset to Defaults"
+msgstr "Przywróć domyślne ustawienia"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:653
+msgid "<strong>Settings Imported!</strong>"
+msgstr "<strong>Settings Imported!</strong>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:655
+msgid "<strong>Settings Saved!</strong>"
+msgstr "<strong>Settings Saved!</strong>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:659
+msgid "<strong>Settings have changed!, you should save them!</strong>"
+msgstr "<strong>Settings have changed!, you should save them!</strong>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:660
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr "<strong><span></span> error(s) were found!</strong>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:662
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr "<strong><span></span> warning(s) were found!</strong>"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:718
+msgid "Import / Export Options"
+msgstr "Opcje Import / Export  "
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:720
+msgid "Import Options"
+msgstr "Opcje importu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:728
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:741
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:751
+msgid "Import"
+msgstr "Import"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:751
+msgid ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+msgstr ""
+"WARNING! This will overwrite any existing options, please proceed with "
+"caution!"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:754
+msgid "Export Options"
+msgstr "Eksportuj opcje motywu"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:756
+msgid ""
+"Here you can copy/download your themes current option settings. Keep this "
+"safe as you can use it as a backup should anything go wrong. Or you can use "
+"it to restore your settings on this site (or any other site). You also have "
+"the handy option to copy the link to yours sites settings. Which you can "
+"then use to duplicate on another site"
+msgstr ""
+"Here you can copy/download your themes current option settings. Keep this "
+"safe as you can use it as a backup should anything go wrong. Or you can use "
+"it to restore your settings on this site (or any other site). You also have "
+"the handy option to copy the link to yours sites settings. Which you can "
+"then use to duplicate on another site"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/color_gradient/field_color_gradient.php:35
+msgid "From:"
+msgstr "From:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/color_gradient/field_color_gradient.php:38
+msgid " To:"
+msgstr "Do:"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/google_webfonts/field_google_webfonts.php:42
+msgid ""
+"The fonts provided below are free to use custom fonts from the Google Web "
+"Fonts directory.<br/>Please browse the directory to preview a font, then "
+"select your choice below."
+msgstr ""
+"The fonts provided below are free to use custom fonts from the Google Web "
+"Fonts directory.<br/>Please browse the directory to preview a font, then "
+"select your choice below."
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:39
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:46
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:50
+msgid "Remove"
+msgstr "Usuń"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:54
+msgid "Add More"
+msgstr "Dodaj więcej"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/upload/field_upload.php:39
+msgid "Browse"
+msgstr "Przeglądaj"
+
+# @ default
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/upload/field_upload.php:40
+msgid "Remove Upload"
+msgstr "Usuń plik"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/color/validation_color.php:15
+msgid "This field must be a valid color value."
+msgstr "This field must be a valid color value."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/comma_numeric/validation_comma_numeric.php:15
+msgid ""
+"You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+"You must provide a comma seperated list of numerical values for this option."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr "This field must be a valid date."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr "You must provide a valid email for this option."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/no_special_chars/validation_no_special_chars.php:15
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr "You must provide a numerical value for this option."
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr "You must provide a valid URL for this option."
+
+# @ sketchbook
+#~ msgid "<strong>Type</strong>: "
+#~ msgstr "<strong>Typ</strong>: "
+
+#~ msgid "Project URL"
+#~ msgstr "Strona projektu"
+
+#~ msgid "Project URL  &rarr;"
+#~ msgstr "Strona projektu  &rarr;"
+
+#~ msgid "Blog/Archives excerpt length"
+#~ msgstr "Ilość znaków wyświetlana na Blog/Archiwum  "
+
+#~ msgid ""
+#~ "The character length of the post excerpt displays in the Blog and Archive "
+#~ "page."
+#~ msgstr ""
+#~ "Ilość znaków wyświetlana w treści wpisu na stronie bloga oraz archiwum."
+
+#~ msgid ""
+#~ "<span id=\"footer-thankyou\">Options Panel created using the <a href=\""
+#~ msgstr ""
+#~ "<span id=\"footer-thankyou\">Options Panel created using the <a href=\""
+
+#~ msgid "<h3 class=\"sixteen columns title_headers\">Random portfolio</h3>"
+#~ msgstr "<h3 class=\"sixteen columns title_headers\">Losowe portfolio</h3>"
+
+#~ msgid "A Section added by hook"
+#~ msgstr "A Section added by hook"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is a section created by adding a filter to "
+#~ "the sections array, great to allow child themes, to add/remove sections "
+#~ "from the options.</p>"
+#~ msgstr ""
+#~ "<p class=\"description\">This is a section created by adding a filter to "
+#~ "the sections array, great to allow child themes, to add/remove sections "
+#~ "from the options.</p>"
+
+# @ default
+#~ msgid "Theme Information"
+#~ msgstr "Theme Information"
+
+#~ msgctxt "post type general name"
+#~ msgid "Portfolio"
+#~ msgstr "Portfolio"
+
+#~ msgctxt "post type singular name"
+#~ msgid "Portfolio"
+#~ msgstr "Portfolio"
+
+#~ msgctxt "taxonomy singular name"
+#~ msgid "Projects"
+#~ msgstr "Projekty"
+
+#~ msgid "<h3 class=\"title_headers\">Random projects</h3>"
+#~ msgstr "<h3 class=\"title_headers\">Losowy projekt</h3>"
+
+#~ msgid "Save Changes"
+#~ msgstr "Zapisz zmiany"
+
+# @ sketchbook
+#~ msgid "Page %s"
+#~ msgstr "Strona %s"
+
+#~ msgid "Colour scheme"
+#~ msgstr "Schemat kolorystyczny"
+
+#~ msgid "<li>%1$s</li>"
+#~ msgstr "<li>%1$s</li>"
+
+# @ sketchbook
+#~ msgid "Search Types"
+#~ msgstr "Szukaj  typu"
+
+#~ msgid "Edit Projects"
+#~ msgstr "Edytuj projekty"
+
+#~ msgid "Sort Works"
+#~ msgstr "Sortuj prace"
+
+# @ sketchbook
+#~ msgid "<span class=\"link_more\">Continue reading &rarr;</span>"
+#~ msgstr "<span class=\"link_more\">Czytaj dalej &rarr;</span>"
+
+#~ msgid "Sort  Works"
+#~ msgstr "Sortuj prace "
+
+# @ default
+#, fuzzy
+#~ msgid "Twenty Eleven Theme Options"
+#~ msgstr "Screens - Opcje motywu"
+
+#~ msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+#~ msgstr "<p>This is the sidebar content, HTML is allowed.</p>"
+
+#~ msgid "<p>This is the tab content, HTML is allowed.</p>"
+#~ msgstr "<p>This is the tab content, HTML is allowed.</p>"
+
+# @ default
+#~ msgid "Theme Information 2"
+#~ msgstr "Theme Information 2"
+
+#~ msgid "Show the panel."
+#~ msgstr "Pokaż panel."
+
+#~ msgid "Background image"
+#~ msgstr "Kolor tła"
+
+#, fuzzy
+#~ msgid "Live Preview "
+#~ msgstr "Aktywny podgląd"
+
+#~ msgid ""
+#~ "<p>This is the HTML which can be displayed before the form, it isnt "
+#~ "required, but more info is always better. Anything goes in terms of "
+#~ "markup here, any HTML.</p>"
+#~ msgstr ""
+#~ "<p>This is the HTML which can be displayed before the form, it isnt "
+#~ "required, but more info is always better. Anything goes in terms of "
+#~ "markup here, any HTML.</p>"
+
+#~ msgid "Project updated. <a href=\"%s\">View project</a>"
+#~ msgstr "Projekt został zaktualizowany. <a href=\"%s\">Zobacz projekt</a>"
+
+#~ msgid "Custom field updated."
+#~ msgstr "Zaktualizuj niestandardowe pola."
+
+#~ msgid "Custom field deleted."
+#~ msgstr "Usuń niestandardowe pola."
+
+#~ msgid "Project updated."
+#~ msgstr "Projek został zaktualizowany."
+
+#~ msgid "Project restored to revision from %s"
+#~ msgstr "projekt przywrucony do wersji %s"
+
+#~ msgid "Project published. <a href=\"%s\">View project</a>"
+#~ msgstr "Projek został opublikowany. <a href=\"%s\">Zobacz projekt</a>"
+
+#~ msgid "Project saved."
+#~ msgstr "Zapisz projekt."
+
+#~ msgid ""
+#~ "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+#~ msgstr ""
+#~ "Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+
+#~ msgid ""
+#~ "Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview project</a>"
+#~ msgstr ""
+#~ "Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+#~ "\"%2$s\">Preview project</a>"
+
+#~ msgid "M j, Y @ G:i"
+#~ msgstr "M j, Y @ G:i"
+
+#~ msgid ""
+#~ "Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</"
+#~ "a>"
+#~ msgstr ""
+#~ "Project draft updated. <a target=\"_blank\" href=\"%s\">Preview project</"
+#~ "a>"
+
+#~ msgid "Text Fields"
+#~ msgstr "Pole tekstowe"
+
+#~ msgid ""
+#~ "<p class=\"description\">This is the Description. Again HTML is allowed</"
+#~ "p>"
+#~ msgstr ""
+#~ "<p class=\"description\">This is the Description. Again HTML is allowed</"
+#~ "p>"
+
+# @ default
+#, fuzzy
+#~ msgid "Text Option"
+#~ msgstr "Opcje motywu"
+
+#~ msgid ""
+#~ "This is a little space under the Field Title in the Options table, "
+#~ "additonal info is good in here."
+#~ msgstr ""
+#~ "This is a little space under the Field Title in the Options table, "
+#~ "additonal info is good in here."
+
+# @ default
+#, fuzzy
+#~ msgid "Checkbox Option"
+#~ msgstr "Opcje motywu"
+
+# @ default
+#, fuzzy
+#~ msgid "Select Option"
+#~ msgstr "Opcje motywu"
+
+# @ default
+#, fuzzy
+#~ msgid "Date Option"
+#~ msgstr "Opcje motywu"
+
+# @ default
+#, fuzzy
+#~ msgid "Upload Option"
+#~ msgstr "Dodaj plik"
+
+#, fuzzy
+#~ msgid "Posts Select Option"
+#~ msgstr "Opcje Formatu"
+
+# @ default
+#, fuzzy
+#~ msgid "Tagss Select Option"
+#~ msgstr "Opcje motywu"
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "Support"
+#~ msgstr "Wsparcie"
+
+# @ sketchbook
+#~ msgid "1"
+#~ msgstr "1"
+
+# @ sketchbook
+#, fuzzy
+#~ msgid "%"
+#~ msgstr "%s"

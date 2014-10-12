@@ -1,0 +1,126 @@
+# Copyright (C) 2013 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sidekick 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/sidekick\n"
+"POT-Creation-Date: 2013-04-02 23:02:04+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try searching?"
+msgstr ""
+
+#: content-page.php:33 content-single.php:40 content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:34 content-single.php:78 content.php:81
+msgid "Edit"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:46 content-single.php:49 content.php:56 content.php:66
+msgid ", "
+msgstr ""
+
+#: content-single.php:54
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink "
+"to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:56
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: content-single.php:62
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content-single.php:64
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: content.php:32
+msgid "Permalink to %s"
+msgstr ""
+
+#: content.php:47
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:60
+msgid "Posted in %1$s"
+msgstr ""
+
+#: content.php:71
+msgid "Tagged %1$s"
+msgstr ""
+
+#: content.php:78
+msgid "Leave a comment"
+msgstr ""
+
+#: content.php:78
+msgid "1 Comment"
+msgstr ""
+
+#: content.php:78
+msgid "% Comments"
+msgstr ""
+
+#: footer.php:17
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: header.php:43
+msgid "Menu"
+msgstr ""
+
+#: header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Sidekick"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wpcom-themes.svn.automattic.com/sidekick/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The single-column, widget-free child theme of Superhero."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr ""

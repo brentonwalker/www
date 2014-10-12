@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-12-13T07:53:28+00:00\n"
+"Last-Translator: Khco <khacdao.tk>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: Viet Nam\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin allows a dynamic zoom on the images (based on the highslide javascript library)"
+msgstr "Plugin này cho phép zoom năng động trên hình ảnh (dựa trên thư viện javascript Highslide)	"
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Cắt bớt kích thước của hình ảnh thu nhỏ là gì?	"
+
+msgid "Max width:"
+msgstr "Độ rộng tối đa:"
+
+msgid "Max height:"
+msgstr "Max chiều cao:"
+
+msgid "What is the text for the frontend?"
+msgstr "Văn bản cho các lối vào là gì?"
+
+msgid "Load:"
+msgstr "Đang tải"
+
+msgid "Expand:"
+msgstr "Mở rộng"
+
+msgid "Previous:"
+msgstr "Trước"
+
+msgid "Next:"
+msgstr "Tiếp"
+
+msgid "Move:"
+msgstr "Di chuyển"
+
+msgid "Close:"
+msgstr "Đóng"
+
+msgid "Play:"
+msgstr "Chạy"
+
+msgid "Pause:"
+msgstr "Dừng"
+
+msgid "Restore:"
+msgstr "Khôi phục"
+
+msgid "What are the other parameters?"
+msgstr "Các thông số khác"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Chuyển đổi thời gian nếu xem hình tự động là:	"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Tự động khởi động động xem hình tự động khi ra mắt:	"
+
+msgid "The position of the button (play, next, ...) (e.g top center):"
+msgstr "Các vị trí của nút (chơi, tiếp theo, ...) (ví dụ như trung tâm hàng đầu):	"
+
+msgid "The opacity of the background:"
+msgstr "Độ mờ đục của nền:"
+
+msgid "Parameters"
+msgstr "Tham số"
+
+msgid "Manage translations"
+msgstr "Quản lý dịch"
+
+msgid "Give feedback"
+msgstr "Đưa ra phản hồi"
+
+msgid "Other plugins"
+msgstr "Các plugin"
+

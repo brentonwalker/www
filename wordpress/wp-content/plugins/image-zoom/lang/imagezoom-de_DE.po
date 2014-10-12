@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-01-05T20:46:29+00:00\n"
+"Last-Translator: tcp443 <www.tcp443.de>\n"
+"Last-Translator: B.Klein <www.kpowered.de>\n"
+"Last-Translator: Frutte <http://www.figaros-netzwerk.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin allows a dynamic zoom on the images (based on the highslide javascript library)"
+msgstr "Dieses Plugin ermöglicht einen dynamischen Zoom auf die Bilder (basierend auf der Highslide-Javascript-Bibliothek)"
+
+msgid "What are the clipped dimensions of the zoomed image?"
+msgstr "Wie groß soll der Ausschnitt des gezoomten Bildes sein?"
+
+msgid "Max width:"
+msgstr "Maximale Breite:"
+
+msgid "Max height:"
+msgstr "Maximale Höhe:"
+
+msgid "What is the text for the frontend?"
+msgstr "Wie lautet der Frontend-Text?"
+
+msgid "Load:"
+msgstr "Laden:"
+
+msgid "Expand:"
+msgstr "Erweitern:"
+
+msgid "Previous:"
+msgstr "Vorheriges:"
+
+msgid "Next:"
+msgstr "Nächstes:"
+
+msgid "Move:"
+msgstr "Verschieben:"
+
+msgid "Close:"
+msgstr "Schließen:"
+
+msgid "Play:"
+msgstr "Abspielen:"
+
+msgid "Pause:"
+msgstr "Pause:"
+
+msgid "Restore:"
+msgstr "Wiederherstellen:"
+
+msgid "What are the other parameters?"
+msgstr "Weitere Parameter?"
+
+msgid "Transition time if the slideshow is on:"
+msgstr "Wartezeit der Slideshow:"
+
+msgid "Auto-start the slideshow when launched:"
+msgstr "Autostart der Slideshow nach dem Aufruf:"
+
+msgid "The position of the button (play, next, ...) (e.g top center):"
+msgstr "Position der Buttons (Play, Next, ...) (z. B. top center):"
+
+msgid "The opacity of the background:"
+msgstr "Deckkraft des Hintergrundes:"
+
+msgid "Parameters"
+msgstr "Einstellungen"
+
+msgid "Manage translations"
+msgstr "Übersetzungen verwalten"
+
+msgid "Give feedback"
+msgstr "Feedback"
+
+msgid "Other plugins"
+msgstr "weitere Plugins"
+

@@ -1,0 +1,58 @@
+/*========= BizStudio Lite =========*/
+== Copyright and License ==
+BizStudio Lite WordPress Theme, Copyright (C) 2013 SketchThemes
+BizStudio Lite WordPress theme is licensed under the GPL.
+/*========= Installation =========*/
+1. Upload the `bizstudio-lite` folder to the `/wp-content/themes/` directory
+Activation and Use
+1. Activate the Theme through the 'Themes' menu in WordPress
+2. See Appearance -> BizStudio Lite Options to change theme options
+3. See Settings -> Reading -> Choose a Page for the Front page and Page for Posts page from drop-down.
+"When you choose a Page for the Front page from drop-down, the contents of Selected page aren't displayed anywhere on the static front page."
+"default your latest posts are show on front page if you are not select any page for front page."
+/*========= Theme Features and Documentation =========*/
+== WP Version ==
+It's requires at least version 3.4 to work properly.Please make sure your WP version is at least 3.4.
+
+== Theme Options ==
+*General Settings:*
+1)Upload a logo and a favicon.
+2)Show custom pagination on blog page(yes/no).
+3)Custom Background : Change the background CSS.
+
+*Slider Configuration:*
+1) Add Slider Content and Upload Image.
+2) Select Animation Mode.
+3) Enter Animation Speed etc.
+
+*Footer :*
+1) Enter Your Copyright Text(You can use HTML for links.)
+
+*Footer Sidebar Names :*
+You can change your First,Second,Third Sidebar Title from this option.
+
+*Front Page Options :*
+1) Go To Settings -> Reading Settings and Set Your Front and Post page.(default your latest posts are show on front page if you are not select any page for front page.)
+2) Go To APPEARANCE -> BizStudio lite Options -> Front Page Options and Set Your Front Page Options.
+
+== Full Width Background Gallery ==
+
+*DISPLAY SETTINGS :*
+1)Select On if you want to show Sketch BG-Gallery.
+
+*APPEARANCE SETTINGS :*
+
+1)Set Slide Duration,Transition Speed,Slide Navigation,Show Play/Pause Key,Show Thumbnails,Thumbnails Display,Random Images.
+
+*OVERLAY SETTINGS :*
+1)Display Overlay: check if you wnat to show overly effect.
+2)Set Overlay Effect: select your overlay effect.
+
+*BACKGROUND COLOR SETTINGS :*
+1)Enable BG-Color: if you want to change background color eneble bg color option.
+2)Background Color: select your background color.
+
+*BACKGROUNDS SETTINGS :*
+1)Upload your background images.
+/*========= Translation =========*/
+The BizStudio Lite is ready for translation. Translation files are in /languages.

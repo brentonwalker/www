@@ -1,0 +1,1297 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Screens\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-19 15:37+0100\n"
+"PO-Revision-Date: 2012-09-19 15:37+0100\n"
+"Last-Translator: Tomasz Mazur <tommek77@gmail.com>\n"
+"Language-Team: Mazur Tomasz <tommek77@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: F:\\WWW\\wordpress\\wp-content\\themes\\screens\n"
+
+#: F:\WWW\wordpress\wp-content\themes\screens/404.php:5
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/404.php:7
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive-page-portfolio.php:8
+#: F:\WWW\wordpress\wp-content\themes\screens/archive-portfolio.php:8
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:114
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:6
+#, php-format
+msgid "<h1 class=\"sixteen columns title_headers\">Category Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:9
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:15
+#, php-format
+msgid "<div class=\"sixteen columns\">%s</div>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:12
+#, php-format
+msgid "<h1 class=\"sixteen columns title_headers\">Tag Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:18
+#, php-format
+msgid "<h1 class=\"sixteen columns title_headers\">Daily Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:20
+#, php-format
+msgid "<h1 class=\"sixteen columns title_headers\">Monthly Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:22
+#, php-format
+msgid "<h1 class=\"sixteen columns title_headers\">Yearly Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:24
+#, php-format
+msgid "<h1 class=\"sixteen columns title_headers\">Author Archives: <em>%s</em></h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:26
+msgid "<h1 class=\"sixteen columns title_headers\">Gallery</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:28
+msgid "<h1 class=\"sixteen columns title_headers\">Link</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:30
+msgid "<h1 class=\"sixteen columns title_headers\">Aside</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:32
+msgid "<h1 class=\"sixteen columns title_headers\">Quote</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:34
+msgid "<h1 class=\"sixteen columns title_headers\">Video</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:36
+msgid "<h1 class=\"sixteen columns title_headers\">Images</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/archive.php:38
+msgid "<h1 class=\"sixteen columns title_headers\">Blog Archives</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:5
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:6
+#, php-format
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:72
+msgid "<li>Title : "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:74
+#, php-format
+msgid "<li><span class=\"%1$s\">Published</span> %2$s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:77
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:77
+msgid "Link to full-size image"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:83
+msgid "<li>Caption: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:85
+msgid "<li>Camera: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:87
+msgid "<li>Aperture: f/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:89
+msgid "<li>Copyright: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:91
+msgid "<li>Credit: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:93
+msgid "<li>Focal Length: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:95
+msgid "<li>ISO: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:97
+msgid "<li>Shutter Speed: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/attachment.php:101
+msgid "Edit"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:108
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:11
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:108
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:11
+msgid "Zoom"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:31
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:49
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:68
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:74
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:81
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:95
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:112
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:113
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:15
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:291
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:36
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:38
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:79
+#, php-format
+msgid "Links &raquo; %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:114
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:310
+msgid ", "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/blog-masonry.php:120
+msgid "View all &raquo; "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/comments.php:9
+#, php-format
+msgid "Response to <strong>%1$s</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/comments.php:29
+msgid "Comments are closed"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/content-gallery.php:12
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:34
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:40
+msgid "<em>Pages</em>:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/content-gallery.php:15
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:50
+msgid "Previous Post"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/content-gallery.php:16
+#: F:\WWW\wordpress\wp-content\themes\screens/content.php:51
+msgid "Next Post"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:52
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:52
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/footer.php:55
+msgid "http://blankcanvas.eu/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:38
+msgid "Primary Navigation"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:47
+msgid "Page - Widget is in the side panel"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:49
+msgid "Widget in the sidebar on the page."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:57
+msgid "Blog - Widget is in the side panel"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:59
+msgid "Widget in the sidebar on the blog."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:67
+msgid "Portfolio - Widget is in the side panel"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:69
+msgid "Widget in the sidebar on the portfolio."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:77
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:87
+msgid "Widget in the footer"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:79
+msgid " Widget is in the left part of the footer."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:89
+msgid "Widget  in the right part of the footer."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:158
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:159
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:160
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:161
+msgid "Image {current} of {total}"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:158
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:159
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:160
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:161
+msgid "Previous"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:158
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:159
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:160
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:161
+msgid "Next"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:280
+#, php-format
+msgid "<div class=\"time_meta\"><span>%4$s</span> %5$s %6$s</div>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:282
+#, php-format
+msgid "<div class=\"time_meta\"><a href=\"%1$s\" title=\"%7$s\" rel=\"bookmark\"> <span>%4$s</span> %5$s %6$s </a></div>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:298
+#, php-format
+msgid "<span class=\"author vcard\"><a class=\"url fn n\" href=\"%1$s\" title=\"%4$s\" rel=\"author\">%3$s</a></span>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:303
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:310
+#, php-format
+msgid "<li class=\"meta_cat\">%1$s</li>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:316
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:316
+msgid " <p class=\"meta_post\">Tags: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:321
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:406
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:407
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:430
+msgid "(Edit)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:408
+#, php-format
+msgid "<em>%s <span class=\"says\">says:</span></em>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:415
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:430
+msgid "Pingback:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:493
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:494
+msgid "Portfolio"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:495
+msgid "Add New"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:496
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:531
+msgid "Add New Project"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:497
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:529
+msgid "Edit Project"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:498
+msgid "New Portfolio"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:499
+msgid "View Portfolio"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:500
+msgid "Search Portfolio"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:501
+msgid "No portfolio found"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:502
+msgid "No portfolio found in Trash"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:524
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:525
+msgid "Projects"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:526
+msgid "All Projects"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:527
+msgid "Parent Project"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:528
+msgid "Parent Project:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:530
+msgid "Update Project"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/functions.php:532
+msgid "New Project Name"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:48
+msgid "Leave a comment"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:48
+msgid "1 Comment"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-gallery.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/loop-image.php:48
+msgid "% Comments"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/loop.php:51
+#: F:\WWW\wordpress\wp-content\themes\screens/page-fullwidth.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-left.php:27
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-without.php:26
+#: F:\WWW\wordpress\wp-content\themes\screens/page.php:21
+msgid "Pages:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-fullwidth.php:27
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-left.php:28
+#: F:\WWW\wordpress\wp-content\themes\screens/page-sidebar-without.php:27
+#: F:\WWW\wordpress\wp-content\themes\screens/page.php:22
+msgid "Edit This"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home-horizontal.php:123
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:111
+msgid "Address:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home-horizontal.php:125
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:113
+msgid "Phone:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home-horizontal.php:127
+#: F:\WWW\wordpress\wp-content\themes\screens/page-home.php:115
+msgid "E-mail:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-2col.php:8
+msgid "All"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/portfolio-slide.php:51
+msgid "Sorry, no portfolio entries for while."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:4
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:91
+msgid "<h1>Nothing Found</h1>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/search.php:94
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-page.php:13
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:30
+msgid "Categories"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:4
+msgid "Previous Project"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:5
+msgid "Next Project"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:11
+msgid "<strong>Project</strong>: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:22
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:24
+msgid "<strong>Client</strong>: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:22
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:32
+msgid "Live Preview"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar-portfolio.php:32
+msgid "Live Preview  &rarr;"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/sidebar.php:10
+msgid "<li>Tags: "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:52
+msgid "<p>Screens is simple and utility theme for blog and portfolio.</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:75
+msgid "Theme Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:78
+msgid "Screens Theme Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:124
+msgid "General  options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:125
+msgid "<p class=\"description\">General options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:130
+msgid "Skin select"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:131
+msgid "Select the default color scheme here."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:138
+msgid "Custom Logo"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:139
+msgid "If you want to add a logo instead of the text in the Web title, you should add it by uploader and then you should place url address of the picture into the next text file. The width of the picture should not be more than 280px, a lucent file .PNG. is recommended."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:144
+msgid "Custom Favicon"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:145
+msgid ""
+"If you want to add \"Favicon\" (a picture which is in breadcrumb bar browser), you can use the website which was resulted from the picture. <strong>http://www.genfavicon.com/</strong> \n"
+"\t\t\t\t\t\t<strong>http://www.degraeve.com/favicon</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:151
+msgid "Custom Avatar"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:152
+msgid "If you want to change a default avatar into your own, add the picture (max80x80px), then go into Settings>Discussion and activate it."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:157
+msgid "Lightbox theme"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:158
+msgid "Select the default lightbox theme."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:164
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:261
+msgid "Background color"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:165
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:262
+msgid "Change the colour of the background."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:170
+msgid "Primary color"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:171
+msgid "Change the colour."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:177
+msgid "Background image "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:178
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:186
+msgid "Select background image."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:185
+msgid "Custom image background (repeat image)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:193
+msgid "Home  options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:194
+msgid "<p class=\"description\">Home page options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:199
+msgid "Panels"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:200
+msgid "Show the panel (only a horizontal menu)."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+msgid "None"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:237
+msgid "Description"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:298
+msgid "Blog"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:201
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:334
+msgid "Contact"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:206
+msgid "Display description"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:207
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:214
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:221
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:228
+msgid "Enable."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:213
+msgid "Display portfolio"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:220
+msgid "Display blog"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:227
+msgid "Display contact"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:238
+msgid "<p class=\"description\">Description options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:243
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:282
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:304
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:340
+msgid "Title menu"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:244
+msgid "Insert  text."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:250
+msgid "Title"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:251
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:283
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:305
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:341
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:348
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:354
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:360
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:366
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:372
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:377
+msgid "Insert text."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:257
+msgid "Content"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:268
+msgid "Custom backgound"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:269
+msgid "Position top, left"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:277
+msgid "<p class=\"description\">Portfolio options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:289
+msgid "Gallery options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:299
+msgid "<p class=\"description\">Blog options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:311
+msgid "Page with a blog"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:312
+msgid "Select page."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:318
+msgid "Social media icon"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:319
+msgid "By choosing this option, you add the icon of social media next to the content of the entry (Google Plus, Twitter, Stumbleupon, Pinterest). If you need to add more \"Sexy bookmarks\" plug in is recommended."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:325
+msgid "Display the information about the author"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:326
+msgid "By choosing this option you will display the information about the author of the article on the entry page ( to display the data you must fill in the author profile )"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:335
+msgid "<p class=\"description\">Contact options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:347
+msgid "Name"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:353
+msgid "Address#1"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:359
+msgid "Address#2"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:365
+msgid "Phone#1"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:371
+msgid "Phone#2 "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:376
+msgid "E-mail"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:382
+msgid "Content - Left box (max width 400px)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:388
+msgid "Content - Right box (max width 340px)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:397
+msgid "Color and fonts"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:398
+msgid "<p class=\"description\">Color and fonts options</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:402
+msgid "Links"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:403
+msgid "Change the colour of the links."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:408
+msgid "Headers"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:409
+msgid "Change the colour of the headers (h1, h2, h3, h4, h5, h6)."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:415
+msgid "Choose the type of the font for the text"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:416
+msgid "The default font is \"Helvetica (Macintosh), Arial."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:423
+msgid "Change the font size"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:424
+msgid "The default font size is 14px."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:431
+msgid "Choose the kind of the font for the header"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:432
+msgid "If you want to use  non-standard font in the page header, activate the options. In case of other languages before the using of the fonts you should check if the diacritical marks of the language are displayed."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:433
+msgid "Google Fonts"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:443
+msgid "Custom code"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:444
+msgid "<p class=\"description\">Css code and other.</p>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:449
+msgid "Footer copyright text"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:457
+msgid "Left footer text"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:464
+msgid "Custom css"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:488
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:489
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:490
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:492
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/theme-options.php:500
+msgid "Theme Information "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:73
+msgid "Share"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:74
+msgid "Tweet"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:167
+#, php-format
+msgid "<h2 class=\"fn\">%s</h2>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:171
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-functions.php:185
+msgid "Screens documentation"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:24
+msgid "Post formats options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:27
+msgid "Portfolio options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "You can use the three kinds of presentation of the gallery."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "One column"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "Two columns (lightbox)"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:36
+msgid "Slideshow"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:38
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:55
+msgid "Post format - Video"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:38
+msgid "If you want to add a video, you must be sure that you insert the option in Settings>Media> When possible, embed the media content from a URL directly onto the page. For example: links to Flickr and YouTube. Then past the link to the website of the film in the field above e.g. http://vimeo.com/33420937. The list of the services from which you can add films are at the following address http://codex.wordpress.org/Embeds"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:40
+msgid "Live preview"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:40
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:47
+msgid "Paste link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:42
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:44
+msgid "Client"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:42
+msgid "Client name"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:44
+msgid "Paste client link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:47
+msgid "Post format - Link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:49
+msgid "Post format - Quote - Author"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:49
+msgid "If you choose the format of the post - quotation - and you want to add the author you must write his name."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:51
+msgid "Post format - Quote - Link"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:51
+msgid "Past the link into the source of quotation. The author of the quotation will be the link to the source, to make the link available fill in \\\"the Author quotation\\\" field."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:53
+msgid "Post Format - Quote - text"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:53
+msgid "Past quote text."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/screens-post-options.php:55
+msgid "If you choose the video post format, you must be sure that you insert the option in Settings>Media> When possible, embed the media content from a URL directly onto the page. For example: links to Flickr and YouTube. Then past the link to the website of the film in the field above e.g. http://vimeo.com/33420937, the same link past in the visual editor field and. The list of the services from which you can add films are at the following address http://codex.wordpress.org/Embeds"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:6
+msgid "Flickr gallery"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:51
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:176
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:250
+msgid "Title:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:55
+#, php-format
+msgid "\"Flickr\"- ID. <a href=\"%s\" target=\"_blank\">idgettr.com</a>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:55
+msgid "http://idgettr.com/"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:60
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:179
+msgid "Number of photo to display:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:78
+msgid "Portfolio gallery"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:198
+msgid "A widget to enable people to follow you on Twitter"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:243
+msgid "follow me on Twitter"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:254
+msgid "User:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:259
+msgid "Text:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:264
+msgid "Number of Tweets to display:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:282
+msgid "User profiles"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:283
+msgid "Screens - Social Media Profiles"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:304
+msgid "Syndicate this site using RSS"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:304
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:305
+msgid "Facebook profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:306
+msgid "Google Plus profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:307
+msgid "Twitter profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:308
+msgid "YouTube profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:309
+msgid "LastFm profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:310
+msgid "DevianArt profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:311
+msgid "Behance profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:312
+msgid "Linkedin profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:313
+msgid "Dribbble profile"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:355
+msgid ""
+"Enter feed url,\n"
+"e.g. http://feedburner.com/userid"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:360
+msgid "Enter <strong>Facebook</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:364
+msgid "Enter <strong>Google Plus</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:368
+msgid "Enter <strong>Twitter</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:373
+msgid "Enter <strong>YouTube</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:378
+msgid "Enter <strong>LastFM</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:384
+msgid "Enter <strong>DeviantArt</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:389
+msgid "Enter <strong>Behance</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:394
+msgid "Enter <strong>Linkedin</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/inc/widgets.php:399
+msgid "Enter <strong>Dribbble</strong>  account url"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:49
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:51
+msgid "Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:63
+msgid "<span id=\"footer-thankyou\">Options Panel created using the <a href=\"http://leemason.github.com/NHP-Theme-Options-Framework/\" target=\"_blank\">NHP Theme Options Framework</a> Version  1.0.6</span>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:66
+msgid " "
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:247
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:248
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:681
+msgid "Import / Export"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:274
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:275
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:700
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:782
+msgid "Dev Mode Info"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:330
+msgid "Are you sure? Resetting will loose all custom values."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:647
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:807
+msgid "Reset to Defaults"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:653
+msgid "<strong>Settings Imported!</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:655
+msgid "<strong>Settings Saved!</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:659
+msgid "<strong>Settings have changed!, you should save them!</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:660
+msgid "<strong><span></span> error(s) were found!</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:662
+msgid "<strong><span></span> warning(s) were found!</strong>"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:718
+msgid "Import / Export Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:720
+msgid "Import Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:728
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:741
+msgid "Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:751
+msgid "Import"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:751
+msgid "WARNING! This will overwrite any existing options, please proceed with caution!"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:754
+msgid "Export Options"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/options.php:756
+msgid "Here you can copy/download your themes current option settings. Keep this safe as you can use it as a backup should anything go wrong. Or you can use it to restore your settings on this site (or any other site). You also have the handy option to copy the link to yours sites settings. Which you can then use to duplicate on another site"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/color_gradient/field_color_gradient.php:35
+msgid "From:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/color_gradient/field_color_gradient.php:38
+msgid " To:"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/google_webfonts/field_google_webfonts.php:42
+msgid "The fonts provided below are free to use custom fonts from the Google Web Fonts directory.<br/>Please browse the directory to preview a font, then select your choice below."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:39
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:46
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:50
+msgid "Remove"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/multi_text/field_multi_text.php:54
+msgid "Add More"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/upload/field_upload.php:39
+msgid "Browse"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/fields/upload/field_upload.php:40
+msgid "Remove Upload"
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/color/validation_color.php:15
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/comma_numeric/validation_comma_numeric.php:15
+msgid "You must provide a comma seperated list of numerical values for this option."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/date/validation_date.php:15
+msgid "This field must be a valid date."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/email/validation_email.php:15
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/no_html/validation_no_html.php:15
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/no_special_chars/validation_no_special_chars.php:15
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/numeric/validation_numeric.php:15
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: F:\WWW\wordpress\wp-content\themes\screens/options/validation/url/validation_url.php:15
+msgid "You must provide a valid URL for this option."
+msgstr ""
+

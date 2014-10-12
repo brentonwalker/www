@@ -1,0 +1,26 @@
+.pinterest-btn {
+    height: 30px;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.pin-it-btn {
+    position: absolute;
+    background: url(http://assets.pinterest.com/images/pinit6.png);
+    font: 11px Arial, sans-serif;
+    text-indent: -9999em;
+    font-size: .01em;
+    color: #CD1F1F;
+    height: 20px;
+    width: 43px;
+    background-position: 0 -7px;
+}
+
+.pin-it-btn:hover {
+    background-position: 0 -28px;
+}
+
+.pin-it-btn:active {
+    background-position: 0 -49px;
+}

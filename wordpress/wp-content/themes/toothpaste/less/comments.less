@@ -1,0 +1,134 @@
+/* =Comments
+----------------------------------------------- */
+
+#comments {
+	h2.comments-title {
+		font-size: 1.3em;
+		margin-bottom: 1em;
+		font-weight: 500;
+	}
+
+	h3#reply-title {
+		font-size: 1.3em;
+		margin-bottom: 1em;
+		font-weight: 500;
+	}
+
+	.commentlist {
+		list-style: none;
+		margin:0;
+
+		font-size: 0.9em;
+		
+		li.comment {
+			padding-bottom: 25px;
+			margin-bottom: 25px;
+			border-bottom: 1px dotted #EEE;
+			
+			cite {
+				
+				
+				a {
+					text-decoration: none;
+					font-weight: bold;
+					color:inherit;
+				}
+			}
+			
+			footer{
+				margin-bottom: 15px;
+			}
+
+			.commentmetadata {
+				font-size: 0.9em;
+				
+				a{
+					text-decoration: none;
+					color: #999;
+				}
+			}
+			
+			article {
+				.clearfix();
+			}
+			
+			.vcard{
+				float: left;
+			}
+			
+			footer {
+				margin-left: 70px;
+			}
+			
+			.comment-content {
+				margin-left: 70px;
+			}
+		}
+		
+		ul.children {
+			list-style: none;
+			margin:0;
+
+			li.comment {
+				margin: 25px 0 0 70px;
+				padding: 25px 0 0 0;
+				
+				border-top: 1px dotted #EEE;
+				border-bottom:none;
+			}
+		}
+		
+		.bypostauthor {
+			/*! Comment by the post author */
+		}
+	}
+}
+
+#commentform{
+	label {
+		margin-top: 2px;
+		display:block;
+		float: left;
+		width: 20%;
+	}
+	
+	input[type="text"], textarea {
+		padding: 6px;
+		float: left;
+		width: 80%;
+		color: #666;
+		font-size: 0.9em;
+	}
+
+	p {
+		.clearfix();
+		margin-bottom: 20px
+	}
+	
+	p.form-submit {
+		margin-bottom: 0;
+	}
+	
+	#submit {
+		width: auto;
+	}
+	
+	.form-allowed-tags, .form-allowed-tags code {
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+	.logged-in-as{
+		font-size: 0.8em;
+		color: #999;
+		margin-bottom: 10px;
+		text-align: right;
+	}
+}
+
+.commentlist #respond{
+	margin-top: 25px;
+	/* When we're making a reply */
+	padding: 25px;
+	background: #F8F8F8;
+}
