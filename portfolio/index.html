@@ -1,81 +1,230 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Brenton Walker Portfolio</title>
-		<meta name="description" content="Brenton Walker's personal portfolio" />
-		<meta name="keywords" content="BrentonWalker Games Video Games Digital Media Interactive Media EAE University of Utah" />
-		<meta name="author" content="Codrops & Brenton Walker" />
-		<link rel="shortcut icon" href="../favicon.ico"> 
-		<link rel="stylesheet" type="text/css" href="css/default.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container demo-3">
-			<header>
-				<h1>Published Games</h1>	
-				<nav class="codrops-demos">
-					<a href="http://brentonwalker.com">Brenton Walker Home</a>
-				</nav>
-			</header>
-			<ul class="grid cs-style-7">
-				<li>
-					<figure>
-						<div><img src="images/1.png" alt=""></div>
-						<figcaption>
-							<h3>The Sims 3 Pets 3DS</h3>
-							<span>Electronic Arts
-							<br>
-							Embedded Engineering QA
-							</span>
-							<a href="">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<div><img src="images/2.png" alt=""></div>
-						<figcaption>
-							<h3>The Sims 3 Showtime</h3>
-							<span>Electronic Arts
-							<br>
-							Embedded Engineering QA
-							</span>
-							<a href="">Click click!</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<div><img src="images/3.png" alt="img01"></div>
-						<figcaption>
-							<h3>The Sims 3 Store</h3>
-							<span>Electronic Arts
-							<br>
-							Embedded Engineering QA
-							</span>
-							<a href="">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-						<div><img src="images/4.png" alt="img04"></div>
-						<figcaption>
-							<h3>You May Fire When Ready!</h3>
-							<span>University of Utah EAE
-							<br>
-							Designer/Producer
-							</span>
-							<a href="">Take a look</a>
-						</figcaption>
-					</figure>
-				</li>
-			</ul>
-		</div><!-- /container -->
-		<script src="js/toucheffects.js"></script>
-	</body>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Brenton Walker Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/2-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://brentonwalker.com">Brenton Walker</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="http://blogs.eae.utah.edu/bwalker">Blog</a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/brentonwalker">Twitter</a>
+                    </li>
+                    <li>
+                        <a href="http://brentonwalker.com/about">About</a>
+                    </li>
+                    <li>
+                        <a href="http://brentonwalker.com/resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Header -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Projects
+                    <small>A collection of awesome things I've worked on</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="/portfolio/404sight">
+                    <img class="img-responsive" src="/portfolio/img/404sight/404sight.png" alt="">
+                </a>
+                <h3>
+                    <a href="/portfolio/404sight">404Sight</a>
+                </h3>
+                <p>404Sight is a 3D runner with elements inspired by Mirror’s Edge and Assassin’s Creed where the player must run, react, and use their ping ability to reveal tiles that will accelerate or throttle their progress to the end.</p>
+            </div>
+
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/researchquest.png" alt="">
+                </a>
+                <h3>
+                    <a href="/portfolio/researchquest">Research Quest - Dino Lab</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/scientist.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">What Scientist Am I?</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/ecosystemexplorer.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Ecosystem Exlporer</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/myrooms.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">MyRooms</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+
+             <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/ymfwr.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">You May Fire When Ready</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/sims3store.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Sims 3 Store</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/showtime.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Sims 3 Showtime</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+            <div class="col-md-6 portfolio-item">
+                <a href="#">
+                    <img class="img-responsive" src="/portfolio/img/pets3ds.png" alt="">
+                </a>
+                <h3>
+                    <a href="#">Sims 3 Pets 3DS</a>
+                </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            </div>
+
+<!-- Pagination
+
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+         /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Brenton Walker 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>

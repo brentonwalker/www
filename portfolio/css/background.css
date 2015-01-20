@@ -1,0 +1,34 @@
+.services {
+	list-style: none;
+	padding-top: 60px;
+}
+	.services li {
+		float: left;
+	}
+	.services li a {
+		color: #fff;
+		text-decoration: none;
+		
+		display: inline-block;
+		padding-right: 30px;
+		padding-bottom: 15px;
+		
+		opacity: .6;
+	   
+		-webkit-transition: opacity .5s;
+		-moz-transition: opacity .5s;
+		-ms-transition: opacity .5s;
+		-o-transition: opacity .5s;
+		transition: opacity .5s;
+	}
+		.services li a:hover {
+			opacity: 1;
+		}
+
+body.blog { background: #319753; }	
+body.linkedin { background #39c; }
+body.twitter { background:  #587bc2; }
+body.portfolio { background: #000000; }
+body.unplayed { background:  #E8932E; }
+body.inspiration { background: #7059ba; }
+body.personal { background: #89aec6; }
