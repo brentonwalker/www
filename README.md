@@ -1,4 +1,2 @@
-===========
-This is my README
-===========
+Brentonwalker's personal site
 
